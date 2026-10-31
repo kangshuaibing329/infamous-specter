@@ -8,12 +8,10 @@ import {
 } from './index';
 
 beforeEach(async () => {
-  await storageDatabase.transaction('rw', storageDatabase.labStates, storageDatabase.contentPacks, storageDatabase.sessions, storageDatabase.studyEvents, storageDatabase.gameEvents, storageDatabase.reviewStates, async () => {
-    await Promise.all([
-      storageDatabase.labStates.clear(), storageDatabase.contentPacks.clear(), storageDatabase.sessions.clear(),
-      storageDatabase.studyEvents.clear(), storageDatabase.gameEvents.clear(), storageDatabase.reviewStates.clear()
-    ]);
-  });
+  await Promise.all([
+    storageDatabase.labStates.clear(), storageDatabase.contentPacks.clear(), storageDatabase.sessions.clear(),
+    storageDatabase.studyEvents.clear(), storageDatabase.gameEvents.clear(), storageDatabase.reviewStates.clear()
+  ]);
 });
 
 const pack = {
