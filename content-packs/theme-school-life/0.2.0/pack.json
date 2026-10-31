@@ -24,7 +24,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 104,
-    "contentHash": "0b7cdb6fa680f1e8dd998df1cc68e22c68c42d0da197e5ae1512a708a1963ecc",
+    "contentHash": "313365f54750c16032fb2f3f28f74a11ee5febb08ed2e36b023e0fcbe142c9ab",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -7200,7 +7200,7 @@
     {
       "exampleId": "theme-school-life:e036",
       "senseId": "theme-school-life:s036",
-      "textEn": "We eat lunch in the school canteen.",
+      "textEn": "We eat lunch in the school cafeteria.",
       "textZh": "我们在学校食堂吃午饭。",
       "gradeFit": [
         "grade5",
@@ -7305,7 +7305,7 @@
     {
       "exampleId": "theme-school-life:e043",
       "senseId": "theme-school-life:s043",
-      "textEn": "Please walk quietly in the corridor.",
+      "textEn": "Please walk quietly in the hallway.",
       "textZh": "请在走廊里安静地走。",
       "gradeFit": [
         "grade5",
@@ -7740,7 +7740,7 @@
     {
       "exampleId": "theme-school-life:e072",
       "senseId": "theme-school-life:s072",
-      "textEn": "Each pupil has a reading book.",
+      "textEn": "Each student has a reading book.",
       "textZh": "每个学生都有一本阅读书。",
       "gradeFit": [
         "grade5",
