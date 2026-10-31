@@ -1,104 +1,104 @@
 sense_id,word_id,gloss_zh,definition_en,pronunciation_ids,example_ids,asset_ids,accepted_spellings,morphology_rule_ids,review_status,source_ref_ids
-theme-nature-science:s001,theme-nature-science:w001,空气,air: 空气,theme-nature-science:p001,theme-nature-science:e001,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s002,theme-nature-science:w002,动物,animal: 动物,theme-nature-science:p002,theme-nature-science:e002,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s003,theme-nature-science:w003,宇航员,astronaut: 宇航员,theme-nature-science:p003,theme-nature-science:e003,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s004,theme-nature-science:w004,气候,climate: 气候,theme-nature-science:p004,theme-nature-science:e004,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s005,theme-nature-science:w005,云,cloud: 云,theme-nature-science:p005,theme-nature-science:e005,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s006,theme-nature-science:w006,能量；能源,energy: 能量；能源,theme-nature-science:p006,theme-nature-science:e006,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s007,theme-nature-science:w007,环境,environment: 环境,theme-nature-science:p007,theme-nature-science:e007,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s008,theme-nature-science:w008,实验,experiment: 实验,theme-nature-science:p008,theme-nature-science:e008,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s009,theme-nature-science:w009,森林,forest: 森林,theme-nature-science:p009,theme-nature-science:e009,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s010,theme-nature-science:w010,重力,gravity: 重力,theme-nature-science:p010,theme-nature-science:e010,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s011,theme-nature-science:w011,昆虫,insect: 昆虫,theme-nature-science:p011,theme-nature-science:e011,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s012,theme-nature-science:w012,岛屿,island: 岛屿,theme-nature-science:p012,theme-nature-science:e012,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s013,theme-nature-science:w013,材料；原料,material: 材料；原料,theme-nature-science:p013,theme-nature-science:e013,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s014,theme-nature-science:w014,金属,metal: 金属,theme-nature-science:p014,theme-nature-science:e014,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s015,theme-nature-science:w015,月球；月亮,moon: 月球；月亮,theme-nature-science:p015,theme-nature-science:e015,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s016,theme-nature-science:w016,海洋,ocean: 海洋,theme-nature-science:p016,theme-nature-science:e016,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s017,theme-nature-science:w017,行星,planet: 行星,theme-nature-science:p017,theme-nature-science:e017,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s018,theme-nature-science:w018,污染,pollution: 污染,theme-nature-science:p018,theme-nature-science:e018,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s019,theme-nature-science:w019,回收利用,recycle: 回收利用,theme-nature-science:p019,theme-nature-science:e019,,,morph:prefix-re,draft,src-wordquest-editorial-v1
-theme-nature-science:s020,theme-nature-science:w020,河流,river: 河流,theme-nature-science:p020,theme-nature-science:e020,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s021,theme-nature-science:w021,科学,science: 科学,theme-nature-science:p021,theme-nature-science:e021,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s022,theme-nature-science:w022,种子,seed: 种子,theme-nature-science:p022,theme-nature-science:e022,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s023,theme-nature-science:w023,太阳的；太阳能的,solar: 太阳的；太阳能的,theme-nature-science:p023,theme-nature-science:e023,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s024,theme-nature-science:w024,温度,temperature: 温度,theme-nature-science:p024,theme-nature-science:e024,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s025,theme-nature-science:w025,宇宙,universe: 宇宙,theme-nature-science:p025,theme-nature-science:e025,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s026,theme-nature-science:w026,火山,volcano: 火山,theme-nature-science:p026,theme-nature-science:e026,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s027,theme-nature-science:w027,水,water: 水,theme-nature-science:p027,theme-nature-science:e027,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s028,theme-nature-science:w028,天气,weather: 天气,theme-nature-science:p028,theme-nature-science:e028,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s029,theme-nature-science:w029,野生动物,wildlife: 野生动物,theme-nature-science:p029,theme-nature-science:e029,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s030,theme-nature-science:w030,木制的,wooden: 木制的,theme-nature-science:p030,theme-nature-science:e030,,,morph:adjective-en,draft,src-wordquest-editorial-v1
-theme-nature-science:s031,theme-nature-science:w031,观察,observe: 观察,theme-nature-science:p031,theme-nature-science:e031,,,,draft,src-wordquest-editorial-v1
-theme-nature-science:s032,theme-nature-science:w032,大气层；空气,,theme-nature-science:p032,theme-nature-science:e032,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s033,theme-nature-science:w033,细菌,,theme-nature-science:p033,theme-nature-science:e033,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s034,theme-nature-science:w034,电池,,theme-nature-science:p034,theme-nature-science:e034,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s035,theme-nature-science:w035,骨头；骨骼,,theme-nature-science:p035,theme-nature-science:e035,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s036,theme-nature-science:w036,呼吸,,theme-nature-science:p036,theme-nature-science:e036,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s037,theme-nature-science:w037,树枝；分支,,theme-nature-science:p037,theme-nature-science:e037,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s038,theme-nature-science:w038,碳,,theme-nature-science:p038,theme-nature-science:e038,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s039,theme-nature-science:w039,细胞,,theme-nature-science:p039,theme-nature-science:e039,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s040,theme-nature-science:w040,化学物质,,theme-nature-science:p040,theme-nature-science:e040,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s041,theme-nature-science:w041,海岸；海滨,,theme-nature-science:p041,theme-nature-science:e041,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s042,theme-nature-science:w042,指南针,,theme-nature-science:p042,theme-nature-science:e042,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s043,theme-nature-science:w043,电流；水流,,theme-nature-science:p043,theme-nature-science:e043,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s044,theme-nature-science:w044,循环；周期,,theme-nature-science:p044,theme-nature-science:e044,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s045,theme-nature-science:w045,数据；资料,,theme-nature-science:p045,theme-nature-science:e045,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s046,theme-nature-science:w046,密度,,theme-nature-science:p046,theme-nature-science:e046,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s047,theme-nature-science:w047,沙漠,,theme-nature-science:p047,theme-nature-science:e047,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s048,theme-nature-science:w048,电；电力,,theme-nature-science:p048,theme-nature-science:e048,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s049,theme-nature-science:w049,元素；要素,,theme-nature-science:p049,theme-nature-science:e049,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s050,theme-nature-science:w050,羽毛,,theme-nature-science:p050,theme-nature-science:e050,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s051,theme-nature-science:w051,田野；场地,,theme-nature-science:p051,theme-nature-science:e051,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s052,theme-nature-science:w052,花；花朵,,theme-nature-science:p052,theme-nature-science:e052,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s053,theme-nature-science:w053,化石,,theme-nature-science:p053,theme-nature-science:e053,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s054,theme-nature-science:w054,燃料,,theme-nature-science:p054,theme-nature-science:e054,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s055,theme-nature-science:w055,星系；银河系,,theme-nature-science:p055,theme-nature-science:e055,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s056,theme-nature-science:w056,气体,,theme-nature-science:p056,theme-nature-science:e056,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s057,theme-nature-science:w057,病菌；微生物,,theme-nature-science:p057,theme-nature-science:e057,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s058,theme-nature-science:w058,玻璃,,theme-nature-science:p058,theme-nature-science:e058,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s059,theme-nature-science:w059,草；草地,,theme-nature-science:p059,theme-nature-science:e059,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s060,theme-nature-science:w060,栖息地；生境,,theme-nature-science:p060,theme-nature-science:e060,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s061,theme-nature-science:w061,热；热量,,theme-nature-science:p061,theme-nature-science:e061,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s062,theme-nature-science:w062,香草；草本植物,,theme-nature-science:p062,theme-nature-science:e062,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s063,theme-nature-science:w063,小山；丘陵,,theme-nature-science:p063,theme-nature-science:e063,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s064,theme-nature-science:w064,人；人类,,theme-nature-science:p064,theme-nature-science:e064,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s065,theme-nature-science:w065,冰,,theme-nature-science:p065,theme-nature-science:e065,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s066,theme-nature-science:w066,叶子,,theme-nature-science:p066,theme-nature-science:e066,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s067,theme-nature-science:w067,光；光线,,theme-nature-science:p067,theme-nature-science:e067,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s068,theme-nature-science:w068,液体,,theme-nature-science:p068,theme-nature-science:e068,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s069,theme-nature-science:w069,磁铁,,theme-nature-science:p069,theme-nature-science:e069,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s070,theme-nature-science:w070,哺乳动物,,theme-nature-science:p070,theme-nature-science:e070,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s071,theme-nature-science:w071,物质,,theme-nature-science:p071,theme-nature-science:e071,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s072,theme-nature-science:w072,矿物；矿物质,,theme-nature-science:p072,theme-nature-science:e072,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s073,theme-nature-science:w073,山；山脉,,theme-nature-science:p073,theme-nature-science:e073,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s074,theme-nature-science:w074,自然；大自然,,theme-nature-science:p074,theme-nature-science:e074,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s075,theme-nature-science:w075,氧；氧气,,theme-nature-science:p075,theme-nature-science:e075,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s076,theme-nature-science:w076,植物,,theme-nature-science:p076,theme-nature-science:e076,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s077,theme-nature-science:w077,塑料,,theme-nature-science:p077,theme-nature-science:e077,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s078,theme-nature-science:w078,压力；压强,,theme-nature-science:p078,theme-nature-science:e078,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s079,theme-nature-science:w079,雨；降雨,,theme-nature-science:p079,theme-nature-science:e079,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s080,theme-nature-science:w080,根；根部,,theme-nature-science:p080,theme-nature-science:e080,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s081,theme-nature-science:w081,岩石,,theme-nature-science:p081,theme-nature-science:e081,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s082,theme-nature-science:w082,沙；沙子,,theme-nature-science:p082,theme-nature-science:e082,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s083,theme-nature-science:w083,固体,,theme-nature-science:p083,theme-nature-science:e083,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s084,theme-nature-science:w084,太空；空间,,theme-nature-science:p084,theme-nature-science:e084,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s085,theme-nature-science:w085,物种,,theme-nature-science:p085,theme-nature-science:e085,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s086,theme-nature-science:w086,春天,,theme-nature-science:p086,theme-nature-science:e086,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s087,theme-nature-science:w087,恒星；星星,,theme-nature-science:p087,theme-nature-science:e087,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s088,theme-nature-science:w088,暴风雨；风暴,,theme-nature-science:p088,theme-nature-science:e088,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s089,theme-nature-science:w089,小溪；溪流,,theme-nature-science:p089,theme-nature-science:e089,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s090,theme-nature-science:w090,阳光,,theme-nature-science:p090,theme-nature-science:e090,,,morph:compound-noun,draft,src-wordquest-editorial-v2
-theme-nature-science:s091,theme-nature-science:w091,表面,,theme-nature-science:p091,theme-nature-science:e091,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s092,theme-nature-science:w092,雷声,,theme-nature-science:p092,theme-nature-science:e092,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s093,theme-nature-science:w093,树,,theme-nature-science:p093,theme-nature-science:e093,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s094,theme-nature-science:w094,山谷；河谷,,theme-nature-science:p094,theme-nature-science:e094,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s095,theme-nature-science:w095,蒸气；水汽,,theme-nature-science:p095,theme-nature-science:e095,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s096,theme-nature-science:w096,废弃物；浪费,,theme-nature-science:p096,theme-nature-science:e096,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s097,theme-nature-science:w097,波浪；波,,theme-nature-science:p097,theme-nature-science:e097,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s098,theme-nature-science:w098,风,,theme-nature-science:p098,theme-nature-science:e098,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s099,theme-nature-science:w099,冬天,,theme-nature-science:p099,theme-nature-science:e099,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s100,theme-nature-science:w100,生长；种植,,theme-nature-science:p100,theme-nature-science:e100,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s101,theme-nature-science:w101,是否；不管,,theme-nature-science:p101,theme-nature-science:e101,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s102,theme-nature-science:w102,甜点；餐后甜食,,theme-nature-science:p102,theme-nature-science:e102,,,,draft,src-wordquest-editorial-v2
-theme-nature-science:s103,theme-nature-science:w103,呼吸；一口气,,theme-nature-science:p103,theme-nature-science:e103,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s001,theme-nature-science:w001,空气,the mixture of gases that surrounds the Earth and that people and animals breathe,theme-nature-science:p001,theme-nature-science:e001,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s002,theme-nature-science:w002,动物,a living thing that can move and needs food to live,theme-nature-science:p002,theme-nature-science:e002,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s003,theme-nature-science:w003,宇航员,a person trained to travel and work in space,theme-nature-science:p003,theme-nature-science:e003,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s004,theme-nature-science:w004,气候,the usual weather conditions of a place over a long period,theme-nature-science:p004,theme-nature-science:e004,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s005,theme-nature-science:w005,云,a white or grey mass of tiny water drops or ice in the sky,theme-nature-science:p005,theme-nature-science:e005,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s006,theme-nature-science:w006,能量；能源,"the power needed to make things move, work, or change",theme-nature-science:p006,theme-nature-science:e006,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s007,theme-nature-science:w007,环境,"the natural world and the conditions in which people, animals, and plants live",theme-nature-science:p007,theme-nature-science:e007,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s008,theme-nature-science:w008,实验,a scientific test done to find out what happens or to learn something,theme-nature-science:p008,theme-nature-science:e008,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s009,theme-nature-science:w009,森林,a large area covered mainly with trees,theme-nature-science:p009,theme-nature-science:e009,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s010,theme-nature-science:w010,重力,"the force that pulls objects toward one another, especially toward Earth",theme-nature-science:p010,theme-nature-science:e010,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s011,theme-nature-science:w011,昆虫,a small animal with six legs and usually one or two pairs of wings,theme-nature-science:p011,theme-nature-science:e011,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s012,theme-nature-science:w012,岛屿,an area of land completely surrounded by water,theme-nature-science:p012,theme-nature-science:e012,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s013,theme-nature-science:w013,材料；原料,the substance that something is made from,theme-nature-science:p013,theme-nature-science:e013,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s014,theme-nature-science:w014,金属,a hard substance such as iron or gold that is usually shiny and can conduct heat and electricity,theme-nature-science:p014,theme-nature-science:e014,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s015,theme-nature-science:w015,月球；月亮,the natural object that moves around a planet; Earth's natural satellite,theme-nature-science:p015,theme-nature-science:e015,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s016,theme-nature-science:w016,海洋,a very large area of salt water,theme-nature-science:p016,theme-nature-science:e016,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s017,theme-nature-science:w017,行星,a large round object in space that moves around a star,theme-nature-science:p017,theme-nature-science:e017,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s018,theme-nature-science:w018,污染,"harmful substances or waste that make air, water, or land dirty",theme-nature-science:p018,theme-nature-science:e018,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s019,theme-nature-science:w019,回收利用,to treat used materials so they can be used again,theme-nature-science:p019,theme-nature-science:e019,,,morph:prefix-re,draft,src-wordquest-editorial-v1
+theme-nature-science:s020,theme-nature-science:w020,河流,a large natural flow of water that moves across land,theme-nature-science:p020,theme-nature-science:e020,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s021,theme-nature-science:w021,科学,the study of the natural world through observation and experiments,theme-nature-science:p021,theme-nature-science:e021,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s022,theme-nature-science:w022,种子,the part of a plant from which a new plant can grow,theme-nature-science:p022,theme-nature-science:e022,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s023,theme-nature-science:w023,太阳的；太阳能的,relating to the sun,theme-nature-science:p023,theme-nature-science:e023,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s024,theme-nature-science:w024,温度,a measure of how hot or cold something is,theme-nature-science:p024,theme-nature-science:e024,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s025,theme-nature-science:w025,宇宙,all of space and everything in it,theme-nature-science:p025,theme-nature-science:e025,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s026,theme-nature-science:w026,火山,"a mountain or opening in Earth's surface through which hot rock, ash, and gas can come out",theme-nature-science:p026,theme-nature-science:e026,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s027,theme-nature-science:w027,水,"a clear liquid that people, animals, and plants need to live",theme-nature-science:p027,theme-nature-science:e027,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s028,theme-nature-science:w028,天气,"the conditions outside at a particular time, such as rain, wind, or sunshine",theme-nature-science:p028,theme-nature-science:e028,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s029,theme-nature-science:w029,野生动物,animals and other living things that live in nature rather than being kept by people,theme-nature-science:p029,theme-nature-science:e029,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s030,theme-nature-science:w030,木制的,made of wood,theme-nature-science:p030,theme-nature-science:e030,,,morph:adjective-en,draft,src-wordquest-editorial-v1
+theme-nature-science:s031,theme-nature-science:w031,观察,to watch something carefully in order to learn about it,theme-nature-science:p031,theme-nature-science:e031,,,,draft,src-wordquest-editorial-v1
+theme-nature-science:s032,theme-nature-science:w032,大气层,the layer of gases surrounding Earth or another planet,theme-nature-science:p032,theme-nature-science:e032,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s033,theme-nature-science:w033,细菌,very small living organisms; some cause disease and others are useful,theme-nature-science:p033,theme-nature-science:e033,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s034,theme-nature-science:w034,电池,a device that stores chemical energy and supplies electrical power,theme-nature-science:p034,theme-nature-science:e034,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s035,theme-nature-science:w035,骨头；骨骼,one of the hard parts that form the skeleton of a person or animal,theme-nature-science:p035,theme-nature-science:e035,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s036,theme-nature-science:w036,呼吸,to take air into and out of your lungs,theme-nature-science:p036,theme-nature-science:e036,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s037,theme-nature-science:w037,树枝；分支,one of the parts of a tree that grows out from its trunk; also a division of something,theme-nature-science:p037,theme-nature-science:e037,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s038,theme-nature-science:w038,碳,a chemical element found in all living things and in many other materials,theme-nature-science:p038,theme-nature-science:e038,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s039,theme-nature-science:w039,细胞,the smallest basic unit of a living thing,theme-nature-science:p039,theme-nature-science:e039,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s040,theme-nature-science:w040,化学物质,"a substance with a particular chemical composition, used or produced in a chemical process",theme-nature-science:p040,theme-nature-science:e040,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s041,theme-nature-science:w041,海岸；海滨,the land beside the sea,theme-nature-science:p041,theme-nature-science:e041,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s042,theme-nature-science:w042,指南针,a tool with a magnetic needle that points north and helps you find directions,theme-nature-science:p042,theme-nature-science:e042,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s043,theme-nature-science:w043,电流,the flow of electricity through a wire,theme-nature-science:p043,theme-nature-science:e043,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s044,theme-nature-science:w044,循环；周期,a series of events that happens again and again in the same order,theme-nature-science:p044,theme-nature-science:e044,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s045,theme-nature-science:w045,数据；资料,facts or information collected for study or analysis,theme-nature-science:p045,theme-nature-science:e045,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s046,theme-nature-science:w046,密度,the amount of mass in a given volume of a substance,theme-nature-science:p046,theme-nature-science:e046,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s047,theme-nature-science:w047,沙漠,a large dry area of land where very little rain falls,theme-nature-science:p047,theme-nature-science:e047,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s048,theme-nature-science:w048,电；电力,a form of energy carried by the movement of electric charges,theme-nature-science:p048,theme-nature-science:e048,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s049,theme-nature-science:w049,化学元素,a basic substance that cannot be broken down into simpler substances by ordinary chemical means,theme-nature-science:p049,theme-nature-science:e049,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s050,theme-nature-science:w050,羽毛,"one of the light, soft parts that cover a bird's body",theme-nature-science:p050,theme-nature-science:e050,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s051,theme-nature-science:w051,田野；场地,"an area of open land, often used for farming or keeping animals",theme-nature-science:p051,theme-nature-science:e051,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s052,theme-nature-science:w052,花；花朵,the part of a plant that often has colourful petals and produces seeds,theme-nature-science:p052,theme-nature-science:e052,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s053,theme-nature-science:w053,化石,the remains or mark of a plant or animal preserved in rock,theme-nature-science:p053,theme-nature-science:e053,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s054,theme-nature-science:w054,燃料,a material that is burned or used to produce energy,theme-nature-science:p054,theme-nature-science:e054,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s055,theme-nature-science:w055,星系；银河系,"a huge group of stars, gas, and dust held together by gravity",theme-nature-science:p055,theme-nature-science:e055,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s056,theme-nature-science:w056,气体,a form of matter that spreads out to fill the space available,theme-nature-science:p056,theme-nature-science:e056,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s057,theme-nature-science:w057,病菌,a tiny organism that can cause disease,theme-nature-science:p057,theme-nature-science:e057,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s058,theme-nature-science:w058,玻璃,"a hard, usually transparent material made by heating sand and other substances",theme-nature-science:p058,theme-nature-science:e058,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s059,theme-nature-science:w059,草；草地,a common type of short green plant that covers fields and lawns,theme-nature-science:p059,theme-nature-science:e059,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s060,theme-nature-science:w060,栖息地；生境,the natural home of an animal or plant,theme-nature-science:p060,theme-nature-science:e060,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s061,theme-nature-science:w061,热；热量,energy that makes something warmer,theme-nature-science:p061,theme-nature-science:e061,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s062,theme-nature-science:w062,香草；草本植物,"a plant whose leaves or other parts are used for food, flavour, or medicine",theme-nature-science:p062,theme-nature-science:e062,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s063,theme-nature-science:w063,小山；丘陵,an area of land that is higher than the land around it but lower than a mountain,theme-nature-science:p063,theme-nature-science:e063,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s064,theme-nature-science:w064,人；人类,a person; a member of the species to which people belong,theme-nature-science:p064,theme-nature-science:e064,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s065,theme-nature-science:w065,冰,water that has frozen into a solid,theme-nature-science:p065,theme-nature-science:e065,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s066,theme-nature-science:w066,叶子,"one of the flat, usually green parts of a plant that grows from a stem or branch",theme-nature-science:p066,theme-nature-science:e066,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s067,theme-nature-science:w067,光；光线,the form of energy that makes it possible to see,theme-nature-science:p067,theme-nature-science:e067,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s068,theme-nature-science:w068,液体,a form of matter that flows and takes the shape of its container,theme-nature-science:p068,theme-nature-science:e068,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s069,theme-nature-science:w069,磁铁,an object that attracts iron and some other metals,theme-nature-science:p069,theme-nature-science:e069,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s070,theme-nature-science:w070,哺乳动物,an animal that feeds its young with milk and usually has hair or fur,theme-nature-science:p070,theme-nature-science:e070,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s071,theme-nature-science:w071,物质,anything that has mass and takes up space,theme-nature-science:p071,theme-nature-science:e071,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s072,theme-nature-science:w072,矿物；矿物质,a naturally occurring solid substance found in the Earth,theme-nature-science:p072,theme-nature-science:e072,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s073,theme-nature-science:w073,山；山脉,a very high area of land with steep sides,theme-nature-science:p073,theme-nature-science:e073,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s074,theme-nature-science:w074,自然；大自然,the physical world and all living things in it,theme-nature-science:p074,theme-nature-science:e074,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s075,theme-nature-science:w075,氧；氧气,a gas in the air that people and animals need to breathe,theme-nature-science:p075,theme-nature-science:e075,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s076,theme-nature-science:w076,植物,a living thing that usually grows in soil and uses sunlight to make food,theme-nature-science:p076,theme-nature-science:e076,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s077,theme-nature-science:w077,塑料,a light material that can be shaped when soft and becomes hard when cool,theme-nature-science:p077,theme-nature-science:e077,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s078,theme-nature-science:w078,压力；压强,the force applied to a surface over a given area,theme-nature-science:p078,theme-nature-science:e078,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s079,theme-nature-science:w079,雨；降雨,water that falls from clouds in drops,theme-nature-science:p079,theme-nature-science:e079,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s080,theme-nature-science:w080,根；根部,the part of a plant that usually grows underground and takes in water,theme-nature-science:p080,theme-nature-science:e080,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s081,theme-nature-science:w081,岩石,the hard natural material that forms part of the Earth's surface,theme-nature-science:p081,theme-nature-science:e081,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s082,theme-nature-science:w082,沙；沙子,very small grains of rock found on beaches and in deserts,theme-nature-science:p082,theme-nature-science:e082,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s083,theme-nature-science:w083,固体,a form of matter that keeps its own shape and volume,theme-nature-science:p083,theme-nature-science:e083,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s084,theme-nature-science:w084,太空,the area beyond Earth's atmosphere where stars and planets are found,theme-nature-science:p084,theme-nature-science:e084,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s085,theme-nature-science:w085,物种,a group of living things of the same kind that share important features,theme-nature-science:p085,theme-nature-science:e085,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s086,theme-nature-science:w086,春天,the season between winter and summer,theme-nature-science:p086,theme-nature-science:e086,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s087,theme-nature-science:w087,恒星,a huge ball of hot gas that produces its own light,theme-nature-science:p087,theme-nature-science:e087,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s088,theme-nature-science:w088,暴风雨；风暴,"a period of very bad weather with strong wind, rain, snow, or thunder",theme-nature-science:p088,theme-nature-science:e088,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s089,theme-nature-science:w089,小溪；溪流,"a small, narrow flow of water",theme-nature-science:p089,theme-nature-science:e089,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s090,theme-nature-science:w090,阳光,the light that comes from the sun,theme-nature-science:p090,theme-nature-science:e090,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-nature-science:s091,theme-nature-science:w091,表面,the outside or top layer of something,theme-nature-science:p091,theme-nature-science:e091,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s092,theme-nature-science:w092,雷声,the loud sound caused by lightning during a storm,theme-nature-science:p092,theme-nature-science:e092,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s093,theme-nature-science:w093,树,"a tall plant with a trunk, branches, and leaves",theme-nature-science:p093,theme-nature-science:e093,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s094,theme-nature-science:w094,山谷；河谷,"a low area of land between hills or mountains, often with a river",theme-nature-science:p094,theme-nature-science:e094,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s095,theme-nature-science:w095,蒸气；水汽,"a substance in its gas form, especially water in the air",theme-nature-science:p095,theme-nature-science:e095,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s096,theme-nature-science:w096,废弃物；废物,material that is no longer wanted or needed and is thrown away,theme-nature-science:p096,theme-nature-science:e096,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s097,theme-nature-science:w097,波浪；波,"a raised moving area of water on the surface of a sea, lake, or other body of water",theme-nature-science:p097,theme-nature-science:e097,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s098,theme-nature-science:w098,风,"moving air, especially when it can be felt outside",theme-nature-science:p098,theme-nature-science:e098,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s099,theme-nature-science:w099,冬天,"the coldest season of the year, between autumn and spring",theme-nature-science:p099,theme-nature-science:e099,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s100,theme-nature-science:w100,生长,to become bigger or develop over time,theme-nature-science:p100,theme-nature-science:e100,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s101,theme-nature-science:w101,是否,used to introduce two possibilities or express uncertainty about something,theme-nature-science:p101,theme-nature-science:e101,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s102,theme-nature-science:w102,甜点；餐后甜食,sweet food eaten at the end of a meal,theme-nature-science:p102,theme-nature-science:e102,,,,draft,src-wordquest-editorial-v2
+theme-nature-science:s103,theme-nature-science:w103,呼吸；一口气,the air taken into or sent out from your lungs,theme-nature-science:p103,theme-nature-science:e103,,,,draft,src-wordquest-editorial-v2
