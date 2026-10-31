@@ -26,7 +26,7 @@ describe('session adapter', () => {
   });
 
   it('does not allow a game to start when no compatible tasks exist', async () => {
-    await expect(startSession({ ...input, gameId: 'g05-sonic-skate', allowInternalPreview: true })).rejects.toThrow(/No reviewed task templates/);
+    await expect(startSession({ ...input, gameId: 'g05-sonic-skate', allowInternalPreview: true })).rejects.toThrow(/No task templates/);
   });
 
   it('advances and completes the session without changing the pinned pack version', async () => {
