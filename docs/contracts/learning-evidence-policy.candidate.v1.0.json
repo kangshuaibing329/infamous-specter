@@ -1,0 +1,167 @@
+{
+  "policyId": "wordquest-evidence-policy",
+  "policyVersion": "1.0.0-candidate",
+  "status": "candidate_owner_review_required",
+  "dimensions": [
+    "meaning",
+    "listening",
+    "spelling",
+    "morphology",
+    "context"
+  ],
+  "levels": {
+    "E0": {
+      "label": "接触/示范/答案暴露",
+      "positiveLearningEvidence": false,
+      "conditions": [
+        "看过目标词或词义",
+        "听过示范音频",
+        "跟随示范完成",
+        "答案已揭示或由系统代答"
+      ],
+      "meaning": "仅记录曝光/引导参与，不代表识别或回忆。"
+    },
+    "E1": {
+      "label": "有支持的识别或练习",
+      "positiveLearningEvidence": true,
+      "conditions": [
+        "存在选项或候选列表",
+        "使用提示/线索/部分字母",
+        "首答错误后重试正确",
+        "任务本身属于支持式识别"
+      ],
+      "meaning": "仅能说明在支持条件下完成，不能推断独立提取。"
+    },
+    "E2": {
+      "label": "同次练习无提示首答提取",
+      "positiveLearningEvidence": true,
+      "conditions": [
+        "当前会话首次有效回答正确",
+        "attemptIndex=1",
+        "无认知提示、无选项、无部分答案",
+        "答案未在当前任务中显示",
+        "任务模板允许E2或更高"
+      ],
+      "meaning": "说明当前任务形式下可以无提示提取，不代表长期保持。"
+    },
+    "E3": {
+      "label": "延迟跨游戏跨形式无提示首答",
+      "positiveLearningEvidence": true,
+      "conditions": [
+        "符合D+1或D+7时间窗口",
+        "首次有效回答正确",
+        "无认知提示、无选项、无部分答案",
+        "gameId与锚点任务不同",
+        "taskType与锚点任务不同",
+        "同一canonical sense且内容审核通过",
+        "任务模板允许E3"
+      ],
+      "meaning": "说明在指定延迟窗口和新任务形式下成功提取，不代表永久掌握。"
+    }
+  },
+  "cognitiveSupport": {
+    "none": {
+      "maxEvidence": "E3"
+    },
+    "choice": {
+      "maxEvidence": "E1"
+    },
+    "hint": {
+      "maxEvidence": "E1"
+    },
+    "clue": {
+      "maxEvidence": "E1"
+    },
+    "partial_answer": {
+      "maxEvidence": "E1"
+    },
+    "partial_letters": {
+      "maxEvidence": "E1"
+    },
+    "worked_example": {
+      "maxEvidence": "E0"
+    },
+    "answer_revealed": {
+      "maxEvidence": "E0"
+    },
+    "guided_follow_along": {
+      "maxEvidence": "E0"
+    }
+  },
+  "accessibilitySupport": {
+    "examples": [
+      "keyboard_navigation",
+      "screen_reader",
+      "high_contrast",
+      "reduced_motion",
+      "captions",
+      "text_scaling",
+      "switch_access"
+    ],
+    "evidencePenalty": false,
+    "note": "无障碍输入和呈现辅助不属于认知提示，不得降低证据等级或学习权益。"
+  },
+  "retryPolicy": {
+    "firstValidAttemptOnlyForE2AndE3": true,
+    "correctAfterWrongAttemptMaxEvidence": "E1",
+    "repeatedRequestSameEventId": "idempotent_no_duplicate",
+    "technicalInputErrorConsumesAttempt": false,
+    "networkFailureConsumesAttempt": false,
+    "answerRevealedAfterWrongAttemptMaxEvidence": "E0"
+  },
+  "delayedWindows": {
+    "anchor": "firstApprovedExposureAt",
+    "D1": {
+      "targetHours": 24,
+      "minElapsedHours": 24,
+      "maxElapsedHours": 48,
+      "checkpoint": "D+1"
+    },
+    "D7": {
+      "targetHours": 168,
+      "minElapsedHours": 144,
+      "maxElapsedHours": 192,
+      "checkpoint": "D+7"
+    },
+    "outsideWindow": "record_as_off_window_practice_without_D1_or_D7_checkpoint_credit"
+  },
+  "crossFormatRule": {
+    "requiredForE3": true,
+    "gameIdMustDifferFromAnchor": true,
+    "taskTypeMustDifferFromAnchor": true,
+    "promptAndOptionSetMustDiffer": true,
+    "sameSenseRequired": true
+  },
+  "dimensionApplicability": {
+    "notApplicable": "N/A",
+    "notApplicableGeneratesEvidence": false,
+    "mustNotBeCountedAsIncorrect": true
+  },
+  "excludedSignals": [
+    "game_score",
+    "coins",
+    "combo",
+    "boss_health",
+    "boss_phase",
+    "route_bonus",
+    "completion_time",
+    "reaction_time",
+    "tap_speed",
+    "raw_keyboard_timing",
+    "raw_touch_timing",
+    "retry_count_as_ability_score"
+  ],
+  "aggregation": {
+    "unit": "profileId + canonicalWordId + senseId + dimension",
+    "preserveEveryEvent": true,
+    "doNotCollapseIntoSingleMasteryScore": true,
+    "showEvidenceByLevelAndCheckpoint": true,
+    "crossPackSharing": "only_when_sense_equivalence_is_verified; otherwise pack_scoped"
+  },
+  "ownerDecisions": [
+    "确认D+1窗口24-48小时、D+7窗口144-192小时。",
+    "确认E2/E3必须首答正确且无认知支持。",
+    "确认跨游戏且跨taskType才可记E3。",
+    "确认不同内容包默认进度隔离，已审核同义项才允许共享。"
+  ]
+}
