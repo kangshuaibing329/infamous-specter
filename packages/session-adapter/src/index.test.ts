@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import starterPack from '../../../content-packs/high-frequency-starter/0.1.0/content-pack.json';
-import { advanceSession, getCurrentTask, startSession } from './index';
+import { advanceSession, getCurrentTask, restoreSession, startSession } from './index';
 import type { ContentPack } from '@wordquest/content';
 
 const pack = starterPack as unknown as ContentPack;
@@ -27,6 +27,15 @@ describe('session adapter', () => {
 
   it('does not allow a game to start when no compatible tasks exist', async () => {
     await expect(startSession({ ...input, gameId: 'g05-sonic-skate', allowInternalPreview: true })).rejects.toThrow(/No task templates/);
+  });
+
+  it('restores the same deterministic task queue and saved task index', async () => {
+    let session = await startSession({ ...input, allowInternalPreview: true });
+    session = advanceSession(advanceSession(session));
+    const restored = await restoreSession(session.descriptor, pack);
+    expect(restored.descriptor.currentTaskIndex).toBe(2);
+    expect(restored.descriptor.packVersion).toBe('0.1.0');
+    expect(getCurrentTask(restored)?.taskVariantId).toBe(session.tasks[2].taskVariantId);
   });
 
   it('advances and completes the session without changing the pinned pack version', async () => {
