@@ -24,9 +24,10 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 104,
-    "contentHash": "313365f54750c16032fb2f3f28f74a11ee5febb08ed2e36b023e0fcbe142c9ab",
+    "contentHash": "fb4b8ee9cf5f8fdbab91d4225aa4ddf59f87757730aa7d4dc8483267cfcbcb85",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
+      "src-cambridge-pronunciation-read-us-2026-10-31",
       "src-wordquest-editorial-v1",
       "src-wordquest-editorial-v2"
     ],
@@ -3015,7 +3016,7 @@
       "senseId": "theme-school-life:s006",
       "wordId": "theme-school-life:w006",
       "glossZh": "练习；练习题",
-      "definitionEn": "a question or activity that helps you practise a skill or subject",
+      "definitionEn": "a question or activity that helps you practice a skill or subject",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p006"
@@ -3874,7 +3875,7 @@
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
       ],
-      "definitionEn": "a soft white or coloured stick used for writing or drawing on a board"
+      "definitionEn": "a soft white or colored stick used for writing or drawing on a board"
     },
     {
       "senseId": "theme-school-life:s038",
@@ -5022,7 +5023,7 @@
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
       ],
-      "definitionEn": "to spend time learning about a subject by reading, practising, or thinking"
+      "definitionEn": "to spend time learning about a subject by reading, practicing, or thinking"
     },
     {
       "senseId": "theme-school-life:s082",
@@ -5184,7 +5185,8 @@
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
       ],
-      "definitionEn": "to look at written words and understand their meaning"
+      "definitionEn": "to look at written words and understand their meaning",
+      "usageNotes": "本词条的 lemma 读音为原形/现在时 /riːd/；过去式和过去分词仍拼作 read，但读音为 /red/，应在动词时态教学中单独呈现。"
     },
     {
       "senseId": "theme-school-life:s088",
@@ -6495,9 +6497,10 @@
       "senseId": "theme-school-life:s087",
       "ipa": "riːd",
       "accent": "en-US",
-      "status": "draft",
+      "status": "reviewed",
       "sourceRefIds": [
-        "src-wordquest-editorial-v2"
+        "src-wordquest-editorial-v2",
+        "src-cambridge-pronunciation-read-us-2026-10-31"
       ]
     },
     {
@@ -6870,7 +6873,7 @@
     {
       "exampleId": "theme-school-life:e014",
       "senseId": "theme-school-life:s014",
-      "textEn": "Science is my favourite subject.",
+      "textEn": "Science is my favorite subject.",
       "textZh": "科学是我最喜欢的学科。",
       "gradeFit": [
         "grade5",
@@ -8040,7 +8043,7 @@
     {
       "exampleId": "theme-school-life:e092",
       "senseId": "theme-school-life:s092",
-      "textEn": "Draw a picture of your favourite animal.",
+      "textEn": "Draw a picture of your favorite animal.",
       "textZh": "画一张你最喜欢的动物的图片。",
       "gradeFit": [
         "grade5",
@@ -13136,6 +13139,17 @@
       "verificationStatus": "unverified",
       "rightsStatus": "pending_review",
       "notes": "新增词条、释义和例句为原创编辑草稿；IPA 尚未逐词经权威词典核验，需英语教师完成词义、搭配、语法和适龄审核。"
+    },
+    {
+      "sourceRefId": "src-cambridge-pronunciation-read-us-2026-10-31",
+      "sourceType": "dictionary",
+      "title": "Cambridge Dictionary: read (US present and past pronunciation)",
+      "publisher": "Cambridge University Press",
+      "uri": "https://dictionary.cambridge.org/us/pronunciation/english/read",
+      "accessedAt": "2026-10-31T00:00:00Z",
+      "verificationStatus": "verified",
+      "rightsStatus": "unknown",
+      "notes": "用于区分 read 原形/现在时 /riːd/ 与过去式 /red/；本词条只将 /riːd/ 作为 lemma 发音，时态变化需在语法任务中另行呈现。"
     }
   ]
 }
