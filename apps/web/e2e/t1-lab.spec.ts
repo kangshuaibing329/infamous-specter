@@ -31,6 +31,29 @@ test('accepts pointer input on the Phaser canvas', async ({ page }) => {
   await expect(page.getByTestId('lab-action-count')).toHaveText('1');
 });
 
+test('keeps the game stage and controls usable on common phone viewports', async ({ page }) => {
+  const viewports = [
+    { width: 390, height: 844 },
+    { width: 360, height: 640 }
+  ];
+
+  for (const viewport of viewports) {
+    await page.setViewportSize(viewport);
+    await page.goto('/');
+    await expect(page.locator('canvas')).toBeVisible();
+
+    const pageWidths = await page.evaluate(() => ({
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth
+    }));
+    expect(pageWidths.scrollWidth).toBeLessThanOrEqual(viewport.width);
+    expect(pageWidths.clientWidth).toBe(viewport.width);
+
+    await page.getByRole('button', { name: '向右移动' }).click();
+    await expect(page.getByTestId('lab-action-count')).toHaveText('1');
+  }
+});
+
 test('saves, resets and restores state through IndexedDB', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: '向右移动' }).click();
