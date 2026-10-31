@@ -3,8 +3,8 @@ import { beforeEach, describe, expect, it } from 'vitest';
 import type { ContentPack } from '@wordquest/content';
 import type { SessionDescriptor, StudyEventIntent } from '@wordquest/contracts';
 import {
-  appendStudyEvent, getInstalledContentPack, getSession, installContentPack,
-  listStudyEvents, saveLabState, saveSession, storageDatabase
+  appendStudyEvent, getInstalledContentPack, getMostRecentActiveSession, getSession, installContentPack,
+  listStudyEvents, listStudyEventsForSession, saveLabState, saveSession, storageDatabase
 } from './index';
 
 beforeEach(async () => {
@@ -51,6 +51,13 @@ describe('local storage repositories', () => {
   it('saves and reads a session pinned to one pack version', async () => {
     await saveSession(descriptor);
     expect((await getSession(descriptor.sessionId))?.packVersion).toBe('0.1.0');
+  });
+
+  it('finds the active session and its persisted attempts for recovery', async () => {
+    await saveSession(descriptor);
+    await appendStudyEvent(event, 'profile-0001');
+    expect((await getMostRecentActiveSession('profile-0001'))?.sessionId).toBe(descriptor.sessionId);
+    expect(await listStudyEventsForSession(descriptor.sessionId)).toHaveLength(1);
   });
 
   it('deduplicates repeated event IDs and preserves the original event', async () => {
