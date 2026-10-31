@@ -1,0 +1,468 @@
+{
+  "schemaVersion": "0.1.0",
+  "registryVersion": "0.1.0",
+  "status": "candidate",
+  "freezeStatus": "not_frozen",
+  "project": "WordQuest",
+  "repository": "kangshuaibing329/infamous-specter",
+  "sourceDocuments": [
+    "WordQuest 产品总方案 V2",
+    "PLAN-V3-2026-10-30",
+    "WordQuest 第三层词库映射 V1.0",
+    "TECH-ARCH-V0.1"
+  ],
+  "globalRules": [
+    "十款必须具有不同的语言动作和核心循环，不得只是同一答题模板换皮。",
+    "游戏表现、语言任务结果、路线或结构奖励必须分开记录。",
+    "StudyEvidence 只能由 Learning Core 根据任务合同、支持等级和判定结果生成。",
+    "客户端不得伪造掌握度、权威判定、路径可达性、最终棋盘或奖励结果。",
+    "本地练习必须标记 origin=local，不得伪装为服务端确认。",
+    "route_bonus 完全排除在 E0-E3 证据输入之外。",
+    "所有游戏必须提供键盘、触控和鼠标可达路径；拖动必须有替代操作。",
+    "游戏速度、反应时间和操作时序不得用于学习能力判断。"
+  ],
+  "dimensions": [
+    "meaning",
+    "listening",
+    "spelling",
+    "morphology",
+    "context"
+  ],
+  "games": [
+    {
+      "id": "g01-island-exploration",
+      "name": "词岛大冒险",
+      "status": "candidate",
+      "coreLoop": "探索地图并选择分岔；语义判断改变路线、机关或区域状态。",
+      "languageActions": [
+        "meaning_retrieval",
+        "context_decision"
+      ],
+      "primaryDimensions": [
+        "meaning",
+        "context"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "keyboard",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "route_choice",
+        "gate_opened",
+        "route_branch_changed"
+      ],
+      "evidenceRules": [
+        "仅由实际语言任务产生五维证据",
+        "路线奖励与探索收益不进入E0-E3"
+      ],
+      "shareMoment": "玩家做出英语判断后，地图路线或机关发生可见变化。",
+      "risks": [
+        "若只有地图/大厅包装，没有独立语言决策循环，不计为独立游戏。"
+      ],
+      "acceptanceGates": [
+        "至少一条完整的英语输入/判断→状态变化→可重放事件链。",
+        "机关/路线类型清单100%覆盖并完成正常、随机、固定错误反事实重放。",
+        "若独立循环无法成立，降级为全局地图/大厅并由产品所有者裁决名册。"
+      ],
+      "unresolvedDecisions": [
+        "是否保留为独立游戏，还是降级为全局地图/大厅。"
+      ]
+    },
+    {
+      "id": "g02-spelling-minecart",
+      "name": "拼写矿车",
+      "status": "candidate",
+      "coreLoop": "输入或组装字母与词形部件；合法拼写改变轨道、矿车部件或前进状态。",
+      "languageActions": [
+        "spelling_production",
+        "morphology_choice"
+      ],
+      "primaryDimensions": [
+        "spelling",
+        "morphology"
+      ],
+      "inputCapabilities": [
+        "keyboard",
+        "tap",
+        "drag",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "spelling_submitted",
+        "track_piece_built",
+        "route_changed"
+      ],
+      "evidenceRules": [
+        "accepted variants由内容包单点维护并版本化",
+        "IME组合态不得提前判错",
+        "提示/部分字母支持下证据上限不得超过E1"
+      ],
+      "shareMoment": "拼对单词后矿车获得部件并改变轨道。",
+      "risks": [
+        "输入法组合态误判",
+        "合法变体在不同游戏中判定不一致",
+        "动画先于权威判定执行。"
+      ],
+      "acceptanceGates": [
+        "accepted variants由统一内容/判题层提供。",
+        "先判后演，错误输入不能触发成功状态。",
+        "至少两款国产输入法完成真机组合输入专项测试。",
+        "离线任务携带contentPackVersion，服务端按对应版本重判。"
+      ],
+      "unresolvedDecisions": []
+    },
+    {
+      "id": "g03-word-link",
+      "name": "词语连连看",
+      "status": "candidate",
+      "coreLoop": "在棋盘中配对词项并验证路径，结合障碍、传送门、阶段棋盘和死局重排推进。",
+      "languageActions": [
+        "meaning_recognition",
+        "audio_recognition",
+        "path_planning"
+      ],
+      "primaryDimensions": [
+        "meaning",
+        "listening"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "keyboard",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "pair_selected",
+        "pair_matched",
+        "path_rejected",
+        "board_rearranged"
+      ],
+      "evidenceRules": [
+        "选项配对属于支持式识别，证据上限E1",
+        "路径不可达与语言错误分开",
+        "路线/棋盘收益不进入学习证据"
+      ],
+      "shareMoment": "配对成功后障碍解除并形成连通路径。",
+      "risks": [
+        "随机点选代替真实路径逻辑",
+        "死局无法恢复",
+        "路径错误被误记为语言错误。"
+      ],
+      "acceptanceGates": [
+        "纯TypeScript规则核心与Phaser表现层分离。",
+        "复杂棋盘使用seed/strategy/replay可复现审计。",
+        "路径可达、死局重排和语言判定分开测试。",
+        "房1/房2/房3分别完成键盘、触控和读屏回归。"
+      ],
+      "unresolvedDecisions": []
+    },
+    {
+      "id": "g04-word-block-match",
+      "name": "词块消消乐",
+      "status": "conditional",
+      "coreLoop": "玩家主动选择并通过语义判定后消除/解锁区域；级联只清理已解锁区域。",
+      "languageActions": [
+        "semantic_matching",
+        "context_decision"
+      ],
+      "primaryDimensions": [
+        "meaning",
+        "context"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "pointer",
+        "keyboard"
+      ],
+      "gameplayEvents": [
+        "semantic_clear_accepted",
+        "cascade_clear",
+        "support_used"
+      ],
+      "evidenceRules": [
+        "只有主动且语义判定通过的消除可产生语言事件",
+        "级联清理不自动产生新学习证据",
+        "支援题最高E1"
+      ],
+      "shareMoment": "一次有效语义操作改变棋盘结构并触发可解释的连锁表现。",
+      "risks": [
+        "随机消除推进",
+        "级联事件归属不清",
+        "支援代答",
+        "躺平对照被用于个体惩罚。"
+      ],
+      "acceptanceGates": [
+        "完成C2语义消除专项盲测与反事实测试。",
+        "错误代价局部、可逆、非羞辱且递增有上限。",
+        "躺平对照仅作版本级决策，不用于个体在线惩罚。",
+        "专项门通过前不进入P3先导；失败回滚无支援原型并延后。"
+      ],
+      "unresolvedDecisions": [
+        "C2专项验证通过后是否进入后续开发。"
+      ]
+    },
+    {
+      "id": "g05-sonic-skate",
+      "name": "音速滑板",
+      "status": "candidate",
+      "coreLoop": "听音辨词并选择路线/车道；语言判断决定路线或道具变化。",
+      "languageActions": [
+        "audio_recognition",
+        "meaning_recognition"
+      ],
+      "primaryDimensions": [
+        "listening",
+        "meaning"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "keyboard",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "audio_played",
+        "audio_replayed",
+        "lane_selected",
+        "route_changed"
+      ],
+      "evidenceRules": [
+        "速度、反应时间和设备延迟不计学习证据",
+        "慢速、暂停和静态模式保持相同学习权益"
+      ],
+      "shareMoment": "听到目标词后选择车道，路线随语言判断改变。",
+      "risks": [
+        "速度影响学习判定",
+        "音频自动播放失败",
+        "语音合成被当作权威发音。"
+      ],
+      "acceptanceGates": [
+        "音频播放失败有字幕/重播/静音替代。",
+        "统一逻辑时钟，不依赖帧率判定。",
+        "慢速、暂停、静态模式功能和证据等价。"
+      ],
+      "unresolvedDecisions": []
+    },
+    {
+      "id": "g06-morph-factory",
+      "name": "变形工厂",
+      "status": "candidate",
+      "coreLoop": "组合词根、词缀和词形部件；规则校验后生产目标词。",
+      "languageActions": [
+        "morphology_choice",
+        "spelling_production"
+      ],
+      "primaryDimensions": [
+        "morphology",
+        "spelling"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "drag",
+        "keyboard",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "morpheme_selected",
+        "form_assembled",
+        "form_verified"
+      ],
+      "evidenceRules": [
+        "词形适用性由内容定义",
+        "不适用词项允许N/A",
+        "支持式拼装按任务合同限制证据上限"
+      ],
+      "shareMoment": "词根词缀组合正确后，工厂生产出目标词。",
+      "risks": [
+        "退化成普通字母拼写",
+        "不适用词项被强行出题",
+        "词形规则/例外审核不足。"
+      ],
+      "acceptanceGates": [
+        "词形规则、例外和目标形式有教研审核。",
+        "核心操作体现词素/词形组合，而非简单拼写换皮。",
+        "N/A在任务生成和学习汇总中有明确处理。"
+      ],
+      "unresolvedDecisions": []
+    },
+    {
+      "id": "g07-sentence-bridge",
+      "name": "句桥救援",
+      "status": "candidate",
+      "coreLoop": "排列词块、修复句子或搭建句桥；语境成立后改变桥梁状态。",
+      "languageActions": [
+        "sentence_construction",
+        "context_completion"
+      ],
+      "primaryDimensions": [
+        "context",
+        "morphology"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "drag",
+        "keyboard",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "token_placed",
+        "sentence_submitted",
+        "bridge_segment_formed"
+      ],
+      "evidenceRules": [
+        "句子判定由审核过的任务合同负责",
+        "允许经审核的多个合法句式",
+        "拖动必须有点击/键盘替代"
+      ],
+      "shareMoment": "句子结构正确后，桥梁逐段连接并完成救援。",
+      "risks": [
+        "单一答案假设导致合法句式误判",
+        "例句超纲或不自然",
+        "拖动成为唯一操作。"
+      ],
+      "acceptanceGates": [
+        "多答案规则有明确accepted variants/answer spec。",
+        "例句、搭配、语法和适龄性人工审核。",
+        "键盘与点击替代操作完成逐款验收。"
+      ],
+      "unresolvedDecisions": []
+    },
+    {
+      "id": "g08-confusable-detective",
+      "name": "易混词侦探城",
+      "status": "candidate",
+      "coreLoop": "比较近形、近音或易混词，选出目标词并选择结构化辨析理由。",
+      "languageActions": [
+        "contrast_reasoning",
+        "meaning_recognition",
+        "audio_recognition"
+      ],
+      "primaryDimensions": [
+        "meaning",
+        "listening",
+        "context"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "keyboard",
+        "pointer"
+      ],
+      "gameplayEvents": [
+        "contrast_pair_loaded",
+        "candidate_compared",
+        "reason_selected",
+        "verdict"
+      ],
+      "evidenceRules": [
+        "辨析任务绑定明确contrastPair和sense",
+        "理由选择作为任务支持条件写入合同"
+      ],
+      "shareMoment": "排除干扰词并展示关键辨析线索。",
+      "risks": [
+        "与G09线索推断重复",
+        "易混对缺乏真实语言依据",
+        "干扰项多解。"
+      ],
+      "acceptanceGates": [
+        "核心问题聚焦两个易混词之间的差异。",
+        "contrast pair、对比维度和理由项经教研审核。",
+        "与G09的上下文候选推断操作不同。"
+      ],
+      "unresolvedDecisions": [
+        "需要用完整关卡规格和试玩确认与G09的独立性。"
+      ]
+    },
+    {
+      "id": "g09-clue-dungeon",
+      "name": "线索地牢",
+      "status": "candidate",
+      "coreLoop": "按自由顺序查看上下文线索，逐步缩小候选集合并提交推断。",
+      "languageActions": [
+        "context_inference",
+        "candidate_elimination"
+      ],
+      "primaryDimensions": [
+        "context",
+        "meaning"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "keyboard",
+        "pointer",
+        "drag"
+      ],
+      "gameplayEvents": [
+        "clue_opened",
+        "candidate_removed",
+        "hypothesis_submitted",
+        "abandon_partial"
+      ],
+      "evidenceRules": [
+        "候选集和线索结构由内容层生成",
+        "换词/放弃部分推理要记录并限制同会话次数",
+        "结构奖励不进入E0-E3"
+      ],
+      "shareMoment": "逐条打开线索，候选集合逐步收敛到目标词。",
+      "risks": [
+        "候选集合为空/同质",
+        "线索没有区分度",
+        "与G08操作同质。"
+      ],
+      "acceptanceGates": [
+        "初中三线索自由顺序；小学包另做两线索顺序引导专项。",
+        "候选集合非空、非同质，静态检查两两交集和大小。",
+        "换词写入abandon_partial并限制同会话次数。",
+        "理由使用结构化词形/发音/词义类型。"
+      ],
+      "unresolvedDecisions": []
+    },
+    {
+      "id": "g10-island-core-titan",
+      "name": "岛心巨像",
+      "status": "candidate",
+      "coreLoop": "多阶段综合挑战；每阶段调用不同语言动作，语言结果改变Boss阶段状态。",
+      "languageActions": [
+        "cross_dimension_transfer",
+        "delayed_retrieval",
+        "multi_stage_task"
+      ],
+      "primaryDimensions": [
+        "meaning",
+        "listening",
+        "spelling",
+        "morphology",
+        "context"
+      ],
+      "inputCapabilities": [
+        "tap",
+        "keyboard",
+        "pointer",
+        "drag"
+      ],
+      "gameplayEvents": [
+        "phase_started",
+        "phase_completed",
+        "boss_state_changed",
+        "review_task_created"
+      ],
+      "evidenceRules": [
+        "Boss血量/阶段/通关不是掌握度",
+        "每个阶段必须映射到明确wordId/senseId/dimension/taskType",
+        "延迟跨形式无提示任务才可能形成E3"
+      ],
+      "shareMoment": "不同英语操作改变巨像阶段状态，形成综合挑战画面。",
+      "risks": [
+        "只给选择题加血条",
+        "阶段语言动作重复",
+        "单词怪兽战被误算为第11款。"
+      ],
+      "acceptanceGates": [
+        "每个Boss阶段有独立语言动作和可重放事件。",
+        "Boss表现与学习证据分离。",
+        "单词怪兽战暂作为G10机制候选；若要独立成第11款，必须另提名册变更。"
+      ],
+      "unresolvedDecisions": [
+        "单词怪兽战是否正式并入G10。"
+      ]
+    }
+  ]
+}
