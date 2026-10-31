@@ -37,7 +37,8 @@
         "wordCount",
         "contentHash",
         "assetManifestHash",
-        "sourceRefIds"
+        "sourceRefIds",
+        "familyId"
       ],
       "properties": {
         "packId": {
@@ -78,7 +79,8 @@
             "approved",
             "published",
             "retired",
-            "rejected"
+            "rejected",
+            "preview"
           ]
         },
         "language": {
@@ -267,6 +269,11 @@
         "isDemo": {
           "type": "boolean",
           "default": false
+        },
+        "familyId": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 64
         }
       }
     },
@@ -913,7 +920,98 @@
             "required": [
               "publishedAt",
               "review"
-            ]
+            ],
+            "properties": {
+              "review": {
+                "properties": {
+                  "status": {
+                    "const": "approved"
+                  },
+                  "reviewerIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "status",
+                  "reviewedAt",
+                  "reviewerIds"
+                ]
+              }
+            }
+          },
+          "sourceRefs": {
+            "items": {
+              "properties": {
+                "verificationStatus": {
+                  "const": "verified"
+                },
+                "rightsStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "words": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "senses": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "pronunciations": {
+            "items": {
+              "properties": {
+                "status": {
+                  "enum": [
+                    "approved",
+                    "unavailable"
+                  ]
+                }
+              }
+            }
+          },
+          "examples": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "assets": {
+            "items": {
+              "properties": {
+                "licenseStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "taskTemplates": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            }
           }
         }
       }
