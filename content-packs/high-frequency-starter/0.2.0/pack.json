@@ -24,8 +24,8 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 110,
-    "contentHash": "296930b8818400656aae2ae4aee028736c22c0ad08a07d1e00c29a729eff3013",
-    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "contentHash": "1b9cfdcca438e96a7966f5fb4f1756f5f606b002608aa012d11ffeed31ba1f88",
+    "assetManifestHash": "17dd7cd66ccb3a5def0016763a708d9bfbd9099a029d4dc071e13ae33b9fe1e6",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
       "src-wordquest-editorial-v2"
@@ -448,7 +448,8 @@
       "lemma": "early",
       "normalizedLemma": "early",
       "partOfSpeech": [
-        "adjective"
+        "adjective",
+        "adverb"
       ],
       "gradeTags": [
         "grade5",
@@ -3040,8 +3041,8 @@
     {
       "senseId": "high-frequency-starter:s001",
       "wordId": "high-frequency-starter:w001",
-      "glossZh": "关于；大约",
-      "definitionEn": "about: 关于；大约",
+      "glossZh": "关于；涉及",
+      "definitionEn": "used to show what a person is talking about or what something is connected with",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p001"
@@ -3068,7 +3069,7 @@
       "senseId": "high-frequency-starter:s002",
       "wordId": "high-frequency-starter:w002",
       "glossZh": "在……之后",
-      "definitionEn": "after: 在……之后",
+      "definitionEn": "later than a particular time or event",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p002"
@@ -3095,7 +3096,7 @@
       "senseId": "high-frequency-starter:s003",
       "wordId": "high-frequency-starter:w003",
       "glossZh": "再一次；又",
-      "definitionEn": "again: 再一次；又",
+      "definitionEn": "one more time",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p003"
@@ -3122,7 +3123,7 @@
       "senseId": "high-frequency-starter:s004",
       "wordId": "high-frequency-starter:w004",
       "glossZh": "总是；一直",
-      "definitionEn": "always: 总是；一直",
+      "definitionEn": "at all times or on every occasion",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p004"
@@ -3149,7 +3150,7 @@
       "senseId": "high-frequency-starter:s005",
       "wordId": "high-frequency-starter:w005",
       "glossZh": "答案；回答",
-      "definitionEn": "answer: 答案；回答",
+      "definitionEn": "something you say or write in reply to a question",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p005"
@@ -3176,7 +3177,7 @@
       "senseId": "high-frequency-starter:s006",
       "wordId": "high-frequency-starter:w006",
       "glossZh": "询问；请求",
-      "definitionEn": "ask: 询问；请求",
+      "definitionEn": "to say something because you want information or want someone to do something",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p006"
@@ -3203,7 +3204,7 @@
       "senseId": "high-frequency-starter:s007",
       "wordId": "high-frequency-starter:w007",
       "glossZh": "因为",
-      "definitionEn": "because: 因为",
+      "definitionEn": "for the reason that",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p007"
@@ -3230,7 +3231,7 @@
       "senseId": "high-frequency-starter:s008",
       "wordId": "high-frequency-starter:w008",
       "glossZh": "在……之前",
-      "definitionEn": "before: 在……之前",
+      "definitionEn": "earlier than a particular time or event",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p008"
@@ -3257,7 +3258,7 @@
       "senseId": "high-frequency-starter:s009",
       "wordId": "high-frequency-starter:w009",
       "glossZh": "开始",
-      "definitionEn": "begin: 开始",
+      "definitionEn": "to start doing something",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p009"
@@ -3284,7 +3285,7 @@
       "senseId": "high-frequency-starter:s010",
       "wordId": "high-frequency-starter:w010",
       "glossZh": "带来；拿来",
-      "definitionEn": "bring: 带来；拿来",
+      "definitionEn": "to take someone or something with you to a place",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p010"
@@ -3311,7 +3312,7 @@
       "senseId": "high-frequency-starter:s011",
       "wordId": "high-frequency-starter:w011",
       "glossZh": "忙碌的",
-      "definitionEn": "busy: 忙碌的",
+      "definitionEn": "having a lot of things to do",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p011"
@@ -3338,7 +3339,7 @@
       "senseId": "high-frequency-starter:s012",
       "wordId": "high-frequency-starter:w012",
       "glossZh": "改变；更换",
-      "definitionEn": "change: 改变；更换",
+      "definitionEn": "to make or become different",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p012"
@@ -3365,7 +3366,7 @@
       "senseId": "high-frequency-starter:s013",
       "wordId": "high-frequency-starter:w013",
       "glossZh": "选择",
-      "definitionEn": "choose: 选择",
+      "definitionEn": "to decide which person or thing you want",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p013"
@@ -3392,7 +3393,7 @@
       "senseId": "high-frequency-starter:s014",
       "wordId": "high-frequency-starter:w014",
       "glossZh": "不同的",
-      "definitionEn": "different: 不同的",
+      "definitionEn": "not the same as another person or thing",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p014"
@@ -3418,8 +3419,8 @@
     {
       "senseId": "high-frequency-starter:s015",
       "wordId": "high-frequency-starter:w015",
-      "glossZh": "早的；提早的",
-      "definitionEn": "early: 早的；提早的",
+      "glossZh": "早的；早早地；提早",
+      "definitionEn": "before the usual or expected time",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p015"
@@ -3446,7 +3447,7 @@
       "senseId": "high-frequency-starter:s016",
       "wordId": "high-frequency-starter:w016",
       "glossZh": "足够的",
-      "definitionEn": "enough: 足够的",
+      "definitionEn": "as much or as many as needed",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p016"
@@ -3473,7 +3474,7 @@
       "senseId": "high-frequency-starter:s017",
       "wordId": "high-frequency-starter:w017",
       "glossZh": "每一个；每",
-      "definitionEn": "every: 每一个；每",
+      "definitionEn": "each person or thing in a group, without exception",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p017"
@@ -3500,7 +3501,7 @@
       "senseId": "high-frequency-starter:s018",
       "wordId": "high-frequency-starter:w018",
       "glossZh": "跟随；遵循",
-      "definitionEn": "follow: 跟随；遵循",
+      "definitionEn": "to go after someone or something, or to do what an instruction says",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p018"
@@ -3527,7 +3528,7 @@
       "senseId": "high-frequency-starter:s019",
       "wordId": "high-frequency-starter:w019",
       "glossZh": "朋友",
-      "definitionEn": "friend: 朋友",
+      "definitionEn": "someone you know well and like",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p019"
@@ -3554,7 +3555,7 @@
       "senseId": "high-frequency-starter:s020",
       "wordId": "high-frequency-starter:w020",
       "glossZh": "高兴的；快乐的",
-      "definitionEn": "happy: 高兴的；快乐的",
+      "definitionEn": "feeling or showing pleasure",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p020"
@@ -3581,7 +3582,7 @@
       "senseId": "high-frequency-starter:s021",
       "wordId": "high-frequency-starter:w021",
       "glossZh": "帮助",
-      "definitionEn": "help: 帮助",
+      "definitionEn": "to make it easier for someone to do something",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p021"
@@ -3608,7 +3609,7 @@
       "senseId": "high-frequency-starter:s022",
       "wordId": "high-frequency-starter:w022",
       "glossZh": "重要的",
-      "definitionEn": "important: 重要的",
+      "definitionEn": "having great value or meaning",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p022"
@@ -3635,7 +3636,7 @@
       "senseId": "high-frequency-starter:s023",
       "wordId": "high-frequency-starter:w023",
       "glossZh": "学习；学会",
-      "definitionEn": "learn: 学习；学会",
+      "definitionEn": "to get knowledge or a skill by studying or practising",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p023"
@@ -3662,7 +3663,7 @@
       "senseId": "high-frequency-starter:s024",
       "wordId": "high-frequency-starter:w024",
       "glossZh": "听；倾听",
-      "definitionEn": "listen: 听；倾听",
+      "definitionEn": "to pay attention to a sound",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p024"
@@ -3689,7 +3690,7 @@
       "senseId": "high-frequency-starter:s025",
       "wordId": "high-frequency-starter:w025",
       "glossZh": "经常",
-      "definitionEn": "often: 经常",
+      "definitionEn": "many times; frequently",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p025"
@@ -3716,7 +3717,7 @@
       "senseId": "high-frequency-starter:s026",
       "wordId": "high-frequency-starter:w026",
       "glossZh": "准备好的",
-      "definitionEn": "ready: 准备好的",
+      "definitionEn": "prepared for something",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p026"
@@ -3743,7 +3744,7 @@
       "senseId": "high-frequency-starter:s027",
       "wordId": "high-frequency-starter:w027",
       "glossZh": "记得；记住",
-      "definitionEn": "remember: 记得；记住",
+      "definitionEn": "to keep something in your mind or bring it back to mind",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p027"
@@ -3770,7 +3771,7 @@
       "senseId": "high-frequency-starter:s028",
       "wordId": "high-frequency-starter:w028",
       "glossZh": "教师；老师",
-      "definitionEn": "teacher: 教师；老师",
+      "definitionEn": "a person whose job is to teach",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p028"
@@ -3799,7 +3800,7 @@
       "senseId": "high-frequency-starter:s029",
       "wordId": "high-frequency-starter:w029",
       "glossZh": "通常",
-      "definitionEn": "usually: 通常",
+      "definitionEn": "in most cases; most of the time",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p029"
@@ -3828,7 +3829,7 @@
       "senseId": "high-frequency-starter:s030",
       "wordId": "high-frequency-starter:w030",
       "glossZh": "没有；缺乏",
-      "definitionEn": "without: 没有；缺乏",
+      "definitionEn": "not having or not using something",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p030"
@@ -7398,7 +7399,7 @@
       "exampleId": "high-frequency-starter:e030",
       "senseId": "high-frequency-starter:s030",
       "textEn": "Do not leave without your bag.",
-      "textZh": "不要不带包就离开。",
+      "textZh": "离开时别忘了带上你的包。",
       "gradeFit": [
         "grade5",
         "grade6",
