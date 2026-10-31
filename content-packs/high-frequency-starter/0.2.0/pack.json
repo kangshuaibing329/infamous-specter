@@ -24,7 +24,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 110,
-    "contentHash": "8bfe970a659c7fcb5b96a1950fb96c2377323ce98741a5752e021ad98d510cac",
+    "contentHash": "1191b44d9da07f85e561aec4a320f2c9f4db907dd2b538636868b28b31908060",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -1016,7 +1016,8 @@
       "lemma": "alone",
       "normalizedLemma": "alone",
       "partOfSpeech": [
-        "adjective"
+        "adjective",
+        "adverb"
       ],
       "gradeTags": [
         "grade5",
@@ -3875,7 +3876,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "something that people do for interest or as part of a task"
     },
     {
       "senseId": "high-frequency-starter:s032",
@@ -3900,7 +3902,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "details that show where a person lives or where a place is located"
     },
     {
       "senseId": "high-frequency-starter:s033",
@@ -3925,7 +3928,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "feeling fear or worried that something bad may happen"
     },
     {
       "senseId": "high-frequency-starter:s034",
@@ -3950,7 +3954,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to have the same opinion as someone else"
     },
     {
       "senseId": "high-frequency-starter:s035",
@@ -3975,7 +3980,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "not completely, but very nearly"
     },
     {
       "senseId": "high-frequency-starter:s036",
@@ -4000,7 +4006,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "without other people; by yourself"
     },
     {
       "senseId": "high-frequency-starter:s037",
@@ -4025,7 +4032,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "before now or before the expected time"
     },
     {
       "senseId": "high-frequency-starter:s038",
@@ -4050,7 +4058,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "in addition; too"
     },
     {
       "senseId": "high-frequency-starter:s039",
@@ -4075,7 +4084,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "one more person or thing of the same kind, or a different one"
     },
     {
       "senseId": "high-frequency-starter:s040",
@@ -4100,7 +4110,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "on all sides of something or in a circle near it"
     },
     {
       "senseId": "high-frequency-starter:s041",
@@ -4125,7 +4136,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to reach a place at the end of a journey"
     },
     {
       "senseId": "high-frequency-starter:s042",
@@ -4150,7 +4162,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to start to be or grow into a particular state"
     },
     {
       "senseId": "high-frequency-starter:s043",
@@ -4175,7 +4188,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to think that something is true or that someone is telling the truth"
     },
     {
       "senseId": "high-frequency-starter:s044",
@@ -4200,7 +4214,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "in the space separating two or more people or things"
     },
     {
       "senseId": "high-frequency-starter:s045",
@@ -4225,7 +4240,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the whole physical structure of a person or animal"
     },
     {
       "senseId": "high-frequency-starter:s046",
@@ -4250,7 +4266,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to damage something so that it separates into pieces or stops working"
     },
     {
       "senseId": "high-frequency-starter:s047",
@@ -4275,7 +4292,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to make something by putting parts or materials together"
     },
     {
       "senseId": "high-frequency-starter:s048",
@@ -4300,7 +4318,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to hold and take something from one place to another"
     },
     {
       "senseId": "high-frequency-starter:s049",
@@ -4325,7 +4344,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to stop and hold a moving object, especially with your hands"
     },
     {
       "senseId": "high-frequency-starter:s050",
@@ -4350,7 +4370,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to make something happen"
     },
     {
       "senseId": "high-frequency-starter:s051",
@@ -4375,7 +4396,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "sure that something is true or will happen"
     },
     {
       "senseId": "high-frequency-starter:s052",
@@ -4400,7 +4422,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to look at something carefully to make sure it is correct or safe"
     },
     {
       "senseId": "high-frequency-starter:s053",
@@ -4425,7 +4448,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "easy to see through, or easy to understand"
     },
     {
       "senseId": "high-frequency-starter:s054",
@@ -4450,7 +4474,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to shut something so that it is not open"
     },
     {
       "senseId": "high-frequency-starter:s055",
@@ -4475,7 +4500,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to keep doing something without stopping"
     },
     {
       "senseId": "high-frequency-starter:s056",
@@ -4500,7 +4526,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to make a choice after thinking about it"
     },
     {
       "senseId": "high-frequency-starter:s057",
@@ -4525,7 +4552,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "from the beginning to the end of a period of time"
     },
     {
       "senseId": "high-frequency-starter:s058",
@@ -4550,7 +4578,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to get pleasure from something"
     },
     {
       "senseId": "high-frequency-starter:s059",
@@ -4575,7 +4604,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to go or come into a place"
     },
     {
       "senseId": "high-frequency-starter:s060",
@@ -4600,7 +4630,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "more than others; particularly"
     },
     {
       "senseId": "high-frequency-starter:s061",
@@ -4625,7 +4656,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "every person in a group"
     },
     {
       "senseId": "high-frequency-starter:s062",
@@ -4650,7 +4682,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "all the things that exist or are involved"
     },
     {
       "senseId": "high-frequency-starter:s063",
@@ -4675,7 +4708,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to complete something or come to the end of it"
     },
     {
       "senseId": "high-frequency-starter:s064",
@@ -4700,7 +4734,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to fail to remember something"
     },
     {
       "senseId": "high-frequency-starter:s065",
@@ -4725,7 +4760,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the time that is yet to come"
     },
     {
       "senseId": "high-frequency-starter:s066",
@@ -4750,7 +4786,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "an activity or contest played for fun or to find a winner"
     },
     {
       "senseId": "high-frequency-starter:s067",
@@ -4775,7 +4812,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to give an answer without knowing for sure"
     },
     {
       "senseId": "high-frequency-starter:s068",
@@ -4800,7 +4838,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to take place or occur"
     },
     {
       "senseId": "high-frequency-starter:s069",
@@ -4825,7 +4864,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "in good health; not ill"
     },
     {
       "senseId": "high-frequency-starter:s070",
@@ -4850,7 +4890,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a thought, plan, or suggestion"
     },
     {
       "senseId": "high-frequency-starter:s071",
