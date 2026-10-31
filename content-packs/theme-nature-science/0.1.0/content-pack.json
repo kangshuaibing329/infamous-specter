@@ -2320,12 +2320,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2338,13 +2335,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2357,13 +2349,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2377,12 +2364,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2395,13 +2379,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2414,13 +2393,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2434,12 +2408,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2452,13 +2423,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2471,13 +2437,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2491,12 +2452,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2509,13 +2467,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2528,13 +2481,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2548,12 +2496,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2566,13 +2511,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2585,13 +2525,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2605,12 +2540,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2623,13 +2555,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2642,13 +2569,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2662,12 +2584,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2680,13 +2599,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2699,13 +2613,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2719,12 +2628,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2737,13 +2643,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2756,13 +2657,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2776,12 +2672,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2794,13 +2687,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2813,13 +2701,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2833,12 +2716,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2851,13 +2731,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2870,13 +2745,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2890,12 +2760,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2908,13 +2775,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2927,13 +2789,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2947,12 +2804,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2965,13 +2819,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -2984,13 +2833,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3004,12 +2848,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3022,13 +2863,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3041,13 +2877,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3061,12 +2892,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3079,13 +2907,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3098,13 +2921,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3118,12 +2936,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3136,13 +2951,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3155,13 +2965,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3175,12 +2980,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3193,13 +2995,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3212,13 +3009,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3232,12 +3024,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3250,13 +3039,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3269,13 +3053,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3289,12 +3068,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3307,13 +3083,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3326,13 +3097,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3346,12 +3112,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3364,13 +3127,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3383,13 +3141,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3403,12 +3156,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3421,13 +3171,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3440,13 +3185,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3460,12 +3200,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3478,13 +3215,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3497,13 +3229,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3517,12 +3244,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3535,13 +3259,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3554,13 +3273,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3574,12 +3288,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3592,13 +3303,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3611,13 +3317,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3631,12 +3332,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3649,13 +3347,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3668,13 +3361,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3688,12 +3376,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3706,13 +3391,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3725,13 +3405,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3745,12 +3420,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3763,13 +3435,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3782,13 +3449,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3802,12 +3464,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3820,13 +3479,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3839,13 +3493,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3859,12 +3508,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3877,13 +3523,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3896,13 +3537,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3916,12 +3552,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3934,13 +3567,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3953,13 +3581,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3973,12 +3596,9 @@
       "evidenceCap": "E2",
       "compatibleGameIds": [
         "g01-island-exploration",
-        "g02-spelling-minecart",
         "g03-word-link",
         "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -3991,13 +3611,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
         "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
-        "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     },
@@ -4010,13 +3625,8 @@
       "supportPolicyId": "wordquest-support-policy-v1",
       "evidenceCap": "E2",
       "compatibleGameIds": [
-        "g01-island-exploration",
-        "g02-spelling-minecart",
-        "g03-word-link",
-        "g04-word-block-match",
         "g07-sentence-bridge",
-        "g08-confusable-detective",
-        "g09-clue-dungeon"
+        "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
     }
