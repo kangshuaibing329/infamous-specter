@@ -1,0 +1,105 @@
+sense_id,word_id,gloss_zh,definition_en,pronunciation_ids,example_ids,asset_ids,accepted_spellings,morphology_rule_ids,review_status,source_ref_ids
+theme-school-life:s001,theme-school-life:w001,黑板,blackboard: 黑板,theme-school-life:p001,theme-school-life:e001,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s002,theme-school-life:w002,同班同学,classmate: 同班同学,theme-school-life:p002,theme-school-life:e002,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s003,theme-school-life:w003,教室,classroom: 教室,theme-school-life:p003,theme-school-life:e003,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s004,theme-school-life:w004,词典,dictionary: 词典,theme-school-life:p004,theme-school-life:e004,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s005,theme-school-life:w005,橡皮,eraser: 橡皮,theme-school-life:p005,theme-school-life:e005,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s006,theme-school-life:w006,练习；锻炼,exercise: 练习；锻炼,theme-school-life:p006,theme-school-life:e006,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s007,theme-school-life:w007,家庭作业,homework: 家庭作业,theme-school-life:p007,theme-school-life:e007,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s008,theme-school-life:w008,图书馆,library: 图书馆,theme-school-life:p008,theme-school-life:e008,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s009,theme-school-life:w009,一节课；课程,lesson: 一节课；课程,theme-school-life:p009,theme-school-life:e009,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s010,theme-school-life:w010,笔记本,notebook: 笔记本,theme-school-life:p010,theme-school-life:e010,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s011,theme-school-life:w011,操场,playground: 操场,theme-school-life:p011,theme-school-life:e011,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s012,theme-school-life:w012,项目；课题,project: 项目；课题,theme-school-life:p012,theme-school-life:e012,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s013,theme-school-life:w013,问题；疑问,question: 问题；疑问,theme-school-life:p013,theme-school-life:e013,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s014,theme-school-life:w014,学科；科目,subject: 学科；科目,theme-school-life:p014,theme-school-life:e014,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s015,theme-school-life:w015,校服；制服,uniform: 校服；制服,theme-school-life:p015,theme-school-life:e015,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s016,theme-school-life:w016,练习单,worksheet: 练习单,theme-school-life:p016,theme-school-life:e016,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s017,theme-school-life:w017,借入,borrow: 借入,theme-school-life:p017,theme-school-life:e017,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s018,theme-school-life:w018,解释；说明,explain: 解释；说明,theme-school-life:p018,theme-school-life:e018,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s019,theme-school-life:w019,讨论,discuss: 讨论,theme-school-life:p019,theme-school-life:e019,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s020,theme-school-life:w020,练习,practice: 练习,theme-school-life:p020,theme-school-life:e020,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s021,theme-school-life:w021,复习；回顾,review: 复习；回顾,theme-school-life:p021,theme-school-life:e021,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s022,theme-school-life:w022,准备,prepare: 准备,theme-school-life:p022,theme-school-life:e022,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s023,theme-school-life:w023,仔细的；小心的,careful: 仔细的；小心的,theme-school-life:p023,theme-school-life:e023,,,morph:adjective-ful,draft,src-wordquest-editorial-v1
+theme-school-life:s024,theme-school-life:w024,有帮助的；乐于助人的,helpful: 有帮助的；乐于助人的,theme-school-life:p024,theme-school-life:e024,,,morph:adjective-ful,draft,src-wordquest-editorial-v1
+theme-school-life:s025,theme-school-life:w025,安静的,quiet: 安静的,theme-school-life:p025,theme-school-life:e025,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s026,theme-school-life:w026,正确的,correct: 正确的,theme-school-life:p026,theme-school-life:e026,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s027,theme-school-life:w027,有创造力的,creative: 有创造力的,theme-school-life:p027,theme-school-life:e027,,,morph:adjective-ive,draft,src-wordquest-editorial-v1
+theme-school-life:s028,theme-school-life:w028,改善；提高,improve: 改善；提高,theme-school-life:p028,theme-school-life:e028,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s029,theme-school-life:w029,发现,discover: 发现,theme-school-life:p029,theme-school-life:e029,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s030,theme-school-life:w030,团队合作,teamwork: 团队合作,theme-school-life:p030,theme-school-life:e030,,,,draft,src-wordquest-editorial-v1
+theme-school-life:s031,theme-school-life:w031,出勤；到校情况,,theme-school-life:p031,theme-school-life:e031,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s032,theme-school-life:w032,双肩背包,,theme-school-life:p032,theme-school-life:e032,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-school-life:s033,theme-school-life:w033,铃；铃声,,theme-school-life:p033,theme-school-life:e033,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s034,theme-school-life:w034,生物学,,theme-school-life:p034,theme-school-life:e034,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s035,theme-school-life:w035,计算器,,theme-school-life:p035,theme-school-life:e035,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s036,theme-school-life:w036,食堂；餐厅,,theme-school-life:p036,theme-school-life:e036,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s037,theme-school-life:w037,粉笔,,theme-school-life:p037,theme-school-life:e037,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s038,theme-school-life:w038,章节,,theme-school-life:p038,theme-school-life:e038,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s039,theme-school-life:w039,化学,,theme-school-life:p039,theme-school-life:e039,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s040,theme-school-life:w040,社团；俱乐部,,theme-school-life:p040,theme-school-life:e040,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s041,theme-school-life:w041,比赛；竞赛,,theme-school-life:p041,theme-school-life:e041,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s042,theme-school-life:w042,电脑；计算机,,theme-school-life:p042,theme-school-life:e042,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s043,theme-school-life:w043,走廊,,theme-school-life:p043,theme-school-life:e043,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s044,theme-school-life:w044,课程,,theme-school-life:p044,theme-school-life:e044,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s045,theme-school-life:w045,课桌；书桌,,theme-school-life:p045,theme-school-life:e045,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s046,theme-school-life:w046,戏剧；戏剧表演,,theme-school-life:p046,theme-school-life:e046,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s047,theme-school-life:w047,入口；大门,,theme-school-life:p047,theme-school-life:e047,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s048,theme-school-life:w048,考试,,theme-school-life:p048,theme-school-life:e048,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s049,theme-school-life:w049,地理学,,theme-school-life:p049,theme-school-life:e049,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s050,theme-school-life:w050,语法,,theme-school-life:p050,theme-school-life:e050,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s051,theme-school-life:w051,小组；群体,,theme-school-life:p051,theme-school-life:e051,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s052,theme-school-life:w052,历史,,theme-school-life:p052,theme-school-life:e052,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s053,theme-school-life:w053,信息；资料,,theme-school-life:p053,theme-school-life:e053,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s054,theme-school-life:w054,指示；说明,,theme-school-life:p054,theme-school-life:e054,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s055,theme-school-life:w055,键盘,,theme-school-life:p055,theme-school-life:e055,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-school-life:s056,theme-school-life:w056,语言,,theme-school-life:p056,theme-school-life:e056,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s057,theme-school-life:w057,地图,,theme-school-life:p057,theme-school-life:e057,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s058,theme-school-life:w058,分数；记号,,theme-school-life:p058,theme-school-life:e058,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s059,theme-school-life:w059,数学,,theme-school-life:p059,theme-school-life:e059,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s060,theme-school-life:w060,音乐,,theme-school-life:p060,theme-school-life:e060,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s061,theme-school-life:w061,页；页面,,theme-school-life:p061,theme-school-life:e061,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s062,theme-school-life:w062,纸；试卷,,theme-school-life:p062,theme-school-life:e062,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s063,theme-school-life:w063,段落,,theme-school-life:p063,theme-school-life:e063,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s064,theme-school-life:w064,搭档；伙伴,,theme-school-life:p064,theme-school-life:e064,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s065,theme-school-life:w065,铅笔,,theme-school-life:p065,theme-school-life:e065,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s066,theme-school-life:w066,钢笔；签字笔,,theme-school-life:p066,theme-school-life:e066,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s067,theme-school-life:w067,课时；节；一段时间,,theme-school-life:p067,theme-school-life:e067,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s068,theme-school-life:w068,海报,,theme-school-life:p068,theme-school-life:e068,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s069,theme-school-life:w069,演示；展示,,theme-school-life:p069,theme-school-life:e069,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s070,theme-school-life:w070,校长,,theme-school-life:p070,theme-school-life:e070,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s071,theme-school-life:w071,打印机,,theme-school-life:p071,theme-school-life:e071,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s072,theme-school-life:w072,小学生；学生,,theme-school-life:p072,theme-school-life:e072,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s073,theme-school-life:w073,阅读,,theme-school-life:p073,theme-school-life:e073,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s074,theme-school-life:w074,尺子,,theme-school-life:p074,theme-school-life:e074,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s075,theme-school-life:w075,日程表；安排,,theme-school-life:p075,theme-school-life:e075,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s076,theme-school-life:w076,书包,,theme-school-life:p076,theme-school-life:e076,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-school-life:s077,theme-school-life:w077,分数；得分,,theme-school-life:p077,theme-school-life:e077,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s078,theme-school-life:w078,屏幕,,theme-school-life:p078,theme-school-life:e078,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s079,theme-school-life:w079,拼写,,theme-school-life:p079,theme-school-life:e079,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s080,theme-school-life:w080,故事,,theme-school-life:p080,theme-school-life:e080,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s081,theme-school-life:w081,学习；研究,,theme-school-life:p081,theme-school-life:e081,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s082,theme-school-life:w082,测验；测试,,theme-school-life:p082,theme-school-life:e082,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s083,theme-school-life:w083,教科书；课本,,theme-school-life:p083,theme-school-life:e083,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-school-life:s084,theme-school-life:w084,课程表；时间表,,theme-school-life:p084,theme-school-life:e084,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-school-life:s085,theme-school-life:w085,练习册,,theme-school-life:p085,theme-school-life:e085,,,morph:compound-noun,draft,src-wordquest-editorial-v2
+theme-school-life:s086,theme-school-life:w086,写；书写,,theme-school-life:p086,theme-school-life:e086,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s087,theme-school-life:w087,阅读；读,,theme-school-life:p087,theme-school-life:e087,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s088,theme-school-life:w088,说；讲,,theme-school-life:p088,theme-school-life:e088,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s089,theme-school-life:w089,拼写,,theme-school-life:p089,theme-school-life:e089,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s090,theme-school-life:w090,计算,,theme-school-life:p090,theme-school-life:e090,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s091,theme-school-life:w091,数数；计算数量,,theme-school-life:p091,theme-school-life:e091,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s092,theme-school-life:w092,画；绘制,,theme-school-life:p092,theme-school-life:e092,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s093,theme-school-life:w093,抄写；复制,,theme-school-life:p093,theme-school-life:e093,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s094,theme-school-life:w094,比较；对比,,theme-school-life:p094,theme-school-life:e094,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s095,theme-school-life:w095,复习；修订,,theme-school-life:p095,theme-school-life:e095,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s096,theme-school-life:w096,翻译,,theme-school-life:p096,theme-school-life:e096,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s097,theme-school-life:w097,解决；解答,,theme-school-life:p097,theme-school-life:e097,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s098,theme-school-life:w098,搜索；查找,,theme-school-life:p098,theme-school-life:e098,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s099,theme-school-life:w099,分享；共用,,theme-school-life:p099,theme-school-life:e099,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s100,theme-school-life:w100,参加；出席,,theme-school-life:p100,theme-school-life:e100,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s101,theme-school-life:w101,原则；原理,,theme-school-life:p101,theme-school-life:e101,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s102,theme-school-life:w102,借出；把……借给,,theme-school-life:p102,theme-school-life:e102,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s103,theme-school-life:w103,文具,,theme-school-life:p103,theme-school-life:e103,,,,draft,src-wordquest-editorial-v2
+theme-school-life:s104,theme-school-life:w104,静止的；不动的,,theme-school-life:p104,theme-school-life:e104,,,,draft,src-wordquest-editorial-v2
