@@ -1,0 +1,31 @@
+example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
+theme-nature-science:example:climate-01,theme-nature-science:sense:climate-01,The climate here is warm and wet.,这里的气候温暖而潮湿。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:temperature-01,theme-nature-science:sense:temperature-01,The temperature drops at night.,夜间温度会下降。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:forecast-01,theme-nature-science:sense:forecast-01,The forecast says it may rain tomorrow.,天气预报说明天可能下雨。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:storm-01,theme-nature-science:sense:storm-01,The storm brings strong wind and heavy rain.,暴风雨带来了大风和大雨。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:cloud-01,theme-nature-science:sense:cloud-01,A dark cloud covers the sun.,一片乌云遮住了太阳。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:rainfall-01,theme-nature-science:sense:rainfall-01,Heavy rainfall can cause floods.,强降雨可能引发洪水。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:seed-01,theme-nature-science:sense:seed-01,A seed needs water to grow.,种子需要水才能生长。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:root-01,theme-nature-science:sense:root-01,The root takes in water from the soil.,根从土壤中吸收水分。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:leaf-01,theme-nature-science:sense:leaf-01,Each leaf needs light.,每片叶子都需要光照。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:branch-01,theme-nature-science:sense:branch-01,A bird builds its nest on a branch.,一只鸟在树枝上筑巢。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:bloom-01,theme-nature-science:sense:bloom-01,These flowers bloom in early spring.,这些花在早春开放。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:pollinate-01,theme-nature-science:sense:pollinate-01,Bees help pollinate many plants.,蜜蜂帮助许多植物授粉。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:habitat-01,theme-nature-science:sense:habitat-01,A wetland is a habitat for many birds.,湿地是许多鸟类的栖息地。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:species-01,theme-nature-science:sense:species-01,This species lives in cold regions.,这个物种生活在寒冷地区。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:mammal-01,theme-nature-science:sense:mammal-01,A whale is a large mammal.,鲸是一种大型哺乳动物。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:insect-01,theme-nature-science:sense:insect-01,An insect has six legs.,昆虫有六条腿。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:wing-01,theme-nature-science:sense:wing-01,The bird uses one wing to balance.,这只鸟用一侧翅膀保持平衡。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:survive-01,theme-nature-science:sense:survive-01,Some plants survive with very little water.,有些植物只需要很少的水就能存活。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:ocean-01,theme-nature-science:sense:ocean-01,The ocean covers much of the Earth.,海洋覆盖了地球的大部分表面。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:coast-01,theme-nature-science:sense:coast-01,The town is on the east coast.,这座城镇位于东海岸。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:desert-01,theme-nature-science:sense:desert-01,Few trees grow in the desert.,沙漠里很少有树木生长。,grade6,draft,src-theme-nature-science-editorial
+theme-nature-science:example:valley-01,theme-nature-science:sense:valley-01,A river runs through the valley.,一条河流穿过山谷。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:pollution-01,theme-nature-science:sense:pollution-01,Air pollution can harm our health.,空气污染可能损害我们的健康。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:recycle-01,theme-nature-science:sense:recycle-01,We recycle paper at school.,我们在学校回收纸张。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:observe-01,theme-nature-science:sense:observe-01,Observe the changes in the plant each day.,每天观察植物的变化。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:experiment-01,theme-nature-science:sense:experiment-01,The experiment tests how light affects growth.,这个实验测试光线如何影响生长。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:measure-01,theme-nature-science:sense:measure-01,Measure the water before you add it.,加入水之前先测量水量。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:energy-01,theme-nature-science:sense:energy-01,Plants need energy from sunlight.,植物需要来自阳光的能量。,grade7,draft,src-theme-nature-science-editorial
+theme-nature-science:example:surface-01,theme-nature-science:sense:surface-01,Water collects on the surface of the leaf.,水聚集在叶片表面。,grade8,draft,src-theme-nature-science-editorial
+theme-nature-science:example:transform-01,theme-nature-science:sense:transform-01,Heat can transform ice into water.,热能可以使冰转化成水。,grade8,draft,src-theme-nature-science-editorial
