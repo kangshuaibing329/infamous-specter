@@ -56,7 +56,7 @@ export function P1LearningLab() {
     }
     try {
       await installContentPack(selectedPack);
-      const session = startSession({
+      const session = await startSession({
         pack: selectedPack, profileId: 'local-preview-profile',
         gameId: 'g01-island-exploration', gameVersion: '0.1.0', logicVersion: '0.1.0',
         seed: 'wordquest-p1-seed-01', startedAt: new Date().toISOString(),
