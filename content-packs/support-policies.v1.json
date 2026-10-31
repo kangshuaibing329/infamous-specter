@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "status": "candidate",
+  "policies": [
+    {
+      "id": "support-policy/v1/meaning",
+      "dimension": "meaning",
+      "allowed": [
+        "none",
+        "choice",
+        "hint",
+        "clue",
+        "worked_example",
+        "answer_revealed"
+      ],
+      "cap": "E2 with cognitive support; E3 requires approved no-support cross-game and cross-taskType verification."
+    },
+    {
+      "id": "support-policy/v1/spelling",
+      "dimension": "spelling",
+      "allowed": [
+        "none",
+        "partial_letters",
+        "hint",
+        "worked_example",
+        "answer_revealed"
+      ],
+      "cap": "Partial letters or hints cap evidence at E2."
+    },
+    {
+      "id": "support-policy/v1/context",
+      "dimension": "context",
+      "allowed": [
+        "none",
+        "choice",
+        "clue",
+        "hint",
+        "worked_example",
+        "answer_revealed"
+      ],
+      "cap": "Clues or answer choices cap evidence at E2."
+    },
+    {
+      "id": "support-policy/v1/morphology",
+      "dimension": "morphology",
+      "allowed": [
+        "none",
+        "choice",
+        "hint",
+        "worked_example",
+        "answer_revealed"
+      ],
+      "cap": "Morphology remains capped at E2 pending reviewed rule-specific transfer policy."
+    }
+  ]
+}
