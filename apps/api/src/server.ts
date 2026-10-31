@@ -85,7 +85,7 @@ export function createApiServer(data: ApiData): FastifyInstance {
         wordCount: pack.manifest.wordCount,
         unitRefs: pack.units.map((unit) => unit.unitId),
         resourceUris: { content: `/content-packs/${pack.manifest.packId}/${pack.manifest.version}/content-pack.json`, assets: `/content-packs/${pack.manifest.packId}/${pack.manifest.version}/assets/` },
-        requestId: 'generated-by-fastify'
+        requestId: request.id
       };
     }
   );
