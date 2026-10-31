@@ -101,8 +101,8 @@
       "familyId": "high-frequency",
       "title": "高频核心版",
       "description": "基础入门、常用核心和进阶扩展分级。",
-      "status": "editorial_planned",
-      "customerSelectable": false,
+      "status": "preview",
+      "customerSelectable": true,
       "plannedPacks": [
         "high-frequency-starter",
         "high-frequency-core",
@@ -112,14 +112,17 @@
         "明确词源和分级依据",
         "去重与词义拆分",
         "词量和覆盖说明"
+      ],
+      "availablePacks": [
+        "high-frequency-starter"
       ]
     },
     {
       "familyId": "theme-scenario",
       "title": "主题场景版",
       "description": "围绕真实生活和跨学科主题组织词汇。",
-      "status": "editorial_planned",
-      "customerSelectable": false,
+      "status": "preview",
+      "customerSelectable": true,
       "plannedPacks": [
         "theme-school-life",
         "theme-daily-life",
@@ -133,6 +136,10 @@
         "难度分层",
         "场景例句审核",
         "跨主题重复词处理"
+      ],
+      "availablePacks": [
+        "theme-school-life",
+        "theme-nature-science"
       ]
     },
     {
