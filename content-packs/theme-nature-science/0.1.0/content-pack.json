@@ -1,0 +1,4424 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "packId": "theme-nature-science",
+    "version": "0.1.0",
+    "title": "自然与科学词汇·探索篇",
+    "subtitle": "观察自然现象，理解基础科学概念",
+    "description": "围绕自然环境、动植物、天气和基础科学观察组织的原创主题词汇包。",
+    "packType": "thematic",
+    "status": "preview",
+    "language": "en",
+    "locale": "zh-CN",
+    "target": {
+      "ageBands": [
+        "primary-upper",
+        "junior-secondary"
+      ],
+      "gradeBands": [
+        "grade6",
+        "grade7",
+        "grade8"
+      ],
+      "difficulty": "intermediate"
+    },
+    "progressScope": "pack_scoped",
+    "wordCount": 30,
+    "contentHash": "b98093d733f8aa50c2a5b00db3b5cedc8495f72f32fcc11c65b80f5ecb545a9b",
+    "assetManifestHash": "54027d9fb5f1618620f381f658c87a1ef94838b3a5139c838bb205b372bcfa7a",
+    "sourceRefIds": [
+      "src-theme-nature-science-editorial"
+    ],
+    "createdAt": "2026-10-31T00:00:00Z",
+    "review": {
+      "status": "not_reviewed",
+      "reviewerIds": [],
+      "reviewNotes": "原创样本首轮生成；词义、IPA、例句和适龄性均需人工教研复核后才能发布。"
+    },
+    "isDemo": false,
+    "familyId": "theme-scenario"
+  },
+  "units": [
+    {
+      "unitId": "unit-01",
+      "title": "天气与气候",
+      "sortOrder": 1,
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-02",
+      "title": "植物与生态",
+      "sortOrder": 2,
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-03",
+      "title": "动物与栖息地",
+      "sortOrder": 3,
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-04",
+      "title": "地球与环境",
+      "sortOrder": 4,
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-05",
+      "title": "科学观察与变化",
+      "sortOrder": 5,
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "wordId": "theme-nature-science:word:climate",
+      "lemma": "climate",
+      "normalizedLemma": "climate",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:climate-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:temperature",
+      "lemma": "temperature",
+      "normalizedLemma": "temperature",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:temperature-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:forecast",
+      "lemma": "forecast",
+      "normalizedLemma": "forecast",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:forecast-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:storm",
+      "lemma": "storm",
+      "normalizedLemma": "storm",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:storm-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:cloud",
+      "lemma": "cloud",
+      "normalizedLemma": "cloud",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:cloud-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:rainfall",
+      "lemma": "rainfall",
+      "normalizedLemma": "rainfall",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:rainfall-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:seed",
+      "lemma": "seed",
+      "normalizedLemma": "seed",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:seed-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:root",
+      "lemma": "root",
+      "normalizedLemma": "root",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:root-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:leaf",
+      "lemma": "leaf",
+      "normalizedLemma": "leaf",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:leaf-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:branch",
+      "lemma": "branch",
+      "normalizedLemma": "branch",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:branch-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:bloom",
+      "lemma": "bloom",
+      "normalizedLemma": "bloom",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:bloom-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:pollinate",
+      "lemma": "pollinate",
+      "normalizedLemma": "pollinate",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:pollinate-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:habitat",
+      "lemma": "habitat",
+      "normalizedLemma": "habitat",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:habitat-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:species",
+      "lemma": "species",
+      "normalizedLemma": "species",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:species-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:mammal",
+      "lemma": "mammal",
+      "normalizedLemma": "mammal",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:mammal-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:insect",
+      "lemma": "insect",
+      "normalizedLemma": "insect",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:insect-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:wing",
+      "lemma": "wing",
+      "normalizedLemma": "wing",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:wing-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:survive",
+      "lemma": "survive",
+      "normalizedLemma": "survive",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:survive-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:ocean",
+      "lemma": "ocean",
+      "normalizedLemma": "ocean",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:ocean-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:coast",
+      "lemma": "coast",
+      "normalizedLemma": "coast",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:coast-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:desert",
+      "lemma": "desert",
+      "normalizedLemma": "desert",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:desert-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:valley",
+      "lemma": "valley",
+      "normalizedLemma": "valley",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:valley-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:pollution",
+      "lemma": "pollution",
+      "normalizedLemma": "pollution",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:pollution-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:recycle",
+      "lemma": "recycle",
+      "normalizedLemma": "recycle",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:recycle-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:observe",
+      "lemma": "observe",
+      "normalizedLemma": "observe",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:observe-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:experiment",
+      "lemma": "experiment",
+      "normalizedLemma": "experiment",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:experiment-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:measure",
+      "lemma": "measure",
+      "normalizedLemma": "measure",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:measure-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:energy",
+      "lemma": "energy",
+      "normalizedLemma": "energy",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:energy-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:surface",
+      "lemma": "surface",
+      "normalizedLemma": "surface",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:surface-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:word:transform",
+      "lemma": "transform",
+      "normalizedLemma": "transform",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade8"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-nature-science:sense:transform-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    }
+  ],
+  "senses": [
+    {
+      "senseId": "theme-nature-science:sense:climate-01",
+      "wordId": "theme-nature-science:word:climate",
+      "glossZh": "气候",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:climate-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:climate-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "wordId": "theme-nature-science:word:temperature",
+      "glossZh": "温度",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:temperature-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:temperature-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "wordId": "theme-nature-science:word:forecast",
+      "glossZh": "天气预报；预测",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:forecast-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:forecast-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:storm-01",
+      "wordId": "theme-nature-science:word:storm",
+      "glossZh": "暴风雨",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:storm-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:storm-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "wordId": "theme-nature-science:word:cloud",
+      "glossZh": "云",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:cloud-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:cloud-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "wordId": "theme-nature-science:word:rainfall",
+      "glossZh": "降雨量；降雨",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:rainfall-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:rainfall-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:seed-01",
+      "wordId": "theme-nature-science:word:seed",
+      "glossZh": "种子",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:seed-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:seed-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:root-01",
+      "wordId": "theme-nature-science:word:root",
+      "glossZh": "根；根部",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:root-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:root-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "wordId": "theme-nature-science:word:leaf",
+      "glossZh": "叶子",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:leaf-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:leaf-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:branch-01",
+      "wordId": "theme-nature-science:word:branch",
+      "glossZh": "树枝；分支",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:branch-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:branch-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "wordId": "theme-nature-science:word:bloom",
+      "glossZh": "开花",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:bloom-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:bloom-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "wordId": "theme-nature-science:word:pollinate",
+      "glossZh": "给……授粉",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:pollinate-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:pollinate-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "wordId": "theme-nature-science:word:habitat",
+      "glossZh": "栖息地",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:habitat-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:habitat-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:species-01",
+      "wordId": "theme-nature-science:word:species",
+      "glossZh": "物种",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:species-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:species-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "wordId": "theme-nature-science:word:mammal",
+      "glossZh": "哺乳动物",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:mammal-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:mammal-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:insect-01",
+      "wordId": "theme-nature-science:word:insect",
+      "glossZh": "昆虫",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:insect-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:insect-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:wing-01",
+      "wordId": "theme-nature-science:word:wing",
+      "glossZh": "翅膀；翼",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:wing-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:wing-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:survive-01",
+      "wordId": "theme-nature-science:word:survive",
+      "glossZh": "生存；存活",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:survive-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:survive-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "wordId": "theme-nature-science:word:ocean",
+      "glossZh": "海洋",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:ocean-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:ocean-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:coast-01",
+      "wordId": "theme-nature-science:word:coast",
+      "glossZh": "海岸；沿海地区",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:coast-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:coast-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:desert-01",
+      "wordId": "theme-nature-science:word:desert",
+      "glossZh": "沙漠",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:desert-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:desert-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:valley-01",
+      "wordId": "theme-nature-science:word:valley",
+      "glossZh": "山谷；河谷",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:valley-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:valley-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "wordId": "theme-nature-science:word:pollution",
+      "glossZh": "污染",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:pollution-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:pollution-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "wordId": "theme-nature-science:word:recycle",
+      "glossZh": "回收利用",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:recycle-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:recycle-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:observe-01",
+      "wordId": "theme-nature-science:word:observe",
+      "glossZh": "观察；注意到",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:observe-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:observe-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "wordId": "theme-nature-science:word:experiment",
+      "glossZh": "实验",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:experiment-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:experiment-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:measure-01",
+      "wordId": "theme-nature-science:word:measure",
+      "glossZh": "测量；衡量",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:measure-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:measure-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:energy-01",
+      "wordId": "theme-nature-science:word:energy",
+      "glossZh": "能量；能源",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:energy-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:energy-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:surface-01",
+      "wordId": "theme-nature-science:word:surface",
+      "glossZh": "表面；表层",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:surface-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:surface-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:sense:transform-01",
+      "wordId": "theme-nature-science:word:transform",
+      "glossZh": "使改变；转化",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-nature-science:pron:transform-ga"
+      ],
+      "exampleIds": [
+        "theme-nature-science:example:transform-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    }
+  ],
+  "pronunciations": [
+    {
+      "pronunciationId": "theme-nature-science:pron:climate-ga",
+      "senseId": "theme-nature-science:sense:climate-01",
+      "ipa": "ˈklaɪmət",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:temperature-ga",
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "ipa": "ˈtemprətʃər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:forecast-ga",
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "ipa": "ˈfɔːrkæst",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:storm-ga",
+      "senseId": "theme-nature-science:sense:storm-01",
+      "ipa": "stɔːrm",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:cloud-ga",
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "ipa": "klaʊd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:rainfall-ga",
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "ipa": "ˈreɪnfɔːl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:seed-ga",
+      "senseId": "theme-nature-science:sense:seed-01",
+      "ipa": "siːd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:root-ga",
+      "senseId": "theme-nature-science:sense:root-01",
+      "ipa": "ruːt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:leaf-ga",
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "ipa": "liːf",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:branch-ga",
+      "senseId": "theme-nature-science:sense:branch-01",
+      "ipa": "bræntʃ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:bloom-ga",
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "ipa": "bluːm",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:pollinate-ga",
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "ipa": "ˈpɑːləneɪt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:habitat-ga",
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "ipa": "ˈhæbɪtæt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:species-ga",
+      "senseId": "theme-nature-science:sense:species-01",
+      "ipa": "ˈspiːʃiːz",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:mammal-ga",
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "ipa": "ˈmæməl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:insect-ga",
+      "senseId": "theme-nature-science:sense:insect-01",
+      "ipa": "ˈɪnsekt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:wing-ga",
+      "senseId": "theme-nature-science:sense:wing-01",
+      "ipa": "wɪŋ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:survive-ga",
+      "senseId": "theme-nature-science:sense:survive-01",
+      "ipa": "sərˈvaɪv",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:ocean-ga",
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "ipa": "ˈoʊʃən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:coast-ga",
+      "senseId": "theme-nature-science:sense:coast-01",
+      "ipa": "koʊst",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:desert-ga",
+      "senseId": "theme-nature-science:sense:desert-01",
+      "ipa": "ˈdezərt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:valley-ga",
+      "senseId": "theme-nature-science:sense:valley-01",
+      "ipa": "ˈvæli",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:pollution-ga",
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "ipa": "pəˈluːʃən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:recycle-ga",
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "ipa": "ˌriːˈsaɪkəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:observe-ga",
+      "senseId": "theme-nature-science:sense:observe-01",
+      "ipa": "əbˈzɜːrv",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:experiment-ga",
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "ipa": "ɪkˈsperɪmənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:measure-ga",
+      "senseId": "theme-nature-science:sense:measure-01",
+      "ipa": "ˈmeʒər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:energy-ga",
+      "senseId": "theme-nature-science:sense:energy-01",
+      "ipa": "ˈenərdʒi",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:surface-ga",
+      "senseId": "theme-nature-science:sense:surface-01",
+      "ipa": "ˈsɜːrfɪs",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:pron:transform-ga",
+      "senseId": "theme-nature-science:sense:transform-01",
+      "ipa": "trænsˈfɔːrm",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "exampleId": "theme-nature-science:example:climate-01",
+      "senseId": "theme-nature-science:sense:climate-01",
+      "textEn": "The climate here is warm and wet.",
+      "textZh": "这里的气候温暖而潮湿。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:temperature-01",
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "textEn": "The temperature drops at night.",
+      "textZh": "夜间温度会下降。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:forecast-01",
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "textEn": "The forecast says it may rain tomorrow.",
+      "textZh": "天气预报说明天可能下雨。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:storm-01",
+      "senseId": "theme-nature-science:sense:storm-01",
+      "textEn": "The storm brings strong wind and heavy rain.",
+      "textZh": "暴风雨带来了大风和大雨。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:cloud-01",
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "textEn": "A dark cloud covers the sun.",
+      "textZh": "一片乌云遮住了太阳。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:rainfall-01",
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "textEn": "Heavy rainfall can cause floods.",
+      "textZh": "强降雨可能引发洪水。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:seed-01",
+      "senseId": "theme-nature-science:sense:seed-01",
+      "textEn": "A seed needs water to grow.",
+      "textZh": "种子需要水才能生长。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:root-01",
+      "senseId": "theme-nature-science:sense:root-01",
+      "textEn": "The root takes in water from the soil.",
+      "textZh": "根从土壤中吸收水分。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:leaf-01",
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "textEn": "Each leaf needs light.",
+      "textZh": "每片叶子都需要光照。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:branch-01",
+      "senseId": "theme-nature-science:sense:branch-01",
+      "textEn": "A bird builds its nest on a branch.",
+      "textZh": "一只鸟在树枝上筑巢。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:bloom-01",
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "textEn": "These flowers bloom in early spring.",
+      "textZh": "这些花在早春开放。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:pollinate-01",
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "textEn": "Bees help pollinate many plants.",
+      "textZh": "蜜蜂帮助许多植物授粉。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:habitat-01",
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "textEn": "A wetland is a habitat for many birds.",
+      "textZh": "湿地是许多鸟类的栖息地。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:species-01",
+      "senseId": "theme-nature-science:sense:species-01",
+      "textEn": "This species lives in cold regions.",
+      "textZh": "这个物种生活在寒冷地区。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:mammal-01",
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "textEn": "A whale is a large mammal.",
+      "textZh": "鲸是一种大型哺乳动物。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:insect-01",
+      "senseId": "theme-nature-science:sense:insect-01",
+      "textEn": "An insect has six legs.",
+      "textZh": "昆虫有六条腿。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:wing-01",
+      "senseId": "theme-nature-science:sense:wing-01",
+      "textEn": "The bird uses one wing to balance.",
+      "textZh": "这只鸟用一侧翅膀保持平衡。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:survive-01",
+      "senseId": "theme-nature-science:sense:survive-01",
+      "textEn": "Some plants survive with very little water.",
+      "textZh": "有些植物只需要很少的水就能存活。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:ocean-01",
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "textEn": "The ocean covers much of the Earth.",
+      "textZh": "海洋覆盖了地球的大部分表面。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:coast-01",
+      "senseId": "theme-nature-science:sense:coast-01",
+      "textEn": "The town is on the east coast.",
+      "textZh": "这座城镇位于东海岸。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:desert-01",
+      "senseId": "theme-nature-science:sense:desert-01",
+      "textEn": "Few trees grow in the desert.",
+      "textZh": "沙漠里很少有树木生长。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:valley-01",
+      "senseId": "theme-nature-science:sense:valley-01",
+      "textEn": "A river runs through the valley.",
+      "textZh": "一条河流穿过山谷。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:pollution-01",
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "textEn": "Air pollution can harm our health.",
+      "textZh": "空气污染可能损害我们的健康。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:recycle-01",
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "textEn": "We recycle paper at school.",
+      "textZh": "我们在学校回收纸张。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:observe-01",
+      "senseId": "theme-nature-science:sense:observe-01",
+      "textEn": "Observe the changes in the plant each day.",
+      "textZh": "每天观察植物的变化。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:experiment-01",
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "textEn": "The experiment tests how light affects growth.",
+      "textZh": "这个实验测试光线如何影响生长。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:measure-01",
+      "senseId": "theme-nature-science:sense:measure-01",
+      "textEn": "Measure the water before you add it.",
+      "textZh": "加入水之前先测量水量。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:energy-01",
+      "senseId": "theme-nature-science:sense:energy-01",
+      "textEn": "Plants need energy from sunlight.",
+      "textZh": "植物需要来自阳光的能量。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:surface-01",
+      "senseId": "theme-nature-science:sense:surface-01",
+      "textEn": "Water collects on the surface of the leaf.",
+      "textZh": "水聚集在叶片表面。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-nature-science:example:transform-01",
+      "senseId": "theme-nature-science:sense:transform-01",
+      "textEn": "Heat can transform ice into water.",
+      "textZh": "热能可以使冰转化成水。",
+      "gradeFit": [
+        "grade8"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-nature-science-editorial"
+      ]
+    }
+  ],
+  "assets": [],
+  "taskTemplates": [
+    {
+      "taskTemplateId": "theme-nature-science:task:climate:meaning",
+      "senseId": "theme-nature-science:sense:climate-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:climate:spelling",
+      "senseId": "theme-nature-science:sense:climate-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:climate:context",
+      "senseId": "theme-nature-science:sense:climate-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:climate:morphology",
+      "senseId": "theme-nature-science:sense:climate-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:temperature:meaning",
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:temperature:spelling",
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:temperature:context",
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:temperature:morphology",
+      "senseId": "theme-nature-science:sense:temperature-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:forecast:meaning",
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:forecast:spelling",
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:forecast:context",
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:forecast:morphology",
+      "senseId": "theme-nature-science:sense:forecast-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:storm:meaning",
+      "senseId": "theme-nature-science:sense:storm-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:storm:spelling",
+      "senseId": "theme-nature-science:sense:storm-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:storm:context",
+      "senseId": "theme-nature-science:sense:storm-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:storm:morphology",
+      "senseId": "theme-nature-science:sense:storm-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:cloud:meaning",
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:cloud:spelling",
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:cloud:context",
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:cloud:morphology",
+      "senseId": "theme-nature-science:sense:cloud-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:rainfall:meaning",
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:rainfall:spelling",
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:rainfall:context",
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:rainfall:morphology",
+      "senseId": "theme-nature-science:sense:rainfall-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:seed:meaning",
+      "senseId": "theme-nature-science:sense:seed-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:seed:spelling",
+      "senseId": "theme-nature-science:sense:seed-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:seed:context",
+      "senseId": "theme-nature-science:sense:seed-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:seed:morphology",
+      "senseId": "theme-nature-science:sense:seed-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:root:meaning",
+      "senseId": "theme-nature-science:sense:root-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:root:spelling",
+      "senseId": "theme-nature-science:sense:root-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:root:context",
+      "senseId": "theme-nature-science:sense:root-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:root:morphology",
+      "senseId": "theme-nature-science:sense:root-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:leaf:meaning",
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:leaf:spelling",
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:leaf:context",
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:leaf:morphology",
+      "senseId": "theme-nature-science:sense:leaf-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:branch:meaning",
+      "senseId": "theme-nature-science:sense:branch-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:branch:spelling",
+      "senseId": "theme-nature-science:sense:branch-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:branch:context",
+      "senseId": "theme-nature-science:sense:branch-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:branch:morphology",
+      "senseId": "theme-nature-science:sense:branch-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:bloom:meaning",
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:bloom:spelling",
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:bloom:context",
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:bloom:morphology",
+      "senseId": "theme-nature-science:sense:bloom-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollinate:meaning",
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollinate:spelling",
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollinate:context",
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollinate:morphology",
+      "senseId": "theme-nature-science:sense:pollinate-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:habitat:meaning",
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:habitat:spelling",
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:habitat:context",
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:habitat:morphology",
+      "senseId": "theme-nature-science:sense:habitat-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:species:meaning",
+      "senseId": "theme-nature-science:sense:species-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:species:spelling",
+      "senseId": "theme-nature-science:sense:species-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:species:context",
+      "senseId": "theme-nature-science:sense:species-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:species:morphology",
+      "senseId": "theme-nature-science:sense:species-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:mammal:meaning",
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:mammal:spelling",
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:mammal:context",
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:mammal:morphology",
+      "senseId": "theme-nature-science:sense:mammal-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:insect:meaning",
+      "senseId": "theme-nature-science:sense:insect-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:insect:spelling",
+      "senseId": "theme-nature-science:sense:insect-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:insect:context",
+      "senseId": "theme-nature-science:sense:insect-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:insect:morphology",
+      "senseId": "theme-nature-science:sense:insect-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:wing:meaning",
+      "senseId": "theme-nature-science:sense:wing-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:wing:spelling",
+      "senseId": "theme-nature-science:sense:wing-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:wing:context",
+      "senseId": "theme-nature-science:sense:wing-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:wing:morphology",
+      "senseId": "theme-nature-science:sense:wing-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:survive:meaning",
+      "senseId": "theme-nature-science:sense:survive-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:survive:spelling",
+      "senseId": "theme-nature-science:sense:survive-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:survive:context",
+      "senseId": "theme-nature-science:sense:survive-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:survive:morphology",
+      "senseId": "theme-nature-science:sense:survive-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:ocean:meaning",
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:ocean:spelling",
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:ocean:context",
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:ocean:morphology",
+      "senseId": "theme-nature-science:sense:ocean-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:coast:meaning",
+      "senseId": "theme-nature-science:sense:coast-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:coast:spelling",
+      "senseId": "theme-nature-science:sense:coast-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:coast:context",
+      "senseId": "theme-nature-science:sense:coast-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:coast:morphology",
+      "senseId": "theme-nature-science:sense:coast-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:desert:meaning",
+      "senseId": "theme-nature-science:sense:desert-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:desert:spelling",
+      "senseId": "theme-nature-science:sense:desert-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:desert:context",
+      "senseId": "theme-nature-science:sense:desert-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:desert:morphology",
+      "senseId": "theme-nature-science:sense:desert-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:valley:meaning",
+      "senseId": "theme-nature-science:sense:valley-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:valley:spelling",
+      "senseId": "theme-nature-science:sense:valley-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:valley:context",
+      "senseId": "theme-nature-science:sense:valley-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:valley:morphology",
+      "senseId": "theme-nature-science:sense:valley-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollution:meaning",
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollution:spelling",
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollution:context",
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:pollution:morphology",
+      "senseId": "theme-nature-science:sense:pollution-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:recycle:meaning",
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:recycle:spelling",
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:recycle:context",
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:recycle:morphology",
+      "senseId": "theme-nature-science:sense:recycle-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:observe:meaning",
+      "senseId": "theme-nature-science:sense:observe-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:observe:spelling",
+      "senseId": "theme-nature-science:sense:observe-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:observe:context",
+      "senseId": "theme-nature-science:sense:observe-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:observe:morphology",
+      "senseId": "theme-nature-science:sense:observe-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:experiment:meaning",
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:experiment:spelling",
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:experiment:context",
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:experiment:morphology",
+      "senseId": "theme-nature-science:sense:experiment-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:measure:meaning",
+      "senseId": "theme-nature-science:sense:measure-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:measure:spelling",
+      "senseId": "theme-nature-science:sense:measure-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:measure:context",
+      "senseId": "theme-nature-science:sense:measure-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:measure:morphology",
+      "senseId": "theme-nature-science:sense:measure-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:energy:meaning",
+      "senseId": "theme-nature-science:sense:energy-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:energy:spelling",
+      "senseId": "theme-nature-science:sense:energy-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:energy:context",
+      "senseId": "theme-nature-science:sense:energy-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:energy:morphology",
+      "senseId": "theme-nature-science:sense:energy-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:surface:meaning",
+      "senseId": "theme-nature-science:sense:surface-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:surface:spelling",
+      "senseId": "theme-nature-science:sense:surface-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:surface:context",
+      "senseId": "theme-nature-science:sense:surface-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:surface:morphology",
+      "senseId": "theme-nature-science:sense:surface-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:transform:meaning",
+      "senseId": "theme-nature-science:sense:transform-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:transform:spelling",
+      "senseId": "theme-nature-science:sense:transform-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:transform:context",
+      "senseId": "theme-nature-science:sense:transform-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g02-spelling-minecart",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g07-sentence-bridge",
+        "g08-confusable-detective",
+        "g09-clue-dungeon"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:task:transform:morphology",
+      "senseId": "theme-nature-science:sense:transform-01",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/morphology-choice/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E1",
+      "compatibleGameIds": [
+        "g06-morph-factory"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceRefId": "src-theme-nature-science-editorial",
+      "sourceType": "original_editorial",
+      "title": "WordQuest 原创编辑样本（待教研复核）",
+      "verificationStatus": "unverified",
+      "rightsStatus": "pending_review",
+      "notes": "本包由项目内容团队原创编写。尚未完成独立教研审核、发音核验及正式发布审批。"
+    }
+  ]
+}
