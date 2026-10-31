@@ -1,0 +1,1087 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wordquest.invalid/schemas/content-pack.schema.json",
+  "title": "WordQuest Content Pack",
+  "description": "Versioned vocabulary content package. Demo or unverified content must never be published as an official textbook pack.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "manifest",
+    "units",
+    "words",
+    "senses",
+    "pronunciations",
+    "examples",
+    "assets",
+    "taskTemplates",
+    "sourceRefs"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packId",
+        "version",
+        "title",
+        "packType",
+        "status",
+        "language",
+        "locale",
+        "target",
+        "progressScope",
+        "wordCount",
+        "contentHash",
+        "assetManifestHash",
+        "sourceRefIds",
+        "familyId"
+      ],
+      "properties": {
+        "packId": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 100
+        },
+        "subtitle": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "packType": {
+          "enum": [
+            "textbook",
+            "grade",
+            "high_frequency",
+            "thematic",
+            "review",
+            "custom"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "review",
+            "approved",
+            "published",
+            "retired",
+            "rejected",
+            "preview"
+          ]
+        },
+        "language": {
+          "const": "en"
+        },
+        "locale": {
+          "const": "zh-CN"
+        },
+        "target": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "ageBands",
+            "gradeBands"
+          ],
+          "properties": {
+            "ageBands": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "primary-upper",
+                  "junior-secondary"
+                ]
+              },
+              "uniqueItems": true
+            },
+            "gradeBands": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "grade4",
+                  "grade5",
+                  "grade6",
+                  "grade7",
+                  "grade8",
+                  "grade9",
+                  "mixed"
+                ]
+              },
+              "uniqueItems": true
+            },
+            "difficulty": {
+              "enum": [
+                "starter",
+                "foundation",
+                "intermediate",
+                "advanced",
+                "mixed"
+              ]
+            }
+          }
+        },
+        "curriculum": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "publisherId",
+            "publisherName",
+            "textbookTitle",
+            "editionName",
+            "publicationYear",
+            "isbn",
+            "volume",
+            "unitRefs"
+          ],
+          "properties": {
+            "publisherId": {
+              "type": "string",
+              "minLength": 2
+            },
+            "publisherName": {
+              "type": "string",
+              "minLength": 2
+            },
+            "textbookTitle": {
+              "type": "string",
+              "minLength": 2
+            },
+            "editionName": {
+              "type": "string",
+              "minLength": 2
+            },
+            "publicationYear": {
+              "type": "integer",
+              "minimum": 1980,
+              "maximum": 2100
+            },
+            "isbn": {
+              "type": "string",
+              "pattern": "^(97[89][- ]?)?[0-9][- 0-9]{8,16}[0-9Xx]$"
+            },
+            "volume": {
+              "enum": [
+                "upper",
+                "lower",
+                "full_year",
+                "mixed"
+              ]
+            },
+            "unitRefs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "editionEvidenceRefIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          }
+        },
+        "theme": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "progressScope": {
+          "enum": [
+            "pack_scoped",
+            "shared_verified_sense"
+          ]
+        },
+        "wordCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "contentHash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "assetManifestHash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "sourceRefIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "publishedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "not_reviewed",
+                "in_review",
+                "approved",
+                "rejected"
+              ]
+            },
+            "reviewerIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "reviewedAt": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "reviewNotes": {
+              "type": "string",
+              "maxLength": 2000
+            }
+          }
+        },
+        "isDemo": {
+          "type": "boolean",
+          "default": false
+        },
+        "familyId": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 64
+        }
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "unitId",
+          "title",
+          "sortOrder"
+        ],
+        "properties": {
+          "unitId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "sortOrder": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sourceRefIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "wordId",
+          "lemma",
+          "partOfSpeech",
+          "senseIds",
+          "reviewStatus",
+          "sourceRefIds"
+        ],
+        "properties": {
+          "wordId": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9:_-]{2,100}$"
+          },
+          "lemma": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "normalizedLemma": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "partOfSpeech": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "noun",
+                "verb",
+                "adjective",
+                "adverb",
+                "pronoun",
+                "preposition",
+                "conjunction",
+                "interjection",
+                "determiner",
+                "phrase",
+                "other"
+              ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "gradeTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "unitRefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "senseIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "reviewStatus": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "approved",
+              "retired"
+            ]
+          },
+          "sourceRefIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "senses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "senseId",
+          "wordId",
+          "glossZh",
+          "pronunciationIds",
+          "exampleIds",
+          "reviewStatus",
+          "sourceRefIds"
+        ],
+        "properties": {
+          "senseId": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9:_-]{2,100}$"
+          },
+          "wordId": {
+            "type": "string"
+          },
+          "glossZh": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "definitionEn": {
+            "type": "string",
+            "maxLength": 240
+          },
+          "usageNotes": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "pronunciationIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "exampleIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "assetIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "acceptedSpellings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "morphologyRuleIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "dimensionApplicability": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "meaning": {
+                "enum": [
+                  "applicable",
+                  "not_applicable"
+                ]
+              },
+              "listening": {
+                "enum": [
+                  "applicable",
+                  "not_applicable"
+                ]
+              },
+              "spelling": {
+                "enum": [
+                  "applicable",
+                  "not_applicable"
+                ]
+              },
+              "morphology": {
+                "enum": [
+                  "applicable",
+                  "not_applicable"
+                ]
+              },
+              "context": {
+                "enum": [
+                  "applicable",
+                  "not_applicable"
+                ]
+              }
+            }
+          },
+          "reviewStatus": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "approved",
+              "retired"
+            ]
+          },
+          "sourceRefIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "canonicalSenseId": {
+            "type": "string"
+          },
+          "canonicalSenseVerified": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "pronunciations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pronunciationId",
+          "senseId",
+          "ipa",
+          "accent",
+          "status",
+          "sourceRefIds"
+        ],
+        "properties": {
+          "pronunciationId": {
+            "type": "string"
+          },
+          "senseId": {
+            "type": "string"
+          },
+          "ipa": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "accent": {
+            "enum": [
+              "en-GB",
+              "en-US",
+              "other"
+            ]
+          },
+          "audioAssetId": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "approved",
+              "unavailable"
+            ]
+          },
+          "sourceRefIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "exampleId",
+          "senseId",
+          "textEn",
+          "textZh",
+          "gradeFit",
+          "reviewStatus",
+          "sourceRefIds"
+        ],
+        "properties": {
+          "exampleId": {
+            "type": "string"
+          },
+          "senseId": {
+            "type": "string"
+          },
+          "textEn": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 300
+          },
+          "textZh": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "gradeFit": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "sourceRefIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "reviewStatus": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "approved",
+              "rejected"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "assetId",
+          "kind",
+          "mimeType",
+          "sha256",
+          "licenseStatus",
+          "sourceRefIds"
+        ],
+        "properties": {
+          "assetId": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "audio",
+              "image",
+              "font",
+              "animation",
+              "other"
+            ]
+          },
+          "uri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "mimeType": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "durationMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "licenseStatus": {
+            "enum": [
+              "unknown",
+              "pending_review",
+              "approved",
+              "rejected"
+            ]
+          },
+          "licenseName": {
+            "type": "string"
+          },
+          "creator": {
+            "type": "string"
+          },
+          "sourceRefIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "taskTemplates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "taskTemplateId",
+          "senseId",
+          "dimension",
+          "taskType",
+          "answerSpecRef",
+          "supportPolicyId",
+          "evidenceCap",
+          "reviewStatus"
+        ],
+        "properties": {
+          "taskTemplateId": {
+            "type": "string"
+          },
+          "senseId": {
+            "type": "string"
+          },
+          "dimension": {
+            "enum": [
+              "meaning",
+              "listening",
+              "spelling",
+              "morphology",
+              "context"
+            ]
+          },
+          "taskType": {
+            "enum": [
+              "image_recognition",
+              "audio_recognition",
+              "meaning_retrieval",
+              "spelling_production",
+              "morphology_choice",
+              "context_completion",
+              "contrast_reasoning",
+              "sentence_construction"
+            ]
+          },
+          "answerSpecRef": {
+            "type": "string"
+          },
+          "supportPolicyId": {
+            "type": "string"
+          },
+          "evidenceCap": {
+            "enum": [
+              "E0",
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          "compatibleGameIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "reviewStatus": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "approved",
+              "rejected"
+            ]
+          }
+        }
+      }
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sourceRefId",
+          "sourceType",
+          "title",
+          "verificationStatus"
+        ],
+        "properties": {
+          "sourceRefId": {
+            "type": "string"
+          },
+          "sourceType": {
+            "enum": [
+              "textbook",
+              "publisher_catalog",
+              "official_syllabus",
+              "dictionary",
+              "audio_provider",
+              "original_editorial",
+              "user_import",
+              "other"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "edition": {
+            "type": "string"
+          },
+          "isbn": {
+            "type": "string"
+          },
+          "pageOrUnit": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "accessedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "verificationStatus": {
+            "enum": [
+              "unverified",
+              "verified",
+              "rejected"
+            ]
+          },
+          "rightsStatus": {
+            "enum": [
+              "unknown",
+              "pending_review",
+              "approved",
+              "rejected"
+            ]
+          },
+          "notes": {
+            "type": "string",
+            "maxLength": 1000
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "manifest": {
+            "properties": {
+              "packType": {
+                "const": "textbook"
+              }
+            },
+            "required": [
+              "packType"
+            ]
+          }
+        },
+        "required": [
+          "manifest"
+        ]
+      },
+      "then": {
+        "properties": {
+          "manifest": {
+            "required": [
+              "curriculum"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "manifest": {
+            "properties": {
+              "status": {
+                "const": "published"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          }
+        },
+        "required": [
+          "manifest"
+        ]
+      },
+      "then": {
+        "properties": {
+          "manifest": {
+            "required": [
+              "publishedAt",
+              "review"
+            ],
+            "properties": {
+              "review": {
+                "properties": {
+                  "status": {
+                    "const": "approved"
+                  },
+                  "reviewerIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "status",
+                  "reviewedAt",
+                  "reviewerIds"
+                ]
+              },
+              "wordCount": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          },
+          "sourceRefs": {
+            "items": {
+              "properties": {
+                "verificationStatus": {
+                  "const": "verified"
+                },
+                "rightsStatus": {
+                  "const": "approved"
+                }
+              },
+              "required": [
+                "sourceRefId",
+                "sourceType",
+                "title",
+                "verificationStatus",
+                "rightsStatus"
+              ]
+            }
+          },
+          "words": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "senses": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "pronunciations": {
+            "items": {
+              "properties": {
+                "status": {
+                  "enum": [
+                    "approved",
+                    "unavailable"
+                  ]
+                }
+              }
+            }
+          },
+          "examples": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "assets": {
+            "items": {
+              "properties": {
+                "licenseStatus": {
+                  "const": "approved"
+                }
+              }
+            }
+          },
+          "taskTemplates": {
+            "items": {
+              "properties": {
+                "reviewStatus": {
+                  "const": "approved"
+                }
+              }
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "manifest": {
+            "properties": {
+              "progressScope": {
+                "const": "shared_verified_sense"
+              }
+            },
+            "required": [
+              "progressScope"
+            ]
+          }
+        },
+        "required": [
+          "manifest"
+        ]
+      },
+      "then": {
+        "properties": {
+          "senses": {
+            "items": {
+              "required": [
+                "canonicalSenseId",
+                "canonicalSenseVerified"
+              ],
+              "properties": {
+                "canonicalSenseVerified": {
+                  "const": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "x-semantic-invariants": [
+    "manifest.wordCount must equal words.length.",
+    "All IDs within each entity collection must be unique; every referenced ID must resolve.",
+    "Every sense.wordId must resolve to one word; every word.senseIds entry must resolve to one sense belonging to that word.",
+    "Every pronunciation and example must reference an existing sense; every asset reference must resolve.",
+    "A listening task requires at least one approved pronunciation/audio asset for the referenced sense.",
+    "A published pack must have all words, senses, examples and task templates approved; all source references verified and rights approved; all used assets licensed as approved.",
+    "contentHash is SHA-256 of RFC 8785 canonical JSON excluding manifest.contentHash and manifest.assetManifestHash.",
+    "assetManifestHash is SHA-256 of RFC 8785 canonical JSON of the sorted asset manifest; each asset.sha256 hashes the exact asset bytes.",
+    "packId is stable across immutable versions; published content is never overwritten in place."
+  ]
+}

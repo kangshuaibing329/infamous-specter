@@ -1,0 +1,8 @@
+platform,browser,viewport_or_device,test_scope,status,device_model,os_version,browser_version,network_profile,build_sha,notes
+Android,Chrome,360x640,smoke_touch_audio_offline_IME,NOT_RUN,TBD,TBD,TBD,TBD,TBD,
+Android,Chrome,390x844,full_game_flow_and_recovery,NOT_RUN,TBD,TBD,TBD,TBD,TBD,
+iOS,Safari,390x844,PWA_audio_touch_address_bar_recovery,NOT_RUN,TBD,TBD,TBD,TBD,TBD,
+Windows,Chrome,1280x720,keyboard_mouse_IME_accessibility,NOT_RUN,TBD,TBD,TBD,TBD,TBD,
+Windows,Edge,1366x768,keyboard_mouse_accessibility,NOT_RUN,TBD,TBD,TBD,TBD,TBD,
+AndroidTablet,Chrome,768x1024,orientation_touch_accessibility,NOT_RUN,TBD,TBD,TBD,TBD,TBD,
+iPad,Safari,1024x768,orientation_touch_voiceover,NOT_RUN,TBD,TBD,TBD,TBD,TBD,

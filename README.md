@@ -24,3 +24,16 @@ A greenfield, cross-device English vocabulary game library for upper-primary and
 ## Repository policy
 
 All code, APIs, data models, workflows, tests, and deployment configuration are designed for this repository from scratch. Existing WordQuest planning documents may inform product requirements, but old-project source code is not migrated.
+
+
+## P0-0 baseline and contracts
+
+- [P0-0 baseline](docs/acceptance/P0-0-基线冻结与核心契约核对.md)
+- [P0-0.1 game registry review](docs/acceptance/P0-0.1-游戏注册表冻结与独立性审查.md)
+- [P0-0.2 multi-pack vocabulary design](docs/acceptance/P0-0.2-多版本词库与用户选择设计.md)
+- [P0-0.3 learning evidence policy](docs/acceptance/P0-0.3-五维学习证据与E0-E3测试矩阵.md)
+- [P0-0.4 API/event contract review](docs/acceptance/P0-0.4-新项目API与事件契约审查.md)
+- [P0-0.5 quality gates](docs/quality/P0-0.5-质量门与测试计划.md)
+- [P0-0.6 stage acceptance report](docs/acceptance/P0-0.6-跨文档审查与阶段验收报告.md)
+
+P0-0 documents and schemas are candidate design artifacts. They do not imply that production games, APIs, learning logic, official vocabulary packs, real-device tests, or pilot studies are complete.

@@ -1,0 +1,115 @@
+{
+  "templateVersion": "0.1.0",
+  "status": "not_registered",
+  "studyTitle": "",
+  "owner": "",
+  "targetAgeBands": [],
+  "researchQuestion": "",
+  "hypotheses": [],
+  "design": {
+    "groups": [],
+    "randomization": "",
+    "controlCondition": "",
+    "exposureDurationMinutes": null,
+    "followUpCheckpoints": [
+      "immediate",
+      "D+1",
+      "D+7"
+    ]
+  },
+  "population": {
+    "inclusionCriteria": [],
+    "exclusionCriteria": [],
+    "recruitmentMethod": "",
+    "sampleSizePerGroup": null,
+    "powerAnalysisReference": "",
+    "guardianConsentProcess": ""
+  },
+  "vocabulary": {
+    "contentPackIds": [],
+    "contentPackVersions": [],
+    "wordSenseSelectionMethod": "",
+    "difficultyMatchingMethod": ""
+  },
+  "metrics": [
+    {
+      "id": "first_play_comprehension",
+      "definition": "",
+      "numerator": "",
+      "denominator": "",
+      "target": null,
+      "stopLine": null
+    },
+    {
+      "id": "first_session_completion",
+      "definition": "",
+      "numerator": "",
+      "denominator": "",
+      "target": null,
+      "stopLine": null
+    },
+    {
+      "id": "voluntary_replay",
+      "definition": "",
+      "numerator": "",
+      "denominator": "",
+      "target": null,
+      "stopLine": null
+    },
+    {
+      "id": "dimension_unprompted_recall",
+      "definition": "",
+      "dimensionBreakdown": true,
+      "target": null,
+      "stopLine": null
+    },
+    {
+      "id": "cross_game_transfer",
+      "definition": "",
+      "numerator": "",
+      "denominator": "",
+      "target": null,
+      "stopLine": null
+    },
+    {
+      "id": "support_exit_rate",
+      "definition": "",
+      "numerator": "",
+      "denominator": "",
+      "target": null,
+      "stopLine": null
+    },
+    {
+      "id": "accessibility_equity",
+      "definition": "",
+      "target": null,
+      "stopLine": null
+    }
+  ],
+  "analysis": {
+    "primaryOutcome": "",
+    "secondaryOutcomes": [],
+    "missingDataHandling": "",
+    "statisticalMethods": "",
+    "multiplicityHandling": "",
+    "subgroupAnalysis": [],
+    "stoppingRules": []
+  },
+  "safety": {
+    "dataMinimizationReviewed": false,
+    "guardianConsentReviewed": false,
+    "deletionProcedureTested": false,
+    "adverseEventProcedure": "",
+    "independentReviewReference": ""
+  },
+  "versions": {
+    "appBuildSha": "",
+    "gameVersions": {},
+    "logicVersions": {},
+    "evidencePolicyVersion": "",
+    "contentSchemaVersion": "",
+    "preregisteredAt": null,
+    "preregistrationUri": ""
+  },
+  "notes": "所有空字段必须在正式试验开始前完成；形成性试玩不等于学习效果试验。"
+}

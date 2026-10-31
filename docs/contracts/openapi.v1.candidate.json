@@ -1,0 +1,1304 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "WordQuest API",
+    "version": "1.0.0-candidate",
+    "description": "Candidate contract for the independent WordQuest service. This specification does not imply that any endpoint is implemented or deployed."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.invalid",
+      "description": "Placeholder only; production host is not selected."
+    }
+  ],
+  "tags": [
+    {
+      "name": "System"
+    },
+    {
+      "name": "Content"
+    },
+    {
+      "name": "Activation"
+    },
+    {
+      "name": "Sync"
+    },
+    {
+      "name": "Privacy"
+    }
+  ],
+  "paths": {
+    "/api/v1/health": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "operationId": "getHealth",
+        "responses": {
+          "200": {
+            "description": "Healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/content-packs": {
+      "get": {
+        "tags": [
+          "Content"
+        ],
+        "operationId": "listContentPacks",
+        "parameters": [
+          {
+            "name": "familyId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "gradeBand",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "theme",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 30
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Published or explicitly previewable packs",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "items",
+                    "nextCursor",
+                    "requestId"
+                  ],
+                  "properties": {
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/ContentPackSummary"
+                      }
+                    },
+                    "nextCursor": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "requestId": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid query",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/content-packs/{packId}/versions/{version}/manifest": {
+      "get": {
+        "tags": [
+          "Content"
+        ],
+        "operationId": "getContentPackManifest",
+        "parameters": [
+          {
+            "name": "packId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Immutable content manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContentPackManifestResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Pack or version not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Version unavailable or withdrawn",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/activation/redeem": {
+      "post": {
+        "tags": [
+          "Activation"
+        ],
+        "operationId": "redeemActivationCode",
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActivationRedeemRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Activated or already activated",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActivationRedeemResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid code",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Code already claimed by another authorized profile",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/entitlements": {
+      "get": {
+        "tags": [
+          "Activation"
+        ],
+        "operationId": "getEntitlements",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Current authorized entitlements",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EntitlementsResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authorization required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sync/batches": {
+      "post": {
+        "tags": [
+          "Sync"
+        ],
+        "operationId": "submitSyncBatch",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SyncBatchRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Per-event acceptance result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncBatchResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid batch",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authorization required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Batch too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/sync/changes": {
+      "get": {
+        "tags": [
+          "Sync"
+        ],
+        "operationId": "getSyncChanges",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "cursor",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Incremental changes",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncChangesResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid cursor",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authorization required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "410": {
+            "description": "Cursor expired; client must perform documented resync",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/privacy/export": {
+      "post": {
+        "tags": [
+          "Privacy"
+        ],
+        "operationId": "requestPrivacyExport",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrivacyExportRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Export job accepted",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrivacyJobResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Guardian authorization required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Insufficient guardian permission",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/privacy/delete": {
+      "post": {
+        "tags": [
+          "Privacy"
+        ],
+        "operationId": "requestPrivacyDelete",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 16,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrivacyDeleteRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Deletion job accepted",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrivacyJobResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Guardian authorization required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Insufficient guardian permission",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "opaque-profile-or-guardian-token",
+        "description": "Candidate only. Exact profile/guardian authentication and consent flow remains a product-owner decision."
+      }
+    },
+    "schemas": {
+      "ApiError": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "message",
+          "requestId",
+          "retryable"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "requestId": {
+            "type": "string"
+          },
+          "retryable": {
+            "type": "boolean"
+          }
+        }
+      },
+      "HealthResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "serviceVersion",
+          "requestId"
+        ],
+        "properties": {
+          "status": {
+            "const": "ok"
+          },
+          "serviceVersion": {
+            "type": "string"
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "ContentPackSummary": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "packId",
+          "version",
+          "title",
+          "familyId",
+          "packType",
+          "status",
+          "gradeBands",
+          "wordCount",
+          "contentHash",
+          "progressScope"
+        ],
+        "properties": {
+          "packId": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "familyId": {
+            "type": "string"
+          },
+          "packType": {
+            "enum": [
+              "textbook",
+              "grade",
+              "high_frequency",
+              "thematic",
+              "review",
+              "custom"
+            ]
+          },
+          "status": {
+            "enum": [
+              "published",
+              "preview"
+            ]
+          },
+          "gradeBands": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "publisherName": {
+            "type": "string"
+          },
+          "editionName": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "string"
+          },
+          "theme": {
+            "type": "string"
+          },
+          "wordCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "contentHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "progressScope": {
+            "enum": [
+              "pack_scoped",
+              "shared_verified_sense"
+            ]
+          }
+        }
+      },
+      "ContentPackManifestResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "packId",
+          "version",
+          "schemaVersion",
+          "contentHash",
+          "assetManifestHash",
+          "wordCount",
+          "unitRefs",
+          "resourceUris",
+          "requestId"
+        ],
+        "properties": {
+          "packId": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "schemaVersion": {
+            "type": "string"
+          },
+          "contentHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "assetManifestHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "wordCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unitRefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resourceUris": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "content",
+              "assets"
+            ],
+            "properties": {
+              "content": {
+                "type": "string",
+                "format": "uri"
+              },
+              "assets": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "ActivationRedeemRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "activationCode"
+        ],
+        "properties": {
+          "activationCode": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 128
+          }
+        }
+      },
+      "ActivationRedeemResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "entitlementRef",
+          "requestId"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "activated",
+              "already_activated"
+            ]
+          },
+          "entitlementRef": {
+            "type": "string"
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "EntitlementsResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "items",
+          "requestId"
+        ],
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "entitlementRef",
+                "packId",
+                "status"
+              ],
+              "properties": {
+                "entitlementRef": {
+                  "type": "string"
+                },
+                "packId": {
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "active",
+                    "expired",
+                    "revoked"
+                  ]
+                },
+                "startsAt": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "expiresAt": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
+            }
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "GameEvent": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "eventType",
+          "eventId",
+          "sessionId",
+          "gameId",
+          "gameVersion",
+          "logicVersion",
+          "schemaVersion",
+          "payload",
+          "occurredAt",
+          "origin"
+        ],
+        "properties": {
+          "eventType": {
+            "type": "string"
+          },
+          "eventId": {
+            "type": "string"
+          },
+          "sessionId": {
+            "type": "string"
+          },
+          "gameId": {
+            "type": "string"
+          },
+          "gameVersion": {
+            "type": "string"
+          },
+          "logicVersion": {
+            "type": "string"
+          },
+          "schemaVersion": {
+            "type": "string"
+          },
+          "contentPackId": {
+            "type": "string"
+          },
+          "contentPackVersion": {
+            "type": "string"
+          },
+          "payload": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "occurredAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "origin": {
+            "const": "local",
+            "description": "Client-side pending event. Server confirmation is returned separately."
+          }
+        }
+      },
+      "StudyEventIntent": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "eventType",
+          "eventId",
+          "sessionId",
+          "gameId",
+          "gameVersion",
+          "logicVersion",
+          "schemaVersion",
+          "contentPackId",
+          "contentPackVersion",
+          "wordId",
+          "senseId",
+          "taskId",
+          "taskVariantId",
+          "dimension",
+          "taskType",
+          "cognitiveSupport",
+          "attemptIndex",
+          "answerIntent",
+          "occurredAt",
+          "origin",
+          "evidencePolicyVersion"
+        ],
+        "properties": {
+          "eventType": {
+            "const": "study_answer_submitted"
+          },
+          "eventId": {
+            "type": "string"
+          },
+          "sessionId": {
+            "type": "string"
+          },
+          "gameId": {
+            "type": "string"
+          },
+          "gameVersion": {
+            "type": "string"
+          },
+          "logicVersion": {
+            "type": "string"
+          },
+          "schemaVersion": {
+            "type": "string"
+          },
+          "contentPackId": {
+            "type": "string"
+          },
+          "contentPackVersion": {
+            "type": "string"
+          },
+          "wordId": {
+            "type": "string"
+          },
+          "senseId": {
+            "type": "string"
+          },
+          "taskId": {
+            "type": "string"
+          },
+          "taskVariantId": {
+            "type": "string"
+          },
+          "dimension": {
+            "enum": [
+              "meaning",
+              "listening",
+              "spelling",
+              "morphology",
+              "context"
+            ]
+          },
+          "taskType": {
+            "type": "string"
+          },
+          "cognitiveSupport": {
+            "enum": [
+              "none",
+              "choice",
+              "hint",
+              "clue",
+              "partial_answer",
+              "partial_letters",
+              "worked_example",
+              "answer_revealed",
+              "guided_follow_along"
+            ]
+          },
+          "accessibilityModes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "attemptIndex": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "answerIntent": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "array",
+              "null"
+            ]
+          },
+          "evidencePolicyVersion": {
+            "type": "string"
+          },
+          "occurredAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "origin": {
+            "const": "local",
+            "description": "Client-side pending event. Server confirmation is returned separately."
+          }
+        }
+      },
+      "ProgressEvent": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "eventType",
+          "eventId",
+          "sessionId",
+          "gameId",
+          "progressType",
+          "source",
+          "occurredAt",
+          "origin"
+        ],
+        "properties": {
+          "eventType": {
+            "const": "progress_recorded"
+          },
+          "eventId": {
+            "type": "string"
+          },
+          "sessionId": {
+            "type": "string"
+          },
+          "gameId": {
+            "type": "string"
+          },
+          "progressType": {
+            "enum": [
+              "level_completed",
+              "collection_unlocked",
+              "map_unlocked",
+              "decoration_earned",
+              "route_bonus",
+              "session_completed"
+            ]
+          },
+          "source": {
+            "enum": [
+              "gameplay",
+              "route_bonus",
+              "system"
+            ]
+          },
+          "rewardRef": {
+            "type": "string"
+          },
+          "occurredAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "origin": {
+            "const": "local",
+            "description": "Client-side pending event. Server confirmation is returned separately."
+          }
+        }
+      },
+      "SyncBatchRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "schemaVersion",
+          "events"
+        ],
+        "properties": {
+          "schemaVersion": {
+            "type": "string"
+          },
+          "events": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/GameEvent"
+                },
+                {
+                  "$ref": "#/components/schemas/StudyEventIntent"
+                },
+                {
+                  "$ref": "#/components/schemas/ProgressEvent"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "EventDecision": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "eventId",
+          "status",
+          "requestId"
+        ],
+        "properties": {
+          "eventId": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "accepted",
+              "duplicate",
+              "rejected"
+            ]
+          },
+          "acceptedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "requestId": {
+            "type": "string"
+          },
+          "error": {
+            "$ref": "#/components/schemas/ApiError"
+          }
+        }
+      },
+      "SyncBatchResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "results",
+          "nextCursor",
+          "requestId"
+        ],
+        "properties": {
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EventDecision"
+            }
+          },
+          "nextCursor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "SyncChangesResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "changes",
+          "nextCursor",
+          "requestId"
+        ],
+        "properties": {
+          "changes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "nextCursor": {
+            "type": "string"
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "PrivacyExportRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scope"
+        ],
+        "properties": {
+          "scope": {
+            "enum": [
+              "profile",
+              "all_data"
+            ]
+          }
+        }
+      },
+      "PrivacyJobResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "jobId",
+          "status",
+          "requestId"
+        ],
+        "properties": {
+          "jobId": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "queued",
+              "processing",
+              "completed",
+              "rejected"
+            ]
+          },
+          "resultUri": {
+            "type": "string",
+            "format": "uri"
+          },
+          "expiresAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "PrivacyDeleteRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scope",
+          "confirmationToken"
+        ],
+        "properties": {
+          "scope": {
+            "enum": [
+              "profile",
+              "all_data"
+            ]
+          },
+          "confirmationToken": {
+            "type": "string",
+            "minLength": 16
+          }
+        }
+      }
+    }
+  },
+  "x-contract-status": "candidate-not-implemented",
+  "x-product-owner-decisions": [
+    "profile and guardian authentication",
+    "activation claim identity and ownership",
+    "sync conflict and retention policy",
+    "privacy export/delete authorization and retention"
+  ],
+  "x-no-legacy-api": "Do not map or proxy old classroom-english-word-games /api/activity/* routes."
+}

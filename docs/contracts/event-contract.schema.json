@@ -1,0 +1,330 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wordquest.invalid/schemas/event-contract.schema.json",
+  "title": "WordQuest Event Contract",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/GameEvent"
+    },
+    {
+      "$ref": "#/$defs/StudyEventIntent"
+    },
+    {
+      "$ref": "#/$defs/ProgressEvent"
+    }
+  ],
+  "$defs": {
+    "common": {
+      "type": "object",
+      "properties": {
+        "eventId": {
+          "type": "string",
+          "minLength": 8
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 8
+        },
+        "gameId": {
+          "type": "string"
+        },
+        "gameVersion": {
+          "type": "string"
+        },
+        "logicVersion": {
+          "type": "string"
+        },
+        "schemaVersion": {
+          "type": "string"
+        },
+        "occurredAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "origin": {
+          "const": "local"
+        }
+      },
+      "required": [
+        "eventId",
+        "sessionId",
+        "gameId",
+        "gameVersion",
+        "logicVersion",
+        "schemaVersion",
+        "occurredAt",
+        "origin"
+      ]
+    },
+    "GameEvent": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/common"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "eventType",
+            "payload",
+            "origin"
+          ],
+          "properties": {
+            "eventType": {
+              "type": "string"
+            },
+            "eventId": {
+              "type": "string",
+              "minLength": 8
+            },
+            "sessionId": {
+              "type": "string",
+              "minLength": 8
+            },
+            "gameId": {
+              "type": "string"
+            },
+            "gameVersion": {
+              "type": "string"
+            },
+            "logicVersion": {
+              "type": "string"
+            },
+            "schemaVersion": {
+              "type": "string"
+            },
+            "occurredAt": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "contentPackId": {
+              "type": "string"
+            },
+            "contentPackVersion": {
+              "type": "string"
+            },
+            "payload": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "origin": {
+              "const": "local"
+            }
+          }
+        }
+      ]
+    },
+    "StudyEventIntent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eventType",
+        "eventId",
+        "sessionId",
+        "gameId",
+        "gameVersion",
+        "logicVersion",
+        "schemaVersion",
+        "contentPackId",
+        "contentPackVersion",
+        "wordId",
+        "senseId",
+        "taskId",
+        "taskVariantId",
+        "dimension",
+        "taskType",
+        "cognitiveSupport",
+        "attemptIndex",
+        "answerIntent",
+        "occurredAt",
+        "origin",
+        "evidencePolicyVersion"
+      ],
+      "properties": {
+        "eventType": {
+          "const": "study_answer_submitted"
+        },
+        "eventId": {
+          "type": "string",
+          "minLength": 8
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 8
+        },
+        "gameId": {
+          "type": "string"
+        },
+        "gameVersion": {
+          "type": "string"
+        },
+        "logicVersion": {
+          "type": "string"
+        },
+        "schemaVersion": {
+          "type": "string"
+        },
+        "contentPackId": {
+          "type": "string"
+        },
+        "contentPackVersion": {
+          "type": "string"
+        },
+        "wordId": {
+          "type": "string"
+        },
+        "senseId": {
+          "type": "string"
+        },
+        "taskId": {
+          "type": "string"
+        },
+        "taskVariantId": {
+          "type": "string"
+        },
+        "dimension": {
+          "enum": [
+            "meaning",
+            "listening",
+            "spelling",
+            "morphology",
+            "context"
+          ]
+        },
+        "taskType": {
+          "type": "string"
+        },
+        "cognitiveSupport": {
+          "enum": [
+            "none",
+            "choice",
+            "hint",
+            "clue",
+            "partial_answer",
+            "partial_letters",
+            "worked_example",
+            "answer_revealed",
+            "guided_follow_along"
+          ]
+        },
+        "accessibilityModes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "attemptIndex": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "answerIntent": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "object",
+            "array",
+            "null"
+          ]
+        },
+        "evidencePolicyVersion": {
+          "type": "string"
+        },
+        "occurredAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "origin": {
+          "const": "local"
+        }
+      },
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "verdict"
+            ]
+          },
+          {
+            "required": [
+              "evidenceLevel"
+            ]
+          },
+          {
+            "required": [
+              "masteryScore"
+            ]
+          },
+          {
+            "required": [
+              "source"
+            ],
+            "properties": {
+              "source": {
+                "const": "route_bonus"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ProgressEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eventType",
+        "eventId",
+        "sessionId",
+        "gameId",
+        "progressType",
+        "source",
+        "occurredAt",
+        "origin"
+      ],
+      "properties": {
+        "eventType": {
+          "const": "progress_recorded"
+        },
+        "eventId": {
+          "type": "string",
+          "minLength": 8
+        },
+        "sessionId": {
+          "type": "string",
+          "minLength": 8
+        },
+        "gameId": {
+          "type": "string"
+        },
+        "progressType": {
+          "enum": [
+            "level_completed",
+            "collection_unlocked",
+            "map_unlocked",
+            "decoration_earned",
+            "route_bonus",
+            "session_completed"
+          ]
+        },
+        "source": {
+          "enum": [
+            "gameplay",
+            "route_bonus",
+            "system"
+          ]
+        },
+        "rewardRef": {
+          "type": "string"
+        },
+        "occurredAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "origin": {
+          "const": "local"
+        }
+      }
+    }
+  }
+}
