@@ -80,7 +80,7 @@ export function P1LearningLab() {
   const currentWord = currentTask ? selectedPack.words.find((word) => word.wordId === currentTask.wordId) : undefined;
 
   useEffect(() => {
-    if (!activeSession || !currentTask) return;
+    if (!activeSession || !currentTask || selectedPack.manifest.status !== 'published' || selectedPack.manifest.review?.status !== 'approved') return;
     let cancelled = false;
     void (async () => {
       const existing = await listReviewStates(activeSession.descriptor.profileId);
@@ -104,7 +104,7 @@ export function P1LearningLab() {
       if (!cancelled) setFeedback('复习计划本机保存失败：' + (error instanceof Error ? error.message : String(error)));
     });
     return () => { cancelled = true; };
-  }, [activeSession, currentTask]);
+  }, [activeSession, currentTask, selectedPack]);
 
   async function handleStart() {
     if (!isValid) {
