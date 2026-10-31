@@ -1,0 +1,31 @@
+example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
+theme-school-life:example:library-01,theme-school-life:sense:library-01,We borrow books from the library.,我们从图书馆借书。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:laboratory-01,theme-school-life:sense:laboratory-01,The class visits the science laboratory.,全班参观科学实验室。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:playground-01,theme-school-life:sense:playground-01,The students meet on the playground.,学生们在操场集合。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:hallway-01,theme-school-life:sense:hallway-01,Please keep the hallway clear.,请保持走廊畅通。,grade6,draft,src-theme-school-life-editorial
+theme-school-life:example:entrance-01,theme-school-life:sense:entrance-01,Wait for your partner near the entrance.,在入口附近等你的同伴。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:classmate-01,theme-school-life:sense:classmate-01,My classmate shares a ruler with me.,我的同学和我共用一把尺子。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:principal-01,theme-school-life:sense:principal-01,The principal welcomes the new students.,校长欢迎新同学。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:subject-01,theme-school-life:sense:subject-01,Science is my favorite subject.,科学是我最喜欢的学科。,grade6,draft,src-theme-school-life-editorial
+theme-school-life:example:science-01,theme-school-life:sense:science-01,We learn about plants in science.,我们在科学课上学习植物知识。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:history-01,theme-school-life:sense:history-01,The history lesson begins with a question.,历史课从一个问题开始。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:homework-01,theme-school-life:sense:homework-01,I finish my homework before dinner.,我在晚饭前完成作业。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:project-01,theme-school-life:sense:project-01,Our group makes a project about clean water.,我们小组制作了一个关于清洁用水的课题。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:question-01,theme-school-life:sense:question-01,Write one question about the story.,围绕这个故事写一个问题。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:answer-01,theme-school-life:sense:answer-01,Her answer explains the main idea.,她的回答解释了主要观点。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:discuss-01,theme-school-life:sense:discuss-01,We discuss the problem in pairs.,我们两人一组讨论这个问题。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:explain-01,theme-school-life:sense:explain-01,Can you explain your idea to the class?,你能向全班解释你的想法吗？,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:compare-01,theme-school-life:sense:compare-01,Compare the two pictures carefully.,仔细比较这两张图片。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:describe-01,theme-school-life:sense:describe-01,Describe what you can see.,描述你能看到的内容。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:practice-01,theme-school-life:sense:practice-01,We practice the dialogue after class.,下课后我们练习这段对话。,grade6,draft,src-theme-school-life-editorial
+theme-school-life:example:review-01,theme-school-life:sense:review-01,Let's review the new words together.,我们一起复习新单词吧。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:notebook-01,theme-school-life:sense:notebook-01,She writes new phrases in her notebook.,她把新短语写在笔记本里。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:dictionary-01,theme-school-life:sense:dictionary-01,Use a dictionary to check the meaning.,用词典查一下意思。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:worksheet-01,theme-school-life:sense:worksheet-01,Complete the worksheet in ten minutes.,请在十分钟内完成练习单。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:ruler-01,theme-school-life:sense:ruler-01,The ruler is beside the pencil case.,尺子在铅笔盒旁边。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:eraser-01,theme-school-life:sense:eraser-01,I need an eraser for this mistake.,我需要一块橡皮擦掉这个错误。,grade5,draft,src-theme-school-life-editorial
+theme-school-life:example:schedule-01,theme-school-life:sense:schedule-01,Check the schedule before the club meeting.,社团活动前查看日程表。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:attend-01,theme-school-life:sense:attend-01,All team members attend the meeting.,所有队员都参加了会议。,grade7,draft,src-theme-school-life-editorial
+theme-school-life:example:borrow-01,theme-school-life:sense:borrow-01,May I borrow your blue pen?,我可以借用你的蓝色钢笔吗？,grade6,draft,src-theme-school-life-editorial
+theme-school-life:example:return-01,theme-school-life:sense:return-01,Please return the book on Friday.,请在星期五归还这本书。,grade6,draft,src-theme-school-life-editorial
+theme-school-life:example:cooperate-01,theme-school-life:sense:cooperate-01,The students cooperate to solve the puzzle.,学生们合作解决这个谜题。,grade7,draft,src-theme-school-life-editorial
