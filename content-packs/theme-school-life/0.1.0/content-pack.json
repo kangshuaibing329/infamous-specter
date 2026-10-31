@@ -1,0 +1,3644 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "packId": "theme-school-life",
+    "version": "0.1.0",
+    "title": "校园生活词汇·场景篇",
+    "subtitle": "从走进校园到完成一次课堂任务",
+    "description": "围绕校园空间、课堂活动、学习用品和校园规则组织的原创场景词汇包。",
+    "packType": "thematic",
+    "status": "preview",
+    "language": "en",
+    "locale": "zh-CN",
+    "target": {
+      "ageBands": [
+        "primary-upper",
+        "junior-secondary"
+      ],
+      "gradeBands": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "difficulty": "foundation"
+    },
+    "progressScope": "pack_scoped",
+    "wordCount": 30,
+    "contentHash": "606a56a4551bd4408ae093283231dd63b6fc90d77c1a7463f8d5a98b44f6286f",
+    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sourceRefIds": [
+      "src-theme-school-life-editorial"
+    ],
+    "createdAt": "2026-10-31T00:00:00Z",
+    "review": {
+      "status": "not_reviewed",
+      "reviewerIds": [],
+      "reviewNotes": "原创样本首轮生成；词义、IPA、例句和适龄性均需人工教研复核后才能发布。"
+    },
+    "isDemo": false,
+    "familyId": "theme-scenario"
+  },
+  "units": [
+    {
+      "unitId": "unit-01",
+      "title": "校园空间",
+      "sortOrder": 1,
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-02",
+      "title": "课堂活动",
+      "sortOrder": 2,
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-03",
+      "title": "学习用品",
+      "sortOrder": 3,
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-04",
+      "title": "课程与任务",
+      "sortOrder": 4,
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-05",
+      "title": "校园规则与关系",
+      "sortOrder": 5,
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "wordId": "theme-school-life:word:library",
+      "lemma": "library",
+      "normalizedLemma": "library",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:library-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:laboratory",
+      "lemma": "laboratory",
+      "normalizedLemma": "laboratory",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:laboratory-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:playground",
+      "lemma": "playground",
+      "normalizedLemma": "playground",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:playground-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:hallway",
+      "lemma": "hallway",
+      "normalizedLemma": "hallway",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:hallway-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:entrance",
+      "lemma": "entrance",
+      "normalizedLemma": "entrance",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:entrance-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:classmate",
+      "lemma": "classmate",
+      "normalizedLemma": "classmate",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:classmate-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:principal",
+      "lemma": "principal",
+      "normalizedLemma": "principal",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:principal-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:subject",
+      "lemma": "subject",
+      "normalizedLemma": "subject",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:subject-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:science",
+      "lemma": "science",
+      "normalizedLemma": "science",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:science-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:history",
+      "lemma": "history",
+      "normalizedLemma": "history",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:history-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:homework",
+      "lemma": "homework",
+      "normalizedLemma": "homework",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:homework-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:project",
+      "lemma": "project",
+      "normalizedLemma": "project",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:project-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:question",
+      "lemma": "question",
+      "normalizedLemma": "question",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:question-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:answer",
+      "lemma": "answer",
+      "normalizedLemma": "answer",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:answer-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:discuss",
+      "lemma": "discuss",
+      "normalizedLemma": "discuss",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:discuss-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:explain",
+      "lemma": "explain",
+      "normalizedLemma": "explain",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:explain-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:compare",
+      "lemma": "compare",
+      "normalizedLemma": "compare",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:compare-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:describe",
+      "lemma": "describe",
+      "normalizedLemma": "describe",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:describe-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:practice",
+      "lemma": "practice",
+      "normalizedLemma": "practice",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:practice-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:review",
+      "lemma": "review",
+      "normalizedLemma": "review",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:review-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:notebook",
+      "lemma": "notebook",
+      "normalizedLemma": "notebook",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:notebook-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:dictionary",
+      "lemma": "dictionary",
+      "normalizedLemma": "dictionary",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:dictionary-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:worksheet",
+      "lemma": "worksheet",
+      "normalizedLemma": "worksheet",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:worksheet-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:ruler",
+      "lemma": "ruler",
+      "normalizedLemma": "ruler",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:ruler-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:eraser",
+      "lemma": "eraser",
+      "normalizedLemma": "eraser",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:eraser-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:schedule",
+      "lemma": "schedule",
+      "normalizedLemma": "schedule",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:schedule-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:attend",
+      "lemma": "attend",
+      "normalizedLemma": "attend",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:attend-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:borrow",
+      "lemma": "borrow",
+      "normalizedLemma": "borrow",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:borrow-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:return",
+      "lemma": "return",
+      "normalizedLemma": "return",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade6"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:return-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-school-life:word:cooperate",
+      "lemma": "cooperate",
+      "normalizedLemma": "cooperate",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade7"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "theme-school-life:sense:cooperate-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ],
+      "tags": [
+        "theme-scenario"
+      ]
+    }
+  ],
+  "senses": [
+    {
+      "senseId": "theme-school-life:sense:library-01",
+      "wordId": "theme-school-life:word:library",
+      "glossZh": "图书馆",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:library-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:library-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:laboratory-01",
+      "wordId": "theme-school-life:word:laboratory",
+      "glossZh": "实验室",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:laboratory-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:laboratory-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:playground-01",
+      "wordId": "theme-school-life:word:playground",
+      "glossZh": "操场；游乐场",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:playground-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:playground-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:hallway-01",
+      "wordId": "theme-school-life:word:hallway",
+      "glossZh": "走廊",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:hallway-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:hallway-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:entrance-01",
+      "wordId": "theme-school-life:word:entrance",
+      "glossZh": "入口",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:entrance-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:entrance-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:classmate-01",
+      "wordId": "theme-school-life:word:classmate",
+      "glossZh": "同班同学",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:classmate-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:classmate-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:principal-01",
+      "wordId": "theme-school-life:word:principal",
+      "glossZh": "校长",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:principal-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:principal-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:subject-01",
+      "wordId": "theme-school-life:word:subject",
+      "glossZh": "学科；科目",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:subject-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:subject-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:science-01",
+      "wordId": "theme-school-life:word:science",
+      "glossZh": "科学",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:science-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:science-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:history-01",
+      "wordId": "theme-school-life:word:history",
+      "glossZh": "历史",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:history-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:history-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:homework-01",
+      "wordId": "theme-school-life:word:homework",
+      "glossZh": "家庭作业",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:homework-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:homework-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:project-01",
+      "wordId": "theme-school-life:word:project",
+      "glossZh": "项目；课题",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:project-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:project-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:question-01",
+      "wordId": "theme-school-life:word:question",
+      "glossZh": "问题；疑问",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:question-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:question-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:answer-01",
+      "wordId": "theme-school-life:word:answer",
+      "glossZh": "回答；答案",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:answer-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:answer-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:discuss-01",
+      "wordId": "theme-school-life:word:discuss",
+      "glossZh": "讨论",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:discuss-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:discuss-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:explain-01",
+      "wordId": "theme-school-life:word:explain",
+      "glossZh": "解释；说明",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:explain-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:explain-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:compare-01",
+      "wordId": "theme-school-life:word:compare",
+      "glossZh": "比较；对比",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:compare-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:compare-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:describe-01",
+      "wordId": "theme-school-life:word:describe",
+      "glossZh": "描述；描写",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:describe-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:describe-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:practice-01",
+      "wordId": "theme-school-life:word:practice",
+      "glossZh": "练习",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:practice-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:practice-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:review-01",
+      "wordId": "theme-school-life:word:review",
+      "glossZh": "复习；回顾",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:review-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:review-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:notebook-01",
+      "wordId": "theme-school-life:word:notebook",
+      "glossZh": "笔记本",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:notebook-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:notebook-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:dictionary-01",
+      "wordId": "theme-school-life:word:dictionary",
+      "glossZh": "词典",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:dictionary-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:dictionary-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:worksheet-01",
+      "wordId": "theme-school-life:word:worksheet",
+      "glossZh": "练习单；活页练习纸",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:worksheet-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:worksheet-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:ruler-01",
+      "wordId": "theme-school-life:word:ruler",
+      "glossZh": "尺子",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:ruler-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:ruler-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:eraser-01",
+      "wordId": "theme-school-life:word:eraser",
+      "glossZh": "橡皮",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:eraser-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:eraser-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:schedule-01",
+      "wordId": "theme-school-life:word:schedule",
+      "glossZh": "日程表；时间安排",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:schedule-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:schedule-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:attend-01",
+      "wordId": "theme-school-life:word:attend",
+      "glossZh": "参加；出席",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:attend-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:attend-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:borrow-01",
+      "wordId": "theme-school-life:word:borrow",
+      "glossZh": "借入；借用",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:borrow-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:borrow-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:return-01",
+      "wordId": "theme-school-life:word:return",
+      "glossZh": "归还；返回",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:return-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:return-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "senseId": "theme-school-life:sense:cooperate-01",
+      "wordId": "theme-school-life:word:cooperate",
+      "glossZh": "合作；协作",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "theme-school-life:pron:cooperate-ga"
+      ],
+      "exampleIds": [
+        "theme-school-life:example:cooperate-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    }
+  ],
+  "pronunciations": [
+    {
+      "pronunciationId": "theme-school-life:pron:library-ga",
+      "senseId": "theme-school-life:sense:library-01",
+      "ipa": "ˈlaɪbreri",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:laboratory-ga",
+      "senseId": "theme-school-life:sense:laboratory-01",
+      "ipa": "ˈlæbrətɔːri",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:playground-ga",
+      "senseId": "theme-school-life:sense:playground-01",
+      "ipa": "ˈpleɪɡraʊnd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:hallway-ga",
+      "senseId": "theme-school-life:sense:hallway-01",
+      "ipa": "ˈhɔːlweɪ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:entrance-ga",
+      "senseId": "theme-school-life:sense:entrance-01",
+      "ipa": "ˈentrəns",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:classmate-ga",
+      "senseId": "theme-school-life:sense:classmate-01",
+      "ipa": "ˈklæsmeɪt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:principal-ga",
+      "senseId": "theme-school-life:sense:principal-01",
+      "ipa": "ˈprɪnsəpəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:subject-ga",
+      "senseId": "theme-school-life:sense:subject-01",
+      "ipa": "ˈsʌbdʒɪkt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:science-ga",
+      "senseId": "theme-school-life:sense:science-01",
+      "ipa": "ˈsaɪəns",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:history-ga",
+      "senseId": "theme-school-life:sense:history-01",
+      "ipa": "ˈhɪstəri",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:homework-ga",
+      "senseId": "theme-school-life:sense:homework-01",
+      "ipa": "ˈhoʊmwɜːrk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:project-ga",
+      "senseId": "theme-school-life:sense:project-01",
+      "ipa": "ˈprɑːdʒekt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:question-ga",
+      "senseId": "theme-school-life:sense:question-01",
+      "ipa": "ˈkwestʃən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:answer-ga",
+      "senseId": "theme-school-life:sense:answer-01",
+      "ipa": "ˈænsər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:discuss-ga",
+      "senseId": "theme-school-life:sense:discuss-01",
+      "ipa": "dɪˈskʌs",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:explain-ga",
+      "senseId": "theme-school-life:sense:explain-01",
+      "ipa": "ɪkˈspleɪn",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:compare-ga",
+      "senseId": "theme-school-life:sense:compare-01",
+      "ipa": "kəmˈper",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:describe-ga",
+      "senseId": "theme-school-life:sense:describe-01",
+      "ipa": "dɪˈskraɪb",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:practice-ga",
+      "senseId": "theme-school-life:sense:practice-01",
+      "ipa": "ˈpræktɪs",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:review-ga",
+      "senseId": "theme-school-life:sense:review-01",
+      "ipa": "rɪˈvjuː",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:notebook-ga",
+      "senseId": "theme-school-life:sense:notebook-01",
+      "ipa": "ˈnoʊtbʊk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:dictionary-ga",
+      "senseId": "theme-school-life:sense:dictionary-01",
+      "ipa": "ˈdɪkʃəneri",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:worksheet-ga",
+      "senseId": "theme-school-life:sense:worksheet-01",
+      "ipa": "ˈwɜːrkʃiːt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:ruler-ga",
+      "senseId": "theme-school-life:sense:ruler-01",
+      "ipa": "ˈruːlər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:eraser-ga",
+      "senseId": "theme-school-life:sense:eraser-01",
+      "ipa": "ɪˈreɪsər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:schedule-ga",
+      "senseId": "theme-school-life:sense:schedule-01",
+      "ipa": "ˈskedʒuːl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:attend-ga",
+      "senseId": "theme-school-life:sense:attend-01",
+      "ipa": "əˈtend",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:borrow-ga",
+      "senseId": "theme-school-life:sense:borrow-01",
+      "ipa": "ˈbɑːroʊ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:return-ga",
+      "senseId": "theme-school-life:sense:return-01",
+      "ipa": "rɪˈtɜːrn",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "theme-school-life:pron:cooperate-ga",
+      "senseId": "theme-school-life:sense:cooperate-01",
+      "ipa": "koʊˈɑːpəreɪt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "exampleId": "theme-school-life:example:library-01",
+      "senseId": "theme-school-life:sense:library-01",
+      "textEn": "We borrow books from the library.",
+      "textZh": "我们从图书馆借书。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:laboratory-01",
+      "senseId": "theme-school-life:sense:laboratory-01",
+      "textEn": "The class visits the science laboratory.",
+      "textZh": "全班参观科学实验室。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:playground-01",
+      "senseId": "theme-school-life:sense:playground-01",
+      "textEn": "The students meet on the playground.",
+      "textZh": "学生们在操场集合。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:hallway-01",
+      "senseId": "theme-school-life:sense:hallway-01",
+      "textEn": "Please keep the hallway clear.",
+      "textZh": "请保持走廊畅通。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:entrance-01",
+      "senseId": "theme-school-life:sense:entrance-01",
+      "textEn": "Wait for your partner near the entrance.",
+      "textZh": "在入口附近等你的同伴。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:classmate-01",
+      "senseId": "theme-school-life:sense:classmate-01",
+      "textEn": "My classmate shares a ruler with me.",
+      "textZh": "我的同学和我共用一把尺子。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:principal-01",
+      "senseId": "theme-school-life:sense:principal-01",
+      "textEn": "The principal welcomes the new students.",
+      "textZh": "校长欢迎新同学。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:subject-01",
+      "senseId": "theme-school-life:sense:subject-01",
+      "textEn": "Science is my favorite subject.",
+      "textZh": "科学是我最喜欢的学科。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:science-01",
+      "senseId": "theme-school-life:sense:science-01",
+      "textEn": "We learn about plants in science.",
+      "textZh": "我们在科学课上学习植物知识。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:history-01",
+      "senseId": "theme-school-life:sense:history-01",
+      "textEn": "The history lesson begins with a question.",
+      "textZh": "历史课从一个问题开始。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:homework-01",
+      "senseId": "theme-school-life:sense:homework-01",
+      "textEn": "I finish my homework before dinner.",
+      "textZh": "我在晚饭前完成作业。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:project-01",
+      "senseId": "theme-school-life:sense:project-01",
+      "textEn": "Our group makes a project about clean water.",
+      "textZh": "我们小组制作了一个关于清洁用水的课题。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:question-01",
+      "senseId": "theme-school-life:sense:question-01",
+      "textEn": "Write one question about the story.",
+      "textZh": "围绕这个故事写一个问题。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:answer-01",
+      "senseId": "theme-school-life:sense:answer-01",
+      "textEn": "Her answer explains the main idea.",
+      "textZh": "她的回答解释了主要观点。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:discuss-01",
+      "senseId": "theme-school-life:sense:discuss-01",
+      "textEn": "We discuss the problem in pairs.",
+      "textZh": "我们两人一组讨论这个问题。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:explain-01",
+      "senseId": "theme-school-life:sense:explain-01",
+      "textEn": "Can you explain your idea to the class?",
+      "textZh": "你能向全班解释你的想法吗？",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:compare-01",
+      "senseId": "theme-school-life:sense:compare-01",
+      "textEn": "Compare the two pictures carefully.",
+      "textZh": "仔细比较这两张图片。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:describe-01",
+      "senseId": "theme-school-life:sense:describe-01",
+      "textEn": "Describe what you can see.",
+      "textZh": "描述你能看到的内容。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:practice-01",
+      "senseId": "theme-school-life:sense:practice-01",
+      "textEn": "We practice the dialogue after class.",
+      "textZh": "下课后我们练习这段对话。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:review-01",
+      "senseId": "theme-school-life:sense:review-01",
+      "textEn": "Let's review the new words together.",
+      "textZh": "我们一起复习新单词吧。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:notebook-01",
+      "senseId": "theme-school-life:sense:notebook-01",
+      "textEn": "She writes new phrases in her notebook.",
+      "textZh": "她把新短语写在笔记本里。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:dictionary-01",
+      "senseId": "theme-school-life:sense:dictionary-01",
+      "textEn": "Use a dictionary to check the meaning.",
+      "textZh": "用词典查一下意思。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:worksheet-01",
+      "senseId": "theme-school-life:sense:worksheet-01",
+      "textEn": "Complete the worksheet in ten minutes.",
+      "textZh": "请在十分钟内完成练习单。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:ruler-01",
+      "senseId": "theme-school-life:sense:ruler-01",
+      "textEn": "The ruler is beside the pencil case.",
+      "textZh": "尺子在铅笔盒旁边。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:eraser-01",
+      "senseId": "theme-school-life:sense:eraser-01",
+      "textEn": "I need an eraser for this mistake.",
+      "textZh": "我需要一块橡皮擦掉这个错误。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:schedule-01",
+      "senseId": "theme-school-life:sense:schedule-01",
+      "textEn": "Check the schedule before the club meeting.",
+      "textZh": "社团活动前查看日程表。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:attend-01",
+      "senseId": "theme-school-life:sense:attend-01",
+      "textEn": "All team members attend the meeting.",
+      "textZh": "所有队员都参加了会议。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:borrow-01",
+      "senseId": "theme-school-life:sense:borrow-01",
+      "textEn": "May I borrow your blue pen?",
+      "textZh": "我可以借用你的蓝色钢笔吗？",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:return-01",
+      "senseId": "theme-school-life:sense:return-01",
+      "textEn": "Please return the book on Friday.",
+      "textZh": "请在星期五归还这本书。",
+      "gradeFit": [
+        "grade6"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    },
+    {
+      "exampleId": "theme-school-life:example:cooperate-01",
+      "senseId": "theme-school-life:sense:cooperate-01",
+      "textEn": "The students cooperate to solve the puzzle.",
+      "textZh": "学生们合作解决这个谜题。",
+      "gradeFit": [
+        "grade7"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-theme-school-life-editorial"
+      ]
+    }
+  ],
+  "assets": [],
+  "taskTemplates": [
+    {
+      "taskTemplateId": "theme-school-life:task:library:meaning",
+      "senseId": "theme-school-life:sense:library-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:library:spelling",
+      "senseId": "theme-school-life:sense:library-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:library:context",
+      "senseId": "theme-school-life:sense:library-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:laboratory:meaning",
+      "senseId": "theme-school-life:sense:laboratory-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:laboratory:spelling",
+      "senseId": "theme-school-life:sense:laboratory-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:laboratory:context",
+      "senseId": "theme-school-life:sense:laboratory-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:playground:meaning",
+      "senseId": "theme-school-life:sense:playground-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:playground:spelling",
+      "senseId": "theme-school-life:sense:playground-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:playground:context",
+      "senseId": "theme-school-life:sense:playground-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:hallway:meaning",
+      "senseId": "theme-school-life:sense:hallway-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:hallway:spelling",
+      "senseId": "theme-school-life:sense:hallway-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:hallway:context",
+      "senseId": "theme-school-life:sense:hallway-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:entrance:meaning",
+      "senseId": "theme-school-life:sense:entrance-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:entrance:spelling",
+      "senseId": "theme-school-life:sense:entrance-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:entrance:context",
+      "senseId": "theme-school-life:sense:entrance-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:classmate:meaning",
+      "senseId": "theme-school-life:sense:classmate-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:classmate:spelling",
+      "senseId": "theme-school-life:sense:classmate-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:classmate:context",
+      "senseId": "theme-school-life:sense:classmate-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:principal:meaning",
+      "senseId": "theme-school-life:sense:principal-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:principal:spelling",
+      "senseId": "theme-school-life:sense:principal-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:principal:context",
+      "senseId": "theme-school-life:sense:principal-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:subject:meaning",
+      "senseId": "theme-school-life:sense:subject-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:subject:spelling",
+      "senseId": "theme-school-life:sense:subject-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:subject:context",
+      "senseId": "theme-school-life:sense:subject-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:science:meaning",
+      "senseId": "theme-school-life:sense:science-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:science:spelling",
+      "senseId": "theme-school-life:sense:science-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:science:context",
+      "senseId": "theme-school-life:sense:science-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:history:meaning",
+      "senseId": "theme-school-life:sense:history-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:history:spelling",
+      "senseId": "theme-school-life:sense:history-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:history:context",
+      "senseId": "theme-school-life:sense:history-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:homework:meaning",
+      "senseId": "theme-school-life:sense:homework-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:homework:spelling",
+      "senseId": "theme-school-life:sense:homework-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:homework:context",
+      "senseId": "theme-school-life:sense:homework-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:project:meaning",
+      "senseId": "theme-school-life:sense:project-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:project:spelling",
+      "senseId": "theme-school-life:sense:project-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:project:context",
+      "senseId": "theme-school-life:sense:project-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:question:meaning",
+      "senseId": "theme-school-life:sense:question-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:question:spelling",
+      "senseId": "theme-school-life:sense:question-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:question:context",
+      "senseId": "theme-school-life:sense:question-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:answer:meaning",
+      "senseId": "theme-school-life:sense:answer-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:answer:spelling",
+      "senseId": "theme-school-life:sense:answer-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:answer:context",
+      "senseId": "theme-school-life:sense:answer-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:discuss:meaning",
+      "senseId": "theme-school-life:sense:discuss-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:discuss:spelling",
+      "senseId": "theme-school-life:sense:discuss-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:discuss:context",
+      "senseId": "theme-school-life:sense:discuss-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:explain:meaning",
+      "senseId": "theme-school-life:sense:explain-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:explain:spelling",
+      "senseId": "theme-school-life:sense:explain-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:explain:context",
+      "senseId": "theme-school-life:sense:explain-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:compare:meaning",
+      "senseId": "theme-school-life:sense:compare-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:compare:spelling",
+      "senseId": "theme-school-life:sense:compare-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:compare:context",
+      "senseId": "theme-school-life:sense:compare-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:describe:meaning",
+      "senseId": "theme-school-life:sense:describe-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:describe:spelling",
+      "senseId": "theme-school-life:sense:describe-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:describe:context",
+      "senseId": "theme-school-life:sense:describe-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:practice:meaning",
+      "senseId": "theme-school-life:sense:practice-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:practice:spelling",
+      "senseId": "theme-school-life:sense:practice-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:practice:context",
+      "senseId": "theme-school-life:sense:practice-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:review:meaning",
+      "senseId": "theme-school-life:sense:review-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:review:spelling",
+      "senseId": "theme-school-life:sense:review-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:review:context",
+      "senseId": "theme-school-life:sense:review-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:notebook:meaning",
+      "senseId": "theme-school-life:sense:notebook-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:notebook:spelling",
+      "senseId": "theme-school-life:sense:notebook-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:notebook:context",
+      "senseId": "theme-school-life:sense:notebook-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:dictionary:meaning",
+      "senseId": "theme-school-life:sense:dictionary-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:dictionary:spelling",
+      "senseId": "theme-school-life:sense:dictionary-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:dictionary:context",
+      "senseId": "theme-school-life:sense:dictionary-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:worksheet:meaning",
+      "senseId": "theme-school-life:sense:worksheet-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:worksheet:spelling",
+      "senseId": "theme-school-life:sense:worksheet-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:worksheet:context",
+      "senseId": "theme-school-life:sense:worksheet-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:ruler:meaning",
+      "senseId": "theme-school-life:sense:ruler-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:ruler:spelling",
+      "senseId": "theme-school-life:sense:ruler-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:ruler:context",
+      "senseId": "theme-school-life:sense:ruler-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:eraser:meaning",
+      "senseId": "theme-school-life:sense:eraser-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:eraser:spelling",
+      "senseId": "theme-school-life:sense:eraser-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:eraser:context",
+      "senseId": "theme-school-life:sense:eraser-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:schedule:meaning",
+      "senseId": "theme-school-life:sense:schedule-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:schedule:spelling",
+      "senseId": "theme-school-life:sense:schedule-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:schedule:context",
+      "senseId": "theme-school-life:sense:schedule-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:attend:meaning",
+      "senseId": "theme-school-life:sense:attend-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:attend:spelling",
+      "senseId": "theme-school-life:sense:attend-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:attend:context",
+      "senseId": "theme-school-life:sense:attend-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:borrow:meaning",
+      "senseId": "theme-school-life:sense:borrow-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:borrow:spelling",
+      "senseId": "theme-school-life:sense:borrow-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:borrow:context",
+      "senseId": "theme-school-life:sense:borrow-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:return:meaning",
+      "senseId": "theme-school-life:sense:return-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:return:spelling",
+      "senseId": "theme-school-life:sense:return-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:return:context",
+      "senseId": "theme-school-life:sense:return-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:cooperate:meaning",
+      "senseId": "theme-school-life:sense:cooperate-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:cooperate:spelling",
+      "senseId": "theme-school-life:sense:cooperate-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:task:cooperate:context",
+      "senseId": "theme-school-life:sense:cooperate-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceRefId": "src-theme-school-life-editorial",
+      "sourceType": "original_editorial",
+      "title": "WordQuest 原创编辑样本（待教研复核）",
+      "verificationStatus": "unverified",
+      "rightsStatus": "pending_review",
+      "notes": "本包由项目内容团队原创编写。尚未完成独立教研审核、发音核验及正式发布审批。"
+    }
+  ]
+}
