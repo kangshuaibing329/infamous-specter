@@ -4,7 +4,7 @@ theme-school-life,0.2.0,theme-school-life:w002,classmate,SL-001,MINOR,TRANSLATIO
 theme-school-life,0.2.0,theme-school-life:w003,classroom,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w004,dictionary,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w005,eraser,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
-theme-school-life,0.2.0,theme-school-life:w006,exercise,SL-001,MINOR,SENSE_SCOPE,例句是练习题，中文释义收窄为“练习；练习题”。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
+theme-school-life,0.2.0,theme-school-life:w006,exercise,SL-001,MINOR,SENSE_SCOPE,释义已统一为美式拼写 practice。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w007,homework,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w008,library,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w009,lesson,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
@@ -12,7 +12,7 @@ theme-school-life,0.2.0,theme-school-life:w010,notebook,SL-001,NONE,NONE,逐词�
 theme-school-life,0.2.0,theme-school-life:w011,playground,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w012,project,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w013,question,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
-theme-school-life,0.2.0,theme-school-life:w014,subject,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
+theme-school-life,0.2.0,theme-school-life:w014,subject,SL-001,NONE,NONE,例句已统一为美式拼写 favorite。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w015,uniform,SL-001,MINOR,EXAMPLE_CONTEXT,改为一般校园语境，避免把校服穿着限定为星期一。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w016,worksheet,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w017,borrow,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
@@ -35,7 +35,7 @@ theme-school-life,0.2.0,theme-school-life:w033,bell,SL-001,NONE,NONE,逐词检�
 theme-school-life,0.2.0,theme-school-life:w034,biology,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w035,calculator,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w036,cafeteria,SL-001,MAJOR,REGIONAL_VARIANT,原 canteen 偏英式；en-US 口径改为 cafeteria，并同步音标。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
-theme-school-life,0.2.0,theme-school-life:w037,chalk,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
+theme-school-life,0.2.0,theme-school-life:w037,chalk,SL-001,NONE,NONE,释义已统一为美式拼写 colored。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w038,chapter,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w039,chemistry,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w040,club,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
@@ -79,18 +79,18 @@ theme-school-life,0.2.0,theme-school-life:w077,score,SL-001,NONE,NONE,逐词检�
 theme-school-life,0.2.0,theme-school-life:w078,screen,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w079,spelling,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w080,story,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
-theme-school-life,0.2.0,theme-school-life:w081,study,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
+theme-school-life,0.2.0,theme-school-life:w081,study,SL-001,NONE,NONE,释义已统一为美式拼写 practicing。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w082,test,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w083,textbook,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w084,timetable,SL-001,MINOR,REGIONAL_VARIANT,保留作英式补充词，添加 british-english 标签；美式主词汇优先 schedule。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w085,workbook,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w086,write,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
-theme-school-life,0.2.0,theme-school-life:w087,read,SL-001,MAJOR,HOMOGRAPH_PRONUNCIATION,当前 /riːd/ 只覆盖现在时读音；过去式 /red/ 需另设读音/义项，当前任务应限定现在时。,needs_modeling_rule,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
+theme-school-life,0.2.0,theme-school-life:w087,read,SL-001,MAJOR,HOMOGRAPH_PRONUNCIATION,Cambridge Dictionary 已核验原形/现在时 /riːd/ 与过去式 /red/；usageNotes 已明确本词条只记录 lemma /riːd/，过去式需单独教学。,done_with_usage_note,rewritten_en_definition,verified_cambridge,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w088,speak,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w089,spell,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w090,calculate,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w091,count,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
-theme-school-life,0.2.0,theme-school-life:w092,draw,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
+theme-school-life,0.2.0,theme-school-life:w092,draw,SL-001,NONE,NONE,例句已统一为美式拼写 favorite。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w093,copy,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w094,compare,SL-001,NONE,NONE,逐词检查：当前词义和例句基本匹配；需教师确认适龄、搭配和词典音标。,reviewed,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
 theme-school-life,0.2.0,theme-school-life:w095,revise,SL-001,MAJOR,REGIONAL_VARIANT,美式英语中 revise 更常指修订而非复习；改为“修订；修改”并重写例句。,done,rewritten_en_definition,pending_dictionary_verification,pending_independent_teacher_review
