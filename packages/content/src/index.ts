@@ -1,4 +1,5 @@
-import Ajv2020, { type AnySchema, type ErrorObject } from 'ajv/dist/2020.js';
+import Ajv2020 from 'ajv/dist/2020.js';
+import type { AnySchema, ErrorObject } from 'ajv';
 import addFormats from 'ajv-formats';
 import contentPackSchema from './content-pack.schema.json';
 
