@@ -1,0 +1,105 @@
+example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
+theme-school-life:e001,theme-school-life:s001,The teacher writes on the blackboard.,老师在黑板上写字。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e002,theme-school-life:s002,My classmate shared a pencil.,我的同班同学借给我一支铅笔。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e003,theme-school-life:s003,Our classroom has twenty desks.,我们的教室有二十张课桌。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e004,theme-school-life:s004,Use a dictionary to check the word.,用词典查一下这个单词。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e005,theme-school-life:s005,I need an eraser.,我需要一块橡皮。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e006,theme-school-life:s006,Finish the exercise in your workbook.,在练习册里完成这道练习。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e007,theme-school-life:s007,I finish my homework before dinner.,我在晚饭前完成作业。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e008,theme-school-life:s008,We borrow books from the library.,我们从图书馆借书。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e009,theme-school-life:s009,Our English lesson starts at ten.,我们的英语课十点开始。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e010,theme-school-life:s010,Write the words in your notebook.,把这些单词写在笔记本里。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e011,theme-school-life:s011,The students run on the playground.,学生们在操场上跑步。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e012,theme-school-life:s012,Our group made a science project.,我们小组做了一个科学课题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e013,theme-school-life:s013,Please answer the first question.,请回答第一个问题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e014,theme-school-life:s014,Science is my favourite subject.,科学是我最喜欢的学科。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e015,theme-school-life:s015,Students wear uniforms on Monday.,学生们星期一穿校服。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e016,theme-school-life:s016,Please hand in your worksheet.,请交上你的练习单。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e017,theme-school-life:s017,May I borrow your ruler?,我可以借用一下你的尺子吗？,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e018,theme-school-life:s018,Can you explain this rule?,你能解释一下这条规则吗？,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e019,theme-school-life:s019,We discuss the story in pairs.,我们两人一组讨论这个故事。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e020,theme-school-life:s020,Practice the words with a partner.,和同伴一起练习这些单词。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e021,theme-school-life:s021,We review the lesson on Friday.,我们星期五复习这节课。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e022,theme-school-life:s022,She prepares her books at night.,她晚上准备好自己的书。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e023,theme-school-life:s023,Be careful with the glass bottle.,小心拿那个玻璃瓶。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e024,theme-school-life:s024,The guide is very helpful.,这份指南很有帮助。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e025,theme-school-life:s025,Please keep the room quiet.,请保持房间安静。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e026,theme-school-life:s026,Your answer is correct.,你的答案是正确的。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e027,theme-school-life:s027,The students made a creative poster.,学生们制作了一张有创意的海报。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e028,theme-school-life:s028,Reading can improve your vocabulary.,阅读能扩大你的词汇量。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e029,theme-school-life:s029,We discover a new way to solve the puzzle.,我们发现了一种解谜的新方法。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e030,theme-school-life:s030,Teamwork helps us finish the project.,团队合作帮助我们完成项目。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e031,theme-school-life:s031,Good attendance helps students learn.,良好的出勤情况有助于学生学习。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e032,theme-school-life:s032,My backpack is under the desk.,我的双肩背包在课桌下面。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e033,theme-school-life:s033,The bell rings before the lesson starts.,上课前铃声会响起。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e034,theme-school-life:s034,We learn about plants in biology.,我们在生物课上学习植物知识。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e035,theme-school-life:s035,Use a calculator to check the total.,用计算器核对总数。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e036,theme-school-life:s036,We eat lunch in the school canteen.,我们在学校食堂吃午饭。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e037,theme-school-life:s037,The teacher writes with chalk.,老师用粉笔写字。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e038,theme-school-life:s038,Read the next chapter tonight.,今晚读下一章。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e039,theme-school-life:s039,We do a safe experiment in chemistry.,我们在化学课上做一个安全实验。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e040,theme-school-life:s040,I joined the science club.,我加入了科学社团。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e041,theme-school-life:s041,Our team entered a reading competition.,我们队参加了阅读比赛。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e042,theme-school-life:s042,We use a computer to prepare a presentation.,我们用电脑准备演示。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e043,theme-school-life:s043,Please walk quietly in the corridor.,请在走廊里安静地走。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e044,theme-school-life:s044,This course teaches basic English.,这门课程教授基础英语。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e045,theme-school-life:s045,Put your book on the desk.,把书放在课桌上。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e046,theme-school-life:s046,We act in a short drama.,我们表演一段短剧。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e047,theme-school-life:s047,Meet me at the school entrance.,在学校入口处和我碰面。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e048,theme-school-life:s048,I have an English exam on Friday.,我星期五有英语考试。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e049,theme-school-life:s049,Geography helps us learn about places.,地理学帮助我们了解不同地方。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e050,theme-school-life:s050,We practice grammar with short sentences.,我们用短句练习语法。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e051,theme-school-life:s051,Our group works on one project.,我们小组一起完成一个项目。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e052,theme-school-life:s052,We learn about the past in history.,我们在历史课上了解过去。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e053,theme-school-life:s053,The poster gives information about the event.,海报提供了有关这项活动的信息。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e054,theme-school-life:s054,Read each instruction before you start.,开始前请阅读每一条说明。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e055,theme-school-life:s055,Type your name on the keyboard.,在键盘上输入你的名字。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e056,theme-school-life:s056,English is a language used around the world.,英语是一种在世界各地使用的语言。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e057,theme-school-life:s057,Use the map to find the library.,用地图找到图书馆。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e058,theme-school-life:s058,The teacher gave my work a high mark.,老师给我的作业打了高分。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e059,theme-school-life:s059,Mathematics helps us solve number problems.,数学帮助我们解决数字问题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e060,theme-school-life:s060,We sing a song in music class.,我们在音乐课上唱歌。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e061,theme-school-life:s061,Turn to page ten.,翻到第十页。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e062,theme-school-life:s062,Please use a clean sheet of paper.,请使用一张干净的纸。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e063,theme-school-life:s063,Write one paragraph about your weekend.,写一段关于你周末的文字。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e064,theme-school-life:s064,Work with a partner to solve the puzzle.,和搭档一起解开这个谜题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e065,theme-school-life:s065,I draw a line with my pencil.,我用铅笔画一条线。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e066,theme-school-life:s066,Use a blue pen to write your name.,用蓝色笔写下你的名字。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e067,theme-school-life:s067,Our first period begins at eight.,我们的第一节课八点开始。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e068,theme-school-life:s068,We made a poster for the school fair.,我们为校园集市制作了一张海报。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e069,theme-school-life:s069,She gives a short presentation to the class.,她向全班做一个简短的展示。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e070,theme-school-life:s070,The principal speaks at the morning meeting.,校长在晨会上讲话。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e071,theme-school-life:s071,The printer is next to the computer.,打印机在电脑旁边。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e072,theme-school-life:s072,Each pupil has a reading book.,每个学生都有一本阅读书。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e073,theme-school-life:s073,Reading helps us learn new words.,阅读帮助我们学习新单词。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e074,theme-school-life:s074,Use a ruler to draw a straight line.,用尺子画一条直线。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e075,theme-school-life:s075,Check the schedule for the next class.,查看下一节课的安排。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e076,theme-school-life:s076,My schoolbag is beside the chair.,我的书包在椅子旁边。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e077,theme-school-life:s077,Our team gets a high score.,我们队得了高分。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e078,theme-school-life:s078,Look at the screen for the next question.,看屏幕上的下一道题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e079,theme-school-life:s079,Spelling is easier with daily practice.,每天练习会让拼写更容易。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e080,theme-school-life:s080,The story has a surprising ending.,这个故事有一个令人意外的结尾。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e081,theme-school-life:s081,I study English after dinner.,我晚饭后学习英语。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e082,theme-school-life:s082,We take a short test on Monday.,我们星期一进行一次小测验。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e083,theme-school-life:s083,Open your textbook to page five.,把课本翻到第五页。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e084,theme-school-life:s084,My timetable shows five lessons today.,我的课程表显示今天有五节课。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e085,theme-school-life:s085,Complete the exercise in your workbook.,在练习册里完成这道练习。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e086,theme-school-life:s086,Write your answer in a full sentence.,用完整句子写出你的答案。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e087,theme-school-life:s087,I read a short story every night.,我每天晚上读一个短故事。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e088,theme-school-life:s088,Please speak clearly during the game.,游戏过程中请清楚地表达。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e089,theme-school-life:s089,Can you spell the word correctly?,你能正确拼写这个单词吗？,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e090,theme-school-life:s090,We calculate the area of the square.,我们计算这个正方形的面积。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e091,theme-school-life:s091,Count the books on the shelf.,数一数书架上的书。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e092,theme-school-life:s092,Draw a picture of your favourite animal.,画一张你最喜欢的动物的图片。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e093,theme-school-life:s093,Copy the sentence into your notebook.,把这个句子抄到笔记本里。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e094,theme-school-life:s094,Compare the two pictures with your partner.,和搭档比较这两张图片。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e095,theme-school-life:s095,I revise my notes before the test.,考试前我会复习笔记。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e096,theme-school-life:s096,Translate the sentence into Chinese.,把这个句子翻译成中文。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e097,theme-school-life:s097,We solve the puzzle as a team.,我们团队一起解开这个谜题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e098,theme-school-life:s098,Search the text for the key word.,在文章中查找关键词。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e099,theme-school-life:s099,Share your ideas with the group.,和小组分享你的想法。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e100,theme-school-life:s100,I attend the English club every week.,我每周参加英语社团。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e101,theme-school-life:s101,Fairness is an important principle in our class.,公平是我们班级里一条重要原则。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e102,theme-school-life:s102,Can you lend me a pencil?,你能借给我一支铅笔吗？,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e103,theme-school-life:s103,I keep my stationery in a pencil case.,我把文具放在铅笔盒里。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e104,theme-school-life:s104,The bicycle remains stationary near the gate.,自行车停在门附近，没有移动。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
