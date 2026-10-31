@@ -1,4 +1,4 @@
-wordId,lemma,normalizedLemma,partOfSpeech,gradeTags,unitRefs,senseIds,reviewStatus,sourceRefIds,tags
+word_id,lemma,normalized_lemma,part_of_speech,grade_tags,unit_refs,sense_ids,review_status,source_ref_ids,tags
 theme-nature-science:w001,air,air,noun,grade6|grade7|grade8|grade9,theme-nature-science:unit-1,theme-nature-science:s001,draft,src-wordquest-editorial-v1,environment|theme-scenario
 theme-nature-science:w002,animal,animal,noun,grade6|grade7|grade8|grade9,theme-nature-science:unit-3,theme-nature-science:s002,draft,src-wordquest-editorial-v1,life|theme-scenario
 theme-nature-science:w003,astronaut,astronaut,noun,grade6|grade7|grade8|grade9,theme-nature-science:unit-2,theme-nature-science:s003,draft,src-wordquest-editorial-v1,space|theme-scenario
