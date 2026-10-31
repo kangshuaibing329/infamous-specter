@@ -40,3 +40,17 @@ A passing CI run verifies the automated checks in the workflow. It does not repl
 This repository is independent. It does not inherit source code, APIs, databases, account systems, activity sessions, or test results from classroom-english-word-games. Product-level design documents may inform requirements; old-project implementation code is not a runtime dependency.
 
 See docs/acceptance/T1-技术验证计划.md for the T1 scope and acceptance record.
+
+
+## P1 shared learning foundation
+
+- [P1 implementation plan and acceptance](docs/architecture/P1-共享底座实现计划与验收.md)
+- `packages/content`: runtime content validation and integrity checks.
+- `packages/contracts`: shared session/task/event types.
+- `packages/learning-core`: answer evaluation, provisional evidence caps and delayed review windows.
+- `packages/session-adapter`: pinned, deterministic sessions and restore.
+- `packages/storage`: local content/session/event/review persistence with event ID idempotency.
+- `apps/api`: read-only content catalog, manifest, content and asset-manifest endpoints.
+- `apps/web`: internal-only local learning-core validation lab.
+
+P1 currently uses preview vocabulary packs for internal validation only. It does not implement production game loops, user/guardian identity, activation, cloud sync, or privacy write endpoints.
