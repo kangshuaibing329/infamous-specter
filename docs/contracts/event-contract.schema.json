@@ -40,6 +40,9 @@
         "occurredAt": {
           "type": "string",
           "format": "date-time"
+        },
+        "origin": {
+          "const": "local"
         }
       },
       "required": [
@@ -49,7 +52,8 @@
         "gameVersion",
         "logicVersion",
         "schemaVersion",
-        "occurredAt"
+        "occurredAt",
+        "origin"
       ]
     },
     "GameEvent": {
@@ -62,7 +66,8 @@
           "additionalProperties": false,
           "required": [
             "eventType",
-            "payload"
+            "payload",
+            "origin"
           ],
           "properties": {
             "eventType": {
@@ -101,6 +106,9 @@
             "payload": {
               "type": "object",
               "additionalProperties": true
+            },
+            "origin": {
+              "const": "local"
             }
           }
         }
@@ -128,7 +136,9 @@
         "cognitiveSupport",
         "attemptIndex",
         "answerIntent",
-        "occurredAt"
+        "occurredAt",
+        "origin",
+        "evidencePolicyVersion"
       ],
       "properties": {
         "eventType": {
@@ -224,6 +234,9 @@
         "occurredAt": {
           "type": "string",
           "format": "date-time"
+        },
+        "origin": {
+          "const": "local"
         }
       },
       "not": {
@@ -266,7 +279,8 @@
         "gameId",
         "progressType",
         "source",
-        "occurredAt"
+        "occurredAt",
+        "origin"
       ],
       "properties": {
         "eventType": {
@@ -306,6 +320,9 @@
         "occurredAt": {
           "type": "string",
           "format": "date-time"
+        },
+        "origin": {
+          "const": "local"
         }
       }
     }
