@@ -1,26 +1,42 @@
-# WordQuest — English Vocabulary Game Library
+# WordQuest
 
-A greenfield, cross-device English vocabulary game library for upper-primary and junior-secondary learners in China.
+A greenfield English vocabulary game library for upper-primary and junior-secondary learners in China.
 
-## Project status
+## T1 technical spike
 
-- Product and game-design materials are being consolidated.
-- Technical architecture: candidate draft, not yet frozen.
-- No production game code has been implemented in this repository.
-- This repository is independent. It does not inherit code, APIs, backend services, databases, game engines, or test results from `classroom-english-word-games`.
+This branch establishes the first runnable engineering skeleton:
 
-## Current architecture document
+- React + TypeScript + Vite application shell.
+- Phaser 4.2.1 loaded as a separate lazy chunk.
+- Pointer and keyboard input routed into one game-state reducer.
+- IndexedDB local save and restore through a repository wrapper.
+- PWA manifest and generated service worker for app-shell caching.
+- Vitest unit tests and Playwright browser tests.
+- GitHub Actions verification workflow.
 
-- [WordQuest Technical Architecture v0.1](docs/architecture/WordQuest_技术架构设计说明书_V0.1.md)
+The T1 screen is a technical validation lab, not a finished vocabulary game.
 
-## Principles
+## Requirements
 
-- Ten genuinely distinct game loops, not ten skins over one quiz.
-- Shared vocabulary content and learning-evidence contracts.
-- Game score and learning mastery remain separate.
-- Mobile and desktop browser support, with PWA as the initial delivery target.
-- No child-facing public leaderboard, stranger chat, ads, paid revives, or manipulative streak mechanics.
+- Node.js 24.22.2 (or a compatible Node.js release >=22.12.0).
+- pnpm 12.14.0.
 
-## Repository policy
+## Commands
 
-All code, APIs, data models, workflows, tests, and deployment configuration are designed for this repository from scratch. Existing WordQuest planning documents may inform product requirements, but old-project source code is not migrated.
+- pnpm install --no-frozen-lockfile
+- pnpm dev
+- pnpm typecheck
+- pnpm test
+- pnpm build
+- pnpm test:e2e
+- pnpm verify
+
+## T1 acceptance boundary
+
+A passing CI run verifies the automated checks in the workflow. It does not replace manual testing on real Android Chrome, iPhone Safari, Windows Chrome/Edge, low-end devices, or screen readers. Those items remain explicitly unverified until executed and recorded.
+
+## Project boundaries
+
+This repository is independent. It does not inherit source code, APIs, databases, account systems, activity sessions, or test results from classroom-english-word-games. Product-level design documents may inform requirements; old-project implementation code is not a runtime dependency.
+
+See docs/acceptance/T1-技术验证计划.md for the T1 scope and acceptance record.

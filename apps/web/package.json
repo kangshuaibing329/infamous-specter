@@ -1,0 +1,15 @@
+{
+  "name":"@wordquest/web","private":true,"version":"0.1.0","type":"module",
+  "scripts":{
+    "dev":"vite --host 0.0.0.0","build":"vite build",
+    "preview":"vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "typecheck":"tsc --noEmit -p tsconfig.json","test:e2e":"playwright test"
+  },
+  "dependencies":{
+    "@wordquest/game-core":"workspace:*","@wordquest/storage":"workspace:*",
+    "phaser":"4.2.1","react":"19.3.1","react-dom":"19.3.1"
+  },
+  "devDependencies":{
+    "@vitejs/plugin-react":"6.1.2","vite":"8.3.5","vite-plugin-pwa":"2.0.0"
+  }
+}
