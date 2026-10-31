@@ -1,4 +1,4 @@
-pronunciationId,senseId,ipa,accent,audioAssetId,status,sourceRefIds
+pronunciation_id,sense_id,ipa,accent,audio_asset_id,status,source_ref_ids
 theme-school-life:p001,theme-school-life:s001,ˈblækbɔːrd,en-US,,draft,src-wordquest-editorial-v1
 theme-school-life:p002,theme-school-life:s002,ˈklæsmeɪt,en-US,,draft,src-wordquest-editorial-v1
 theme-school-life:p003,theme-school-life:s003,ˈklæsruːm,en-US,,draft,src-wordquest-editorial-v1
