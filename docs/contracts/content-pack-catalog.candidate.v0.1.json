@@ -172,5 +172,73 @@
       ]
     }
   ],
-  "releaseRule": "本目录中的 planned/editorial_planned 槽位不是正式可售内容包。只有 status=published 且内容、来源、音频/例句、版权和审核门全部通过后，才可进入客户选择器。"
+  "releaseRule": "本目录中的 planned/editorial_planned 槽位不是正式可售内容包。只有 status=published 且内容、来源、音频/例句、版权和审核门全部通过后，才可进入客户选择器。 candidatePacks 中的样本包仅供内部审查，customerSelectable=false；不得直接向客户开放。",
+  "candidatePacks": [
+    {
+      "packId": "high-frequency-starter",
+      "version": "0.1.0",
+      "familyId": "high-frequency",
+      "title": "基础高频词汇·入门篇",
+      "status": "preview",
+      "customerSelectable": false,
+      "wordCount": 30,
+      "gradeBands": [
+        "grade4",
+        "grade5",
+        "grade6"
+      ],
+      "contentPath": "content-packs/high-frequency-starter/0.1.0/content-pack.json",
+      "csvDirectory": "content-packs/high-frequency-starter/0.1.0/",
+      "releaseBlockers": [
+        "教研复核释义、音标、例句和年级适配",
+        "音频授权与发音资源制作",
+        "审核 sourceRefs 和 rightsStatus",
+        "完成任务答案规格及导入器校验"
+      ]
+    },
+    {
+      "packId": "theme-school-life",
+      "version": "0.1.0",
+      "familyId": "theme-scenario",
+      "title": "校园生活词汇·场景篇",
+      "status": "preview",
+      "customerSelectable": false,
+      "wordCount": 30,
+      "gradeBands": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "contentPath": "content-packs/theme-school-life/0.1.0/content-pack.json",
+      "csvDirectory": "content-packs/theme-school-life/0.1.0/",
+      "releaseBlockers": [
+        "教研复核释义、音标、例句和年级适配",
+        "音频授权与发音资源制作",
+        "审核 sourceRefs 和 rightsStatus",
+        "完成任务答案规格及导入器校验"
+      ]
+    },
+    {
+      "packId": "theme-nature-science",
+      "version": "0.1.0",
+      "familyId": "theme-scenario",
+      "title": "自然与科学词汇·探索篇",
+      "status": "preview",
+      "customerSelectable": false,
+      "wordCount": 30,
+      "gradeBands": [
+        "grade6",
+        "grade7",
+        "grade8"
+      ],
+      "contentPath": "content-packs/theme-nature-science/0.1.0/content-pack.json",
+      "csvDirectory": "content-packs/theme-nature-science/0.1.0/",
+      "releaseBlockers": [
+        "教研复核释义、音标、例句和年级适配",
+        "音频授权与发音资源制作",
+        "审核 sourceRefs 和 rightsStatus",
+        "完成任务答案规格及导入器校验"
+      ]
+    }
+  ]
 }
