@@ -24,8 +24,8 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 30,
-    "contentHash": "46ac89db45e647bc8c6804105556039eb965a585d7b48ea982b1b3442cd39b8c",
-    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "contentHash": "d77850fa697eceabe6b4c35aa593547bef1b7d7344ffd0c4451e7b5c6a8d66f2",
+    "assetManifestHash": "b912f4705b13674d386242ec940cc9eaec42e3288373fde9b8197756a3aa25d0",
     "sourceRefIds": [
       "src-wordquest-editorial-v1"
     ],
@@ -1246,7 +1246,7 @@
         "meaning": "applicable",
         "listening": "not_applicable",
         "spelling": "applicable",
-        "morphology": "applicable",
+        "morphology": "not_applicable",
         "context": "applicable"
       },
       "reviewStatus": "draft",
@@ -1462,7 +1462,7 @@
         "meaning": "applicable",
         "listening": "not_applicable",
         "spelling": "applicable",
-        "morphology": "applicable",
+        "morphology": "not_applicable",
         "context": "applicable"
       },
       "reviewStatus": "draft",
@@ -1619,7 +1619,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:agent-er"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -1646,7 +1648,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:adverb-ly"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -3074,20 +3078,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "high-frequency-starter:t014-morphology",
-      "senseId": "high-frequency-starter:s014",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "high-frequency-starter:t015-meaning",
       "senseId": "high-frequency-starter:s015",
       "dimension": "meaning",
@@ -3448,20 +3438,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "high-frequency-starter:t022-morphology",
-      "senseId": "high-frequency-starter:s022",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "high-frequency-starter:t023-meaning",
       "senseId": "high-frequency-starter:s023",
       "dimension": "meaning",
@@ -3732,20 +3708,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "high-frequency-starter:t028-morphology",
-      "senseId": "high-frequency-starter:s028",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "high-frequency-starter:t029-meaning",
       "senseId": "high-frequency-starter:s029",
       "dimension": "meaning",
@@ -3791,20 +3753,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "high-frequency-starter:t029-morphology",
-      "senseId": "high-frequency-starter:s029",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "high-frequency-starter:t030-meaning",
       "senseId": "high-frequency-starter:s030",
       "dimension": "meaning",
@@ -3845,6 +3793,34 @@
       "compatibleGameIds": [
         "g07-sentence-bridge",
         "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t028-morphology",
+      "senseId": "high-frequency-starter:s028",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t029-morphology",
+      "senseId": "high-frequency-starter:s029",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
         "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
