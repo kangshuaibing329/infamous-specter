@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test('mounts the Phaser stage and accepts keyboard input', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'WordQuest T1 技术验证台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'WordQuest 技术与学习核心验收台' })).toBeVisible();
   await expect(page.locator('canvas')).toBeVisible();
 
   const actionCount = page.getByTestId('lab-action-count');
@@ -62,7 +62,7 @@ test('saves, resets and restores state through IndexedDB', async ({ page }) => {
   const savedPosition = await position.innerText();
 
   await page.getByRole('button', { name: '保存进度' }).click();
-  await expect(page.getByRole('status')).toContainText('进度已保存');
+  await expect(page.getByRole('status').filter({ hasText: '进度已保存' })).toContainText('进度已保存');
 
   await page.reload();
   await expect(position).toHaveText(savedPosition);
@@ -93,6 +93,6 @@ test('serves a manifest and reopens the cached app shell offline', async ({ page
   await context.setOffline(true);
   await page.reload();
 
-  await expect(page.getByRole('heading', { name: 'WordQuest T1 技术验证台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'WordQuest 技术与学习核心验收台' })).toBeVisible();
   await expect(page.locator('canvas')).toBeVisible();
 });

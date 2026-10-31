@@ -1,0 +1,3643 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "packId": "high-frequency-starter",
+    "version": "0.1.0",
+    "title": "基础高频词汇·入门篇",
+    "subtitle": "从课堂、家庭和日常表达开始",
+    "description": "面向小学高年级至初中入门阶段的原创高频词汇样本包。不是任何单一教材的完整词表。",
+    "packType": "high_frequency",
+    "status": "preview",
+    "language": "en",
+    "locale": "zh-CN",
+    "target": {
+      "ageBands": [
+        "primary-upper"
+      ],
+      "gradeBands": [
+        "grade4",
+        "grade5",
+        "grade6"
+      ],
+      "difficulty": "starter"
+    },
+    "progressScope": "pack_scoped",
+    "wordCount": 30,
+    "contentHash": "0d6e3c990f050923c6a87fe4659b6da1c3f92d147abfb7956dd723e4c8cc8935",
+    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sourceRefIds": [
+      "src-high-frequency-starter-editorial"
+    ],
+    "createdAt": "2026-10-31T00:00:00Z",
+    "review": {
+      "status": "not_reviewed",
+      "reviewerIds": [],
+      "reviewNotes": "原创样本首轮生成；词义、IPA、例句和适龄性均需人工教研复核后才能发布。"
+    },
+    "isDemo": false,
+    "familyId": "high-frequency"
+  },
+  "units": [
+    {
+      "unitId": "unit-01",
+      "title": "人物与日常",
+      "sortOrder": 1,
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-02",
+      "title": "家庭与物品",
+      "sortOrder": 2,
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-03",
+      "title": "学校与学习",
+      "sortOrder": 3,
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-04",
+      "title": "时间与天气",
+      "sortOrder": 4,
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "unitId": "unit-05",
+      "title": "基础动作与描述",
+      "sortOrder": 5,
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "wordId": "high-frequency-starter:word:family",
+      "lemma": "family",
+      "normalizedLemma": "family",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:family-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:parent",
+      "lemma": "parent",
+      "normalizedLemma": "parent",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:parent-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:mother",
+      "lemma": "mother",
+      "normalizedLemma": "mother",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:mother-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:father",
+      "lemma": "father",
+      "normalizedLemma": "father",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:father-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:friend",
+      "lemma": "friend",
+      "normalizedLemma": "friend",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-01"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:friend-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:teacher",
+      "lemma": "teacher",
+      "normalizedLemma": "teacher",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:teacher-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:student",
+      "lemma": "student",
+      "normalizedLemma": "student",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:student-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:school",
+      "lemma": "school",
+      "normalizedLemma": "school",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:school-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:classroom",
+      "lemma": "classroom",
+      "normalizedLemma": "classroom",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:classroom-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:book",
+      "lemma": "book",
+      "normalizedLemma": "book",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:book-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:pencil",
+      "lemma": "pencil",
+      "normalizedLemma": "pencil",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:pencil-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:desk",
+      "lemma": "desk",
+      "normalizedLemma": "desk",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-03"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:desk-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:morning",
+      "lemma": "morning",
+      "normalizedLemma": "morning",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:morning-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:today",
+      "lemma": "today",
+      "normalizedLemma": "today",
+      "partOfSpeech": [
+        "adverb"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:today-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:tomorrow",
+      "lemma": "tomorrow",
+      "normalizedLemma": "tomorrow",
+      "partOfSpeech": [
+        "adverb"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:tomorrow-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:week",
+      "lemma": "week",
+      "normalizedLemma": "week",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:week-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:weather",
+      "lemma": "weather",
+      "normalizedLemma": "weather",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:weather-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:sunny",
+      "lemma": "sunny",
+      "normalizedLemma": "sunny",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:sunny-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:rain",
+      "lemma": "rain",
+      "normalizedLemma": "rain",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-04"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:rain-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:water",
+      "lemma": "water",
+      "normalizedLemma": "water",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-02"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:water-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:eat",
+      "lemma": "eat",
+      "normalizedLemma": "eat",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:eat-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:drink",
+      "lemma": "drink",
+      "normalizedLemma": "drink",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:drink-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:read",
+      "lemma": "read",
+      "normalizedLemma": "read",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:read-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:write",
+      "lemma": "write",
+      "normalizedLemma": "write",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:write-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:listen",
+      "lemma": "listen",
+      "normalizedLemma": "listen",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:listen-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:speak",
+      "lemma": "speak",
+      "normalizedLemma": "speak",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:speak-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:happy",
+      "lemma": "happy",
+      "normalizedLemma": "happy",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:happy-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:small",
+      "lemma": "small",
+      "normalizedLemma": "small",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:small-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:help",
+      "lemma": "help",
+      "normalizedLemma": "help",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade4"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:help-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:word:beautiful",
+      "lemma": "beautiful",
+      "normalizedLemma": "beautiful",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5"
+      ],
+      "unitRefs": [
+        "unit-05"
+      ],
+      "senseIds": [
+        "high-frequency-starter:sense:beautiful-01"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ],
+      "tags": [
+        "high-frequency"
+      ]
+    }
+  ],
+  "senses": [
+    {
+      "senseId": "high-frequency-starter:sense:family-01",
+      "wordId": "high-frequency-starter:word:family",
+      "glossZh": "家庭；家人",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:family-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:family-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:parent-01",
+      "wordId": "high-frequency-starter:word:parent",
+      "glossZh": "父亲或母亲；家长",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:parent-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:parent-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:mother-01",
+      "wordId": "high-frequency-starter:word:mother",
+      "glossZh": "母亲",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:mother-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:mother-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:father-01",
+      "wordId": "high-frequency-starter:word:father",
+      "glossZh": "父亲",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:father-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:father-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:friend-01",
+      "wordId": "high-frequency-starter:word:friend",
+      "glossZh": "朋友",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:friend-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:friend-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:teacher-01",
+      "wordId": "high-frequency-starter:word:teacher",
+      "glossZh": "教师",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:teacher-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:teacher-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:student-01",
+      "wordId": "high-frequency-starter:word:student",
+      "glossZh": "学生",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:student-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:student-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:school-01",
+      "wordId": "high-frequency-starter:word:school",
+      "glossZh": "学校",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:school-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:school-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:classroom-01",
+      "wordId": "high-frequency-starter:word:classroom",
+      "glossZh": "教室",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:classroom-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:classroom-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:book-01",
+      "wordId": "high-frequency-starter:word:book",
+      "glossZh": "书；书籍",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:book-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:book-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:pencil-01",
+      "wordId": "high-frequency-starter:word:pencil",
+      "glossZh": "铅笔",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:pencil-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:pencil-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:desk-01",
+      "wordId": "high-frequency-starter:word:desk",
+      "glossZh": "书桌；课桌",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:desk-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:desk-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:morning-01",
+      "wordId": "high-frequency-starter:word:morning",
+      "glossZh": "早晨；上午",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:morning-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:morning-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:today-01",
+      "wordId": "high-frequency-starter:word:today",
+      "glossZh": "今天",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:today-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:today-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:tomorrow-01",
+      "wordId": "high-frequency-starter:word:tomorrow",
+      "glossZh": "明天",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:tomorrow-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:tomorrow-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:week-01",
+      "wordId": "high-frequency-starter:word:week",
+      "glossZh": "星期；周",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:week-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:week-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:weather-01",
+      "wordId": "high-frequency-starter:word:weather",
+      "glossZh": "天气",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:weather-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:weather-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:sunny-01",
+      "wordId": "high-frequency-starter:word:sunny",
+      "glossZh": "晴朗的；阳光充足的",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:sunny-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:sunny-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:rain-01",
+      "wordId": "high-frequency-starter:word:rain",
+      "glossZh": "雨；下雨",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:rain-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:rain-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:water-01",
+      "wordId": "high-frequency-starter:word:water",
+      "glossZh": "水",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:water-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:water-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:eat-01",
+      "wordId": "high-frequency-starter:word:eat",
+      "glossZh": "吃",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:eat-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:eat-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:drink-01",
+      "wordId": "high-frequency-starter:word:drink",
+      "glossZh": "喝；饮用",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:drink-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:drink-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:read-01",
+      "wordId": "high-frequency-starter:word:read",
+      "glossZh": "阅读；读",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:read-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:read-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:write-01",
+      "wordId": "high-frequency-starter:word:write",
+      "glossZh": "写；书写",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:write-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:write-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:listen-01",
+      "wordId": "high-frequency-starter:word:listen",
+      "glossZh": "听；倾听",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:listen-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:listen-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:speak-01",
+      "wordId": "high-frequency-starter:word:speak",
+      "glossZh": "说；讲",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:speak-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:speak-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:happy-01",
+      "wordId": "high-frequency-starter:word:happy",
+      "glossZh": "快乐的；高兴的",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:happy-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:happy-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:small-01",
+      "wordId": "high-frequency-starter:word:small",
+      "glossZh": "小的；小型的",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:small-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:small-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:help-01",
+      "wordId": "high-frequency-starter:word:help",
+      "glossZh": "帮助",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:help-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:help-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:sense:beautiful-01",
+      "wordId": "high-frequency-starter:word:beautiful",
+      "glossZh": "美丽的；漂亮的",
+      "definitionEn": "",
+      "usageNotes": "本义项为原创编辑释义，需教研复核；请结合例句理解。",
+      "pronunciationIds": [
+        "high-frequency-starter:pron:beautiful-ga"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:example:beautiful-01"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    }
+  ],
+  "pronunciations": [
+    {
+      "pronunciationId": "high-frequency-starter:pron:family-ga",
+      "senseId": "high-frequency-starter:sense:family-01",
+      "ipa": "ˈfæməli",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:parent-ga",
+      "senseId": "high-frequency-starter:sense:parent-01",
+      "ipa": "ˈperənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:mother-ga",
+      "senseId": "high-frequency-starter:sense:mother-01",
+      "ipa": "ˈmʌðər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:father-ga",
+      "senseId": "high-frequency-starter:sense:father-01",
+      "ipa": "ˈfɑːðər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:friend-ga",
+      "senseId": "high-frequency-starter:sense:friend-01",
+      "ipa": "frend",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:teacher-ga",
+      "senseId": "high-frequency-starter:sense:teacher-01",
+      "ipa": "ˈtiːtʃər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:student-ga",
+      "senseId": "high-frequency-starter:sense:student-01",
+      "ipa": "ˈstuːdənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:school-ga",
+      "senseId": "high-frequency-starter:sense:school-01",
+      "ipa": "skuːl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:classroom-ga",
+      "senseId": "high-frequency-starter:sense:classroom-01",
+      "ipa": "ˈklæsruːm",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:book-ga",
+      "senseId": "high-frequency-starter:sense:book-01",
+      "ipa": "bʊk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:pencil-ga",
+      "senseId": "high-frequency-starter:sense:pencil-01",
+      "ipa": "ˈpensəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:desk-ga",
+      "senseId": "high-frequency-starter:sense:desk-01",
+      "ipa": "desk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:morning-ga",
+      "senseId": "high-frequency-starter:sense:morning-01",
+      "ipa": "ˈmɔːrnɪŋ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:today-ga",
+      "senseId": "high-frequency-starter:sense:today-01",
+      "ipa": "təˈdeɪ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:tomorrow-ga",
+      "senseId": "high-frequency-starter:sense:tomorrow-01",
+      "ipa": "təˈmɑːroʊ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:week-ga",
+      "senseId": "high-frequency-starter:sense:week-01",
+      "ipa": "wiːk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:weather-ga",
+      "senseId": "high-frequency-starter:sense:weather-01",
+      "ipa": "ˈweðər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:sunny-ga",
+      "senseId": "high-frequency-starter:sense:sunny-01",
+      "ipa": "ˈsʌni",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:rain-ga",
+      "senseId": "high-frequency-starter:sense:rain-01",
+      "ipa": "reɪn",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:water-ga",
+      "senseId": "high-frequency-starter:sense:water-01",
+      "ipa": "ˈwɔːtər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:eat-ga",
+      "senseId": "high-frequency-starter:sense:eat-01",
+      "ipa": "iːt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:drink-ga",
+      "senseId": "high-frequency-starter:sense:drink-01",
+      "ipa": "drɪŋk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:read-ga",
+      "senseId": "high-frequency-starter:sense:read-01",
+      "ipa": "riːd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:write-ga",
+      "senseId": "high-frequency-starter:sense:write-01",
+      "ipa": "raɪt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:listen-ga",
+      "senseId": "high-frequency-starter:sense:listen-01",
+      "ipa": "ˈlɪsən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:speak-ga",
+      "senseId": "high-frequency-starter:sense:speak-01",
+      "ipa": "spiːk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:happy-ga",
+      "senseId": "high-frequency-starter:sense:happy-01",
+      "ipa": "ˈhæpi",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:small-ga",
+      "senseId": "high-frequency-starter:sense:small-01",
+      "ipa": "smɔːl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:help-ga",
+      "senseId": "high-frequency-starter:sense:help-01",
+      "ipa": "help",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:pron:beautiful-ga",
+      "senseId": "high-frequency-starter:sense:beautiful-01",
+      "ipa": "ˈbjuːtɪfəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "exampleId": "high-frequency-starter:example:family-01",
+      "senseId": "high-frequency-starter:sense:family-01",
+      "textEn": "My family is small.",
+      "textZh": "我家人不多。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:parent-01",
+      "senseId": "high-frequency-starter:sense:parent-01",
+      "textEn": "A parent waits at the school gate.",
+      "textZh": "一位家长在校门口等候。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:mother-01",
+      "senseId": "high-frequency-starter:sense:mother-01",
+      "textEn": "My mother reads with me.",
+      "textZh": "妈妈和我一起阅读。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:father-01",
+      "senseId": "high-frequency-starter:sense:father-01",
+      "textEn": "My father cooks dinner today.",
+      "textZh": "爸爸今天做晚饭。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:friend-01",
+      "senseId": "high-frequency-starter:sense:friend-01",
+      "textEn": "My friend sits next to me.",
+      "textZh": "我的朋友坐在我旁边。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:teacher-01",
+      "senseId": "high-frequency-starter:sense:teacher-01",
+      "textEn": "Our teacher tells a story.",
+      "textZh": "我们的老师讲了一个故事。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:student-01",
+      "senseId": "high-frequency-starter:sense:student-01",
+      "textEn": "Every student has a book.",
+      "textZh": "每个学生都有一本书。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:school-01",
+      "senseId": "high-frequency-starter:sense:school-01",
+      "textEn": "We walk to school together.",
+      "textZh": "我们一起步行去学校。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:classroom-01",
+      "senseId": "high-frequency-starter:sense:classroom-01",
+      "textEn": "The classroom is bright.",
+      "textZh": "教室很明亮。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:book-01",
+      "senseId": "high-frequency-starter:sense:book-01",
+      "textEn": "I put the book on the desk.",
+      "textZh": "我把书放在桌子上。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:pencil-01",
+      "senseId": "high-frequency-starter:sense:pencil-01",
+      "textEn": "Please sharpen your pencil.",
+      "textZh": "请把你的铅笔削尖。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:desk-01",
+      "senseId": "high-frequency-starter:sense:desk-01",
+      "textEn": "There is a bag under the desk.",
+      "textZh": "课桌下面有一个书包。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:morning-01",
+      "senseId": "high-frequency-starter:sense:morning-01",
+      "textEn": "I drink water every morning.",
+      "textZh": "我每天早上喝水。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:today-01",
+      "senseId": "high-frequency-starter:sense:today-01",
+      "textEn": "Today we have an English lesson.",
+      "textZh": "今天我们有一节英语课。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:tomorrow-01",
+      "senseId": "high-frequency-starter:sense:tomorrow-01",
+      "textEn": "Tomorrow is our sports day.",
+      "textZh": "明天是我们的运动会。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:week-01",
+      "senseId": "high-frequency-starter:sense:week-01",
+      "textEn": "A week has seven days.",
+      "textZh": "一周有七天。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:weather-01",
+      "senseId": "high-frequency-starter:sense:weather-01",
+      "textEn": "The weather is warm today.",
+      "textZh": "今天天气暖和。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:sunny-01",
+      "senseId": "high-frequency-starter:sense:sunny-01",
+      "textEn": "It is sunny after the rain.",
+      "textZh": "雨后天气晴朗。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:rain-01",
+      "senseId": "high-frequency-starter:sense:rain-01",
+      "textEn": "The rain stops before lunch.",
+      "textZh": "午饭前雨停了。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:water-01",
+      "senseId": "high-frequency-starter:sense:water-01",
+      "textEn": "Please drink some water.",
+      "textZh": "请喝点水。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:eat-01",
+      "senseId": "high-frequency-starter:sense:eat-01",
+      "textEn": "We eat fruit after class.",
+      "textZh": "下课后我们吃水果。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:drink-01",
+      "senseId": "high-frequency-starter:sense:drink-01",
+      "textEn": "I drink milk at breakfast.",
+      "textZh": "我早餐时喝牛奶。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:read-01",
+      "senseId": "high-frequency-starter:sense:read-01",
+      "textEn": "I read a short story at night.",
+      "textZh": "我晚上读一个短故事。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:write-01",
+      "senseId": "high-frequency-starter:sense:write-01",
+      "textEn": "Please write your name here.",
+      "textZh": "请在这里写下你的名字。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:listen-01",
+      "senseId": "high-frequency-starter:sense:listen-01",
+      "textEn": "Listen to the question first.",
+      "textZh": "先听问题。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:speak-01",
+      "senseId": "high-frequency-starter:sense:speak-01",
+      "textEn": "Please speak slowly.",
+      "textZh": "请慢一点说。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:happy-01",
+      "senseId": "high-frequency-starter:sense:happy-01",
+      "textEn": "The children look happy.",
+      "textZh": "孩子们看起来很开心。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:small-01",
+      "senseId": "high-frequency-starter:sense:small-01",
+      "textEn": "A small bird sits by the window.",
+      "textZh": "一只小鸟停在窗边。",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:help-01",
+      "senseId": "high-frequency-starter:sense:help-01",
+      "textEn": "Can you help me carry this box?",
+      "textZh": "你能帮我搬这个箱子吗？",
+      "gradeFit": [
+        "grade4"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    },
+    {
+      "exampleId": "high-frequency-starter:example:beautiful-01",
+      "senseId": "high-frequency-starter:sense:beautiful-01",
+      "textEn": "The garden is beautiful in spring.",
+      "textZh": "花园在春天很美。",
+      "gradeFit": [
+        "grade5"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-high-frequency-starter-editorial"
+      ]
+    }
+  ],
+  "assets": [],
+  "taskTemplates": [
+    {
+      "taskTemplateId": "high-frequency-starter:task:family:meaning",
+      "senseId": "high-frequency-starter:sense:family-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:family:spelling",
+      "senseId": "high-frequency-starter:sense:family-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:family:context",
+      "senseId": "high-frequency-starter:sense:family-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:parent:meaning",
+      "senseId": "high-frequency-starter:sense:parent-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:parent:spelling",
+      "senseId": "high-frequency-starter:sense:parent-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:parent:context",
+      "senseId": "high-frequency-starter:sense:parent-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:mother:meaning",
+      "senseId": "high-frequency-starter:sense:mother-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:mother:spelling",
+      "senseId": "high-frequency-starter:sense:mother-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:mother:context",
+      "senseId": "high-frequency-starter:sense:mother-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:father:meaning",
+      "senseId": "high-frequency-starter:sense:father-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:father:spelling",
+      "senseId": "high-frequency-starter:sense:father-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:father:context",
+      "senseId": "high-frequency-starter:sense:father-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:friend:meaning",
+      "senseId": "high-frequency-starter:sense:friend-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:friend:spelling",
+      "senseId": "high-frequency-starter:sense:friend-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:friend:context",
+      "senseId": "high-frequency-starter:sense:friend-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:teacher:meaning",
+      "senseId": "high-frequency-starter:sense:teacher-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:teacher:spelling",
+      "senseId": "high-frequency-starter:sense:teacher-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:teacher:context",
+      "senseId": "high-frequency-starter:sense:teacher-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:student:meaning",
+      "senseId": "high-frequency-starter:sense:student-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:student:spelling",
+      "senseId": "high-frequency-starter:sense:student-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:student:context",
+      "senseId": "high-frequency-starter:sense:student-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:school:meaning",
+      "senseId": "high-frequency-starter:sense:school-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:school:spelling",
+      "senseId": "high-frequency-starter:sense:school-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:school:context",
+      "senseId": "high-frequency-starter:sense:school-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:classroom:meaning",
+      "senseId": "high-frequency-starter:sense:classroom-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:classroom:spelling",
+      "senseId": "high-frequency-starter:sense:classroom-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:classroom:context",
+      "senseId": "high-frequency-starter:sense:classroom-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:book:meaning",
+      "senseId": "high-frequency-starter:sense:book-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:book:spelling",
+      "senseId": "high-frequency-starter:sense:book-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:book:context",
+      "senseId": "high-frequency-starter:sense:book-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:pencil:meaning",
+      "senseId": "high-frequency-starter:sense:pencil-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:pencil:spelling",
+      "senseId": "high-frequency-starter:sense:pencil-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:pencil:context",
+      "senseId": "high-frequency-starter:sense:pencil-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:desk:meaning",
+      "senseId": "high-frequency-starter:sense:desk-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:desk:spelling",
+      "senseId": "high-frequency-starter:sense:desk-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:desk:context",
+      "senseId": "high-frequency-starter:sense:desk-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:morning:meaning",
+      "senseId": "high-frequency-starter:sense:morning-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:morning:spelling",
+      "senseId": "high-frequency-starter:sense:morning-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:morning:context",
+      "senseId": "high-frequency-starter:sense:morning-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:today:meaning",
+      "senseId": "high-frequency-starter:sense:today-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:today:spelling",
+      "senseId": "high-frequency-starter:sense:today-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:today:context",
+      "senseId": "high-frequency-starter:sense:today-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:tomorrow:meaning",
+      "senseId": "high-frequency-starter:sense:tomorrow-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:tomorrow:spelling",
+      "senseId": "high-frequency-starter:sense:tomorrow-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:tomorrow:context",
+      "senseId": "high-frequency-starter:sense:tomorrow-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:week:meaning",
+      "senseId": "high-frequency-starter:sense:week-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:week:spelling",
+      "senseId": "high-frequency-starter:sense:week-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:week:context",
+      "senseId": "high-frequency-starter:sense:week-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:weather:meaning",
+      "senseId": "high-frequency-starter:sense:weather-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:weather:spelling",
+      "senseId": "high-frequency-starter:sense:weather-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:weather:context",
+      "senseId": "high-frequency-starter:sense:weather-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:sunny:meaning",
+      "senseId": "high-frequency-starter:sense:sunny-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:sunny:spelling",
+      "senseId": "high-frequency-starter:sense:sunny-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:sunny:context",
+      "senseId": "high-frequency-starter:sense:sunny-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:rain:meaning",
+      "senseId": "high-frequency-starter:sense:rain-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:rain:spelling",
+      "senseId": "high-frequency-starter:sense:rain-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:rain:context",
+      "senseId": "high-frequency-starter:sense:rain-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:water:meaning",
+      "senseId": "high-frequency-starter:sense:water-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:water:spelling",
+      "senseId": "high-frequency-starter:sense:water-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:water:context",
+      "senseId": "high-frequency-starter:sense:water-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:eat:meaning",
+      "senseId": "high-frequency-starter:sense:eat-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:eat:spelling",
+      "senseId": "high-frequency-starter:sense:eat-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:eat:context",
+      "senseId": "high-frequency-starter:sense:eat-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:drink:meaning",
+      "senseId": "high-frequency-starter:sense:drink-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:drink:spelling",
+      "senseId": "high-frequency-starter:sense:drink-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:drink:context",
+      "senseId": "high-frequency-starter:sense:drink-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:read:meaning",
+      "senseId": "high-frequency-starter:sense:read-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:read:spelling",
+      "senseId": "high-frequency-starter:sense:read-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:read:context",
+      "senseId": "high-frequency-starter:sense:read-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:write:meaning",
+      "senseId": "high-frequency-starter:sense:write-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:write:spelling",
+      "senseId": "high-frequency-starter:sense:write-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:write:context",
+      "senseId": "high-frequency-starter:sense:write-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:listen:meaning",
+      "senseId": "high-frequency-starter:sense:listen-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:listen:spelling",
+      "senseId": "high-frequency-starter:sense:listen-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:listen:context",
+      "senseId": "high-frequency-starter:sense:listen-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:speak:meaning",
+      "senseId": "high-frequency-starter:sense:speak-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:speak:spelling",
+      "senseId": "high-frequency-starter:sense:speak-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:speak:context",
+      "senseId": "high-frequency-starter:sense:speak-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:happy:meaning",
+      "senseId": "high-frequency-starter:sense:happy-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:happy:spelling",
+      "senseId": "high-frequency-starter:sense:happy-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:happy:context",
+      "senseId": "high-frequency-starter:sense:happy-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:small:meaning",
+      "senseId": "high-frequency-starter:sense:small-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:small:spelling",
+      "senseId": "high-frequency-starter:sense:small-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:small:context",
+      "senseId": "high-frequency-starter:sense:small-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:help:meaning",
+      "senseId": "high-frequency-starter:sense:help-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:help:spelling",
+      "senseId": "high-frequency-starter:sense:help-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:help:context",
+      "senseId": "high-frequency-starter:sense:help-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:beautiful:meaning",
+      "senseId": "high-frequency-starter:sense:beautiful-01",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/meaning_retrieval/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:beautiful:spelling",
+      "senseId": "high-frequency-starter:sense:beautiful-01",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/spelling_production/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:task:beautiful:context",
+      "senseId": "high-frequency-starter:sense:beautiful-01",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/context_completion/v1",
+      "supportPolicyId": "wordquest-support-policy-v1",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceRefId": "src-high-frequency-starter-editorial",
+      "sourceType": "original_editorial",
+      "title": "WordQuest 原创编辑样本（待教研复核）",
+      "verificationStatus": "unverified",
+      "rightsStatus": "pending_review",
+      "notes": "本包由项目内容团队原创编写。尚未完成独立教研审核、发音核验及正式发布审批。"
+    }
+  ]
+}

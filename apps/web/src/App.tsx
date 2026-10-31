@@ -6,6 +6,7 @@ import {
 } from '@wordquest/game-core';
 import { loadLabState, saveLabState } from '@wordquest/storage';
 import type { T1LabScene } from './game/T1LabScene';
+import { P1LearningLab } from './components/P1LearningLab';
 
 const PhaserLab = lazy(() =>
   import('./components/PhaserLab').then((module) => ({
@@ -114,9 +115,9 @@ export function App() {
       <header className="topbar">
         <div>
           <p className="eyebrow">WORDQUEST / ENGINEERING SPIKE</p>
-          <h1>WordQuest T1 技术验证台</h1>
+          <h1>WordQuest 技术与学习核心验收台</h1>
           <p className="subtitle">
-            验证 React、Phaser、统一输入、本机存档与 PWA 离线壳，不代表正式游戏已完成。
+            验证词库、Learning Core、Session Adapter，以及 React、Phaser、本机存档和 PWA 技术底座；不代表正式游戏已完成。
           </p>
         </div>
         <div className="status-stack">
@@ -126,6 +127,8 @@ export function App() {
           <span className="status-pill">网络：{networkStatus}</span>
         </div>
       </header>
+
+      <P1LearningLab />
 
       <div className="content-grid">
         <section className="panel game-panel" aria-labelledby="stage-title">
