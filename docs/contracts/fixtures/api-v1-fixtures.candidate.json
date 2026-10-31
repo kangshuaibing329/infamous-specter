@@ -1,0 +1,189 @@
+{
+  "contractVersion": "1.0.0-candidate",
+  "status": "expected-contract-fixtures-not-live-http-captures",
+  "note": "These fixtures define expected validation behavior. They are not captured from a running server.",
+  "cases": [
+    {
+      "id": "API-V1-01",
+      "kind": "health",
+      "input": {
+        "method": "GET",
+        "path": "/api/v1/health"
+      },
+      "expected": {
+        "status": 200,
+        "body": {
+          "status": "ok",
+          "serviceVersion": "candidate",
+          "requestId": "req_demo_001"
+        }
+      }
+    },
+    {
+      "id": "API-V1-02",
+      "kind": "content-pack-list",
+      "input": {
+        "method": "GET",
+        "path": "/api/v1/content-packs?familyId=grade-progression&gradeBand=grade7"
+      },
+      "expected": {
+        "status": 200,
+        "body": {
+          "items": [],
+          "nextCursor": null,
+          "requestId": "req_demo_002"
+        }
+      }
+    },
+    {
+      "id": "API-V1-03",
+      "kind": "manifest-hash-mismatch",
+      "input": {
+        "method": "GET",
+        "path": "/api/v1/content-packs/demo-pack/versions/1.0.0/manifest",
+        "expectedHash": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "expected": {
+        "status": 409,
+        "errorCode": "CONTENT_HASH_MISMATCH"
+      }
+    },
+    {
+      "id": "API-V1-04",
+      "kind": "activation-idempotency",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/activation/redeem",
+        "headers": {
+          "Idempotency-Key": "idem_demo_00000001"
+        },
+        "body": {
+          "activationCode": "DEMO-CODE-0001"
+        }
+      },
+      "expected": {
+        "firstStatus": 200,
+        "retryStatus": 200,
+        "sameEntitlementRef": true
+      }
+    },
+    {
+      "id": "API-V1-05",
+      "kind": "entitlement-expired",
+      "input": {
+        "method": "GET",
+        "path": "/api/v1/entitlements"
+      },
+      "expected": {
+        "status": 200,
+        "expiredEntitlementNotUsable": true
+      }
+    },
+    {
+      "id": "API-V1-06",
+      "kind": "duplicate-event",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "sameEventIdSubmittedTwice": true
+      },
+      "expected": {
+        "status": 200,
+        "oneAcceptedEvent": true,
+        "secondStatus": "duplicate",
+        "noDuplicateEvidence": true
+      }
+    },
+    {
+      "id": "API-V1-07",
+      "kind": "unknown-sense",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "wordId": "missing-word",
+        "senseId": "missing-sense"
+      },
+      "expected": {
+        "status": 200,
+        "eventStatus": "rejected",
+        "errorCode": "UNKNOWN_CONTENT_REFERENCE"
+      }
+    },
+    {
+      "id": "API-V1-08",
+      "kind": "client-forged-evidence",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "extraFields": {
+          "verdict": "correct",
+          "evidenceLevel": "E3",
+          "masteryScore": 100
+        }
+      },
+      "expected": {
+        "status": 400,
+        "orRejectedEvent": true,
+        "neverTrustClientEvidence": true
+      }
+    },
+    {
+      "id": "API-V1-09",
+      "kind": "route-bonus-as-study-event",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "eventType": "study_answer_submitted",
+        "source": "route_bonus"
+      },
+      "expected": {
+        "status": 400,
+        "eventRejected": true,
+        "noStudyEvidence": true
+      }
+    },
+    {
+      "id": "API-V1-10",
+      "kind": "old-content-version",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "contentPackVersion": "retired-version"
+      },
+      "expected": {
+        "status": 200,
+        "eventStatus": "rejected",
+        "errorCode": "CONTENT_VERSION_UNSUPPORTED"
+      }
+    },
+    {
+      "id": "API-V1-11",
+      "kind": "partial-batch-retry",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "partialFailureThenSameBatchRetry": true
+      },
+      "expected": {
+        "status": 200,
+        "idempotentPerEvent": true,
+        "noDoubleAward": true
+      }
+    },
+    {
+      "id": "API-V1-12",
+      "kind": "deleted-profile-offline-event",
+      "input": {
+        "method": "POST",
+        "path": "/api/v1/sync/batches",
+        "profileDeletionAlreadyCompleted": true
+      },
+      "expected": {
+        "status": 200,
+        "eventStatus": "rejected",
+        "errorCode": "PROFILE_DELETED",
+        "noDataResurrection": true
+      }
+    }
+  ]
+}
