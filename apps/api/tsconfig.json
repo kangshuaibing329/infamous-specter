@@ -8,9 +8,7 @@
     "types": [
       "node"
     ],
-    "noEmit": false,
-    "outDir": "dist",
-    "rootDir": "src"
+    "noEmit": true
   },
   "include": [
     "src"
