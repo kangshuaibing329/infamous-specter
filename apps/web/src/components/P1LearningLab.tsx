@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { CognitiveSupport } from '@wordquest/contracts';
 import { validateContentPack, type ContentPack } from '@wordquest/content';
-import { createStudyEventIntent, evaluateAnswer } from '@wordquest/learning-core';
+import { createStudyEventIntent, evaluateAnswer, getNextReviewWindow } from '@wordquest/learning-core';
 import { advanceSession, getCurrentTask, restoreSession, startSession, type ActiveSession } from '@wordquest/session-adapter';
-import { appendStudyEvent, getInstalledContentPack, getMostRecentActiveSession, installContentPack, listStudyEventsForSession, saveSession } from '@wordquest/storage';
+import { appendStudyEvent, getInstalledContentPack, getMostRecentActiveSession, installContentPack, listReviewStates, listStudyEventsForSession, saveReviewState, saveSession } from '@wordquest/storage';
 import starterPack from '../../../../content-packs/high-frequency-starter/0.1.0/content-pack.json';
 import schoolPack from '../../../../content-packs/theme-school-life/0.1.0/content-pack.json';
 import naturePack from '../../../../content-packs/theme-nature-science/0.1.0/content-pack.json';
@@ -78,6 +78,33 @@ export function P1LearningLab() {
 
   const currentTask = activeSession ? getCurrentTask(activeSession) : null;
   const currentWord = currentTask ? selectedPack.words.find((word) => word.wordId === currentTask.wordId) : undefined;
+
+  useEffect(() => {
+    if (!activeSession || !currentTask) return;
+    let cancelled = false;
+    void (async () => {
+      const existing = await listReviewStates(activeSession.descriptor.profileId);
+      const id = `${activeSession.descriptor.profileId}:${currentTask.wordId}:${currentTask.senseId}:${currentTask.dimension}`;
+      if (existing.some((record) => record.id === id)) return;
+      const anchorAt = new Date().toISOString();
+      const next = getNextReviewWindow(anchorAt, []);
+      if (!next || cancelled) return;
+      await saveReviewState({
+        id,
+        profileId: activeSession.descriptor.profileId,
+        wordId: currentTask.wordId,
+        senseId: currentTask.senseId,
+        dimension: currentTask.dimension,
+        firstApprovedExposureAt: anchorAt,
+        completedCheckpoints: [],
+        nextCheckpointAt: next.targetAt,
+        updatedAt: new Date().toISOString()
+      });
+    })().catch((error: unknown) => {
+      if (!cancelled) setFeedback('复习计划本机保存失败：' + (error instanceof Error ? error.message : String(error)));
+    });
+    return () => { cancelled = true; };
+  }, [activeSession, currentTask]);
 
   async function handleStart() {
     if (!isValid) {
