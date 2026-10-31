@@ -1,4 +1,4 @@
-wordId,lemma,normalizedLemma,partOfSpeech,gradeTags,unitRefs,senseIds,reviewStatus,sourceRefIds,tags
+word_id,lemma,normalized_lemma,part_of_speech,grade_tags,unit_refs,sense_ids,review_status,source_ref_ids,tags
 high-frequency-starter:w001,about,about,preposition,grade5|grade6|grade7,high-frequency-starter:unit-1,high-frequency-starter:s001,draft,src-wordquest-editorial-v1,core|high-frequency
 high-frequency-starter:w002,after,after,preposition,grade5|grade6|grade7,high-frequency-starter:unit-3,high-frequency-starter:s002,draft,src-wordquest-editorial-v1,time|high-frequency
 high-frequency-starter:w003,again,again,adverb,grade5|grade6|grade7,high-frequency-starter:unit-2,high-frequency-starter:s003,draft,src-wordquest-editorial-v1,core|high-frequency
