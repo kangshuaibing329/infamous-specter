@@ -84,9 +84,46 @@ export function createApiServer(data: ApiData): FastifyInstance {
         assetManifestHash: pack.manifest.assetManifestHash,
         wordCount: pack.manifest.wordCount,
         unitRefs: pack.units.map((unit) => unit.unitId),
-        resourceUris: { content: `/content-packs/${pack.manifest.packId}/${pack.manifest.version}/content-pack.json`, assets: `/content-packs/${pack.manifest.packId}/${pack.manifest.version}/assets/` },
+        resourceUris: { content: `/api/v1/content-packs/${pack.manifest.packId}/versions/${pack.manifest.version}/content`, assets: `/api/v1/content-packs/${pack.manifest.packId}/versions/${pack.manifest.version}/assets` },
         requestId: request.id
       };
+    }
+  );
+
+  app.get<{ Params: { packId: string; version: string } }>(
+    '/api/v1/content-packs/:packId/versions/:version/content',
+    async (request, reply) => {
+      const key = request.params.packId + ':' + request.params.version;
+      const pack = data.packs.find((candidate) => candidate.manifest.packId + ':' + candidate.manifest.version === key);
+      const entry = (data.catalog.candidatePacks ?? []).find((candidate) =>
+        candidate.packId + ':' + candidate.version === key &&
+        candidate.customerSelectable &&
+        candidate.status === pack?.manifest.status &&
+        ['published', 'preview'].includes(candidate.status)
+      );
+      if (!pack || !entry) return reply.code(404).send({ code: 'CONTENT_PACK_NOT_FOUND', message: 'Content pack not found.', requestId: request.id, retryable: false });
+      if (entry.title !== pack.manifest.title || entry.wordCount !== pack.manifest.wordCount) return reply.code(409).send({ code: 'CONTENT_MANIFEST_MISMATCH', message: 'Catalog metadata does not match the content manifest.', requestId: request.id, retryable: false });
+      const validation = await validateContentPack(pack);
+      if (!validation.valid) return reply.code(409).send({ code: 'CONTENT_HASH_MISMATCH', message: 'Content pack failed integrity validation.', requestId: request.id, retryable: false });
+      return pack;
+    }
+  );
+
+  app.get<{ Params: { packId: string; version: string } }>(
+    '/api/v1/content-packs/:packId/versions/:version/assets',
+    async (request, reply) => {
+      const key = request.params.packId + ':' + request.params.version;
+      const pack = data.packs.find((candidate) => candidate.manifest.packId + ':' + candidate.manifest.version === key);
+      const entry = (data.catalog.candidatePacks ?? []).find((candidate) =>
+        candidate.packId + ':' + candidate.version === key &&
+        candidate.customerSelectable &&
+        candidate.status === pack?.manifest.status &&
+        ['published', 'preview'].includes(candidate.status)
+      );
+      if (!pack || !entry) return reply.code(404).send({ code: 'CONTENT_PACK_NOT_FOUND', message: 'Content pack not found.', requestId: request.id, retryable: false });
+      const validation = await validateContentPack(pack);
+      if (!validation.valid) return reply.code(409).send({ code: 'CONTENT_HASH_MISMATCH', message: 'Content pack failed integrity validation.', requestId: request.id, retryable: false });
+      return { items: pack.assets, assetManifestHash: pack.manifest.assetManifestHash, requestId: request.id };
     }
   );
 
