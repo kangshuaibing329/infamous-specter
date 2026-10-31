@@ -24,7 +24,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 104,
-    "contentHash": "785691e9c5a4a3b57244f37fffbe824fbd0d98c07723062871bf877cfc206444",
+    "contentHash": "0b7cdb6fa680f1e8dd998df1cc68e22c68c42d0da197e5ae1512a708a1963ecc",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -1012,8 +1012,8 @@
     },
     {
       "wordId": "theme-school-life:w036",
-      "lemma": "canteen",
-      "normalizedLemma": "canteen",
+      "lemma": "cafeteria",
+      "normalizedLemma": "cafeteria",
       "partOfSpeech": [
         "noun"
       ],
@@ -1033,7 +1033,7 @@
         "src-wordquest-editorial-v2"
       ],
       "tags": [
-        "place",
+        "school",
         "theme-scenario"
       ]
     },
@@ -1201,8 +1201,8 @@
     },
     {
       "wordId": "theme-school-life:w043",
-      "lemma": "corridor",
-      "normalizedLemma": "corridor",
+      "lemma": "hallway",
+      "normalizedLemma": "hallway",
       "partOfSpeech": [
         "noun"
       ],
@@ -1984,8 +1984,8 @@
     },
     {
       "wordId": "theme-school-life:w072",
-      "lemma": "pupil",
-      "normalizedLemma": "pupil",
+      "lemma": "student",
+      "normalizedLemma": "student",
       "partOfSpeech": [
         "noun"
       ],
@@ -2330,7 +2330,8 @@
       ],
       "tags": [
         "schedule",
-        "theme-scenario"
+        "theme-scenario",
+        "british-english"
       ]
     },
     {
@@ -2879,7 +2880,7 @@
       "senseId": "theme-school-life:s001",
       "wordId": "theme-school-life:w001",
       "glossZh": "黑板",
-      "definitionEn": "blackboard: 黑板",
+      "definitionEn": "a large dark board on which a teacher writes with chalk",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p001"
@@ -2906,7 +2907,7 @@
       "senseId": "theme-school-life:s002",
       "wordId": "theme-school-life:w002",
       "glossZh": "同班同学",
-      "definitionEn": "classmate: 同班同学",
+      "definitionEn": "a student who is in the same class as you",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p002"
@@ -2933,7 +2934,7 @@
       "senseId": "theme-school-life:s003",
       "wordId": "theme-school-life:w003",
       "glossZh": "教室",
-      "definitionEn": "classroom: 教室",
+      "definitionEn": "a room where students have lessons",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p003"
@@ -2960,7 +2961,7 @@
       "senseId": "theme-school-life:s004",
       "wordId": "theme-school-life:w004",
       "glossZh": "词典",
-      "definitionEn": "dictionary: 词典",
+      "definitionEn": "a book or digital resource that explains words and gives information about them",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p004"
@@ -2987,7 +2988,7 @@
       "senseId": "theme-school-life:s005",
       "wordId": "theme-school-life:w005",
       "glossZh": "橡皮",
-      "definitionEn": "eraser: 橡皮",
+      "definitionEn": "an object used to remove pencil marks from paper",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p005"
@@ -3013,8 +3014,8 @@
     {
       "senseId": "theme-school-life:s006",
       "wordId": "theme-school-life:w006",
-      "glossZh": "练习；锻炼",
-      "definitionEn": "exercise: 练习；锻炼",
+      "glossZh": "练习；练习题",
+      "definitionEn": "a question or activity that helps you practise a skill or subject",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p006"
@@ -3041,7 +3042,7 @@
       "senseId": "theme-school-life:s007",
       "wordId": "theme-school-life:w007",
       "glossZh": "家庭作业",
-      "definitionEn": "homework: 家庭作业",
+      "definitionEn": "school work that a student is asked to do at home",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p007"
@@ -3068,7 +3069,7 @@
       "senseId": "theme-school-life:s008",
       "wordId": "theme-school-life:w008",
       "glossZh": "图书馆",
-      "definitionEn": "library: 图书馆",
+      "definitionEn": "a place where people can read or borrow books and other materials",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p008"
@@ -3095,7 +3096,7 @@
       "senseId": "theme-school-life:s009",
       "wordId": "theme-school-life:w009",
       "glossZh": "一节课；课程",
-      "definitionEn": "lesson: 一节课；课程",
+      "definitionEn": "a period of time when someone teaches a subject or skill",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p009"
@@ -3122,7 +3123,7 @@
       "senseId": "theme-school-life:s010",
       "wordId": "theme-school-life:w010",
       "glossZh": "笔记本",
-      "definitionEn": "notebook: 笔记本",
+      "definitionEn": "a book of blank or lined pages used for writing notes",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p010"
@@ -3149,7 +3150,7 @@
       "senseId": "theme-school-life:s011",
       "wordId": "theme-school-life:w011",
       "glossZh": "操场",
-      "definitionEn": "playground: 操场",
+      "definitionEn": "an outdoor area where children can play",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p011"
@@ -3176,7 +3177,7 @@
       "senseId": "theme-school-life:s012",
       "wordId": "theme-school-life:w012",
       "glossZh": "项目；课题",
-      "definitionEn": "project: 项目；课题",
+      "definitionEn": "a piece of planned work that is done over a period of time",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p012"
@@ -3203,7 +3204,7 @@
       "senseId": "theme-school-life:s013",
       "wordId": "theme-school-life:w013",
       "glossZh": "问题；疑问",
-      "definitionEn": "question: 问题；疑问",
+      "definitionEn": "something you ask when you want information",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p013"
@@ -3230,7 +3231,7 @@
       "senseId": "theme-school-life:s014",
       "wordId": "theme-school-life:w014",
       "glossZh": "学科；科目",
-      "definitionEn": "subject: 学科；科目",
+      "definitionEn": "an area of knowledge that students study at school",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p014"
@@ -3257,7 +3258,7 @@
       "senseId": "theme-school-life:s015",
       "wordId": "theme-school-life:w015",
       "glossZh": "校服；制服",
-      "definitionEn": "uniform: 校服；制服",
+      "definitionEn": "a set of clothes that members of a school or group wear",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p015"
@@ -3284,7 +3285,7 @@
       "senseId": "theme-school-life:s016",
       "wordId": "theme-school-life:w016",
       "glossZh": "练习单",
-      "definitionEn": "worksheet: 练习单",
+      "definitionEn": "a sheet of paper with questions or activities for students to complete",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p016"
@@ -3311,7 +3312,7 @@
       "senseId": "theme-school-life:s017",
       "wordId": "theme-school-life:w017",
       "glossZh": "借入",
-      "definitionEn": "borrow: 借入",
+      "definitionEn": "to take and use something that belongs to someone else and give it back later",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p017"
@@ -3338,7 +3339,7 @@
       "senseId": "theme-school-life:s018",
       "wordId": "theme-school-life:w018",
       "glossZh": "解释；说明",
-      "definitionEn": "explain: 解释；说明",
+      "definitionEn": "to make an idea or rule clear by giving details",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p018"
@@ -3365,7 +3366,7 @@
       "senseId": "theme-school-life:s019",
       "wordId": "theme-school-life:w019",
       "glossZh": "讨论",
-      "definitionEn": "discuss: 讨论",
+      "definitionEn": "to talk about something with another person or group",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p019"
@@ -3392,7 +3393,7 @@
       "senseId": "theme-school-life:s020",
       "wordId": "theme-school-life:w020",
       "glossZh": "练习",
-      "definitionEn": "practice: 练习",
+      "definitionEn": "to do something repeatedly in order to improve a skill",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p020"
@@ -3419,7 +3420,7 @@
       "senseId": "theme-school-life:s021",
       "wordId": "theme-school-life:w021",
       "glossZh": "复习；回顾",
-      "definitionEn": "review: 复习；回顾",
+      "definitionEn": "to study or look at something again",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p021"
@@ -3446,7 +3447,7 @@
       "senseId": "theme-school-life:s022",
       "wordId": "theme-school-life:w022",
       "glossZh": "准备",
-      "definitionEn": "prepare: 准备",
+      "definitionEn": "to make something or yourself ready for an activity",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p022"
@@ -3473,7 +3474,7 @@
       "senseId": "theme-school-life:s023",
       "wordId": "theme-school-life:w023",
       "glossZh": "仔细的；小心的",
-      "definitionEn": "careful: 仔细的；小心的",
+      "definitionEn": "giving attention to avoid mistakes or danger",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p023"
@@ -3502,7 +3503,7 @@
       "senseId": "theme-school-life:s024",
       "wordId": "theme-school-life:w024",
       "glossZh": "有帮助的；乐于助人的",
-      "definitionEn": "helpful: 有帮助的；乐于助人的",
+      "definitionEn": "useful or willing to help",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p024"
@@ -3531,7 +3532,7 @@
       "senseId": "theme-school-life:s025",
       "wordId": "theme-school-life:w025",
       "glossZh": "安静的",
-      "definitionEn": "quiet: 安静的",
+      "definitionEn": "making little or no noise",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p025"
@@ -3558,7 +3559,7 @@
       "senseId": "theme-school-life:s026",
       "wordId": "theme-school-life:w026",
       "glossZh": "正确的",
-      "definitionEn": "correct: 正确的",
+      "definitionEn": "right and free from mistakes",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p026"
@@ -3585,7 +3586,7 @@
       "senseId": "theme-school-life:s027",
       "wordId": "theme-school-life:w027",
       "glossZh": "有创造力的",
-      "definitionEn": "creative: 有创造力的",
+      "definitionEn": "able to produce new ideas or make interesting things",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p027"
@@ -3614,7 +3615,7 @@
       "senseId": "theme-school-life:s028",
       "wordId": "theme-school-life:w028",
       "glossZh": "改善；提高",
-      "definitionEn": "improve: 改善；提高",
+      "definitionEn": "to make something better or become better",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p028"
@@ -3641,7 +3642,7 @@
       "senseId": "theme-school-life:s029",
       "wordId": "theme-school-life:w029",
       "glossZh": "发现",
-      "definitionEn": "discover: 发现",
+      "definitionEn": "to find or learn something for the first time",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p029"
@@ -3668,7 +3669,7 @@
       "senseId": "theme-school-life:s030",
       "wordId": "theme-school-life:w030",
       "glossZh": "团队合作",
-      "definitionEn": "teamwork: 团队合作",
+      "definitionEn": "the activity of working together with other people to reach a goal",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "theme-school-life:p030"
@@ -3714,7 +3715,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the act of being present at a place or event, especially school"
     },
     {
       "senseId": "theme-school-life:s032",
@@ -3741,7 +3743,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a bag carried on your back, usually with two shoulder straps"
     },
     {
       "senseId": "theme-school-life:s033",
@@ -3766,7 +3769,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a device that makes a ringing sound when it is moved or struck"
     },
     {
       "senseId": "theme-school-life:s034",
@@ -3791,7 +3795,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the scientific study of living things"
     },
     {
       "senseId": "theme-school-life:s035",
@@ -3816,7 +3821,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a small electronic device used for doing mathematical calculations"
     },
     {
       "senseId": "theme-school-life:s036",
@@ -3841,7 +3847,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a place in a school or other building where people can buy or eat meals"
     },
     {
       "senseId": "theme-school-life:s037",
@@ -3866,7 +3873,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a soft white or coloured stick used for writing or drawing on a board"
     },
     {
       "senseId": "theme-school-life:s038",
@@ -3891,7 +3899,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "one of the main sections of a book"
     },
     {
       "senseId": "theme-school-life:s039",
@@ -3916,7 +3925,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the scientific study of substances and how they change"
     },
     {
       "senseId": "theme-school-life:s040",
@@ -3941,7 +3951,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "an organization for people who share an interest or activity"
     },
     {
       "senseId": "theme-school-life:s041",
@@ -3966,7 +3977,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "an event in which people or teams try to do better than others"
     },
     {
       "senseId": "theme-school-life:s042",
@@ -3991,7 +4003,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "an electronic machine that stores and processes information"
     },
     {
       "senseId": "theme-school-life:s043",
@@ -4016,7 +4029,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a passage inside a building that connects rooms"
     },
     {
       "senseId": "theme-school-life:s044",
@@ -4041,7 +4055,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a series of lessons about a particular subject"
     },
     {
       "senseId": "theme-school-life:s045",
@@ -4066,7 +4081,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a piece of furniture with a flat top used for writing or working"
     },
     {
       "senseId": "theme-school-life:s046",
@@ -4091,7 +4107,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a play or a piece of acting performed for an audience"
     },
     {
       "senseId": "theme-school-life:s047",
@@ -4116,7 +4133,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a door or place through which you can enter a building or area"
     },
     {
       "senseId": "theme-school-life:s048",
@@ -4141,7 +4159,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a formal test of what someone knows or can do"
     },
     {
       "senseId": "theme-school-life:s049",
@@ -4166,7 +4185,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the study of the Earth's places, people, and environments"
     },
     {
       "senseId": "theme-school-life:s050",
@@ -4191,7 +4211,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the rules for how words are formed and put together in a language"
     },
     {
       "senseId": "theme-school-life:s051",
@@ -4216,7 +4237,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a number of people or things considered or working together"
     },
     {
       "senseId": "theme-school-life:s052",
@@ -4241,7 +4263,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the study of events and people from the past"
     },
     {
       "senseId": "theme-school-life:s053",
@@ -4266,7 +4289,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "facts or details about a subject"
     },
     {
       "senseId": "theme-school-life:s054",
@@ -4291,7 +4315,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "information that tells someone how to do something"
     },
     {
       "senseId": "theme-school-life:s055",
@@ -4318,7 +4343,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a set of keys used to type letters and numbers into a computer"
     },
     {
       "senseId": "theme-school-life:s056",
@@ -4343,7 +4369,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a system of words and grammar used by people to communicate"
     },
     {
       "senseId": "theme-school-life:s057",
@@ -4368,7 +4395,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a drawing that shows where places, roads, or features are"
     },
     {
       "senseId": "theme-school-life:s058",
@@ -4393,7 +4421,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a score given for a piece of schoolwork or a sign made on a surface"
     },
     {
       "senseId": "theme-school-life:s059",
@@ -4418,7 +4447,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the study of numbers, shapes, quantities, and patterns"
     },
     {
       "senseId": "theme-school-life:s060",
@@ -4443,7 +4473,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "sounds arranged in a way that people sing or play instruments"
     },
     {
       "senseId": "theme-school-life:s061",
@@ -4468,12 +4499,13 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "one side of a sheet of paper in a book or document"
     },
     {
       "senseId": "theme-school-life:s062",
       "wordId": "theme-school-life:w062",
-      "glossZh": "纸；试卷",
+      "glossZh": "纸；纸张",
       "pronunciationIds": [
         "theme-school-life:p062"
       ],
@@ -4493,7 +4525,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "thin material used for writing, printing, or drawing"
     },
     {
       "senseId": "theme-school-life:s063",
@@ -4518,7 +4551,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a section of writing made up of sentences about one main idea"
     },
     {
       "senseId": "theme-school-life:s064",
@@ -4543,7 +4577,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a person you work or do an activity with"
     },
     {
       "senseId": "theme-school-life:s065",
@@ -4568,7 +4603,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a tool with a thin piece of graphite used for writing or drawing"
     },
     {
       "senseId": "theme-school-life:s066",
@@ -4593,12 +4629,13 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a tool that writes with ink"
     },
     {
       "senseId": "theme-school-life:s067",
       "wordId": "theme-school-life:w067",
-      "glossZh": "课时；节；一段时间",
+      "glossZh": "课时；一节课",
       "pronunciationIds": [
         "theme-school-life:p067"
       ],
@@ -4618,7 +4655,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "one of the regular lesson times in a school day"
     },
     {
       "senseId": "theme-school-life:s068",
@@ -4643,7 +4681,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a large printed sheet used to give information or advertise something"
     },
     {
       "senseId": "theme-school-life:s069",
@@ -4668,7 +4707,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a talk or display that gives information to an audience"
     },
     {
       "senseId": "theme-school-life:s070",
@@ -4693,7 +4733,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the person in charge of a school"
     },
     {
       "senseId": "theme-school-life:s071",
@@ -4718,7 +4759,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a machine that produces text or pictures on paper"
     },
     {
       "senseId": "theme-school-life:s072",
@@ -4743,7 +4785,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a person who is learning at a school, college, or other place of study"
     },
     {
       "senseId": "theme-school-life:s073",
@@ -4768,7 +4811,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the activity or skill of understanding written words"
     },
     {
       "senseId": "theme-school-life:s074",
@@ -4793,7 +4837,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a straight tool marked with units used to measure or draw lines"
     },
     {
       "senseId": "theme-school-life:s075",
@@ -4818,7 +4863,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a plan that shows when activities or events will happen"
     },
     {
       "senseId": "theme-school-life:s076",
@@ -4845,7 +4891,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a bag used by a student to carry books and school supplies"
     },
     {
       "senseId": "theme-school-life:s077",
@@ -4870,7 +4917,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the number of points someone gets in a test or game"
     },
     {
       "senseId": "theme-school-life:s078",
@@ -4895,7 +4943,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the flat surface on a device where words and pictures appear"
     },
     {
       "senseId": "theme-school-life:s079",
@@ -4920,7 +4969,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the correct order of letters in a word"
     },
     {
       "senseId": "theme-school-life:s080",
@@ -4945,7 +4995,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a description of events, real or imagined, told in writing or speech"
     },
     {
       "senseId": "theme-school-life:s081",
@@ -4970,7 +5021,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to spend time learning about a subject by reading, practising, or thinking"
     },
     {
       "senseId": "theme-school-life:s082",
@@ -4995,7 +5047,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a set of questions or tasks used to measure what someone knows or can do"
     },
     {
       "senseId": "theme-school-life:s083",
@@ -5022,7 +5075,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a book that gives information about a subject studied at school"
     },
     {
       "senseId": "theme-school-life:s084",
@@ -5049,7 +5103,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a plan that shows the times when lessons or activities take place"
     },
     {
       "senseId": "theme-school-life:s085",
@@ -5076,7 +5131,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a book containing exercises for students to complete"
     },
     {
       "senseId": "theme-school-life:s086",
@@ -5101,7 +5157,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to form words or sentences using letters or symbols"
     },
     {
       "senseId": "theme-school-life:s087",
@@ -5126,7 +5183,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to look at written words and understand their meaning"
     },
     {
       "senseId": "theme-school-life:s088",
@@ -5151,7 +5209,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to use your voice to say words"
     },
     {
       "senseId": "theme-school-life:s089",
@@ -5176,7 +5235,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to say or write the letters of a word in the correct order"
     },
     {
       "senseId": "theme-school-life:s090",
@@ -5201,7 +5261,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to find an answer by using mathematics"
     },
     {
       "senseId": "theme-school-life:s091",
@@ -5226,7 +5287,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to say numbers in order or find how many things there are"
     },
     {
       "senseId": "theme-school-life:s092",
@@ -5251,7 +5313,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to make a picture using a pen, pencil, or other tool"
     },
     {
       "senseId": "theme-school-life:s093",
@@ -5276,7 +5339,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to make or write something that is the same as an original"
     },
     {
       "senseId": "theme-school-life:s094",
@@ -5301,12 +5365,13 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to look at two or more things to see how they are similar or different"
     },
     {
       "senseId": "theme-school-life:s095",
       "wordId": "theme-school-life:w095",
-      "glossZh": "复习；修订",
+      "glossZh": "修订；修改",
       "pronunciationIds": [
         "theme-school-life:p095"
       ],
@@ -5326,7 +5391,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to change or improve something by making corrections"
     },
     {
       "senseId": "theme-school-life:s096",
@@ -5351,7 +5417,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to change words from one language into another"
     },
     {
       "senseId": "theme-school-life:s097",
@@ -5376,7 +5443,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to find an answer to a question or a way to deal with a problem"
     },
     {
       "senseId": "theme-school-life:s098",
@@ -5401,7 +5469,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to look carefully for something"
     },
     {
       "senseId": "theme-school-life:s099",
@@ -5426,7 +5495,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to let another person use or have part of something, or tell them your ideas"
     },
     {
       "senseId": "theme-school-life:s100",
@@ -5451,7 +5521,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to be present at a class, meeting, or event"
     },
     {
       "senseId": "theme-school-life:s101",
@@ -5476,7 +5547,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a basic rule or belief that guides how someone behaves or thinks"
     },
     {
       "senseId": "theme-school-life:s102",
@@ -5501,7 +5573,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to give something to someone for a period of time, expecting it to be returned"
     },
     {
       "senseId": "theme-school-life:s103",
@@ -5526,7 +5599,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the paper, pens, pencils, and other materials used for writing"
     },
     {
       "senseId": "theme-school-life:s104",
@@ -5551,7 +5625,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "not moving or not changing position"
     }
   ],
   "pronunciations": [
@@ -5908,7 +5983,7 @@
     {
       "pronunciationId": "theme-school-life:p036",
       "senseId": "theme-school-life:s036",
-      "ipa": "kænˈtiːn",
+      "ipa": "ˌkæfəˈtɪriə",
       "accent": "en-US",
       "status": "draft",
       "sourceRefIds": [
@@ -5978,7 +6053,7 @@
     {
       "pronunciationId": "theme-school-life:p043",
       "senseId": "theme-school-life:s043",
-      "ipa": "ˈkɔːrɪdɔːr",
+      "ipa": "ˈhɔːlweɪ",
       "accent": "en-US",
       "status": "draft",
       "sourceRefIds": [
@@ -6268,7 +6343,7 @@
     {
       "pronunciationId": "theme-school-life:p072",
       "senseId": "theme-school-life:s072",
-      "ipa": "ˈpjuːpəl",
+      "ipa": "ˈstuːdənt",
       "accent": "en-US",
       "status": "draft",
       "sourceRefIds": [
@@ -6616,7 +6691,7 @@
       "exampleId": "theme-school-life:e002",
       "senseId": "theme-school-life:s002",
       "textEn": "My classmate shared a pencil.",
-      "textZh": "我的同班同学借给我一支铅笔。",
+      "textZh": "我的同班同学和我共用一支铅笔。",
       "gradeFit": [
         "grade5",
         "grade6",
@@ -6810,8 +6885,8 @@
     {
       "exampleId": "theme-school-life:e015",
       "senseId": "theme-school-life:s015",
-      "textEn": "Students wear a uniform on Monday.",
-      "textZh": "学生们星期一穿校服。",
+      "textEn": "Students wear uniforms at school.",
+      "textZh": "学生们在学校穿校服。",
       "gradeFit": [
         "grade5",
         "grade6",
@@ -7020,8 +7095,8 @@
     {
       "exampleId": "theme-school-life:e029",
       "senseId": "theme-school-life:s029",
-      "textEn": "We discover a new way to solve the puzzle.",
-      "textZh": "我们发现了一种解谜的新方法。",
+      "textEn": "You can discover a new way to solve the puzzle.",
+      "textZh": "你可以发现一种解谜的新方法。",
       "gradeFit": [
         "grade5",
         "grade6",
@@ -8010,8 +8085,8 @@
     {
       "exampleId": "theme-school-life:e095",
       "senseId": "theme-school-life:s095",
-      "textEn": "I revise my notes before the test.",
-      "textZh": "考试前我会复习笔记。",
+      "textEn": "We revise our project after feedback.",
+      "textZh": "收到反馈后，我们修改项目。",
       "gradeFit": [
         "grade5",
         "grade6",
