@@ -1,4 +1,4 @@
-exampleId,senseId,textEn,textZh,gradeFit,reviewStatus,sourceRefIds
+example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
 theme-nature-science:e001,theme-nature-science:s001,Plants need air to grow.,植物生长需要空气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
 theme-nature-science:e002,theme-nature-science:s002,A dolphin is an intelligent animal.,海豚是一种聪明的动物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
 theme-nature-science:e003,theme-nature-science:s003,The astronaut looked at Earth from space.,宇航员从太空中观察地球。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
