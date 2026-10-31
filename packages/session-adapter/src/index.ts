@@ -1,6 +1,7 @@
 import type { SessionDescriptor, TaskInstance } from '@wordquest/contracts';
 import type { ContentPack } from '@wordquest/content';
 import { buildAcceptedAnswers } from '@wordquest/learning-core';
+import { validateContentPack } from '@wordquest/content';
 
 export interface StartSessionInput {
   pack: ContentPack;
@@ -32,13 +33,14 @@ function seededShuffle<T>(items: T[], seed: string): T[] {
   return result;
 }
 
-export function startSession(input: StartSessionInput): ActiveSession {
+export async function startSession(input: StartSessionInput): Promise<ActiveSession> {
   const { pack } = input;
-  if (pack.manifest.status !== 'published' && !input.allowInternalPreview) {
-    throw new Error('This content pack is not published; internal preview permission is required.');
-  }
-  if (pack.manifest.status === 'published' && pack.manifest.review?.status !== 'approved') {
-    throw new Error('Published content pack is missing approved editorial review.');
+  const validation = await validateContentPack(pack);
+  if (!validation.valid) throw new Error('Content pack validation failed: ' + validation.issues.slice(0, 3).map((issue) => issue.message).join('; '));
+  if (pack.manifest.status === 'published') {
+    if (pack.manifest.review?.status !== 'approved') throw new Error('Published content pack is missing approved editorial review.');
+  } else if (pack.manifest.status !== 'preview' || !input.allowInternalPreview) {
+    throw new Error('Only published packs or explicitly authorized internal preview packs may start a session.');
   }
   const senses = new Map(pack.senses.map((sense) => [sense.senseId, sense]));
   const words = new Map(pack.words.map((word) => [word.wordId, word]));
