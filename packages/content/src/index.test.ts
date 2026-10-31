@@ -30,6 +30,20 @@ describe('candidate content pack runtime validation', () => {
     expect(result.issues.some((issue) => issue.code === 'CP-008')).toBe(true);
   });
 
+  it('detects dangling unit references', async () => {
+    const invalid = structuredClone(starter) as ContentPack;
+    invalid.words[0].unitRefs = ['missing-unit'];
+    const result = await validateContentPack(invalid);
+    expect(result.issues.some((issue) => issue.code === 'CP-004' && issue.message.includes('Unknown unit'))).toBe(true);
+  });
+
+  it('rejects task dimensions marked not applicable for the referenced sense', async () => {
+    const invalid = structuredClone(starter) as ContentPack;
+    invalid.senses[0].dimensionApplicability = { ...invalid.senses[0].dimensionApplicability, meaning: 'not_applicable' };
+    const result = await validateContentPack(invalid);
+    expect(result.issues.some((issue) => issue.code === 'CP-011')).toBe(true);
+  });
+
   it('does not classify internal preview candidates as customer packs', () => {
     expect(getPackAvailability(starter as ContentPack)).toBe('internal_preview');
   });
