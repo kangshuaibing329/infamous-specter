@@ -34,14 +34,14 @@ theme-school-life:w032,backpack,backpack,noun,grade5|grade6|grade7,theme-school-
 theme-school-life:w033,bell,bell,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s033,draft,src-wordquest-editorial-v2,school|theme-scenario
 theme-school-life:w034,biology,biology,noun,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s034,draft,src-wordquest-editorial-v2,subject|theme-scenario
 theme-school-life:w035,calculator,calculator,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s035,draft,src-wordquest-editorial-v2,stationery|theme-scenario
-theme-school-life:w036,canteen,canteen,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s036,draft,src-wordquest-editorial-v2,place|theme-scenario
+theme-school-life:w036,cafeteria,cafeteria,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s036,draft,src-wordquest-editorial-v2,school|theme-scenario
 theme-school-life:w037,chalk,chalk,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s037,draft,src-wordquest-editorial-v2,stationery|theme-scenario
 theme-school-life:w038,chapter,chapter,noun,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s038,draft,src-wordquest-editorial-v2,learning|theme-scenario
 theme-school-life:w039,chemistry,chemistry,noun,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s039,draft,src-wordquest-editorial-v2,subject|theme-scenario
 theme-school-life:w040,club,club,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s040,draft,src-wordquest-editorial-v2,activity|theme-scenario
 theme-school-life:w041,competition,competition,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s041,draft,src-wordquest-editorial-v2,activity|theme-scenario
 theme-school-life:w042,computer,computer,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s042,draft,src-wordquest-editorial-v2,equipment|theme-scenario
-theme-school-life:w043,corridor,corridor,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s043,draft,src-wordquest-editorial-v2,place|theme-scenario
+theme-school-life:w043,hallway,hallway,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s043,draft,src-wordquest-editorial-v2,place|theme-scenario
 theme-school-life:w044,course,course,noun,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s044,draft,src-wordquest-editorial-v2,learning|theme-scenario
 theme-school-life:w045,desk,desk,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s045,draft,src-wordquest-editorial-v2,furniture|theme-scenario
 theme-school-life:w046,drama,drama,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s046,draft,src-wordquest-editorial-v2,activity|theme-scenario
@@ -70,7 +70,7 @@ theme-school-life:w068,poster,poster,noun,grade5|grade6|grade7,theme-school-life
 theme-school-life:w069,presentation,presentation,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s069,draft,src-wordquest-editorial-v2,activity|theme-scenario
 theme-school-life:w070,principal,principal,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s070,draft,src-wordquest-editorial-v2,people|theme-scenario
 theme-school-life:w071,printer,printer,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s071,draft,src-wordquest-editorial-v2,equipment|theme-scenario
-theme-school-life:w072,pupil,pupil,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s072,draft,src-wordquest-editorial-v2,people|theme-scenario
+theme-school-life:w072,student,student,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s072,draft,src-wordquest-editorial-v2,people|theme-scenario
 theme-school-life:w073,reading,reading,noun,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s073,draft,src-wordquest-editorial-v2,learning|theme-scenario
 theme-school-life:w074,ruler,ruler,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s074,draft,src-wordquest-editorial-v2,stationery|theme-scenario
 theme-school-life:w075,schedule,schedule,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s075,draft,src-wordquest-editorial-v2,schedule|theme-scenario
@@ -82,7 +82,7 @@ theme-school-life:w080,story,story,noun,grade5|grade6|grade7,theme-school-life:u
 theme-school-life:w081,study,study,verb,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s081,draft,src-wordquest-editorial-v2,action|theme-scenario
 theme-school-life:w082,test,test,noun,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s082,draft,src-wordquest-editorial-v2,assessment|theme-scenario
 theme-school-life:w083,textbook,textbook,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s083,draft,src-wordquest-editorial-v2,learning|theme-scenario
-theme-school-life:w084,timetable,timetable,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s084,draft,src-wordquest-editorial-v2,schedule|theme-scenario
+theme-school-life:w084,timetable,timetable,noun,grade5|grade6|grade7,theme-school-life:unit-3,theme-school-life:s084,draft,src-wordquest-editorial-v2,schedule|theme-scenario|british-english
 theme-school-life:w085,workbook,workbook,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s085,draft,src-wordquest-editorial-v2,learning|theme-scenario
 theme-school-life:w086,write,write,verb,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s086,draft,src-wordquest-editorial-v2,action|theme-scenario
 theme-school-life:w087,read,read,verb,grade5|grade6|grade7,theme-school-life:unit-2,theme-school-life:s087,draft,src-wordquest-editorial-v2,action|theme-scenario
