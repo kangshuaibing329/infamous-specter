@@ -25,21 +25,26 @@ export interface ApiData {
 export function createApiServer(data: ApiData): FastifyInstance {
   const app = Fastify({ logger: false });
 
-  app.get('/api/v1/health', async () => ({
+  app.get('/api/v1/health', async (request) => ({
     status: 'ok',
     serviceVersion: '0.1.0',
-    requestId: 'generated-by-fastify'
+    requestId: request.id
   }));
 
-  app.get('/api/v1/content-packs', async () => {
+  app.get('/api/v1/content-packs', async (request) => {
     const visible = new Map(
       (data.catalog.candidatePacks ?? [])
         .filter((entry) => entry.customerSelectable && ['published', 'preview'].includes(entry.status))
         .map((entry) => [entry.packId + ':' + entry.version, entry])
     );
-    const items = data.packs
-      .filter((pack) => visible.has(pack.manifest.packId + ':' + pack.manifest.version))
-      .map((pack) => ({
+    const items = [];
+    for (const pack of data.packs) {
+      const key = pack.manifest.packId + ':' + pack.manifest.version;
+      const entry = visible.get(key);
+      if (!entry || entry.status !== pack.manifest.status || entry.title !== pack.manifest.title || entry.wordCount !== pack.manifest.wordCount) continue;
+      const validation = await validateContentPack(pack);
+      if (!validation.valid) continue;
+      items.push({
         packId: pack.manifest.packId,
         version: pack.manifest.version,
         title: pack.manifest.title,
@@ -50,24 +55,27 @@ export function createApiServer(data: ApiData): FastifyInstance {
         wordCount: pack.manifest.wordCount,
         contentHash: pack.manifest.contentHash,
         progressScope: pack.manifest.progressScope
-      }));
-    return { items, nextCursor: null, requestId: 'generated-by-fastify' };
+      });
+    }
+    return { items, nextCursor: null, requestId: request.id };
   });
 
   app.get<{ Params: { packId: string; version: string } }>(
     '/api/v1/content-packs/:packId/versions/:version/manifest',
     async (request, reply) => {
       const key = request.params.packId + ':' + request.params.version;
+      const pack = data.packs.find((candidate) => candidate.manifest.packId + ':' + candidate.manifest.version === key);
+      if (!pack) return reply.code(404).send({ code: 'CONTENT_PACK_NOT_FOUND', message: 'Content pack not found.', requestId: request.id, retryable: false });
       const entry = (data.catalog.candidatePacks ?? []).find((candidate) =>
         candidate.packId + ':' + candidate.version === key &&
         candidate.customerSelectable &&
+        candidate.status === pack.manifest.status &&
         ['published', 'preview'].includes(candidate.status)
       );
-      if (!entry) return reply.code(404).send({ code: 'CONTENT_PACK_NOT_FOUND', message: 'Content pack not found.', requestId: 'generated-by-fastify', retryable: false });
-      const pack = data.packs.find((candidate) => candidate.manifest.packId + ':' + candidate.manifest.version === key);
-      if (!pack) return reply.code(404).send({ code: 'CONTENT_PACK_NOT_FOUND', message: 'Content pack not found.', requestId: 'generated-by-fastify', retryable: false });
+      if (!entry) return reply.code(404).send({ code: 'CONTENT_PACK_NOT_FOUND', message: 'Content pack not found.', requestId: request.id, retryable: false });
+      if (entry.title !== pack.manifest.title || entry.wordCount !== pack.manifest.wordCount) return reply.code(409).send({ code: 'CONTENT_MANIFEST_MISMATCH', message: 'Catalog metadata does not match the content manifest.', requestId: request.id, retryable: false });
       const validation = await validateContentPack(pack);
-      if (!validation.valid) return reply.code(409).send({ code: 'CONTENT_HASH_MISMATCH', message: 'Content pack failed integrity validation.', requestId: 'generated-by-fastify', retryable: false });
+      if (!validation.valid) return reply.code(409).send({ code: 'CONTENT_HASH_MISMATCH', message: 'Content pack failed integrity validation.', requestId: request.id, retryable: false });
       return {
         packId: pack.manifest.packId,
         version: pack.manifest.version,
