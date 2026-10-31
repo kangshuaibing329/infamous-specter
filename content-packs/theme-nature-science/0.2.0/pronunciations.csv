@@ -1,5 +1,5 @@
 pronunciation_id,sense_id,ipa,accent,audio_asset_id,status,source_ref_ids
-theme-nature-science:p001,theme-nature-science:s001,er,en-US,,draft,src-wordquest-editorial-v1
+theme-nature-science:p001,theme-nature-science:s001,er,en-US,,reviewed,src-wordquest-editorial-v1|src-cambridge-pronunciation-air-us-2026-10-31
 theme-nature-science:p002,theme-nature-science:s002,ˈænɪməl,en-US,,draft,src-wordquest-editorial-v1
 theme-nature-science:p003,theme-nature-science:s003,ˈæstrənɔːt,en-US,,draft,src-wordquest-editorial-v1
 theme-nature-science:p004,theme-nature-science:s004,ˈklaɪmət,en-US,,draft,src-wordquest-editorial-v1
@@ -60,7 +60,7 @@ theme-nature-science:p058,theme-nature-science:s058,ɡlæs,en-US,,draft,src-word
 theme-nature-science:p059,theme-nature-science:s059,ɡræs,en-US,,draft,src-wordquest-editorial-v2
 theme-nature-science:p060,theme-nature-science:s060,ˈhæbɪtæt,en-US,,draft,src-wordquest-editorial-v2
 theme-nature-science:p061,theme-nature-science:s061,hiːt,en-US,,draft,src-wordquest-editorial-v2
-theme-nature-science:p062,theme-nature-science:s062,ɜːrb,en-US,,draft,src-wordquest-editorial-v2
+theme-nature-science:p062,theme-nature-science:s062,ɝːb,en-US,,reviewed,src-wordquest-editorial-v2|src-cambridge-pronunciation-herb-us-2026-10-31
 theme-nature-science:p063,theme-nature-science:s063,hɪl,en-US,,draft,src-wordquest-editorial-v2
 theme-nature-science:p064,theme-nature-science:s064,ˈhjuːmən,en-US,,draft,src-wordquest-editorial-v2
 theme-nature-science:p065,theme-nature-science:s065,aɪs,en-US,,draft,src-wordquest-editorial-v2
