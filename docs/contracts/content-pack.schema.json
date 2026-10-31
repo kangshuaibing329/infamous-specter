@@ -528,6 +528,12 @@
             },
             "minItems": 1,
             "uniqueItems": true
+          },
+          "canonicalSenseId": {
+            "type": "string"
+          },
+          "canonicalSenseVerified": {
+            "type": "boolean"
           }
         }
       }
@@ -941,6 +947,10 @@
                   "reviewedAt",
                   "reviewerIds"
                 ]
+              },
+              "wordCount": {
+                "type": "integer",
+                "minimum": 1
               }
             }
           },
@@ -953,7 +963,14 @@
                 "rightsStatus": {
                   "const": "approved"
                 }
-              }
+              },
+              "required": [
+                "sourceRefId",
+                "sourceType",
+                "title",
+                "verificationStatus",
+                "rightsStatus"
+              ]
             }
           },
           "words": {
@@ -963,7 +980,8 @@
                   "const": "approved"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "senses": {
             "items": {
@@ -972,7 +990,8 @@
                   "const": "approved"
                 }
               }
-            }
+            },
+            "minItems": 1
           },
           "pronunciations": {
             "items": {
@@ -1011,10 +1030,58 @@
                   "const": "approved"
                 }
               }
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "manifest": {
+            "properties": {
+              "progressScope": {
+                "const": "shared_verified_sense"
+              }
+            },
+            "required": [
+              "progressScope"
+            ]
+          },
+          "required": [
+            "manifest"
+          ]
+        }
+      },
+      "then": {
+        "properties": {
+          "senses": {
+            "items": {
+              "required": [
+                "canonicalSenseId",
+                "canonicalSenseVerified"
+              ],
+              "properties": {
+                "canonicalSenseVerified": {
+                  "const": true
+                }
+              }
             }
           }
         }
       }
     }
+  ],
+  "x-semantic-invariants": [
+    "manifest.wordCount must equal words.length.",
+    "All IDs within each entity collection must be unique; every referenced ID must resolve.",
+    "Every sense.wordId must resolve to one word; every word.senseIds entry must resolve to one sense belonging to that word.",
+    "Every pronunciation and example must reference an existing sense; every asset reference must resolve.",
+    "A listening task requires at least one approved pronunciation/audio asset for the referenced sense.",
+    "A published pack must have all words, senses, examples and task templates approved; all source references verified and rights approved; all used assets licensed as approved.",
+    "contentHash is SHA-256 of RFC 8785 canonical JSON excluding manifest.contentHash and manifest.assetManifestHash.",
+    "assetManifestHash is SHA-256 of RFC 8785 canonical JSON of the sorted asset manifest; each asset.sha256 hashes the exact asset bytes.",
+    "packId is stable across immutable versions; published content is never overwritten in place."
   ]
 }
