@@ -1,4 +1,4 @@
-wordId,lemma,normalizedLemma,partOfSpeech,gradeTags,unitRefs,senseIds,reviewStatus,sourceRefIds,tags
+word_id,lemma,normalized_lemma,part_of_speech,grade_tags,unit_refs,sense_ids,review_status,source_ref_ids,tags
 theme-school-life:w001,blackboard,blackboard,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s001,draft,src-wordquest-editorial-v1,classroom|theme-scenario
 theme-school-life:w002,classmate,classmate,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s002,draft,src-wordquest-editorial-v1,people|theme-scenario
 theme-school-life:w003,classroom,classroom,noun,grade5|grade6|grade7,theme-school-life:unit-1,theme-school-life:s003,draft,src-wordquest-editorial-v1,place|theme-scenario
