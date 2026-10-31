@@ -168,3 +168,14 @@ export async function saveReviewState(record: ReviewStateRecord): Promise<void> 
 export async function listReviewStates(profileId: string): Promise<ReviewStateRecord[]> {
   return storageDatabase.reviewStates.where('profileId').equals(profileId).toArray();
 }
+
+export async function getMostRecentActiveSession(profileId: string): Promise<SessionRecord | null> {
+  const records = await storageDatabase.sessions.where('profileId').equals(profileId).toArray();
+  return records
+    .filter((record) => record.status === 'active' || record.status === 'paused')
+    .sort((a, b) => b.startedAt.localeCompare(a.startedAt))[0] ?? null;
+}
+
+export async function listStudyEventsForSession(sessionId: string): Promise<StoredStudyEvent[]> {
+  return storageDatabase.studyEvents.where('sessionId').equals(sessionId).sortBy('occurredAt');
+}
