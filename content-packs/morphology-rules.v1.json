@@ -16,7 +16,13 @@
       "base": "usual",
       "derived": "usually",
       "meaning": "forms an adverb",
-      "reviewStatus": "draft"
+      "reviewStatus": "draft",
+      "additionalExamples": [
+        {
+          "base": "quick",
+          "derived": "quickly"
+        }
+      ]
     },
     {
       "id": "morph:adjective-ful",
@@ -32,7 +38,13 @@
         }
       ],
       "meaning": "having or showing the quality",
-      "reviewStatus": "draft"
+      "reviewStatus": "draft",
+      "additionalExamples": [
+        {
+          "base": "use",
+          "derived": "useful"
+        }
+      ]
     },
     {
       "id": "morph:adjective-ive",
@@ -67,8 +79,24 @@
           "derived": "backpack"
         },
         {
+          "base": "school + bag",
+          "derived": "schoolbag"
+        },
+        {
+          "base": "key + board",
+          "derived": "keyboard"
+        },
+        {
           "base": "text + book",
           "derived": "textbook"
+        },
+        {
+          "base": "time + table",
+          "derived": "timetable"
+        },
+        {
+          "base": "work + book",
+          "derived": "workbook"
         },
         {
           "base": "sun + light",
