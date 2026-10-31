@@ -1,4 +1,4 @@
-senseId,wordId,glossZh,definitionEn,pronunciationIds,exampleIds,assetIds,acceptedSpellings,morphologyRuleIds,reviewStatus,sourceRefIds
+sense_id,word_id,gloss_zh,definition_en,pronunciation_ids,example_ids,asset_ids,accepted_spellings,morphology_rule_ids,review_status,source_ref_ids
 high-frequency-starter:s001,high-frequency-starter:w001,关于；大约,about: 关于；大约,high-frequency-starter:p001,high-frequency-starter:e001,,,,draft,src-wordquest-editorial-v1
 high-frequency-starter:s002,high-frequency-starter:w002,在……之后,after: 在……之后,high-frequency-starter:p002,high-frequency-starter:e002,,,,draft,src-wordquest-editorial-v1
 high-frequency-starter:s003,high-frequency-starter:w003,再一次；又,again: 再一次；又,high-frequency-starter:p003,high-frequency-starter:e003,,,,draft,src-wordquest-editorial-v1
