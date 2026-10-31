@@ -25,7 +25,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 103,
-    "contentHash": "bc27a2bb017bc40f25b5f5addfbee79a5df34a61cad8c7f670cec5499c5ae501",
+    "contentHash": "02f8b832999f8d48dea1feeb327db10d5d0524839ea5207326acc413d5f6b600",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -7176,8 +7176,8 @@
     {
       "exampleId": "theme-nature-science:e035",
       "senseId": "theme-nature-science:s035",
-      "textEn": "A bird has light bones.",
-      "textZh": "鸟类的骨骼很轻。",
+      "textEn": "A bone is part of the skeleton.",
+      "textZh": "骨头是骨骼的一部分。",
       "gradeFit": [
         "grade6",
         "grade7",
