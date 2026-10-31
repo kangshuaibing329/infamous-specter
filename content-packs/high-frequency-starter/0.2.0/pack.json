@@ -24,7 +24,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 110,
-    "contentHash": "1191b44d9da07f85e561aec4a320f2c9f4db907dd2b538636868b28b31908060",
+    "contentHash": "c1f2b6f5d5b17a478ebf225da371a6f14db2dcb458d563bc373b0acf676131fb",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -2691,7 +2691,8 @@
       "lemma": "until",
       "normalizedLemma": "until",
       "partOfSpeech": [
-        "preposition"
+        "preposition",
+        "conjunction"
       ],
       "gradeTags": [
         "grade5",
@@ -2934,7 +2935,8 @@
       "lemma": "than",
       "normalizedLemma": "than",
       "partOfSpeech": [
-        "conjunction"
+        "conjunction",
+        "preposition"
       ],
       "gradeTags": [
         "grade5",
@@ -4916,7 +4918,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to ask someone to come to an event or place"
     },
     {
       "senseId": "high-frequency-starter:s072",
@@ -4941,7 +4944,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "friendly, helpful, and caring"
     },
     {
       "senseId": "high-frequency-starter:s073",
@@ -4966,7 +4970,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to make sounds and movements that show you think something is funny"
     },
     {
       "senseId": "high-frequency-starter:s074",
@@ -4991,12 +4996,13 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to go away from a place"
     },
     {
       "senseId": "high-frequency-starter:s075",
       "wordId": "high-frequency-starter:w075",
-      "glossZh": "信；字母",
+      "glossZh": "信",
       "pronunciationIds": [
         "high-frequency-starter:p075"
       ],
@@ -5016,7 +5022,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a written or printed message sent to someone"
     },
     {
       "senseId": "high-frequency-starter:s076",
@@ -5041,7 +5048,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "possibly; perhaps"
     },
     {
       "senseId": "high-frequency-starter:s077",
@@ -5066,7 +5074,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a person who belongs to a group"
     },
     {
       "senseId": "high-frequency-starter:s078",
@@ -5091,7 +5100,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a period of time that lasts 60 seconds"
     },
     {
       "senseId": "high-frequency-starter:s079",
@@ -5116,7 +5126,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "what people use to buy goods and services"
     },
     {
       "senseId": "high-frequency-starter:s080",
@@ -5141,7 +5152,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to change position or make something change position"
     },
     {
       "senseId": "high-frequency-starter:s081",
@@ -5166,7 +5178,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "not at any time"
     },
     {
       "senseId": "high-frequency-starter:s082",
@@ -5191,7 +5204,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "coming immediately after this one in time or order"
     },
     {
       "senseId": "high-frequency-starter:s083",
@@ -5216,12 +5230,13 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to see, hear, or become aware of something"
     },
     {
       "senseId": "high-frequency-starter:s084",
       "wordId": "high-frequency-starter:w084",
-      "glossZh": "一次；曾经",
+      "glossZh": "一次",
       "pronunciationIds": [
         "high-frequency-starter:p084"
       ],
@@ -5241,7 +5256,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "one time; on a single occasion"
     },
     {
       "senseId": "high-frequency-starter:s085",
@@ -5266,7 +5282,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "a situation that is difficult and needs to be solved"
     },
     {
       "senseId": "high-frequency-starter:s086",
@@ -5291,7 +5308,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to tell someone that you will certainly do something"
     },
     {
       "senseId": "high-frequency-starter:s087",
@@ -5318,7 +5336,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "at a fast speed"
     },
     {
       "senseId": "high-frequency-starter:s088",
@@ -5343,7 +5362,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "used to emphasize that something is true or happens to a great degree"
     },
     {
       "senseId": "high-frequency-starter:s089",
@@ -5368,7 +5388,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to get something that someone sends or gives you"
     },
     {
       "senseId": "high-frequency-starter:s090",
@@ -5393,7 +5414,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to come or go back, or to give something back"
     },
     {
       "senseId": "high-frequency-starter:s091",
@@ -5418,7 +5440,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "not different; exactly like another"
     },
     {
       "senseId": "high-frequency-starter:s092",
@@ -5443,7 +5466,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "more than two but not many"
     },
     {
       "senseId": "high-frequency-starter:s093",
@@ -5468,7 +5492,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "an unknown or unspecified person"
     },
     {
       "senseId": "high-frequency-starter:s094",
@@ -5493,7 +5518,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "an unknown or unspecified thing"
     },
     {
       "senseId": "high-frequency-starter:s095",
@@ -5518,7 +5544,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "with another person or people; in one group"
     },
     {
       "senseId": "high-frequency-starter:s096",
@@ -5543,7 +5570,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to go from one place to another, especially over a distance"
     },
     {
       "senseId": "high-frequency-starter:s097",
@@ -5568,7 +5596,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to know the meaning of something"
     },
     {
       "senseId": "high-frequency-starter:s098",
@@ -5593,7 +5622,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "up to the time when something happens or a period ends"
     },
     {
       "senseId": "high-frequency-starter:s099",
@@ -5620,7 +5650,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "helping you to do or get something"
     },
     {
       "senseId": "high-frequency-starter:s100",
@@ -5645,7 +5676,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to go to see a person or place"
     },
     {
       "senseId": "high-frequency-starter:s101",
@@ -5670,7 +5702,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to stay where you are or delay doing something until something happens"
     },
     {
       "senseId": "high-frequency-starter:s102",
@@ -5695,7 +5728,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to feel unhappy or afraid because you think something bad may happen"
     },
     {
       "senseId": "high-frequency-starter:s103",
@@ -5720,7 +5754,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "the earth and all the people and things on it"
     },
     {
       "senseId": "high-frequency-starter:s104",
@@ -5745,7 +5780,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "having lived or existed for only a short time; not old"
     },
     {
       "senseId": "high-frequency-starter:s105",
@@ -5770,7 +5806,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "making little or no noise"
     },
     {
       "senseId": "high-frequency-starter:s106",
@@ -5795,7 +5832,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "to a fairly high degree; rather"
     },
     {
       "senseId": "high-frequency-starter:s107",
@@ -5820,7 +5858,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "used to compare two people or things"
     },
     {
       "senseId": "high-frequency-starter:s108",
@@ -5845,7 +5884,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "at that time or next in order"
     },
     {
       "senseId": "high-frequency-starter:s109",
@@ -5870,7 +5910,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "in or at that place"
     },
     {
       "senseId": "high-frequency-starter:s110",
@@ -5895,7 +5936,8 @@
       "reviewStatus": "draft",
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
-      ]
+      ],
+      "definitionEn": "belonging to or connected with them"
     }
   ],
   "pronunciations": [
@@ -8084,8 +8126,8 @@
     {
       "exampleId": "high-frequency-starter:e073",
       "senseId": "high-frequency-starter:s073",
-      "textEn": "We laugh at the funny joke.",
-      "textZh": "我们被这个有趣的笑话逗笑了。",
+      "textEn": "We laugh when we hear a funny joke.",
+      "textZh": "听到有趣的笑话时，我们会笑起来。",
       "gradeFit": [
         "grade5",
         "grade6",
@@ -8339,8 +8381,8 @@
     {
       "exampleId": "high-frequency-starter:e090",
       "senseId": "high-frequency-starter:s090",
-      "textEn": "Please return the key after use.",
-      "textZh": "用完后请归还钥匙。",
+      "textEn": "Please return the key to the teacher.",
+      "textZh": "请把钥匙还给老师。",
       "gradeFit": [
         "grade5",
         "grade6",
@@ -8564,8 +8606,8 @@
     {
       "exampleId": "high-frequency-starter:e105",
       "senseId": "high-frequency-starter:s105",
-      "textEn": "Please keep your voice quiet in the library.",
-      "textZh": "在图书馆里请保持安静。",
+      "textEn": "Please be quiet in the library.",
+      "textZh": "请在图书馆保持安静。",
       "gradeFit": [
         "grade5",
         "grade6",
