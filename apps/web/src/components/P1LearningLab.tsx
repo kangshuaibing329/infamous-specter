@@ -2,8 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import type { CognitiveSupport } from '@wordquest/contracts';
 import { validateContentPack, type ContentPack } from '@wordquest/content';
 import { createStudyEventIntent, evaluateAnswer } from '@wordquest/learning-core';
-import { advanceSession, getCurrentTask, startSession, type ActiveSession } from '@wordquest/session-adapter';
-import { appendStudyEvent, installContentPack, saveSession } from '@wordquest/storage';
+import { advanceSession, getCurrentTask, restoreSession, startSession, type ActiveSession } from '@wordquest/session-adapter';
+import { appendStudyEvent, getInstalledContentPack, getMostRecentActiveSession, installContentPack, listStudyEventsForSession, saveSession } from '@wordquest/storage';
 import starterPack from '../../../../content-packs/high-frequency-starter/0.1.0/content-pack.json';
 import schoolPack from '../../../../content-packs/theme-school-life/0.1.0/content-pack.json';
 import naturePack from '../../../../content-packs/theme-nature-science/0.1.0/content-pack.json';
@@ -26,8 +26,38 @@ export function P1LearningLab() {
   const [feedback, setFeedback] = useState('先选择词库，再开始一轮本地核心验证。');
   const [lastEvidence, setLastEvidence] = useState<string>('尚无');
   const [savedEvents, setSavedEvents] = useState(0);
+  const [isRestoring, setIsRestoring] = useState(true);
 
   const selectedPack = useMemo(() => packs.find((pack) => pack.manifest.packId === selectedPackId) ?? packs[0], [selectedPackId]);
+
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      try {
+        const record = await getMostRecentActiveSession('local-preview-profile');
+        if (!record) return;
+        const pack = await getInstalledContentPack(record.packId, record.packVersion);
+        if (!pack) return;
+        const restored = await restoreSession(record.descriptor, pack);
+        const events = await listStudyEventsForSession(record.sessionId);
+        const currentTask = getCurrentTask(restored);
+        const currentAttempts = currentTask
+          ? events.filter((event) => event.taskId === currentTask.taskId).map((event) => event.attemptIndex)
+          : [];
+        if (cancelled) return;
+        setSelectedPackId(pack.manifest.packId);
+        setActiveSession(restored);
+        setAttemptIndex(currentAttempts.length ? Math.max(...currentAttempts) + 1 : 1);
+        setSavedEvents(events.length);
+        setFeedback('已从本机恢复上次会话。词库版本和已提交的尝试记录保持不变。');
+      } catch (error) {
+        if (!cancelled) setFeedback('上次会话无法恢复：' + (error instanceof Error ? error.message : String(error)));
+      } finally {
+        if (!cancelled) setIsRestoring(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -150,7 +180,7 @@ export function P1LearningLab() {
             <span>状态：内部预览，禁止客户正式选择</span>
           </div>
           <p className={isValid ? 'p1-validation ok' : 'p1-validation'} role="status">{validationMessage}</p>
-          <button type="button" className="primary-button" onClick={() => void handleStart()} disabled={!isValid}>开始本地验证会话</button>
+          <button type="button" className="primary-button" onClick={() => void handleStart()} disabled={!isValid || isRestoring}>{isRestoring ? '正在恢复本机会话…' : '开始本地验证会话'}</button>
         </div>
         <div className="p1-task">
           <div className="p1-task-topline"><span>任务输入模拟</span><span>{activeSession ? `${activeSession.descriptor.currentTaskIndex + (currentTask ? 1 : 0)} / ${activeSession.tasks.length}` : '未开始'}</span></div>
