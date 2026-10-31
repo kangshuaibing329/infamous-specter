@@ -25,9 +25,11 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 103,
-    "contentHash": "84f48503470451be9a50d0a09d4a1ff8d020a19b09d69b05ea91c2e2ec426c65",
+    "contentHash": "c8aa95a92338e6d1e992ff0b6a8c876fc3d54a29c0e7bb31b34eeb57726f66bd",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
+      "src-cambridge-pronunciation-air-us-2026-10-31",
+      "src-cambridge-pronunciation-herb-us-2026-10-31",
       "src-wordquest-editorial-v1",
       "src-wordquest-editorial-v2"
     ],
@@ -4337,7 +4339,7 @@
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
       ],
-      "definitionEn": "the part of a plant that often has colourful petals and produces seeds"
+      "definitionEn": "the part of a plant that often has colorful petals and produces seeds"
     },
     {
       "senseId": "theme-nature-science:s053",
@@ -4597,7 +4599,7 @@
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
       ],
-      "definitionEn": "a plant whose leaves or other parts are used for food, flavour, or medicine"
+      "definitionEn": "a plant whose leaves or other parts are used for food, flavor, or medicine"
     },
     {
       "senseId": "theme-nature-science:s063",
@@ -5674,9 +5676,10 @@
       "senseId": "theme-nature-science:s001",
       "ipa": "er",
       "accent": "en-US",
-      "status": "draft",
+      "status": "reviewed",
       "sourceRefIds": [
-        "src-wordquest-editorial-v1"
+        "src-wordquest-editorial-v1",
+        "src-cambridge-pronunciation-air-us-2026-10-31"
       ]
     },
     {
@@ -6282,11 +6285,12 @@
     {
       "pronunciationId": "theme-nature-science:p062",
       "senseId": "theme-nature-science:s062",
-      "ipa": "ɜːrb",
+      "ipa": "ɝːb",
       "accent": "en-US",
-      "status": "draft",
+      "status": "reviewed",
       "sourceRefIds": [
-        "src-wordquest-editorial-v2"
+        "src-wordquest-editorial-v2",
+        "src-cambridge-pronunciation-herb-us-2026-10-31"
       ]
     },
     {
@@ -8320,7 +8324,7 @@
     {
       "exampleId": "theme-nature-science:e102",
       "senseId": "theme-nature-science:s102",
-      "textEn": "Fruit is my favourite dessert.",
+      "textEn": "Fruit is my favorite dessert.",
       "textZh": "水果是我最喜欢的甜点。",
       "gradeFit": [
         "grade6",
@@ -13124,6 +13128,28 @@
       "verificationStatus": "unverified",
       "rightsStatus": "pending_review",
       "notes": "新增词条、释义和例句为原创编辑草稿；IPA 尚未逐词经权威词典核验，需英语教师完成词义、搭配、语法和适龄审核。"
+    },
+    {
+      "sourceRefId": "src-cambridge-pronunciation-air-us-2026-10-31",
+      "sourceType": "dictionary",
+      "title": "Cambridge Dictionary: air (US pronunciation)",
+      "publisher": "Cambridge University Press",
+      "uri": "https://dictionary.cambridge.org/pronunciation/english/air",
+      "accessedAt": "2026-10-31T00:00:00Z",
+      "verificationStatus": "verified",
+      "rightsStatus": "unknown",
+      "notes": "核验 air 的美式 IPA /er/；未复制词典释义或音频。"
+    },
+    {
+      "sourceRefId": "src-cambridge-pronunciation-herb-us-2026-10-31",
+      "sourceType": "dictionary",
+      "title": "Cambridge Dictionary: herb (US pronunciation)",
+      "publisher": "Cambridge University Press",
+      "uri": "https://dictionary.cambridge.org/pronunciation/english/herb",
+      "accessedAt": "2026-10-31T00:00:00Z",
+      "verificationStatus": "verified",
+      "rightsStatus": "unknown",
+      "notes": "核验 herb 的美式 IPA /ɝːb/；未复制词典释义或音频。"
     }
   ]
 }
