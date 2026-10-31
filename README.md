@@ -37,3 +37,15 @@ All code, APIs, data models, workflows, tests, and deployment configuration are 
 - [P0-0.6 stage acceptance report](docs/acceptance/P0-0.6-跨文档审查与阶段验收报告.md)
 
 P0-0 documents and schemas are candidate design artifacts. They do not imply that production games, APIs, learning logic, official vocabulary packs, real-device tests, or pilot studies are complete.
+
+
+## Vocabulary content packs (Direction 1)
+
+Three initial 0.1.0 candidate packs are stored under `content-packs/`:
+- `high-frequency-starter` — 30 foundational high-frequency words.
+- `theme-school-life` — 30 school-life words.
+- `theme-nature-science` — 30 nature and science words.
+
+Each pack contains a schema-shaped JSON master file and five CSV files (words, senses, pronunciations, examples, task templates). These are internal editorial candidates, not published customer packs. IPA, meanings, examples and grade fit still require independent review; no audio assets are included, so listening tasks are intentionally absent.
+
+See [Vocabulary production rules and acceptance checklist](docs/content/VOCAB-PACKS-0.1-内容生产规范与验收.md).
