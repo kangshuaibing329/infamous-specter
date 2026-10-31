@@ -28,6 +28,20 @@ describe('WordQuest content API', () => {
     expect(response.statusCode).toBe(404);
   });
 
+  it('does not list a customer-selectable pack whose integrity hash is invalid', async () => {
+    const data = await loadDefaultApiData();
+    const candidate = data.catalog.candidatePacks?.find((entry) => entry.packId === 'high-frequency-starter' && entry.version === '0.1.0');
+    if (!candidate) throw new Error('Expected internal candidate pack in catalog.');
+    candidate.customerSelectable = true;
+    const pack = data.packs.find((entry) => entry.manifest.packId === 'high-frequency-starter');
+    if (!pack) throw new Error('Expected starter pack data.');
+    pack.manifest.contentHash = '0'.repeat(64);
+    app = createApiServer(data);
+    const response = await app.inject({ method: 'GET', url: '/api/v1/content-packs' });
+    expect(response.statusCode).toBe(200);
+    expect(response.json().items).toEqual([]);
+  });
+
   it('returns a manifest only after catalog visibility and integrity checks pass', async () => {
     const data = await loadDefaultApiData();
     const candidate = data.catalog.candidatePacks?.find((entry) => entry.packId === 'high-frequency-starter' && entry.version === '0.1.0');
