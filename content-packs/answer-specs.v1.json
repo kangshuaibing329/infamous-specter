@@ -30,6 +30,13 @@
       "input": "morphologyRuleId",
       "answer": "reviewed morpheme decomposition and resulting word form",
       "grading": "Only enabled for reviewed productive morphology rules."
+    },
+    {
+      "id": "contrast",
+      "taskType": "contrast_reasoning",
+      "input": "confusableSetId and paired examples",
+      "answer": "reviewed contrast distinction and correct word choice for each context",
+      "grading": "Require correct selection in both contexts and a clear distinguishing feature; do not award full credit for isolated guessing."
     }
   ]
 }
