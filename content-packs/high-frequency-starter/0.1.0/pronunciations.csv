@@ -1,4 +1,4 @@
-pronunciationId,senseId,ipa,accent,audioAssetId,status,sourceRefIds
+pronunciation_id,sense_id,ipa,accent,audio_asset_id,status,source_ref_ids
 high-frequency-starter:p001,high-frequency-starter:s001,əˈbaʊt,en-US,,draft,src-wordquest-editorial-v1
 high-frequency-starter:p002,high-frequency-starter:s002,ˈæftər,en-US,,draft,src-wordquest-editorial-v1
 high-frequency-starter:p003,high-frequency-starter:s003,əˈɡen,en-US,,draft,src-wordquest-editorial-v1
