@@ -62,7 +62,7 @@ test('saves, resets and restores state through IndexedDB', async ({ page }) => {
   const savedPosition = await position.innerText();
 
   await page.getByRole('button', { name: '保存进度' }).click();
-  await expect(page.getByRole('status')).toContainText('进度已保存');
+  await expect(page.getByRole('status').filter({ hasText: '进度已保存' })).toContainText('进度已保存');
 
   await page.reload();
   await expect(position).toHaveText(savedPosition);
