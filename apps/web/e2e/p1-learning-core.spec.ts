@@ -18,4 +18,9 @@ test('validates a selected pack and records a provisional first-answer event', a
   await page.getByRole('button', { name: '提交答案' }).click();
   await expect(page.getByTestId('p1-last-evidence')).toContainText('E2');
   await expect(page.getByTestId('p1-event-count')).toHaveText('1');
+
+  await page.reload();
+  await expect(page.getByText('已从本机恢复上次会话。词库版本和已提交的尝试记录保持不变。')).toBeVisible();
+  await expect(page.getByTestId('p1-event-count')).toHaveText('1');
+  await expect(page.locator('.p1-task h3')).toBeVisible();
 });
