@@ -30,12 +30,9 @@ describe('WordQuest content API', () => {
 
   it('returns a manifest only after catalog visibility and integrity checks pass', async () => {
     const data = await loadDefaultApiData();
-    data.catalog.candidatePacks?.push({
-      packId: 'high-frequency-starter', version: '0.1.0', familyId: 'high-frequency',
-      title: 'Internal preview test', status: 'preview', customerSelectable: true,
-      wordCount: 30, gradeBands: ['grade4', 'grade5', 'grade6'],
-      contentPath: 'content-packs/high-frequency-starter/0.1.0/content-pack.json'
-    });
+    const candidate = data.catalog.candidatePacks?.find((entry) => entry.packId === 'high-frequency-starter' && entry.version === '0.1.0');
+    if (!candidate) throw new Error('Expected internal candidate pack in catalog.');
+    candidate.customerSelectable = true;
     app = createApiServer(data);
     const response = await app.inject({ method: 'GET', url: '/api/v1/content-packs/high-frequency-starter/versions/0.1.0/manifest' });
     expect(response.statusCode).toBe(200);
