@@ -59,9 +59,10 @@ async function sha256(value: string): Promise<string> {
 
 export async function computeContentHash(pack: ContentPack): Promise<string> {
   const copy = JSON.parse(JSON.stringify(pack)) as ContentPack;
-  delete copy.manifest.contentHash;
-  delete copy.manifest.assetManifestHash;
-  return sha256(canonicalJson(copy));
+  const manifestForHash = Object.fromEntries(
+    Object.entries(copy.manifest).filter(([key]) => key !== 'contentHash' && key !== 'assetManifestHash')
+  );
+  return sha256(canonicalJson({ ...copy, manifest: manifestForHash }));
 }
 
 export async function computeAssetManifestHash(assets: ContentPack['assets']): Promise<string> {
