@@ -38,7 +38,16 @@
 | `requestId` | API 服务端 | 否 | 服务端生成 | 错误定位和支持追踪 |
 | `syncCursor` | Sync API 服务端 | 否 | 服务端生成/推进 | 不由客户端自行推进 |
 
-## 2. 事件分层：禁止混成一个结果对象
+## 1.1 与 OpenAPI / Event Schema 的字段对齐
+
+机器可读合同以以下文件为准：
+- `docs/contracts/openapi.v1.candidate.json`：OpenAPI 3.1 路径、请求/响应和公共 schema。
+- `docs/contracts/event-contract.schema.json`：GameEvent、StudyEventIntent、ProgressEvent 的 JSON Schema。
+- `docs/contracts/fixtures/api-v1-fixtures.candidate.json`：12 项预期 API/负向 fixture（不是实时 HTTP 抓包）。
+
+客户端上传的三类事件都必须带 `origin="local"`；服务端接受结果通过独立的 EventDecision 返回，不能把客户端事件改写成 `server_confirmed`。StudyEventIntent 必须带 `evidencePolicyVersion`，不得包含客户端自报的 `verdict`、`evidenceLevel` 或 `masteryScore`。StudyEventIntent 不设 `source=route_bonus`；路线奖励只能作为 ProgressEvent/GameEvent 记录。
+
+`## 2. 事件分层：禁止混成一个结果对象`
 
 ### 2.1 GameEvent（游戏状态事件）
 
