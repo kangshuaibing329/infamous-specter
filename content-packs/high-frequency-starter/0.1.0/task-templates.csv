@@ -1,4 +1,4 @@
-taskTemplateId,senseId,dimension,taskType,answerSpecRef,supportPolicyId,evidenceCap,compatibleGameIds,reviewStatus
+task_template_id,sense_id,dimension,task_type,answer_spec_ref,support_policy_id,evidence_cap,compatible_game_ids,review_status
 high-frequency-starter:t001-meaning,high-frequency-starter:s001,meaning,meaning_retrieval,answer-specs/v1/meaning,support-policy/v1/meaning,E3,g01-island-exploration|g03-word-link|g04-word-block-match|g10-island-core-titan,draft
 high-frequency-starter:t001-spelling,high-frequency-starter:s001,spelling,spelling_production,answer-specs/v1/spelling,support-policy/v1/spelling,E3,g02-spelling-minecart|g10-island-core-titan,draft
 high-frequency-starter:t001-context,high-frequency-starter:s001,context,context_completion,answer-specs/v1/context,support-policy/v1/context,E3,g07-sentence-bridge|g09-clue-dungeon|g10-island-core-titan,draft
