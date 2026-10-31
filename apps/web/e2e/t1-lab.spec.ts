@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test('mounts the Phaser stage and accepts keyboard input', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'WordQuest T1 技术验证台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'WordQuest 技术与学习核心验收台' })).toBeVisible();
   await expect(page.locator('canvas')).toBeVisible();
 
   const actionCount = page.getByTestId('lab-action-count');
@@ -93,6 +93,6 @@ test('serves a manifest and reopens the cached app shell offline', async ({ page
   await context.setOffline(true);
   await page.reload();
 
-  await expect(page.getByRole('heading', { name: 'WordQuest T1 技术验证台' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'WordQuest 技术与学习核心验收台' })).toBeVisible();
   await expect(page.locator('canvas')).toBeVisible();
 });
