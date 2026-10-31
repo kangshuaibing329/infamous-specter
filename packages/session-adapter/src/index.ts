@@ -98,3 +98,24 @@ export function advanceSession(session: ActiveSession): ActiveSession {
     }
   };
 }
+
+export async function restoreSession(descriptor: SessionDescriptor, pack: ContentPack): Promise<ActiveSession> {
+  if (descriptor.packId !== pack.manifest.packId || descriptor.packVersion !== pack.manifest.version) {
+    throw new Error('Session content pack identity/version does not match the installed pack.');
+  }
+  const rebuilt = await startSession({
+    pack,
+    profileId: descriptor.profileId,
+    gameId: descriptor.gameId,
+    gameVersion: descriptor.gameVersion,
+    logicVersion: descriptor.logicVersion,
+    seed: descriptor.seed,
+    startedAt: descriptor.startedAt,
+    allowInternalPreview: pack.manifest.status === 'preview',
+    sessionId: descriptor.sessionId
+  });
+  if (descriptor.currentTaskIndex < 0 || descriptor.currentTaskIndex > rebuilt.tasks.length) {
+    throw new Error('Stored session task index is outside the rebuilt task queue.');
+  }
+  return { ...rebuilt, descriptor: { ...rebuilt.descriptor, ...descriptor } };
+}
