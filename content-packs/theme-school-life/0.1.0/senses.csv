@@ -1,4 +1,4 @@
-senseId,wordId,glossZh,definitionEn,pronunciationIds,exampleIds,assetIds,acceptedSpellings,morphologyRuleIds,reviewStatus,sourceRefIds
+sense_id,word_id,gloss_zh,definition_en,pronunciation_ids,example_ids,asset_ids,accepted_spellings,morphology_rule_ids,review_status,source_ref_ids
 theme-school-life:s001,theme-school-life:w001,黑板,blackboard: 黑板,theme-school-life:p001,theme-school-life:e001,,,,draft,src-wordquest-editorial-v1
 theme-school-life:s002,theme-school-life:w002,同班同学,classmate: 同班同学,theme-school-life:p002,theme-school-life:e002,,,,draft,src-wordquest-editorial-v1
 theme-school-life:s003,theme-school-life:w003,教室,classroom: 教室,theme-school-life:p003,theme-school-life:e003,,,,draft,src-wordquest-editorial-v1
