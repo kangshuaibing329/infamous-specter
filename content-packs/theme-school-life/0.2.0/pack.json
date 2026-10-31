@@ -24,7 +24,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 104,
-    "contentHash": "779a73e1731de14c39b7b10e1ed019dae37dff8822bac622b0d2cf31e8f7c997",
+    "contentHash": "785691e9c5a4a3b57244f37fffbe824fbd0d98c07723062871bf877cfc206444",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -6810,7 +6810,7 @@
     {
       "exampleId": "theme-school-life:e015",
       "senseId": "theme-school-life:s015",
-      "textEn": "Students wear uniforms on Monday.",
+      "textEn": "Students wear a uniform on Monday.",
       "textZh": "学生们星期一穿校服。",
       "gradeFit": [
         "grade5",
@@ -6915,8 +6915,8 @@
     {
       "exampleId": "theme-school-life:e022",
       "senseId": "theme-school-life:s022",
-      "textEn": "She prepares her books at night.",
-      "textZh": "她晚上准备好自己的书。",
+      "textEn": "Please prepare your books before class.",
+      "textZh": "上课前请准备好课本。",
       "gradeFit": [
         "grade5",
         "grade6",
