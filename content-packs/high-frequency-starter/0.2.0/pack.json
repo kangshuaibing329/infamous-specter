@@ -24,7 +24,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 110,
-    "contentHash": "b04b3ee0758bae26f3bf4c78045ca09c49aae2dd9a22a9536696984d093e2654",
+    "contentHash": "296930b8818400656aae2ae4aee028736c22c0ad08a07d1e00c29a729eff3013",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -7082,8 +7082,8 @@
     {
       "exampleId": "high-frequency-starter:e009",
       "senseId": "high-frequency-starter:s009",
-      "textEn": "The class begins at nine.",
-      "textZh": "课程九点开始。",
+      "textEn": "The class will begin at nine.",
+      "textZh": "课程将在九点开始。",
       "gradeFit": [
         "grade5",
         "grade6",
