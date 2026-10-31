@@ -57,6 +57,27 @@
       "derived": "wooden",
       "meaning": "made of or relating to",
       "reviewStatus": "draft"
+    },
+    {
+      "id": "morph:compound-noun",
+      "pattern": "word + word",
+      "examples": [
+        {
+          "base": "back + pack",
+          "derived": "backpack"
+        },
+        {
+          "base": "text + book",
+          "derived": "textbook"
+        },
+        {
+          "base": "sun + light",
+          "derived": "sunlight"
+        }
+      ],
+      "meaning": "a compound noun formed by joining two words",
+      "reviewStatus": "draft",
+      "notes": "仅用于可识别的复合名词；需教研确认构词边界和教学适龄性。"
     }
   ]
 }
