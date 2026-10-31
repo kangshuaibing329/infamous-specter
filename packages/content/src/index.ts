@@ -24,7 +24,7 @@ export interface ContentPack {
     [key: string]: unknown;
   };
   units: Array<{ unitId: string; title: string; sortOrder: number; sourceRefIds?: string[] }>;
-  words: Array<{ wordId: string; lemma: string; partOfSpeech: string[]; senseIds: string[]; sourceRefIds: string[]; [key: string]: unknown }>;
+  words: Array<{ wordId: string; lemma: string; partOfSpeech: string[]; senseIds: string[]; unitRefs?: string[]; sourceRefIds: string[]; [key: string]: unknown }>;
   senses: Array<{ senseId: string; wordId: string; glossZh: string; pronunciationIds: string[]; exampleIds: string[]; sourceRefIds: string[]; dimensionApplicability?: Record<string, string>; morphologyRuleIds?: string[]; assetIds?: string[]; [key: string]: unknown }>;
   pronunciations: Array<{ pronunciationId: string; senseId: string; ipa: string; accent: string; status: string; audioAssetId?: string; sourceRefIds: string[] }>;
   examples: Array<{ exampleId: string; senseId: string; textEn: string; textZh: string; sourceRefIds: string[] }>;
@@ -98,12 +98,16 @@ export async function validateContentPack(input: unknown): Promise<{ valid: bool
   issues.push(...uniqueIssues(pack.taskTemplates.map((x) => ({ id: x.taskTemplateId })), '$.taskTemplates'));
   issues.push(...uniqueIssues(pack.sourceRefs.map((x) => ({ id: x.sourceRefId })), '$.sourceRefs'));
 
+  issues.push(...uniqueIssues(pack.units.map((x) => ({ id: x.unitId })), '$.units'));
+  const unitMap = new Map(pack.units.map((unit) => [unit.unitId, unit]));
   const wordMap = new Map(pack.words.map((word) => [word.wordId, word]));
   const senseMap = new Map(pack.senses.map((sense) => [sense.senseId, sense]));
   const pronunciationIds = new Set(pack.pronunciations.map((item) => item.pronunciationId));
   const exampleIds = new Set(pack.examples.map((item) => item.exampleId));
   const assetMap = new Map(pack.assets.map((item) => [item.assetId, item]));
   const sourceIds = new Set(pack.sourceRefs.map((item) => item.sourceRefId));
+  for (const sourceId of pack.manifest.sourceRefIds) if (!sourceIds.has(sourceId)) issues.push({ code: 'CP-004', path: '$.manifest.sourceRefIds', message: `Unknown source: ${sourceId}` });
+  for (const [index, unit] of pack.units.entries()) for (const sourceId of unit.sourceRefIds ?? []) if (!sourceIds.has(sourceId)) issues.push({ code: 'CP-004', path: `$.units[${index}].sourceRefIds`, message: `Unknown source: ${sourceId}` });
 
   if (pack.manifest.wordCount !== pack.words.length) {
     issues.push({ code: 'CP-004', path: '$.manifest.wordCount', message: 'wordCount does not match words.length' });
@@ -112,17 +116,23 @@ export async function validateContentPack(input: unknown): Promise<{ valid: bool
     for (const senseId of word.senseIds) {
       if (senseMap.get(senseId)?.wordId !== word.wordId) issues.push({ code: 'CP-004', path: `$.words[${index}].senseIds`, message: `Missing or mismatched sense: ${senseId}` });
     }
+    for (const unitId of word.unitRefs ?? []) if (!unitMap.has(unitId)) issues.push({ code: 'CP-004', path: `$.words[${index}].unitRefs`, message: `Unknown unit: ${unitId}` });
+    if (word.senseIds.length === 0) issues.push({ code: 'CP-005', path: `$.words[${index}].senseIds`, message: 'Every word must have at least one sense.' });
     for (const sourceId of word.sourceRefIds) if (!sourceIds.has(sourceId)) issues.push({ code: 'CP-004', path: `$.words[${index}].sourceRefIds`, message: `Unknown source: ${sourceId}` });
   }
   for (const [index, sense] of pack.senses.entries()) {
-    if (!wordMap.has(sense.wordId)) issues.push({ code: 'CP-004', path: `$.senses[${index}].wordId`, message: `Unknown word: ${sense.wordId}` });
+    const owner = wordMap.get(sense.wordId);
+    if (!owner) issues.push({ code: 'CP-004', path: `$.senses[${index}].wordId`, message: `Unknown word: ${sense.wordId}` });
+    else if (!owner.senseIds.includes(sense.senseId)) issues.push({ code: 'CP-004', path: `$.senses[${index}].senseId`, message: 'Owning word does not list this sense ID.' });
     for (const id of sense.pronunciationIds) if (!pronunciationIds.has(id)) issues.push({ code: 'CP-004', path: `$.senses[${index}].pronunciationIds`, message: `Unknown pronunciation: ${id}` });
     for (const id of sense.exampleIds) if (!exampleIds.has(id)) issues.push({ code: 'CP-004', path: `$.senses[${index}].exampleIds`, message: `Unknown example: ${id}` });
     for (const id of sense.assetIds ?? []) if (!assetMap.has(id)) issues.push({ code: 'CP-004', path: `$.senses[${index}].assetIds`, message: `Unknown asset: ${id}` });
     for (const id of sense.sourceRefIds) if (!sourceIds.has(id)) issues.push({ code: 'CP-004', path: `$.senses[${index}].sourceRefIds`, message: `Unknown source: ${id}` });
   }
   for (const [index, task] of pack.taskTemplates.entries()) {
-    if (!senseMap.has(task.senseId)) issues.push({ code: 'CP-004', path: `$.taskTemplates[${index}].senseId`, message: `Unknown sense: ${task.senseId}` });
+    const taskSense = senseMap.get(task.senseId);
+    if (!taskSense) issues.push({ code: 'CP-004', path: `$.taskTemplates[${index}].senseId`, message: `Unknown sense: ${task.senseId}` });
+    else if (taskSense.dimensionApplicability?.[task.dimension] !== 'applicable') issues.push({ code: 'CP-011', path: `$.taskTemplates[${index}].dimension`, message: `Dimension ${task.dimension} is not marked applicable for sense ${task.senseId}.` });
     if (task.dimension === 'listening') {
       const sense = senseMap.get(task.senseId);
       const playable = pack.pronunciations.some((p) => p.senseId === task.senseId && p.status === 'approved' && p.audioAssetId && assetMap.get(p.audioAssetId)?.licenseStatus === 'approved');
@@ -135,6 +145,7 @@ export async function validateContentPack(input: unknown): Promise<{ valid: bool
   }
   for (const [index, pronunciation] of pack.pronunciations.entries()) {
     if (!senseMap.has(pronunciation.senseId)) issues.push({ code: 'CP-004', path: `$.pronunciations[${index}].senseId`, message: `Unknown sense: ${pronunciation.senseId}` });
+    if (pronunciation.audioAssetId && !assetMap.has(pronunciation.audioAssetId)) issues.push({ code: 'CP-004', path: `$.pronunciations[${index}].audioAssetId`, message: `Unknown audio asset: ${pronunciation.audioAssetId}` });
     for (const id of pronunciation.sourceRefIds) if (!sourceIds.has(id)) issues.push({ code: 'CP-004', path: `$.pronunciations[${index}].sourceRefIds`, message: `Unknown source: ${id}` });
   }
   for (const [index, example] of pack.examples.entries()) {
