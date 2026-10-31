@@ -51,6 +51,19 @@
         "answer_revealed"
       ],
       "cap": "Morphology remains capped at E2 pending reviewed rule-specific transfer policy."
+    },
+    {
+      "id": "support-policy/v1/contrast",
+      "dimension": "meaning",
+      "allowed": [
+        "none",
+        "choice",
+        "hint",
+        "clue",
+        "worked_example",
+        "answer_revealed"
+      ],
+      "cap": "Any clue or forced-choice support caps evidence at E2; contrast sets must be teacher-reviewed before G08 activation."
     }
   ]
 }
