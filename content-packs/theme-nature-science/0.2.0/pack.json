@@ -25,7 +25,7 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 103,
-    "contentHash": "a120898fd99faea3a00b7b5019be507cf22f0f3a3d22e4289bf28d68d7f6fcc1",
+    "contentHash": "bc27a2bb017bc40f25b5f5addfbee79a5df34a61cad8c7f670cec5499c5ae501",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-wordquest-editorial-v1",
@@ -5146,7 +5146,7 @@
     {
       "senseId": "theme-nature-science:s086",
       "wordId": "theme-nature-science:w086",
-      "glossZh": "春天；泉水",
+      "glossZh": "春天",
       "pronunciationIds": [
         "theme-nature-science:p086"
       ],
