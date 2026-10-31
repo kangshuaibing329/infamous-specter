@@ -25,10 +25,11 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 103,
-    "contentHash": "c8aa95a92338e6d1e992ff0b6a8c876fc3d54a29c0e7bb31b34eeb57726f66bd",
+    "contentHash": "0f9dab1ecb8435c58d7c8f9e1f91452be98ada17f90bd25bc1c0f402f4616e06",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
       "src-cambridge-pronunciation-air-us-2026-10-31",
+      "src-cambridge-pronunciation-data-us-2026-10-31",
       "src-cambridge-pronunciation-herb-us-2026-10-31",
       "src-wordquest-editorial-v1",
       "src-wordquest-editorial-v2"
@@ -4157,7 +4158,8 @@
       "sourceRefIds": [
         "src-wordquest-editorial-v2"
       ],
-      "definitionEn": "facts or information collected for study or analysis"
+      "definitionEn": "facts or information collected for study or analysis",
+      "usageNotes": "美式英语中 data 常见 /ˈdeɪtə/ 与 /ˈdætə/ 两种读音；本词包以 /ˈdeɪtə/ 为主读音。"
     },
     {
       "senseId": "theme-nature-science:s046",
@@ -6117,9 +6119,10 @@
       "senseId": "theme-nature-science:s045",
       "ipa": "ˈdeɪtə",
       "accent": "en-US",
-      "status": "draft",
+      "status": "reviewed",
       "sourceRefIds": [
-        "src-wordquest-editorial-v2"
+        "src-wordquest-editorial-v2",
+        "src-cambridge-pronunciation-data-us-2026-10-31"
       ]
     },
     {
@@ -13150,6 +13153,17 @@
       "verificationStatus": "verified",
       "rightsStatus": "unknown",
       "notes": "核验 herb 的美式 IPA /ɝːb/；未复制词典释义或音频。"
+    },
+    {
+      "sourceRefId": "src-cambridge-pronunciation-data-us-2026-10-31",
+      "sourceType": "dictionary",
+      "title": "Cambridge Dictionary: data (US pronunciation variants)",
+      "publisher": "Cambridge University Press",
+      "uri": "https://dictionary.cambridge.org/us/pronunciation/english/data",
+      "accessedAt": "2026-10-31T00:00:00Z",
+      "verificationStatus": "verified",
+      "rightsStatus": "unknown",
+      "notes": "核验 data 的美式主读音 /ˈdeɪ.t̬ə/；词典另列 /ˈdæt̬.ə/ 变体。本词包采用 broad IPA /ˈdeɪtə/ 作为主读音，不复制词典音频。"
     }
   ]
 }
