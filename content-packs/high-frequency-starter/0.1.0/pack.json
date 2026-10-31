@@ -1,0 +1,3863 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "packId": "high-frequency-starter",
+    "version": "0.1.0",
+    "title": "基础高频词汇·试用版",
+    "subtitle": "日常交流与基础阅读常见词",
+    "description": "小学高年级至初中入门阶段的原创编排高频词包；待教研复核。",
+    "packType": "high_frequency",
+    "status": "preview",
+    "language": "en",
+    "locale": "zh-CN",
+    "target": {
+      "ageBands": [
+        "primary-upper",
+        "junior-secondary"
+      ],
+      "gradeBands": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "difficulty": "foundation"
+    },
+    "progressScope": "pack_scoped",
+    "wordCount": 30,
+    "contentHash": "46ac89db45e647bc8c6804105556039eb965a585d7b48ea982b1b3442cd39b8c",
+    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sourceRefIds": [
+      "src-wordquest-editorial-v1"
+    ],
+    "createdAt": "2026-10-31T00:00:00Z",
+    "review": {
+      "status": "in_review",
+      "reviewNotes": "AI-assisted editorial draft. Requires independent teacher review, IPA verification, age-fit review and rights review before publication."
+    },
+    "isDemo": true,
+    "familyId": "high-frequency"
+  },
+  "units": [
+    {
+      "unitId": "high-frequency-starter:unit-1",
+      "title": "人物与日常",
+      "sortOrder": 1,
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "unitId": "high-frequency-starter:unit-2",
+      "title": "常见动作",
+      "sortOrder": 2,
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "unitId": "high-frequency-starter:unit-3",
+      "title": "时间与地点",
+      "sortOrder": 3,
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "wordId": "high-frequency-starter:w001",
+      "lemma": "about",
+      "normalizedLemma": "about",
+      "partOfSpeech": [
+        "preposition"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s001"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w002",
+      "lemma": "after",
+      "normalizedLemma": "after",
+      "partOfSpeech": [
+        "preposition"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s002"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w003",
+      "lemma": "again",
+      "normalizedLemma": "again",
+      "partOfSpeech": [
+        "adverb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s003"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w004",
+      "lemma": "always",
+      "normalizedLemma": "always",
+      "partOfSpeech": [
+        "adverb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s004"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w005",
+      "lemma": "answer",
+      "normalizedLemma": "answer",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s005"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "school",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w006",
+      "lemma": "ask",
+      "normalizedLemma": "ask",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s006"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "school",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w007",
+      "lemma": "because",
+      "normalizedLemma": "because",
+      "partOfSpeech": [
+        "conjunction"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s007"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w008",
+      "lemma": "before",
+      "normalizedLemma": "before",
+      "partOfSpeech": [
+        "preposition"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s008"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w009",
+      "lemma": "begin",
+      "normalizedLemma": "begin",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s009"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w010",
+      "lemma": "bring",
+      "normalizedLemma": "bring",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s010"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w011",
+      "lemma": "busy",
+      "normalizedLemma": "busy",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s011"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "daily",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w012",
+      "lemma": "change",
+      "normalizedLemma": "change",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s012"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w013",
+      "lemma": "choose",
+      "normalizedLemma": "choose",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s013"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w014",
+      "lemma": "different",
+      "normalizedLemma": "different",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s014"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w015",
+      "lemma": "early",
+      "normalizedLemma": "early",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s015"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w016",
+      "lemma": "enough",
+      "normalizedLemma": "enough",
+      "partOfSpeech": [
+        "determiner"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s016"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w017",
+      "lemma": "every",
+      "normalizedLemma": "every",
+      "partOfSpeech": [
+        "determiner"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s017"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w018",
+      "lemma": "follow",
+      "normalizedLemma": "follow",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s018"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w019",
+      "lemma": "friend",
+      "normalizedLemma": "friend",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s019"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "people",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w020",
+      "lemma": "happy",
+      "normalizedLemma": "happy",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s020"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "feeling",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w021",
+      "lemma": "help",
+      "normalizedLemma": "help",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s021"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w022",
+      "lemma": "important",
+      "normalizedLemma": "important",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s022"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w023",
+      "lemma": "learn",
+      "normalizedLemma": "learn",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s023"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "school",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w024",
+      "lemma": "listen",
+      "normalizedLemma": "listen",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s024"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "school",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w025",
+      "lemma": "often",
+      "normalizedLemma": "often",
+      "partOfSpeech": [
+        "adverb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s025"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w026",
+      "lemma": "ready",
+      "normalizedLemma": "ready",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s026"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w027",
+      "lemma": "remember",
+      "normalizedLemma": "remember",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-2"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s027"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w028",
+      "lemma": "teacher",
+      "normalizedLemma": "teacher",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-1"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s028"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "school",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w029",
+      "lemma": "usually",
+      "normalizedLemma": "usually",
+      "partOfSpeech": [
+        "adverb"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s029"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "time",
+        "high-frequency"
+      ]
+    },
+    {
+      "wordId": "high-frequency-starter:w030",
+      "lemma": "without",
+      "normalizedLemma": "without",
+      "partOfSpeech": [
+        "preposition"
+      ],
+      "gradeTags": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "unitRefs": [
+        "high-frequency-starter:unit-3"
+      ],
+      "senseIds": [
+        "high-frequency-starter:s030"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "core",
+        "high-frequency"
+      ]
+    }
+  ],
+  "senses": [
+    {
+      "senseId": "high-frequency-starter:s001",
+      "wordId": "high-frequency-starter:w001",
+      "glossZh": "关于；大约",
+      "definitionEn": "about: 关于；大约",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p001"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e001"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s002",
+      "wordId": "high-frequency-starter:w002",
+      "glossZh": "在……之后",
+      "definitionEn": "after: 在……之后",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p002"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e002"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s003",
+      "wordId": "high-frequency-starter:w003",
+      "glossZh": "再一次；又",
+      "definitionEn": "again: 再一次；又",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p003"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e003"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s004",
+      "wordId": "high-frequency-starter:w004",
+      "glossZh": "总是；一直",
+      "definitionEn": "always: 总是；一直",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p004"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e004"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s005",
+      "wordId": "high-frequency-starter:w005",
+      "glossZh": "答案；回答",
+      "definitionEn": "answer: 答案；回答",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p005"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e005"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s006",
+      "wordId": "high-frequency-starter:w006",
+      "glossZh": "询问；请求",
+      "definitionEn": "ask: 询问；请求",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p006"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e006"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s007",
+      "wordId": "high-frequency-starter:w007",
+      "glossZh": "因为",
+      "definitionEn": "because: 因为",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p007"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e007"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s008",
+      "wordId": "high-frequency-starter:w008",
+      "glossZh": "在……之前",
+      "definitionEn": "before: 在……之前",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p008"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e008"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s009",
+      "wordId": "high-frequency-starter:w009",
+      "glossZh": "开始",
+      "definitionEn": "begin: 开始",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p009"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e009"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s010",
+      "wordId": "high-frequency-starter:w010",
+      "glossZh": "带来；拿来",
+      "definitionEn": "bring: 带来；拿来",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p010"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e010"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s011",
+      "wordId": "high-frequency-starter:w011",
+      "glossZh": "忙碌的",
+      "definitionEn": "busy: 忙碌的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p011"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e011"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s012",
+      "wordId": "high-frequency-starter:w012",
+      "glossZh": "改变；更换",
+      "definitionEn": "change: 改变；更换",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p012"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e012"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s013",
+      "wordId": "high-frequency-starter:w013",
+      "glossZh": "选择",
+      "definitionEn": "choose: 选择",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p013"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e013"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s014",
+      "wordId": "high-frequency-starter:w014",
+      "glossZh": "不同的",
+      "definitionEn": "different: 不同的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p014"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e014"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s015",
+      "wordId": "high-frequency-starter:w015",
+      "glossZh": "早的；提早的",
+      "definitionEn": "early: 早的；提早的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p015"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e015"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s016",
+      "wordId": "high-frequency-starter:w016",
+      "glossZh": "足够的",
+      "definitionEn": "enough: 足够的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p016"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e016"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s017",
+      "wordId": "high-frequency-starter:w017",
+      "glossZh": "每一个；每",
+      "definitionEn": "every: 每一个；每",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p017"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e017"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s018",
+      "wordId": "high-frequency-starter:w018",
+      "glossZh": "跟随；遵循",
+      "definitionEn": "follow: 跟随；遵循",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p018"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e018"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s019",
+      "wordId": "high-frequency-starter:w019",
+      "glossZh": "朋友",
+      "definitionEn": "friend: 朋友",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p019"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e019"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s020",
+      "wordId": "high-frequency-starter:w020",
+      "glossZh": "高兴的；快乐的",
+      "definitionEn": "happy: 高兴的；快乐的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p020"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e020"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s021",
+      "wordId": "high-frequency-starter:w021",
+      "glossZh": "帮助",
+      "definitionEn": "help: 帮助",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p021"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e021"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s022",
+      "wordId": "high-frequency-starter:w022",
+      "glossZh": "重要的",
+      "definitionEn": "important: 重要的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p022"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e022"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s023",
+      "wordId": "high-frequency-starter:w023",
+      "glossZh": "学习；学会",
+      "definitionEn": "learn: 学习；学会",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p023"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e023"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s024",
+      "wordId": "high-frequency-starter:w024",
+      "glossZh": "听；倾听",
+      "definitionEn": "listen: 听；倾听",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p024"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e024"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s025",
+      "wordId": "high-frequency-starter:w025",
+      "glossZh": "经常",
+      "definitionEn": "often: 经常",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p025"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e025"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s026",
+      "wordId": "high-frequency-starter:w026",
+      "glossZh": "准备好的",
+      "definitionEn": "ready: 准备好的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p026"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e026"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s027",
+      "wordId": "high-frequency-starter:w027",
+      "glossZh": "记得；记住",
+      "definitionEn": "remember: 记得；记住",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p027"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e027"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s028",
+      "wordId": "high-frequency-starter:w028",
+      "glossZh": "教师；老师",
+      "definitionEn": "teacher: 教师；老师",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p028"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e028"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s029",
+      "wordId": "high-frequency-starter:w029",
+      "glossZh": "通常",
+      "definitionEn": "usually: 通常",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p029"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e029"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "high-frequency-starter:s030",
+      "wordId": "high-frequency-starter:w030",
+      "glossZh": "没有；缺乏",
+      "definitionEn": "without: 没有；缺乏",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "high-frequency-starter:p030"
+      ],
+      "exampleIds": [
+        "high-frequency-starter:e030"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    }
+  ],
+  "pronunciations": [
+    {
+      "pronunciationId": "high-frequency-starter:p001",
+      "senseId": "high-frequency-starter:s001",
+      "ipa": "əˈbaʊt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p002",
+      "senseId": "high-frequency-starter:s002",
+      "ipa": "ˈæftər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p003",
+      "senseId": "high-frequency-starter:s003",
+      "ipa": "əˈɡen",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p004",
+      "senseId": "high-frequency-starter:s004",
+      "ipa": "ˈɔːlweɪz",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p005",
+      "senseId": "high-frequency-starter:s005",
+      "ipa": "ˈænsər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p006",
+      "senseId": "high-frequency-starter:s006",
+      "ipa": "æsk",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p007",
+      "senseId": "high-frequency-starter:s007",
+      "ipa": "bɪˈkɔːz",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p008",
+      "senseId": "high-frequency-starter:s008",
+      "ipa": "bɪˈfɔːr",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p009",
+      "senseId": "high-frequency-starter:s009",
+      "ipa": "bɪˈɡɪn",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p010",
+      "senseId": "high-frequency-starter:s010",
+      "ipa": "brɪŋ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p011",
+      "senseId": "high-frequency-starter:s011",
+      "ipa": "ˈbɪzi",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p012",
+      "senseId": "high-frequency-starter:s012",
+      "ipa": "tʃeɪndʒ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p013",
+      "senseId": "high-frequency-starter:s013",
+      "ipa": "tʃuːz",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p014",
+      "senseId": "high-frequency-starter:s014",
+      "ipa": "ˈdɪfrənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p015",
+      "senseId": "high-frequency-starter:s015",
+      "ipa": "ˈɜːrli",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p016",
+      "senseId": "high-frequency-starter:s016",
+      "ipa": "ɪˈnʌf",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p017",
+      "senseId": "high-frequency-starter:s017",
+      "ipa": "ˈevri",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p018",
+      "senseId": "high-frequency-starter:s018",
+      "ipa": "ˈfɑːloʊ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p019",
+      "senseId": "high-frequency-starter:s019",
+      "ipa": "frend",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p020",
+      "senseId": "high-frequency-starter:s020",
+      "ipa": "ˈhæpi",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p021",
+      "senseId": "high-frequency-starter:s021",
+      "ipa": "help",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p022",
+      "senseId": "high-frequency-starter:s022",
+      "ipa": "ɪmˈpɔːrtənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p023",
+      "senseId": "high-frequency-starter:s023",
+      "ipa": "lɜːrn",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p024",
+      "senseId": "high-frequency-starter:s024",
+      "ipa": "ˈlɪsən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p025",
+      "senseId": "high-frequency-starter:s025",
+      "ipa": "ˈɔːfən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p026",
+      "senseId": "high-frequency-starter:s026",
+      "ipa": "ˈredi",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p027",
+      "senseId": "high-frequency-starter:s027",
+      "ipa": "rɪˈmembər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p028",
+      "senseId": "high-frequency-starter:s028",
+      "ipa": "ˈtiːtʃər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p029",
+      "senseId": "high-frequency-starter:s029",
+      "ipa": "ˈjuːʒuəli",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "high-frequency-starter:p030",
+      "senseId": "high-frequency-starter:s030",
+      "ipa": "wɪˈðaʊt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "exampleId": "high-frequency-starter:e001",
+      "senseId": "high-frequency-starter:s001",
+      "textEn": "We talked about the new game.",
+      "textZh": "我们谈了那个新游戏。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e002",
+      "senseId": "high-frequency-starter:s002",
+      "textEn": "We play after school.",
+      "textZh": "我们放学后玩。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e003",
+      "senseId": "high-frequency-starter:s003",
+      "textEn": "Please read it again.",
+      "textZh": "请再读一遍。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e004",
+      "senseId": "high-frequency-starter:s004",
+      "textEn": "Mia always brings a notebook.",
+      "textZh": "米娅总是带着笔记本。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e005",
+      "senseId": "high-frequency-starter:s005",
+      "textEn": "I know the answer.",
+      "textZh": "我知道答案。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e006",
+      "senseId": "high-frequency-starter:s006",
+      "textEn": "Ask the teacher for help.",
+      "textZh": "向老师求助。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e007",
+      "senseId": "high-frequency-starter:s007",
+      "textEn": "I stayed in because it rained.",
+      "textZh": "因为下雨，我待在室内。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e008",
+      "senseId": "high-frequency-starter:s008",
+      "textEn": "Wash your hands before lunch.",
+      "textZh": "午饭前洗手。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e009",
+      "senseId": "high-frequency-starter:s009",
+      "textEn": "The class begins at nine.",
+      "textZh": "课程九点开始。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e010",
+      "senseId": "high-frequency-starter:s010",
+      "textEn": "Bring your book tomorrow.",
+      "textZh": "明天把书带来。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e011",
+      "senseId": "high-frequency-starter:s011",
+      "textEn": "Dad is busy this afternoon.",
+      "textZh": "爸爸今天下午很忙。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e012",
+      "senseId": "high-frequency-starter:s012",
+      "textEn": "The weather can change quickly.",
+      "textZh": "天气可能很快变化。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e013",
+      "senseId": "high-frequency-starter:s013",
+      "textEn": "Choose one picture.",
+      "textZh": "选一张图片。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e014",
+      "senseId": "high-frequency-starter:s014",
+      "textEn": "The two bags are different.",
+      "textZh": "这两个包不一样。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e015",
+      "senseId": "high-frequency-starter:s015",
+      "textEn": "We arrived early.",
+      "textZh": "我们到得很早。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e016",
+      "senseId": "high-frequency-starter:s016",
+      "textEn": "We have enough time.",
+      "textZh": "我们的时间够用。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e017",
+      "senseId": "high-frequency-starter:s017",
+      "textEn": "She reads every day.",
+      "textZh": "她每天都读书。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e018",
+      "senseId": "high-frequency-starter:s018",
+      "textEn": "Follow the blue line.",
+      "textZh": "沿着蓝色线走。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e019",
+      "senseId": "high-frequency-starter:s019",
+      "textEn": "My friend lives nearby.",
+      "textZh": "我的朋友住在附近。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e020",
+      "senseId": "high-frequency-starter:s020",
+      "textEn": "The children look happy.",
+      "textZh": "孩子们看起来很开心。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e021",
+      "senseId": "high-frequency-starter:s021",
+      "textEn": "Can you help me?",
+      "textZh": "你能帮帮我吗？",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e022",
+      "senseId": "high-frequency-starter:s022",
+      "textEn": "Sleep is important for health.",
+      "textZh": "睡眠对健康很重要。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e023",
+      "senseId": "high-frequency-starter:s023",
+      "textEn": "We learn new words every week.",
+      "textZh": "我们每周学习新单词。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e024",
+      "senseId": "high-frequency-starter:s024",
+      "textEn": "Listen to the short story.",
+      "textZh": "听这个小故事。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e025",
+      "senseId": "high-frequency-starter:s025",
+      "textEn": "We often walk to the park.",
+      "textZh": "我们经常步行去公园。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e026",
+      "senseId": "high-frequency-starter:s026",
+      "textEn": "Are you ready to start?",
+      "textZh": "你准备好开始了吗？",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e027",
+      "senseId": "high-frequency-starter:s027",
+      "textEn": "I remember her name.",
+      "textZh": "我记得她的名字。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e028",
+      "senseId": "high-frequency-starter:s028",
+      "textEn": "Our teacher tells us a story.",
+      "textZh": "我们的老师给我们讲故事。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e029",
+      "senseId": "high-frequency-starter:s029",
+      "textEn": "He usually eats at home.",
+      "textZh": "他通常在家吃饭。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "high-frequency-starter:e030",
+      "senseId": "high-frequency-starter:s030",
+      "textEn": "Do not leave without your bag.",
+      "textZh": "不要不带包就离开。",
+      "gradeFit": [
+        "grade5",
+        "grade6",
+        "grade7"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "assets": [],
+  "taskTemplates": [
+    {
+      "taskTemplateId": "high-frequency-starter:t001-meaning",
+      "senseId": "high-frequency-starter:s001",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t001-spelling",
+      "senseId": "high-frequency-starter:s001",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t001-context",
+      "senseId": "high-frequency-starter:s001",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t002-meaning",
+      "senseId": "high-frequency-starter:s002",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t002-spelling",
+      "senseId": "high-frequency-starter:s002",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t002-context",
+      "senseId": "high-frequency-starter:s002",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t003-meaning",
+      "senseId": "high-frequency-starter:s003",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t003-spelling",
+      "senseId": "high-frequency-starter:s003",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t003-context",
+      "senseId": "high-frequency-starter:s003",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t004-meaning",
+      "senseId": "high-frequency-starter:s004",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t004-spelling",
+      "senseId": "high-frequency-starter:s004",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t004-context",
+      "senseId": "high-frequency-starter:s004",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t005-meaning",
+      "senseId": "high-frequency-starter:s005",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t005-spelling",
+      "senseId": "high-frequency-starter:s005",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t005-context",
+      "senseId": "high-frequency-starter:s005",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t006-meaning",
+      "senseId": "high-frequency-starter:s006",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t006-spelling",
+      "senseId": "high-frequency-starter:s006",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t006-context",
+      "senseId": "high-frequency-starter:s006",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t007-meaning",
+      "senseId": "high-frequency-starter:s007",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t007-spelling",
+      "senseId": "high-frequency-starter:s007",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t007-context",
+      "senseId": "high-frequency-starter:s007",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t008-meaning",
+      "senseId": "high-frequency-starter:s008",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t008-spelling",
+      "senseId": "high-frequency-starter:s008",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t008-context",
+      "senseId": "high-frequency-starter:s008",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t009-meaning",
+      "senseId": "high-frequency-starter:s009",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t009-spelling",
+      "senseId": "high-frequency-starter:s009",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t009-context",
+      "senseId": "high-frequency-starter:s009",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t010-meaning",
+      "senseId": "high-frequency-starter:s010",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t010-spelling",
+      "senseId": "high-frequency-starter:s010",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t010-context",
+      "senseId": "high-frequency-starter:s010",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t011-meaning",
+      "senseId": "high-frequency-starter:s011",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t011-spelling",
+      "senseId": "high-frequency-starter:s011",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t011-context",
+      "senseId": "high-frequency-starter:s011",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t012-meaning",
+      "senseId": "high-frequency-starter:s012",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t012-spelling",
+      "senseId": "high-frequency-starter:s012",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t012-context",
+      "senseId": "high-frequency-starter:s012",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t013-meaning",
+      "senseId": "high-frequency-starter:s013",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t013-spelling",
+      "senseId": "high-frequency-starter:s013",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t013-context",
+      "senseId": "high-frequency-starter:s013",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t014-meaning",
+      "senseId": "high-frequency-starter:s014",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t014-spelling",
+      "senseId": "high-frequency-starter:s014",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t014-context",
+      "senseId": "high-frequency-starter:s014",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t014-morphology",
+      "senseId": "high-frequency-starter:s014",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t015-meaning",
+      "senseId": "high-frequency-starter:s015",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t015-spelling",
+      "senseId": "high-frequency-starter:s015",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t015-context",
+      "senseId": "high-frequency-starter:s015",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t016-meaning",
+      "senseId": "high-frequency-starter:s016",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t016-spelling",
+      "senseId": "high-frequency-starter:s016",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t016-context",
+      "senseId": "high-frequency-starter:s016",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t017-meaning",
+      "senseId": "high-frequency-starter:s017",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t017-spelling",
+      "senseId": "high-frequency-starter:s017",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t017-context",
+      "senseId": "high-frequency-starter:s017",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t018-meaning",
+      "senseId": "high-frequency-starter:s018",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t018-spelling",
+      "senseId": "high-frequency-starter:s018",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t018-context",
+      "senseId": "high-frequency-starter:s018",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t019-meaning",
+      "senseId": "high-frequency-starter:s019",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t019-spelling",
+      "senseId": "high-frequency-starter:s019",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t019-context",
+      "senseId": "high-frequency-starter:s019",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t020-meaning",
+      "senseId": "high-frequency-starter:s020",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t020-spelling",
+      "senseId": "high-frequency-starter:s020",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t020-context",
+      "senseId": "high-frequency-starter:s020",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t021-meaning",
+      "senseId": "high-frequency-starter:s021",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t021-spelling",
+      "senseId": "high-frequency-starter:s021",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t021-context",
+      "senseId": "high-frequency-starter:s021",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t022-meaning",
+      "senseId": "high-frequency-starter:s022",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t022-spelling",
+      "senseId": "high-frequency-starter:s022",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t022-context",
+      "senseId": "high-frequency-starter:s022",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t022-morphology",
+      "senseId": "high-frequency-starter:s022",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t023-meaning",
+      "senseId": "high-frequency-starter:s023",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t023-spelling",
+      "senseId": "high-frequency-starter:s023",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t023-context",
+      "senseId": "high-frequency-starter:s023",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t024-meaning",
+      "senseId": "high-frequency-starter:s024",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t024-spelling",
+      "senseId": "high-frequency-starter:s024",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t024-context",
+      "senseId": "high-frequency-starter:s024",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t025-meaning",
+      "senseId": "high-frequency-starter:s025",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t025-spelling",
+      "senseId": "high-frequency-starter:s025",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t025-context",
+      "senseId": "high-frequency-starter:s025",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t026-meaning",
+      "senseId": "high-frequency-starter:s026",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t026-spelling",
+      "senseId": "high-frequency-starter:s026",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t026-context",
+      "senseId": "high-frequency-starter:s026",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t027-meaning",
+      "senseId": "high-frequency-starter:s027",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t027-spelling",
+      "senseId": "high-frequency-starter:s027",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t027-context",
+      "senseId": "high-frequency-starter:s027",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t028-meaning",
+      "senseId": "high-frequency-starter:s028",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t028-spelling",
+      "senseId": "high-frequency-starter:s028",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t028-context",
+      "senseId": "high-frequency-starter:s028",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t028-morphology",
+      "senseId": "high-frequency-starter:s028",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t029-meaning",
+      "senseId": "high-frequency-starter:s029",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t029-spelling",
+      "senseId": "high-frequency-starter:s029",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t029-context",
+      "senseId": "high-frequency-starter:s029",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t029-morphology",
+      "senseId": "high-frequency-starter:s029",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t030-meaning",
+      "senseId": "high-frequency-starter:s030",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t030-spelling",
+      "senseId": "high-frequency-starter:s030",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "high-frequency-starter:t030-context",
+      "senseId": "high-frequency-starter:s030",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceRefId": "src-wordquest-editorial-v1",
+      "sourceType": "original_editorial",
+      "title": "WordQuest 原创词汇编排与例句（首轮草稿）",
+      "verificationStatus": "unverified",
+      "rightsStatus": "pending_review",
+      "notes": "词条选择、释义和例句为原创编辑草稿；词形和 IPA 需独立词典核验。未完成人工教研和授权审查前仅供预览。"
+    }
+  ]
+}
