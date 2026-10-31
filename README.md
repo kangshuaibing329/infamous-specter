@@ -48,3 +48,7 @@ P0-0 documents and schemas are candidate design artifacts. They do not imply tha
 - [Answer specs](content-packs/answer-specs.v1.json)
 
 The three packs are preview-only drafts. IPA, definitions, examples, source verification, rights review, audio and runtime import are not yet approved.
+
+- [P0-1 0.2.0 vocabulary expansion and static QA report](docs/acceptance/P0-1-词库扩充0.2.0静态验收报告.md)
+- [Audio production specification](content-packs/AUDIO-PRODUCTION-SPEC.md)
+- [0.2.0 content quality matrix](content-packs/CONTENT-QA-MATRIX-v0.2.0.md)
