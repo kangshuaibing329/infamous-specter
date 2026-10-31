@@ -89,7 +89,7 @@ JSON 是规范主数据；CSV 是便于教研人员编辑和导入的扁平化�
 | 每包音频资源 | 0 |
 | 每包已审核状态 | 尚未审核 |
 
-已核对每包 JSON 与 CSV 的记录数：words/senses/pronunciations/examples 各 30 行，task-templates 各 90 行。当前仅是文件和记录数量核对，不代表独立 JSON Schema 验证器、导入器或教研人工验收通过。
+已对三套 JSON 主文件执行只读结构校验（覆盖当前 schema 使用的 type、required、additionalProperties、enum、const、pattern、数组长度/唯一性及发布条件）：三套均为 0 项结构错误；词条/义项/任务外键检查均为 0 项错误；wordCount 均与 words 数量一致。每包 CSV 行数核对为 words/senses/pronunciations/examples 各 30 行、task-templates 各 90 行。该校验是本轮自定义结构检查，不是独立 JSON Schema 2020-12 验证器，也不是正式 CSV 导入器或教研人工验收。
 
 ## 7. 后续验收清单
 
