@@ -1,0 +1,4036 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "packId": "theme-nature-science",
+    "version": "0.1.0",
+    "title": "自然与科学词汇·试用版",
+    "subtitle": "天气、地球、生物、材料与基础科学",
+    "description": "围绕自然观察和基础科学概念原创编排；待教研复核。",
+    "packType": "thematic",
+    "status": "preview",
+    "language": "en",
+    "locale": "zh-CN",
+    "target": {
+      "ageBands": [
+        "primary-upper",
+        "junior-secondary"
+      ],
+      "gradeBands": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "difficulty": "foundation"
+    },
+    "progressScope": "pack_scoped",
+    "wordCount": 31,
+    "contentHash": "773351084839bab97bd859a70b0ba518cce5a6c317c1e90630993d729bbf636c",
+    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sourceRefIds": [
+      "src-wordquest-editorial-v1"
+    ],
+    "createdAt": "2026-10-31T00:00:00Z",
+    "review": {
+      "status": "in_review",
+      "reviewNotes": "AI-assisted editorial draft. Requires independent teacher review, IPA verification, age-fit review and rights review before publication."
+    },
+    "isDemo": true,
+    "familyId": "theme-scenario"
+  },
+  "units": [
+    {
+      "unitId": "theme-nature-science:unit-1",
+      "title": "天气与环境",
+      "sortOrder": 1,
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "unitId": "theme-nature-science:unit-2",
+      "title": "地球与空间",
+      "sortOrder": 2,
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "unitId": "theme-nature-science:unit-3",
+      "title": "生物与材料",
+      "sortOrder": 3,
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "wordId": "theme-nature-science:w001",
+      "lemma": "air",
+      "normalizedLemma": "air",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s001"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "environment",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w002",
+      "lemma": "animal",
+      "normalizedLemma": "animal",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s002"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "life",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w003",
+      "lemma": "astronaut",
+      "normalizedLemma": "astronaut",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s003"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "space",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w004",
+      "lemma": "climate",
+      "normalizedLemma": "climate",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s004"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "environment",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w005",
+      "lemma": "cloud",
+      "normalizedLemma": "cloud",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s005"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "weather",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w006",
+      "lemma": "energy",
+      "normalizedLemma": "energy",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s006"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "science",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w007",
+      "lemma": "environment",
+      "normalizedLemma": "environment",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s007"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "environment",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w008",
+      "lemma": "experiment",
+      "normalizedLemma": "experiment",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s008"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "science",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w009",
+      "lemma": "forest",
+      "normalizedLemma": "forest",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s009"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "habitat",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w010",
+      "lemma": "gravity",
+      "normalizedLemma": "gravity",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s010"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "science",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w011",
+      "lemma": "insect",
+      "normalizedLemma": "insect",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s011"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "life",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w012",
+      "lemma": "island",
+      "normalizedLemma": "island",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s012"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "geography",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w013",
+      "lemma": "material",
+      "normalizedLemma": "material",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s013"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "matter",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w014",
+      "lemma": "metal",
+      "normalizedLemma": "metal",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s014"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "matter",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w015",
+      "lemma": "moon",
+      "normalizedLemma": "moon",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s015"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "space",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w016",
+      "lemma": "ocean",
+      "normalizedLemma": "ocean",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s016"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "geography",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w017",
+      "lemma": "planet",
+      "normalizedLemma": "planet",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s017"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "space",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w018",
+      "lemma": "pollution",
+      "normalizedLemma": "pollution",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s018"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "environment",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w019",
+      "lemma": "recycle",
+      "normalizedLemma": "recycle",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s019"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "action",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w020",
+      "lemma": "river",
+      "normalizedLemma": "river",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s020"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "geography",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w021",
+      "lemma": "science",
+      "normalizedLemma": "science",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s021"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "science",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w022",
+      "lemma": "seed",
+      "normalizedLemma": "seed",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s022"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "life",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w023",
+      "lemma": "solar",
+      "normalizedLemma": "solar",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s023"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "energy",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w024",
+      "lemma": "temperature",
+      "normalizedLemma": "temperature",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s024"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "weather",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w025",
+      "lemma": "universe",
+      "normalizedLemma": "universe",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s025"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "space",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w026",
+      "lemma": "volcano",
+      "normalizedLemma": "volcano",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-2"
+      ],
+      "senseIds": [
+        "theme-nature-science:s026"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "geography",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w027",
+      "lemma": "water",
+      "normalizedLemma": "water",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s027"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "matter",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w028",
+      "lemma": "weather",
+      "normalizedLemma": "weather",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-1"
+      ],
+      "senseIds": [
+        "theme-nature-science:s028"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "weather",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w029",
+      "lemma": "wildlife",
+      "normalizedLemma": "wildlife",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s029"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "life",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w030",
+      "lemma": "wooden",
+      "normalizedLemma": "wooden",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s030"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "matter",
+        "theme-scenario"
+      ]
+    },
+    {
+      "wordId": "theme-nature-science:w031",
+      "lemma": "observe",
+      "normalizedLemma": "observe",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "gradeTags": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "unitRefs": [
+        "theme-nature-science:unit-3"
+      ],
+      "senseIds": [
+        "theme-nature-science:s031"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "tags": [
+        "action",
+        "theme-scenario"
+      ]
+    }
+  ],
+  "senses": [
+    {
+      "senseId": "theme-nature-science:s001",
+      "wordId": "theme-nature-science:w001",
+      "glossZh": "空气",
+      "definitionEn": "air: 空气",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p001"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e001"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s002",
+      "wordId": "theme-nature-science:w002",
+      "glossZh": "动物",
+      "definitionEn": "animal: 动物",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p002"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e002"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s003",
+      "wordId": "theme-nature-science:w003",
+      "glossZh": "宇航员",
+      "definitionEn": "astronaut: 宇航员",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p003"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e003"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s004",
+      "wordId": "theme-nature-science:w004",
+      "glossZh": "气候",
+      "definitionEn": "climate: 气候",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p004"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e004"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s005",
+      "wordId": "theme-nature-science:w005",
+      "glossZh": "云",
+      "definitionEn": "cloud: 云",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p005"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e005"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s006",
+      "wordId": "theme-nature-science:w006",
+      "glossZh": "能量；能源",
+      "definitionEn": "energy: 能量；能源",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p006"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e006"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s007",
+      "wordId": "theme-nature-science:w007",
+      "glossZh": "环境",
+      "definitionEn": "environment: 环境",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p007"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e007"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s008",
+      "wordId": "theme-nature-science:w008",
+      "glossZh": "实验",
+      "definitionEn": "experiment: 实验",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p008"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e008"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s009",
+      "wordId": "theme-nature-science:w009",
+      "glossZh": "森林",
+      "definitionEn": "forest: 森林",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p009"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e009"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s010",
+      "wordId": "theme-nature-science:w010",
+      "glossZh": "重力",
+      "definitionEn": "gravity: 重力",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p010"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e010"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s011",
+      "wordId": "theme-nature-science:w011",
+      "glossZh": "昆虫",
+      "definitionEn": "insect: 昆虫",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p011"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e011"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s012",
+      "wordId": "theme-nature-science:w012",
+      "glossZh": "岛屿",
+      "definitionEn": "island: 岛屿",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p012"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e012"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s013",
+      "wordId": "theme-nature-science:w013",
+      "glossZh": "材料；原料",
+      "definitionEn": "material: 材料；原料",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p013"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e013"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s014",
+      "wordId": "theme-nature-science:w014",
+      "glossZh": "金属",
+      "definitionEn": "metal: 金属",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p014"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e014"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s015",
+      "wordId": "theme-nature-science:w015",
+      "glossZh": "月球；月亮",
+      "definitionEn": "moon: 月球；月亮",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p015"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e015"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s016",
+      "wordId": "theme-nature-science:w016",
+      "glossZh": "海洋",
+      "definitionEn": "ocean: 海洋",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p016"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e016"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s017",
+      "wordId": "theme-nature-science:w017",
+      "glossZh": "行星",
+      "definitionEn": "planet: 行星",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p017"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e017"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s018",
+      "wordId": "theme-nature-science:w018",
+      "glossZh": "污染",
+      "definitionEn": "pollution: 污染",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p018"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e018"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s019",
+      "wordId": "theme-nature-science:w019",
+      "glossZh": "回收利用",
+      "definitionEn": "recycle: 回收利用",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p019"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e019"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s020",
+      "wordId": "theme-nature-science:w020",
+      "glossZh": "河流",
+      "definitionEn": "river: 河流",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p020"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e020"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s021",
+      "wordId": "theme-nature-science:w021",
+      "glossZh": "科学",
+      "definitionEn": "science: 科学",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p021"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e021"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s022",
+      "wordId": "theme-nature-science:w022",
+      "glossZh": "种子",
+      "definitionEn": "seed: 种子",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p022"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e022"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s023",
+      "wordId": "theme-nature-science:w023",
+      "glossZh": "太阳的；太阳能的",
+      "definitionEn": "solar: 太阳的；太阳能的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p023"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e023"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s024",
+      "wordId": "theme-nature-science:w024",
+      "glossZh": "温度",
+      "definitionEn": "temperature: 温度",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p024"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e024"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s025",
+      "wordId": "theme-nature-science:w025",
+      "glossZh": "宇宙",
+      "definitionEn": "universe: 宇宙",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p025"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e025"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s026",
+      "wordId": "theme-nature-science:w026",
+      "glossZh": "火山",
+      "definitionEn": "volcano: 火山",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p026"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e026"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s027",
+      "wordId": "theme-nature-science:w027",
+      "glossZh": "水",
+      "definitionEn": "water: 水",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p027"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e027"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s028",
+      "wordId": "theme-nature-science:w028",
+      "glossZh": "天气",
+      "definitionEn": "weather: 天气",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p028"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e028"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s029",
+      "wordId": "theme-nature-science:w029",
+      "glossZh": "野生动物",
+      "definitionEn": "wildlife: 野生动物",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p029"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e029"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s030",
+      "wordId": "theme-nature-science:w030",
+      "glossZh": "木制的",
+      "definitionEn": "wooden: 木制的",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p030"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e030"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "senseId": "theme-nature-science:s031",
+      "wordId": "theme-nature-science:w031",
+      "glossZh": "观察",
+      "definitionEn": "observe: 观察",
+      "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
+      "pronunciationIds": [
+        "theme-nature-science:p031"
+      ],
+      "exampleIds": [
+        "theme-nature-science:e031"
+      ],
+      "assetIds": [],
+      "acceptedSpellings": [],
+      "morphologyRuleIds": [],
+      "dimensionApplicability": {
+        "meaning": "applicable",
+        "listening": "not_applicable",
+        "spelling": "applicable",
+        "morphology": "not_applicable",
+        "context": "applicable"
+      },
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    }
+  ],
+  "pronunciations": [
+    {
+      "pronunciationId": "theme-nature-science:p001",
+      "senseId": "theme-nature-science:s001",
+      "ipa": "er",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p002",
+      "senseId": "theme-nature-science:s002",
+      "ipa": "ˈænɪməl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p003",
+      "senseId": "theme-nature-science:s003",
+      "ipa": "ˈæstrənɔːt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p004",
+      "senseId": "theme-nature-science:s004",
+      "ipa": "ˈklaɪmət",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p005",
+      "senseId": "theme-nature-science:s005",
+      "ipa": "klaʊd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p006",
+      "senseId": "theme-nature-science:s006",
+      "ipa": "ˈenərdʒi",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p007",
+      "senseId": "theme-nature-science:s007",
+      "ipa": "ɪnˈvaɪrənmənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p008",
+      "senseId": "theme-nature-science:s008",
+      "ipa": "ɪkˈsperɪmənt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p009",
+      "senseId": "theme-nature-science:s009",
+      "ipa": "ˈfɔːrɪst",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p010",
+      "senseId": "theme-nature-science:s010",
+      "ipa": "ˈɡrævəti",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p011",
+      "senseId": "theme-nature-science:s011",
+      "ipa": "ˈɪnsekt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p012",
+      "senseId": "theme-nature-science:s012",
+      "ipa": "ˈaɪlənd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p013",
+      "senseId": "theme-nature-science:s013",
+      "ipa": "məˈtɪriəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p014",
+      "senseId": "theme-nature-science:s014",
+      "ipa": "ˈmetəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p015",
+      "senseId": "theme-nature-science:s015",
+      "ipa": "muːn",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p016",
+      "senseId": "theme-nature-science:s016",
+      "ipa": "ˈoʊʃən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p017",
+      "senseId": "theme-nature-science:s017",
+      "ipa": "ˈplænɪt",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p018",
+      "senseId": "theme-nature-science:s018",
+      "ipa": "pəˈluːʃən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p019",
+      "senseId": "theme-nature-science:s019",
+      "ipa": "ˌriːˈsaɪkəl",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p020",
+      "senseId": "theme-nature-science:s020",
+      "ipa": "ˈrɪvər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p021",
+      "senseId": "theme-nature-science:s021",
+      "ipa": "ˈsaɪəns",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p022",
+      "senseId": "theme-nature-science:s022",
+      "ipa": "siːd",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p023",
+      "senseId": "theme-nature-science:s023",
+      "ipa": "ˈsoʊlər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p024",
+      "senseId": "theme-nature-science:s024",
+      "ipa": "ˈtemprətʃər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p025",
+      "senseId": "theme-nature-science:s025",
+      "ipa": "ˈjuːnɪvɜːrs",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p026",
+      "senseId": "theme-nature-science:s026",
+      "ipa": "vɑːlˈkeɪnoʊ",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p027",
+      "senseId": "theme-nature-science:s027",
+      "ipa": "ˈwɔːtər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p028",
+      "senseId": "theme-nature-science:s028",
+      "ipa": "ˈweðər",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p029",
+      "senseId": "theme-nature-science:s029",
+      "ipa": "ˈwaɪldlaɪf",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p030",
+      "senseId": "theme-nature-science:s030",
+      "ipa": "ˈwʊdən",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    },
+    {
+      "pronunciationId": "theme-nature-science:p031",
+      "senseId": "theme-nature-science:s031",
+      "ipa": "əbˈzɜːrv",
+      "accent": "en-US",
+      "status": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "exampleId": "theme-nature-science:e001",
+      "senseId": "theme-nature-science:s001",
+      "textEn": "Plants need air to grow.",
+      "textZh": "植物生长需要空气。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e002",
+      "senseId": "theme-nature-science:s002",
+      "textEn": "A dolphin is an intelligent animal.",
+      "textZh": "海豚是一种聪明的动物。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e003",
+      "senseId": "theme-nature-science:s003",
+      "textEn": "The astronaut looked at Earth from space.",
+      "textZh": "宇航员从太空中观察地球。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e004",
+      "senseId": "theme-nature-science:s004",
+      "textEn": "Climate affects plants and animals.",
+      "textZh": "气候会影响植物和动物。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e005",
+      "senseId": "theme-nature-science:s005",
+      "textEn": "A dark cloud covered the sun.",
+      "textZh": "一片乌云遮住了太阳。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e006",
+      "senseId": "theme-nature-science:s006",
+      "textEn": "The sun gives Earth light and energy.",
+      "textZh": "太阳为地球提供光和能量。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e007",
+      "senseId": "theme-nature-science:s007",
+      "textEn": "We should protect the environment.",
+      "textZh": "我们应该保护环境。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e008",
+      "senseId": "theme-nature-science:s008",
+      "textEn": "Our experiment shows how seeds grow.",
+      "textZh": "我们的实验展示了种子如何生长。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e009",
+      "senseId": "theme-nature-science:s009",
+      "textEn": "Many birds live in the forest.",
+      "textZh": "许多鸟生活在森林里。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e010",
+      "senseId": "theme-nature-science:s010",
+      "textEn": "Gravity pulls objects toward Earth.",
+      "textZh": "重力把物体拉向地球。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e011",
+      "senseId": "theme-nature-science:s011",
+      "textEn": "A butterfly is an insect.",
+      "textZh": "蝴蝶是一种昆虫。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e012",
+      "senseId": "theme-nature-science:s012",
+      "textEn": "The island is surrounded by water.",
+      "textZh": "这座岛屿四周都是水。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e013",
+      "senseId": "theme-nature-science:s013",
+      "textEn": "Wood is a natural material.",
+      "textZh": "木材是一种天然材料。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e014",
+      "senseId": "theme-nature-science:s014",
+      "textEn": "Iron is a strong metal.",
+      "textZh": "铁是一种坚固的金属。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e015",
+      "senseId": "theme-nature-science:s015",
+      "textEn": "The moon looks bright tonight.",
+      "textZh": "今晚月亮看起来很明亮。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e016",
+      "senseId": "theme-nature-science:s016",
+      "textEn": "The ocean is home to many living things.",
+      "textZh": "海洋是许多生物的家园。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e017",
+      "senseId": "theme-nature-science:s017",
+      "textEn": "Earth is the planet where we live.",
+      "textZh": "地球是我们居住的行星。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e018",
+      "senseId": "theme-nature-science:s018",
+      "textEn": "Air pollution can harm our health.",
+      "textZh": "空气污染可能损害我们的健康。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e019",
+      "senseId": "theme-nature-science:s019",
+      "textEn": "We recycle paper and plastic bottles.",
+      "textZh": "我们回收纸张和塑料瓶。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e020",
+      "senseId": "theme-nature-science:s020",
+      "textEn": "The river flows through the valley.",
+      "textZh": "河流穿过山谷。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e021",
+      "senseId": "theme-nature-science:s021",
+      "textEn": "Science helps us understand nature.",
+      "textZh": "科学帮助我们理解自然。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e022",
+      "senseId": "theme-nature-science:s022",
+      "textEn": "A seed can grow into a plant.",
+      "textZh": "一粒种子可以长成一株植物。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e023",
+      "senseId": "theme-nature-science:s023",
+      "textEn": "Solar panels use energy from the sun.",
+      "textZh": "太阳能板利用来自太阳的能量。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e024",
+      "senseId": "theme-nature-science:s024",
+      "textEn": "The temperature drops at night.",
+      "textZh": "夜间温度会下降。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e025",
+      "senseId": "theme-nature-science:s025",
+      "textEn": "The universe contains many galaxies.",
+      "textZh": "宇宙中有许多星系。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e026",
+      "senseId": "theme-nature-science:s026",
+      "textEn": "The volcano released ash and gas.",
+      "textZh": "火山喷出了火山灰和气体。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e027",
+      "senseId": "theme-nature-science:s027",
+      "textEn": "All living things need water.",
+      "textZh": "所有生物都需要水。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e028",
+      "senseId": "theme-nature-science:s028",
+      "textEn": "The weather changes every day.",
+      "textZh": "天气每天都在变化。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e029",
+      "senseId": "theme-nature-science:s029",
+      "textEn": "The park protects local wildlife.",
+      "textZh": "这座公园保护当地野生动物。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e030",
+      "senseId": "theme-nature-science:s030",
+      "textEn": "The wooden bridge crosses the stream.",
+      "textZh": "这座木桥横跨小溪。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "exampleId": "theme-nature-science:e031",
+      "senseId": "theme-nature-science:s031",
+      "textEn": "We observe the moon through a telescope.",
+      "textZh": "我们用望远镜观察月球。",
+      "gradeFit": [
+        "grade6",
+        "grade7",
+        "grade8",
+        "grade9"
+      ],
+      "sourceRefIds": [
+        "src-wordquest-editorial-v1"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "assets": [],
+  "taskTemplates": [
+    {
+      "taskTemplateId": "theme-nature-science:t001-meaning",
+      "senseId": "theme-nature-science:s001",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t001-spelling",
+      "senseId": "theme-nature-science:s001",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t001-context",
+      "senseId": "theme-nature-science:s001",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t002-meaning",
+      "senseId": "theme-nature-science:s002",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t002-spelling",
+      "senseId": "theme-nature-science:s002",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t002-context",
+      "senseId": "theme-nature-science:s002",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t003-meaning",
+      "senseId": "theme-nature-science:s003",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t003-spelling",
+      "senseId": "theme-nature-science:s003",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t003-context",
+      "senseId": "theme-nature-science:s003",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t004-meaning",
+      "senseId": "theme-nature-science:s004",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t004-spelling",
+      "senseId": "theme-nature-science:s004",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t004-context",
+      "senseId": "theme-nature-science:s004",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t005-meaning",
+      "senseId": "theme-nature-science:s005",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t005-spelling",
+      "senseId": "theme-nature-science:s005",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t005-context",
+      "senseId": "theme-nature-science:s005",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t006-meaning",
+      "senseId": "theme-nature-science:s006",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t006-spelling",
+      "senseId": "theme-nature-science:s006",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t006-context",
+      "senseId": "theme-nature-science:s006",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t007-meaning",
+      "senseId": "theme-nature-science:s007",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t007-spelling",
+      "senseId": "theme-nature-science:s007",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t007-context",
+      "senseId": "theme-nature-science:s007",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t008-meaning",
+      "senseId": "theme-nature-science:s008",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t008-spelling",
+      "senseId": "theme-nature-science:s008",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t008-context",
+      "senseId": "theme-nature-science:s008",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t009-meaning",
+      "senseId": "theme-nature-science:s009",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t009-spelling",
+      "senseId": "theme-nature-science:s009",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t009-context",
+      "senseId": "theme-nature-science:s009",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t010-meaning",
+      "senseId": "theme-nature-science:s010",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t010-spelling",
+      "senseId": "theme-nature-science:s010",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t010-context",
+      "senseId": "theme-nature-science:s010",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t011-meaning",
+      "senseId": "theme-nature-science:s011",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t011-spelling",
+      "senseId": "theme-nature-science:s011",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t011-context",
+      "senseId": "theme-nature-science:s011",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t012-meaning",
+      "senseId": "theme-nature-science:s012",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t012-spelling",
+      "senseId": "theme-nature-science:s012",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t012-context",
+      "senseId": "theme-nature-science:s012",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t013-meaning",
+      "senseId": "theme-nature-science:s013",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t013-spelling",
+      "senseId": "theme-nature-science:s013",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t013-context",
+      "senseId": "theme-nature-science:s013",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t014-meaning",
+      "senseId": "theme-nature-science:s014",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t014-spelling",
+      "senseId": "theme-nature-science:s014",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t014-context",
+      "senseId": "theme-nature-science:s014",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t015-meaning",
+      "senseId": "theme-nature-science:s015",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t015-spelling",
+      "senseId": "theme-nature-science:s015",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t015-context",
+      "senseId": "theme-nature-science:s015",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t016-meaning",
+      "senseId": "theme-nature-science:s016",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t016-spelling",
+      "senseId": "theme-nature-science:s016",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t016-context",
+      "senseId": "theme-nature-science:s016",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t017-meaning",
+      "senseId": "theme-nature-science:s017",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t017-spelling",
+      "senseId": "theme-nature-science:s017",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t017-context",
+      "senseId": "theme-nature-science:s017",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t018-meaning",
+      "senseId": "theme-nature-science:s018",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t018-spelling",
+      "senseId": "theme-nature-science:s018",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t018-context",
+      "senseId": "theme-nature-science:s018",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t019-meaning",
+      "senseId": "theme-nature-science:s019",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t019-spelling",
+      "senseId": "theme-nature-science:s019",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t019-context",
+      "senseId": "theme-nature-science:s019",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t019-morphology",
+      "senseId": "theme-nature-science:s019",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t020-meaning",
+      "senseId": "theme-nature-science:s020",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t020-spelling",
+      "senseId": "theme-nature-science:s020",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t020-context",
+      "senseId": "theme-nature-science:s020",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t021-meaning",
+      "senseId": "theme-nature-science:s021",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t021-spelling",
+      "senseId": "theme-nature-science:s021",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t021-context",
+      "senseId": "theme-nature-science:s021",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t022-meaning",
+      "senseId": "theme-nature-science:s022",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t022-spelling",
+      "senseId": "theme-nature-science:s022",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t022-context",
+      "senseId": "theme-nature-science:s022",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t023-meaning",
+      "senseId": "theme-nature-science:s023",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t023-spelling",
+      "senseId": "theme-nature-science:s023",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t023-context",
+      "senseId": "theme-nature-science:s023",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t023-morphology",
+      "senseId": "theme-nature-science:s023",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t024-meaning",
+      "senseId": "theme-nature-science:s024",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t024-spelling",
+      "senseId": "theme-nature-science:s024",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t024-context",
+      "senseId": "theme-nature-science:s024",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t025-meaning",
+      "senseId": "theme-nature-science:s025",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t025-spelling",
+      "senseId": "theme-nature-science:s025",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t025-context",
+      "senseId": "theme-nature-science:s025",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t026-meaning",
+      "senseId": "theme-nature-science:s026",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t026-spelling",
+      "senseId": "theme-nature-science:s026",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t026-context",
+      "senseId": "theme-nature-science:s026",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t027-meaning",
+      "senseId": "theme-nature-science:s027",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t027-spelling",
+      "senseId": "theme-nature-science:s027",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t027-context",
+      "senseId": "theme-nature-science:s027",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t028-meaning",
+      "senseId": "theme-nature-science:s028",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t028-spelling",
+      "senseId": "theme-nature-science:s028",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t028-context",
+      "senseId": "theme-nature-science:s028",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t029-meaning",
+      "senseId": "theme-nature-science:s029",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t029-spelling",
+      "senseId": "theme-nature-science:s029",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t029-context",
+      "senseId": "theme-nature-science:s029",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t030-meaning",
+      "senseId": "theme-nature-science:s030",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t030-spelling",
+      "senseId": "theme-nature-science:s030",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t030-context",
+      "senseId": "theme-nature-science:s030",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t030-morphology",
+      "senseId": "theme-nature-science:s030",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t031-meaning",
+      "senseId": "theme-nature-science:s031",
+      "dimension": "meaning",
+      "taskType": "meaning_retrieval",
+      "answerSpecRef": "answer-specs/v1/meaning",
+      "supportPolicyId": "support-policy/v1/meaning",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g01-island-exploration",
+        "g03-word-link",
+        "g04-word-block-match",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t031-spelling",
+      "senseId": "theme-nature-science:s031",
+      "dimension": "spelling",
+      "taskType": "spelling_production",
+      "answerSpecRef": "answer-specs/v1/spelling",
+      "supportPolicyId": "support-policy/v1/spelling",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g02-spelling-minecart",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t031-context",
+      "senseId": "theme-nature-science:s031",
+      "dimension": "context",
+      "taskType": "context_completion",
+      "answerSpecRef": "answer-specs/v1/context",
+      "supportPolicyId": "support-policy/v1/context",
+      "evidenceCap": "E3",
+      "compatibleGameIds": [
+        "g07-sentence-bridge",
+        "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    }
+  ],
+  "sourceRefs": [
+    {
+      "sourceRefId": "src-wordquest-editorial-v1",
+      "sourceType": "original_editorial",
+      "title": "WordQuest 原创词汇编排与例句（首轮草稿）",
+      "verificationStatus": "unverified",
+      "rightsStatus": "pending_review",
+      "notes": "词条选择、释义和例句为原创编辑草稿；词形和 IPA 需独立词典核验。未完成人工教研和授权审查前仅供预览。"
+    }
+  ]
+}
