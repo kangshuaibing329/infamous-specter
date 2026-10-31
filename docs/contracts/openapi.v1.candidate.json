@@ -885,7 +885,8 @@
           "logicVersion",
           "schemaVersion",
           "payload",
-          "occurredAt"
+          "occurredAt",
+          "origin"
         ],
         "properties": {
           "eventType": {
@@ -922,6 +923,10 @@
           "occurredAt": {
             "type": "string",
             "format": "date-time"
+          },
+          "origin": {
+            "const": "local",
+            "description": "Client-side pending event. Server confirmation is returned separately."
           }
         }
       },
@@ -947,7 +952,9 @@
           "cognitiveSupport",
           "attemptIndex",
           "answerIntent",
-          "occurredAt"
+          "occurredAt",
+          "origin",
+          "evidencePolicyVersion"
         ],
         "properties": {
           "eventType": {
@@ -1041,6 +1048,10 @@
           "occurredAt": {
             "type": "string",
             "format": "date-time"
+          },
+          "origin": {
+            "const": "local",
+            "description": "Client-side pending event. Server confirmation is returned separately."
           }
         }
       },
@@ -1054,7 +1065,8 @@
           "gameId",
           "progressType",
           "source",
-          "occurredAt"
+          "occurredAt",
+          "origin"
         ],
         "properties": {
           "eventType": {
@@ -1092,6 +1104,10 @@
           "occurredAt": {
             "type": "string",
             "format": "date-time"
+          },
+          "origin": {
+            "const": "local",
+            "description": "Client-side pending event. Server confirmation is returned separately."
           }
         }
       },
