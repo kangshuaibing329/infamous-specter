@@ -24,8 +24,8 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 30,
-    "contentHash": "9c88c1acf79cac2d13f79bc272ddd45eacd3a084f9435d287f694d786cbfff76",
-    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "contentHash": "fe9bfba5407387b3e24bc68faab77aef14d7b15600d54ebfcdb10a45785619e3",
+    "assetManifestHash": "b912f4705b13674d386242ec940cc9eaec42e3288373fde9b8197756a3aa25d0",
     "sourceRefIds": [
       "src-wordquest-editorial-v1"
     ],
@@ -1484,7 +1484,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:adjective-ful"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -1511,7 +1513,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:adjective-ful"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -1592,7 +1596,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:adjective-ive"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -1624,7 +1630,7 @@
         "meaning": "applicable",
         "listening": "not_applicable",
         "spelling": "applicable",
-        "morphology": "applicable",
+        "morphology": "not_applicable",
         "context": "applicable"
       },
       "reviewStatus": "draft",
@@ -1651,7 +1657,7 @@
         "meaning": "applicable",
         "listening": "not_applicable",
         "spelling": "applicable",
-        "morphology": "applicable",
+        "morphology": "not_applicable",
         "context": "applicable"
       },
       "reviewStatus": "draft",
@@ -3479,20 +3485,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "theme-school-life:t023-morphology",
-      "senseId": "theme-school-life:s023",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "theme-school-life:t024-meaning",
       "senseId": "theme-school-life:s024",
       "dimension": "meaning",
@@ -3533,20 +3525,6 @@
       "compatibleGameIds": [
         "g07-sentence-bridge",
         "g09-clue-dungeon",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
-      "taskTemplateId": "theme-school-life:t024-morphology",
-      "senseId": "theme-school-life:s024",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
         "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
@@ -3687,20 +3665,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "theme-school-life:t027-morphology",
-      "senseId": "theme-school-life:s027",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "theme-school-life:t028-meaning",
       "senseId": "theme-school-life:s028",
       "dimension": "meaning",
@@ -3741,20 +3705,6 @@
       "compatibleGameIds": [
         "g07-sentence-bridge",
         "g09-clue-dungeon",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
-      "taskTemplateId": "theme-school-life:t028-morphology",
-      "senseId": "theme-school-life:s028",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
         "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
@@ -3805,20 +3755,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "theme-school-life:t029-morphology",
-      "senseId": "theme-school-life:s029",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "theme-school-life:t030-meaning",
       "senseId": "theme-school-life:s030",
       "dimension": "meaning",
@@ -3859,6 +3795,48 @@
       "compatibleGameIds": [
         "g07-sentence-bridge",
         "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:t023-morphology",
+      "senseId": "theme-school-life:s023",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:t024-morphology",
+      "senseId": "theme-school-life:s024",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-school-life:t027-morphology",
+      "senseId": "theme-school-life:s027",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
         "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
