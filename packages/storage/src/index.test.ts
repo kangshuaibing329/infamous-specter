@@ -4,7 +4,7 @@ import type { ContentPack } from '@wordquest/content';
 import type { SessionDescriptor, StudyEventIntent } from '@wordquest/contracts';
 import {
   appendStudyEvent, getInstalledContentPack, getMostRecentActiveSession, getSession, installContentPack,
-  listStudyEvents, listStudyEventsForSession, saveLabState, saveSession, storageDatabase
+  listStudyEvents, listStudyEventsForSession, listReviewStates, saveLabState, saveReviewState, saveSession, storageDatabase
 } from './index';
 
 beforeEach(async () => {
@@ -51,6 +51,18 @@ describe('local storage repositories', () => {
   it('saves and reads a session pinned to one pack version', async () => {
     await saveSession(descriptor);
     expect((await getSession(descriptor.sessionId))?.packVersion).toBe('0.1.0');
+  });
+
+  it('persists a first-exposure review anchor without inventing a mastery result', async () => {
+    await saveReviewState({
+      id: 'profile-0001:word-1:sense-1:meaning', profileId: 'profile-0001',
+      wordId: 'word-1', senseId: 'sense-1', dimension: 'meaning',
+      firstApprovedExposureAt: '2026-10-31T00:00:00.000Z',
+      completedCheckpoints: [], nextCheckpointAt: '2026-11-01T12:00:00.000Z',
+      updatedAt: '2026-10-31T00:00:00.000Z'
+    });
+    expect(await listReviewStates('profile-0001')).toHaveLength(1);
+    expect((await listReviewStates('profile-0001'))[0].completedCheckpoints).toEqual([]);
   });
 
   it('finds the active session and its persisted attempts for recovery', async () => {
