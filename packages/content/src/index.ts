@@ -14,6 +14,7 @@ export interface ContentPack {
     locale: 'zh-CN';
     target: { ageBands: string[]; gradeBands: string[]; difficulty?: string };
     progressScope: 'pack_scoped' | 'shared_verified_sense';
+    review?: { status: string; reviewerIds?: string[]; reviewedAt?: string };
     wordCount: number;
     contentHash: string;
     assetManifestHash: string;
@@ -23,7 +24,7 @@ export interface ContentPack {
   };
   units: Array<{ unitId: string; title: string; sortOrder: number; sourceRefIds?: string[] }>;
   words: Array<{ wordId: string; lemma: string; partOfSpeech: string[]; senseIds: string[]; sourceRefIds: string[]; [key: string]: unknown }>;
-  senses: Array<{ senseId: string; wordId: string; glossZh: string; pronunciationIds: string[]; exampleIds: string[]; sourceRefIds: string[]; dimensionApplicability?: Record<string, string>; [key: string]: unknown }>;
+  senses: Array<{ senseId: string; wordId: string; glossZh: string; pronunciationIds: string[]; exampleIds: string[]; sourceRefIds: string[]; dimensionApplicability?: Record<string, string>; morphologyRuleIds?: string[]; assetIds?: string[]; [key: string]: unknown }>;
   pronunciations: Array<{ pronunciationId: string; senseId: string; ipa: string; accent: string; status: string; audioAssetId?: string; sourceRefIds: string[] }>;
   examples: Array<{ exampleId: string; senseId: string; textEn: string; textZh: string; sourceRefIds: string[] }>;
   assets: Array<{ assetId: string; kind: string; sha256: string; licenseStatus: string; sourceRefIds: string[] }>;
@@ -47,7 +48,7 @@ function canonicalJson(value: unknown): string {
     const record = value as Record<string, unknown>;
     return `{${Object.keys(record).sort().map((key) => `${JSON.stringify(key)}:${canonicalJson(record[key])}`).join(',')}}`;
   }
-  return JSON.stringify(value);
+  return JSON.stringify(value) ?? 'null';
 }
 
 async function sha256(value: string): Promise<string> {
