@@ -24,9 +24,11 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 110,
-    "contentHash": "c1f2b6f5d5b17a478ebf225da371a6f14db2dcb458d563bc373b0acf676131fb",
+    "contentHash": "55d43f6754e25febfee33e7a0986e2cd55222845cd18d527051e5982b636efad",
     "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "sourceRefIds": [
+      "src-cambridge-pronunciation-address-us-2026-10-31",
+      "src-cambridge-pronunciation-often-us-2026-10-31",
       "src-wordquest-editorial-v1",
       "src-wordquest-editorial-v2"
     ],
@@ -3639,7 +3641,7 @@
       "senseId": "high-frequency-starter:s023",
       "wordId": "high-frequency-starter:w023",
       "glossZh": "学习；学会",
-      "definitionEn": "to get knowledge or a skill by studying or practising",
+      "definitionEn": "to get knowledge or a skill by studying or practicing",
       "usageNotes": "当前仅收录一个优先学习义项；多义扩展需新增独立 sense。",
       "pronunciationIds": [
         "high-frequency-starter:p023"
@@ -6184,11 +6186,12 @@
     {
       "pronunciationId": "high-frequency-starter:p025",
       "senseId": "high-frequency-starter:s025",
-      "ipa": "ˈɔːfən",
+      "ipa": "ˈɑːfən",
       "accent": "en-US",
-      "status": "draft",
+      "status": "reviewed",
       "sourceRefIds": [
-        "src-wordquest-editorial-v1"
+        "src-wordquest-editorial-v1",
+        "src-cambridge-pronunciation-often-us-2026-10-31"
       ]
     },
     {
@@ -6254,11 +6257,12 @@
     {
       "pronunciationId": "high-frequency-starter:p032",
       "senseId": "high-frequency-starter:s032",
-      "ipa": "əˈdres",
+      "ipa": "ˈæd.res",
       "accent": "en-US",
-      "status": "draft",
+      "status": "reviewed",
       "sourceRefIds": [
-        "src-wordquest-editorial-v2"
+        "src-wordquest-editorial-v2",
+        "src-cambridge-pronunciation-address-us-2026-10-31"
       ]
     },
     {
@@ -8111,7 +8115,7 @@
     {
       "exampleId": "high-frequency-starter:e072",
       "senseId": "high-frequency-starter:s072",
-      "textEn": "It is kind to help a neighbour.",
+      "textEn": "It is kind to help a neighbor.",
       "textZh": "帮助邻居是一种友善的行为。",
       "gradeFit": [
         "grade5",
@@ -13797,6 +13801,28 @@
       "verificationStatus": "unverified",
       "rightsStatus": "pending_review",
       "notes": "新增词条、释义和例句为原创编辑草稿；IPA 尚未逐词经权威词典核验，需英语教师完成词义、搭配、语法和适龄审核。"
+    },
+    {
+      "sourceRefId": "src-cambridge-pronunciation-address-us-2026-10-31",
+      "sourceType": "dictionary",
+      "title": "Cambridge Dictionary: address (US noun pronunciation)",
+      "publisher": "Cambridge University Press",
+      "uri": "https://dictionary.cambridge.org/pronunciation/english/address",
+      "accessedAt": "2026-10-31T00:00:00Z",
+      "verificationStatus": "verified",
+      "rightsStatus": "unknown",
+      "notes": "用于核验 address 作名词（家庭地址）时的美式读音 /ˈæd.res/；未复制词典释义或音频。"
+    },
+    {
+      "sourceRefId": "src-cambridge-pronunciation-often-us-2026-10-31",
+      "sourceType": "dictionary",
+      "title": "Cambridge Dictionary: often (US pronunciation)",
+      "publisher": "Cambridge University Press",
+      "uri": "https://dictionary.cambridge.org/pronunciation/english/often",
+      "accessedAt": "2026-10-31T00:00:00Z",
+      "verificationStatus": "verified",
+      "rightsStatus": "unknown",
+      "notes": "用于核验 often 的美式读音；词典列出带 /t/ 与不带 /t/ 的变体，本词包采用不带 /t/ 的主变体。"
     }
   ]
 }
