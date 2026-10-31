@@ -37,3 +37,21 @@ All code, APIs, data models, workflows, tests, and deployment configuration are 
 - [P0-0.6 stage acceptance report](docs/acceptance/P0-0.6-跨文档审查与阶段验收报告.md)
 
 P0-0 documents and schemas are candidate design artifacts. They do not imply that production games, APIs, learning logic, official vocabulary packs, real-device tests, or pilot studies are complete.
+
+## P0-1 vocabulary packs
+
+- [Vocabulary pack index](content-packs/README.md)
+- [Content QA and editorial checklist](content-packs/CONTENT-QA-首批三套词包教研验收说明.md)
+- [P0-1 delivery and static QA report](docs/acceptance/P0-1-首批通用词包交付与静态验收报告.md)
+- [Morphology rules](content-packs/morphology-rules.v1.json)
+- [Support policies](content-packs/support-policies.v1.json)
+- [Answer specs](content-packs/answer-specs.v1.json)
+
+The three packs are preview-only drafts. IPA, definitions, examples, source verification, rights review, audio and runtime import are not yet approved.
+
+- [P0-1 0.2.0 vocabulary expansion and static QA report](docs/acceptance/P0-1-词库扩充0.2.0静态验收报告.md)
+- [Audio production specification](content-packs/AUDIO-PRODUCTION-SPEC.md)
+- [0.2.0 content quality matrix](content-packs/CONTENT-QA-MATRIX-v0.2.0.md)
+
+- [P0-1 first editorial review of all 317 vocabulary entries](docs/acceptance/P0-1-317词条第一轮内容编辑审查报告.md)
+- [US English and pronunciation verification register](content-packs/review/0.2.0/PRONUNCIATION-AND-US-ENGLISH-CHECKS.md)

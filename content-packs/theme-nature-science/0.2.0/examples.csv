@@ -1,0 +1,104 @@
+example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
+theme-nature-science:e001,theme-nature-science:s001,Plants need air to grow.,植物生长需要空气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e002,theme-nature-science:s002,A dolphin is an intelligent animal.,海豚是一种聪明的动物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e003,theme-nature-science:s003,The astronaut looked at Earth from space.,宇航员从太空中观察地球。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e004,theme-nature-science:s004,Climate affects plants and animals.,气候会影响植物和动物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e005,theme-nature-science:s005,A dark cloud covered the sun.,一片乌云遮住了太阳。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e006,theme-nature-science:s006,The sun gives Earth light and energy.,太阳为地球提供光和能量。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e007,theme-nature-science:s007,We should protect the environment.,我们应该保护环境。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e008,theme-nature-science:s008,Our experiment shows how seeds grow.,我们的实验展示了种子如何生长。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e009,theme-nature-science:s009,Many birds live in the forest.,许多鸟生活在森林里。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e010,theme-nature-science:s010,Gravity pulls objects toward Earth.,重力把物体拉向地球。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e011,theme-nature-science:s011,A butterfly is an insect.,蝴蝶是一种昆虫。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e012,theme-nature-science:s012,The island is surrounded by water.,这座岛屿四周都是水。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e013,theme-nature-science:s013,Wood is a natural material.,木材是一种天然材料。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e014,theme-nature-science:s014,Iron is a strong metal.,铁是一种坚固的金属。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e015,theme-nature-science:s015,The moon looks bright tonight.,今晚月亮看起来很明亮。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e016,theme-nature-science:s016,The ocean is home to many living things.,海洋是许多生物的家园。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e017,theme-nature-science:s017,Earth is the planet where we live.,地球是我们居住的行星。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e018,theme-nature-science:s018,Air pollution can harm our health.,空气污染可能损害我们的健康。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e019,theme-nature-science:s019,We recycle paper and plastic bottles.,我们回收纸张和塑料瓶。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e020,theme-nature-science:s020,The river flows through the valley.,河流穿过山谷。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e021,theme-nature-science:s021,Science helps us understand nature.,科学帮助我们理解自然。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e022,theme-nature-science:s022,A seed can grow into a plant.,一粒种子可以长成一株植物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e023,theme-nature-science:s023,Solar panels use energy from the sun.,太阳能板利用来自太阳的能量。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e024,theme-nature-science:s024,The temperature drops at night.,夜间温度会下降。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e025,theme-nature-science:s025,The universe contains many galaxies.,宇宙中有许多星系。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e026,theme-nature-science:s026,The volcano released ash and gas.,火山喷出了火山灰和气体。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e027,theme-nature-science:s027,All living things need water.,所有生物都需要水。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e028,theme-nature-science:s028,The weather changes every day.,天气每天都在变化。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e029,theme-nature-science:s029,The park protects local wildlife.,这座公园保护当地野生动物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e030,theme-nature-science:s030,The wooden bridge crosses the stream.,这座木桥横跨小溪。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e031,theme-nature-science:s031,We observe the moon through a telescope.,我们用望远镜观察月球。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v1
+theme-nature-science:e032,theme-nature-science:s032,The atmosphere surrounds Earth.,大气层包围着地球。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e033,theme-nature-science:s033,Some bacteria are too small to see without a microscope.,有些细菌小到需要借助显微镜才能看见。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e034,theme-nature-science:s034,The battery gives power to the small robot.,电池为这个小机器人提供电力。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e035,theme-nature-science:s035,A bone is part of the skeleton.,骨头是骨骼的一部分。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e036,theme-nature-science:s036,We breathe in air through our noses.,我们通过鼻子吸入空气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e037,theme-nature-science:s037,A bird sat on a branch.,一只鸟停在树枝上。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e038,theme-nature-science:s038,Carbon is found in living things.,生物体中含有碳。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e039,theme-nature-science:s039,A cell is a basic unit of life.,细胞是生命的基本单位。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e040,theme-nature-science:s040,A chemical may change when it reacts with another substance.,一种化学物质与另一种物质发生反应时可能会改变。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e041,theme-nature-science:s041,Many birds live along the coast.,许多鸟类生活在海岸附近。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e042,theme-nature-science:s042,A compass can help us find north.,指南针可以帮助我们找到北方。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e043,theme-nature-science:s043,The electric current flows through the wire.,电流通过导线流动。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e044,theme-nature-science:s044,The water cycle moves water around Earth.,水循环让水在地球上不断流动。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e045,theme-nature-science:s045,We collect data during the experiment.,我们在实验过程中收集数据。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e046,theme-nature-science:s046,Density tells us how much mass is in a given volume.,密度表示一定体积内物质的质量。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e047,theme-nature-science:s047,Few plants grow in a dry desert.,干旱的沙漠里只有少量植物生长。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e048,theme-nature-science:s048,Electricity powers the classroom lights.,电力为教室里的灯提供能源。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e049,theme-nature-science:s049,Oxygen is an element.,氧是一种元素。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e050,theme-nature-science:s050,A feather helps a bird fly.,羽毛帮助鸟类飞行。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e051,theme-nature-science:s051,The cows are eating grass in the field.,奶牛正在田野里吃草。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e052,theme-nature-science:s052,The flower needs sunlight and water.,花朵需要阳光和水。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e053,theme-nature-science:s053,A fossil can show us what lived long ago.,化石能告诉我们很久以前有哪些生物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e054,theme-nature-science:s054,Some cars use fuel to move.,一些汽车使用燃料行驶。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e055,theme-nature-science:s055,Our solar system is in the Milky Way galaxy.,我们的太阳系位于银河系中。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e056,theme-nature-science:s056,A gas has no fixed shape.,气体没有固定的形状。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e057,theme-nature-science:s057,A germ can spread from one person to another.,病菌可以在人与人之间传播。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e058,theme-nature-science:s058,Glass can be made from sand.,玻璃可以由沙子制成。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e059,theme-nature-science:s059,The grass is wet after the rain.,雨后草地是湿的。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e060,theme-nature-science:s060,A forest is a habitat for many animals.,森林是许多动物的栖息地。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e061,theme-nature-science:s061,The sun gives off heat.,太阳会散发热量。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e062,theme-nature-science:s062,Mint is a herb that people can grow at home.,薄荷是一种可以在家种植的草本植物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e063,theme-nature-science:s063,We walked up the hill.,我们爬上了小山。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e064,theme-nature-science:s064,"A human needs food, water, and air.",人类需要食物、水和空气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e065,theme-nature-science:s065,Ice melts when it gets warm.,天气变暖时冰会融化。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e066,theme-nature-science:s066,A leaf uses sunlight to make food.,叶子利用阳光制造养分。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e067,theme-nature-science:s067,Light travels from the sun to Earth.,光从太阳传播到地球。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e068,theme-nature-science:s068,Water is a liquid at room temperature.,水在室温下是液体。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e069,theme-nature-science:s069,A magnet can attract some metals.,磁铁可以吸引某些金属。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e070,theme-nature-science:s070,A whale is a mammal.,鲸是一种哺乳动物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e071,theme-nature-science:s071,Matter takes up space and has mass.,物质占据空间并具有质量。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e072,theme-nature-science:s072,Quartz is a common mineral.,石英是一种常见矿物。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e073,theme-nature-science:s073,Snow covers the top of the mountain.,山顶覆盖着积雪。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e074,theme-nature-science:s074,We can learn about nature by observing plants.,我们可以通过观察植物来了解自然。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e075,theme-nature-science:s075,People need oxygen to breathe.,人类需要氧气才能呼吸。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e076,theme-nature-science:s076,A plant needs light and water to grow.,植物生长需要光和水。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e077,theme-nature-science:s077,Plastic can take a long time to break down.,塑料可能需要很长时间才能分解。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e078,theme-nature-science:s078,Air pressure changes with height.,气压会随着高度变化。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e079,theme-nature-science:s079,Rain helps plants grow.,雨水有助于植物生长。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e080,theme-nature-science:s080,A root takes in water from the soil.,根从土壤中吸收水分。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e081,theme-nature-science:s081,A rock can be hard or soft.,岩石可能坚硬，也可能较软。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e082,theme-nature-science:s082,The beach is covered with sand.,海滩上覆盖着沙子。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e083,theme-nature-science:s083,Ice is a solid form of water.,冰是水的一种固态形式。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e084,theme-nature-science:s084,There is no air in outer space.,外层太空中没有空气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e085,theme-nature-science:s085,A species is a group of similar living things.,物种是相似生物组成的一个群体。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e086,theme-nature-science:s086,Many flowers bloom in spring.,许多花在春天开放。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e087,theme-nature-science:s087,The sun is the closest star to Earth.,太阳是离地球最近的恒星。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e088,theme-nature-science:s088,A storm can bring strong wind and rain.,风暴可能带来强风和降雨。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e089,theme-nature-science:s089,A small stream flows through the forest.,一条小溪流过森林。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e090,theme-nature-science:s090,Plants use sunlight to make food.,植物利用阳光制造养分。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e091,theme-nature-science:s091,The surface of the moon is covered with dust.,月球表面覆盖着灰尘。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e092,theme-nature-science:s092,We hear thunder after a flash of lightning.,闪电之后，我们会听到雷声。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e093,theme-nature-science:s093,A tree can provide shade.,树可以提供阴凉。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e094,theme-nature-science:s094,A river flows through the valley.,一条河流穿过山谷。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e095,theme-nature-science:s095,Water vapor is present in the air.,空气中含有水蒸气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e096,theme-nature-science:s096,We should reduce waste and reuse materials.,我们应该减少废弃物并重复利用材料。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e097,theme-nature-science:s097,A wave moves across the water.,波浪在水面上向前移动。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e098,theme-nature-science:s098,The wind moves the leaves.,风吹动树叶。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e099,theme-nature-science:s099,Some animals sleep through the winter.,有些动物整个冬天都在睡觉。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e100,theme-nature-science:s100,Plants grow toward the light.,植物朝着光线生长。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e101,theme-nature-science:s101,I do not know whether it will rain.,我不知道是否会下雨。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e102,theme-nature-science:s102,Fruit is my favorite dessert.,水果是我最喜欢的甜点。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2
+theme-nature-science:e103,theme-nature-science:s103,Take a deep breath before you begin.,开始前先深吸一口气。,grade6|grade7|grade8|grade9,draft,src-wordquest-editorial-v2

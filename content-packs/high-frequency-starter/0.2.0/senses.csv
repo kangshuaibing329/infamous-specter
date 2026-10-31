@@ -1,0 +1,111 @@
+sense_id,word_id,gloss_zh,definition_en,pronunciation_ids,example_ids,asset_ids,accepted_spellings,morphology_rule_ids,review_status,source_ref_ids
+high-frequency-starter:s001,high-frequency-starter:w001,关于；涉及,used to show what a person is talking about or what something is connected with,high-frequency-starter:p001,high-frequency-starter:e001,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s002,high-frequency-starter:w002,在……之后,later than a particular time or event,high-frequency-starter:p002,high-frequency-starter:e002,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s003,high-frequency-starter:w003,再一次；又,one more time,high-frequency-starter:p003,high-frequency-starter:e003,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s004,high-frequency-starter:w004,总是；一直,at all times or on every occasion,high-frequency-starter:p004,high-frequency-starter:e004,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s005,high-frequency-starter:w005,答案；回答,something you say or write in reply to a question,high-frequency-starter:p005,high-frequency-starter:e005,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s006,high-frequency-starter:w006,询问；请求,to say something because you want information or want someone to do something,high-frequency-starter:p006,high-frequency-starter:e006,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s007,high-frequency-starter:w007,因为,for the reason that,high-frequency-starter:p007,high-frequency-starter:e007,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s008,high-frequency-starter:w008,在……之前,earlier than a particular time or event,high-frequency-starter:p008,high-frequency-starter:e008,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s009,high-frequency-starter:w009,开始,to start doing something,high-frequency-starter:p009,high-frequency-starter:e009,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s010,high-frequency-starter:w010,带来；拿来,to take someone or something with you to a place,high-frequency-starter:p010,high-frequency-starter:e010,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s011,high-frequency-starter:w011,忙碌的,having a lot of things to do,high-frequency-starter:p011,high-frequency-starter:e011,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s012,high-frequency-starter:w012,改变；更换,to make or become different,high-frequency-starter:p012,high-frequency-starter:e012,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s013,high-frequency-starter:w013,选择,to decide which person or thing you want,high-frequency-starter:p013,high-frequency-starter:e013,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s014,high-frequency-starter:w014,不同的,not the same as another person or thing,high-frequency-starter:p014,high-frequency-starter:e014,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s015,high-frequency-starter:w015,早的；早早地；提早,before the usual or expected time,high-frequency-starter:p015,high-frequency-starter:e015,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s016,high-frequency-starter:w016,足够的,as much or as many as needed,high-frequency-starter:p016,high-frequency-starter:e016,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s017,high-frequency-starter:w017,每一个；每,"each person or thing in a group, without exception",high-frequency-starter:p017,high-frequency-starter:e017,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s018,high-frequency-starter:w018,跟随；遵循,"to go after someone or something, or to do what an instruction says",high-frequency-starter:p018,high-frequency-starter:e018,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s019,high-frequency-starter:w019,朋友,someone you know well and like,high-frequency-starter:p019,high-frequency-starter:e019,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s020,high-frequency-starter:w020,高兴的；快乐的,feeling or showing pleasure,high-frequency-starter:p020,high-frequency-starter:e020,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s021,high-frequency-starter:w021,帮助,to make it easier for someone to do something,high-frequency-starter:p021,high-frequency-starter:e021,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s022,high-frequency-starter:w022,重要的,having great value or meaning,high-frequency-starter:p022,high-frequency-starter:e022,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s023,high-frequency-starter:w023,学习；学会,to get knowledge or a skill by studying or practicing,high-frequency-starter:p023,high-frequency-starter:e023,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s024,high-frequency-starter:w024,听；倾听,to pay attention to a sound,high-frequency-starter:p024,high-frequency-starter:e024,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s025,high-frequency-starter:w025,经常,many times; frequently,high-frequency-starter:p025,high-frequency-starter:e025,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s026,high-frequency-starter:w026,准备好的,prepared for something,high-frequency-starter:p026,high-frequency-starter:e026,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s027,high-frequency-starter:w027,记得；记住,to keep something in your mind or bring it back to mind,high-frequency-starter:p027,high-frequency-starter:e027,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s028,high-frequency-starter:w028,教师；老师,a person whose job is to teach,high-frequency-starter:p028,high-frequency-starter:e028,,,morph:agent-er,draft,src-wordquest-editorial-v1
+high-frequency-starter:s029,high-frequency-starter:w029,通常,in most cases; most of the time,high-frequency-starter:p029,high-frequency-starter:e029,,,morph:adverb-ly,draft,src-wordquest-editorial-v1
+high-frequency-starter:s030,high-frequency-starter:w030,没有；缺乏,not having or not using something,high-frequency-starter:p030,high-frequency-starter:e030,,,,draft,src-wordquest-editorial-v1
+high-frequency-starter:s031,high-frequency-starter:w031,活动,something that people do for interest or as part of a task,high-frequency-starter:p031,high-frequency-starter:e031,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s032,high-frequency-starter:w032,地址,details that show where a person lives or where a place is located,high-frequency-starter:p032,high-frequency-starter:e032,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s033,high-frequency-starter:w033,害怕的,feeling fear or worried that something bad may happen,high-frequency-starter:p033,high-frequency-starter:e033,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s034,high-frequency-starter:w034,同意,to have the same opinion as someone else,high-frequency-starter:p034,high-frequency-starter:e034,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s035,high-frequency-starter:w035,几乎；差不多,"not completely, but very nearly",high-frequency-starter:p035,high-frequency-starter:e035,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s036,high-frequency-starter:w036,独自的；单独的,without other people; by yourself,high-frequency-starter:p036,high-frequency-starter:e036,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s037,high-frequency-starter:w037,已经,before now or before the expected time,high-frequency-starter:p037,high-frequency-starter:e037,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s038,high-frequency-starter:w038,也；而且,in addition; too,high-frequency-starter:p038,high-frequency-starter:e038,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s039,high-frequency-starter:w039,另一个；再一个,"one more person or thing of the same kind, or a different one",high-frequency-starter:p039,high-frequency-starter:e039,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s040,high-frequency-starter:w040,围绕；在……周围,on all sides of something or in a circle near it,high-frequency-starter:p040,high-frequency-starter:e040,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s041,high-frequency-starter:w041,到达,to reach a place at the end of a journey,high-frequency-starter:p041,high-frequency-starter:e041,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s042,high-frequency-starter:w042,变成；成为,to start to be or grow into a particular state,high-frequency-starter:p042,high-frequency-starter:e042,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s043,high-frequency-starter:w043,相信；认为,to think that something is true or that someone is telling the truth,high-frequency-starter:p043,high-frequency-starter:e043,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s044,high-frequency-starter:w044,在……之间,in the space separating two or more people or things,high-frequency-starter:p044,high-frequency-starter:e044,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s045,high-frequency-starter:w045,身体,the whole physical structure of a person or animal,high-frequency-starter:p045,high-frequency-starter:e045,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s046,high-frequency-starter:w046,打破；弄坏,to damage something so that it separates into pieces or stops working,high-frequency-starter:p046,high-frequency-starter:e046,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s047,high-frequency-starter:w047,建造；建立,to make something by putting parts or materials together,high-frequency-starter:p047,high-frequency-starter:e047,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s048,high-frequency-starter:w048,搬；携带,to hold and take something from one place to another,high-frequency-starter:p048,high-frequency-starter:e048,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s049,high-frequency-starter:w049,接住；抓住,"to stop and hold a moving object, especially with your hands",high-frequency-starter:p049,high-frequency-starter:e049,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s050,high-frequency-starter:w050,导致；引起,to make something happen,high-frequency-starter:p050,high-frequency-starter:e050,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s051,high-frequency-starter:w051,确定的；肯定的,sure that something is true or will happen,high-frequency-starter:p051,high-frequency-starter:e051,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s052,high-frequency-starter:w052,检查；核对,to look at something carefully to make sure it is correct or safe,high-frequency-starter:p052,high-frequency-starter:e052,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s053,high-frequency-starter:w053,清澈的；清楚的,"easy to see through, or easy to understand",high-frequency-starter:p053,high-frequency-starter:e053,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s054,high-frequency-starter:w054,关闭；合上,to shut something so that it is not open,high-frequency-starter:p054,high-frequency-starter:e054,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s055,high-frequency-starter:w055,继续,to keep doing something without stopping,high-frequency-starter:p055,high-frequency-starter:e055,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s056,high-frequency-starter:w056,决定,to make a choice after thinking about it,high-frequency-starter:p056,high-frequency-starter:e056,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s057,high-frequency-starter:w057,在……期间,from the beginning to the end of a period of time,high-frequency-starter:p057,high-frequency-starter:e057,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s058,high-frequency-starter:w058,享受；喜爱,to get pleasure from something,high-frequency-starter:p058,high-frequency-starter:e058,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s059,high-frequency-starter:w059,进入,to go or come into a place,high-frequency-starter:p059,high-frequency-starter:e059,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s060,high-frequency-starter:w060,尤其；特别,more than others; particularly,high-frequency-starter:p060,high-frequency-starter:e060,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s061,high-frequency-starter:w061,每个人；所有人,every person in a group,high-frequency-starter:p061,high-frequency-starter:e061,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s062,high-frequency-starter:w062,每件事；所有东西,all the things that exist or are involved,high-frequency-starter:p062,high-frequency-starter:e062,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s063,high-frequency-starter:w063,完成；结束,to complete something or come to the end of it,high-frequency-starter:p063,high-frequency-starter:e063,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s064,high-frequency-starter:w064,忘记,to fail to remember something,high-frequency-starter:p064,high-frequency-starter:e064,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s065,high-frequency-starter:w065,未来；将来,the time that is yet to come,high-frequency-starter:p065,high-frequency-starter:e065,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s066,high-frequency-starter:w066,游戏；比赛,an activity or contest played for fun or to find a winner,high-frequency-starter:p066,high-frequency-starter:e066,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s067,high-frequency-starter:w067,猜测,to give an answer without knowing for sure,high-frequency-starter:p067,high-frequency-starter:e067,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s068,high-frequency-starter:w068,发生,to take place or occur,high-frequency-starter:p068,high-frequency-starter:e068,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s069,high-frequency-starter:w069,健康的,in good health; not ill,high-frequency-starter:p069,high-frequency-starter:e069,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s070,high-frequency-starter:w070,想法；主意,"a thought, plan, or suggestion",high-frequency-starter:p070,high-frequency-starter:e070,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s071,high-frequency-starter:w071,邀请,to ask someone to come to an event or place,high-frequency-starter:p071,high-frequency-starter:e071,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s072,high-frequency-starter:w072,友善的；体贴的,"friendly, helpful, and caring",high-frequency-starter:p072,high-frequency-starter:e072,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s073,high-frequency-starter:w073,笑；发笑,to make sounds and movements that show you think something is funny,high-frequency-starter:p073,high-frequency-starter:e073,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s074,high-frequency-starter:w074,离开；出发,to go away from a place,high-frequency-starter:p074,high-frequency-starter:e074,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s075,high-frequency-starter:w075,信,a written or printed message sent to someone,high-frequency-starter:p075,high-frequency-starter:e075,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s076,high-frequency-starter:w076,也许；可能,possibly; perhaps,high-frequency-starter:p076,high-frequency-starter:e076,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s077,high-frequency-starter:w077,成员；会员,a person who belongs to a group,high-frequency-starter:p077,high-frequency-starter:e077,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s078,high-frequency-starter:w078,分钟,a period of time that lasts 60 seconds,high-frequency-starter:p078,high-frequency-starter:e078,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s079,high-frequency-starter:w079,钱；金钱,what people use to buy goods and services,high-frequency-starter:p079,high-frequency-starter:e079,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s080,high-frequency-starter:w080,移动；搬动,to change position or make something change position,high-frequency-starter:p080,high-frequency-starter:e080,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s081,high-frequency-starter:w081,从不；绝不,not at any time,high-frequency-starter:p081,high-frequency-starter:e081,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s082,high-frequency-starter:w082,下一个的；紧接着的,coming immediately after this one in time or order,high-frequency-starter:p082,high-frequency-starter:e082,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s083,high-frequency-starter:w083,注意到；察觉,"to see, hear, or become aware of something",high-frequency-starter:p083,high-frequency-starter:e083,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s084,high-frequency-starter:w084,一次,one time; on a single occasion,high-frequency-starter:p084,high-frequency-starter:e084,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s085,high-frequency-starter:w085,问题；难题,a situation that is difficult and needs to be solved,high-frequency-starter:p085,high-frequency-starter:e085,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s086,high-frequency-starter:w086,承诺；保证,to tell someone that you will certainly do something,high-frequency-starter:p086,high-frequency-starter:e086,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s087,high-frequency-starter:w087,迅速地；很快地,at a fast speed,high-frequency-starter:p087,high-frequency-starter:e087,,,morph:adverb-ly,draft,src-wordquest-editorial-v2
+high-frequency-starter:s088,high-frequency-starter:w088,确实；非常,used to emphasize that something is true or happens to a great degree,high-frequency-starter:p088,high-frequency-starter:e088,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s089,high-frequency-starter:w089,收到；接收,to get something that someone sends or gives you,high-frequency-starter:p089,high-frequency-starter:e089,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s090,high-frequency-starter:w090,返回；归还,"to come or go back, or to give something back",high-frequency-starter:p090,high-frequency-starter:e090,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s091,high-frequency-starter:w091,相同的；同样的,not different; exactly like another,high-frequency-starter:p091,high-frequency-starter:e091,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s092,high-frequency-starter:w092,几个；数个,more than two but not many,high-frequency-starter:p092,high-frequency-starter:e092,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s093,high-frequency-starter:w093,某人；有人,an unknown or unspecified person,high-frequency-starter:p093,high-frequency-starter:e093,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s094,high-frequency-starter:w094,某事；某物,an unknown or unspecified thing,high-frequency-starter:p094,high-frequency-starter:e094,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s095,high-frequency-starter:w095,一起；共同,with another person or people; in one group,high-frequency-starter:p095,high-frequency-starter:e095,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s096,high-frequency-starter:w096,旅行；出行,"to go from one place to another, especially over a distance",high-frequency-starter:p096,high-frequency-starter:e096,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s097,high-frequency-starter:w097,理解；明白,to know the meaning of something,high-frequency-starter:p097,high-frequency-starter:e097,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s098,high-frequency-starter:w098,直到……为止,up to the time when something happens or a period ends,high-frequency-starter:p098,high-frequency-starter:e098,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s099,high-frequency-starter:w099,有用的；实用的,helping you to do or get something,high-frequency-starter:p099,high-frequency-starter:e099,,,morph:adjective-ful,draft,src-wordquest-editorial-v2
+high-frequency-starter:s100,high-frequency-starter:w100,参观；拜访,to go to see a person or place,high-frequency-starter:p100,high-frequency-starter:e100,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s101,high-frequency-starter:w101,等待,to stay where you are or delay doing something until something happens,high-frequency-starter:p101,high-frequency-starter:e101,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s102,high-frequency-starter:w102,担心；发愁,to feel unhappy or afraid because you think something bad may happen,high-frequency-starter:p102,high-frequency-starter:e102,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s103,high-frequency-starter:w103,世界,the earth and all the people and things on it,high-frequency-starter:p103,high-frequency-starter:e103,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s104,high-frequency-starter:w104,年轻的；幼小的,having lived or existed for only a short time; not old,high-frequency-starter:p104,high-frequency-starter:e104,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s105,high-frequency-starter:w105,安静的；轻声的,making little or no noise,high-frequency-starter:p105,high-frequency-starter:e105,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s106,high-frequency-starter:w106,相当；很,to a fairly high degree; rather,high-frequency-starter:p106,high-frequency-starter:e106,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s107,high-frequency-starter:w107,比；用于比较,used to compare two people or things,high-frequency-starter:p107,high-frequency-starter:e107,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s108,high-frequency-starter:w108,然后；那时,at that time or next in order,high-frequency-starter:p108,high-frequency-starter:e108,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s109,high-frequency-starter:w109,在那里；到那里,in or at that place,high-frequency-starter:p109,high-frequency-starter:e109,,,,draft,src-wordquest-editorial-v2
+high-frequency-starter:s110,high-frequency-starter:w110,他们的；她们的；它们的,belonging to or connected with them,high-frequency-starter:p110,high-frequency-starter:e110,,,,draft,src-wordquest-editorial-v2

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0.0",
+  "packVersion": "0.2.0",
+  "status": "candidate",
+  "groups": [
+    {
+      "groupId": "high-frequency-starter:conf-quiet-quite",
+      "packId": "high-frequency-starter",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "high-frequency-starter:w105",
+        "high-frequency-starter:w106"
+      ],
+      "lemmas": [
+        "quiet",
+        "quite"
+      ],
+      "contrastFocus": "quiet 表示安静；quite 表示相当、很。两者拼写接近但读音不同。",
+      "examples": [
+        {
+          "lemma": "quiet",
+          "textEn": "Please keep your voice quiet in the library.",
+          "textZh": "在图书馆里请保持安静。"
+        },
+        {
+          "lemma": "quite",
+          "textEn": "The puzzle is quite easy.",
+          "textZh": "这个谜题相当简单。"
+        }
+      ],
+      "taskTemplateIds": [
+        "high-frequency-starter:t105-contrast",
+        "high-frequency-starter:t106-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "high-frequency-starter:conf-than-then",
+      "packId": "high-frequency-starter",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "high-frequency-starter:w107",
+        "high-frequency-starter:w108"
+      ],
+      "lemmas": [
+        "than",
+        "then"
+      ],
+      "contrastFocus": "than 用于比较；then 表示然后或那时。",
+      "examples": [
+        {
+          "lemma": "than",
+          "textEn": "My bag is heavier than yours.",
+          "textZh": "我的包比你的重。"
+        },
+        {
+          "lemma": "then",
+          "textEn": "Finish your work, then take a break.",
+          "textZh": "完成工作，然后休息一下。"
+        }
+      ],
+      "taskTemplateIds": [
+        "high-frequency-starter:t107-contrast",
+        "high-frequency-starter:t108-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "high-frequency-starter:conf-there-their",
+      "packId": "high-frequency-starter",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "high-frequency-starter:w109",
+        "high-frequency-starter:w110"
+      ],
+      "lemmas": [
+        "there",
+        "their"
+      ],
+      "contrastFocus": "there 表示地点；their 表示所属关系。两者在常见口音中同音。",
+      "examples": [
+        {
+          "lemma": "there",
+          "textEn": "Put the box over there.",
+          "textZh": "把盒子放在那边。"
+        },
+        {
+          "lemma": "their",
+          "textEn": "Their house is near the river.",
+          "textZh": "他们的房子在河附近。"
+        }
+      ],
+      "taskTemplateIds": [
+        "high-frequency-starter:t109-contrast",
+        "high-frequency-starter:t110-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "theme-school-life:conf-principal-principle",
+      "packId": "theme-school-life",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "theme-school-life:w070",
+        "theme-school-life:w101"
+      ],
+      "lemmas": [
+        "principal",
+        "principle"
+      ],
+      "contrastFocus": "principal 在校园语境中指校长；principle 指原则或原理。",
+      "examples": [
+        {
+          "lemma": "principal",
+          "textEn": "The principal speaks at the morning meeting.",
+          "textZh": "校长在晨会上讲话。"
+        },
+        {
+          "lemma": "principle",
+          "textEn": "Fairness is an important principle in our class.",
+          "textZh": "公平是我们班级里一条重要原则。"
+        }
+      ],
+      "taskTemplateIds": [
+        "theme-school-life:t070-contrast",
+        "theme-school-life:t101-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "theme-school-life:conf-borrow-lend",
+      "packId": "theme-school-life",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "theme-school-life:w017",
+        "theme-school-life:w102"
+      ],
+      "lemmas": [
+        "borrow",
+        "lend"
+      ],
+      "contrastFocus": "borrow 表示从别人那里借入；lend 表示把东西借给别人。",
+      "examples": [
+        {
+          "lemma": "borrow",
+          "textEn": "May I borrow your ruler?",
+          "textZh": "我可以借用一下你的尺子吗？"
+        },
+        {
+          "lemma": "lend",
+          "textEn": "Can you lend me a pencil?",
+          "textZh": "你能借给我一支铅笔吗？"
+        }
+      ],
+      "taskTemplateIds": [
+        "theme-school-life:t017-contrast",
+        "theme-school-life:t102-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "theme-school-life:conf-stationery-stationary",
+      "packId": "theme-school-life",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "theme-school-life:w103",
+        "theme-school-life:w104"
+      ],
+      "lemmas": [
+        "stationery",
+        "stationary"
+      ],
+      "contrastFocus": "stationery 是文具；stationary 表示静止不动。两者在美音中同音。",
+      "examples": [
+        {
+          "lemma": "stationery",
+          "textEn": "I keep my stationery in a pencil case.",
+          "textZh": "我把文具放在铅笔盒里。"
+        },
+        {
+          "lemma": "stationary",
+          "textEn": "The bicycle remains stationary near the gate.",
+          "textZh": "自行车停在门附近，没有移动。"
+        }
+      ],
+      "taskTemplateIds": [
+        "theme-school-life:t103-contrast",
+        "theme-school-life:t104-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "theme-nature-science:conf-weather-whether",
+      "packId": "theme-nature-science",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "theme-nature-science:w028",
+        "theme-nature-science:w101"
+      ],
+      "lemmas": [
+        "weather",
+        "whether"
+      ],
+      "contrastFocus": "weather 指天气；whether 引导选择或不确定内容。两者常见读音相同。",
+      "examples": [
+        {
+          "lemma": "weather",
+          "textEn": "The weather is warm today.",
+          "textZh": "今天天气暖和。"
+        },
+        {
+          "lemma": "whether",
+          "textEn": "I do not know whether it will rain.",
+          "textZh": "我不知道是否会下雨。"
+        }
+      ],
+      "taskTemplateIds": [
+        "theme-nature-science:t028-contrast",
+        "theme-nature-science:t101-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "theme-nature-science:conf-desert-dessert",
+      "packId": "theme-nature-science",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "theme-nature-science:w047",
+        "theme-nature-science:w102"
+      ],
+      "lemmas": [
+        "desert",
+        "dessert"
+      ],
+      "contrastFocus": "desert 作名词时指沙漠；dessert 指餐后甜点。重音位置不同。",
+      "examples": [
+        {
+          "lemma": "desert",
+          "textEn": "Few plants grow in a dry desert.",
+          "textZh": "干旱的沙漠里只有少量植物生长。"
+        },
+        {
+          "lemma": "dessert",
+          "textEn": "Fruit is my favourite dessert.",
+          "textZh": "水果是我最喜欢的甜点。"
+        }
+      ],
+      "taskTemplateIds": [
+        "theme-nature-science:t047-contrast",
+        "theme-nature-science:t102-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    },
+    {
+      "groupId": "theme-nature-science:conf-breath-breathe",
+      "packId": "theme-nature-science",
+      "packVersion": "0.2.0",
+      "wordIds": [
+        "theme-nature-science:w103",
+        "theme-nature-science:w036"
+      ],
+      "lemmas": [
+        "breath",
+        "breathe"
+      ],
+      "contrastFocus": "breath 是名词，表示一口气；breathe 是动词，表示呼吸。词尾 th 的发音不同。",
+      "examples": [
+        {
+          "lemma": "breath",
+          "textEn": "Take a deep breath before you begin.",
+          "textZh": "开始前先深吸一口气。"
+        },
+        {
+          "lemma": "breathe",
+          "textEn": "We breathe in air through our nose.",
+          "textZh": "我们通过鼻子吸入空气。"
+        }
+      ],
+      "taskTemplateIds": [
+        "theme-nature-science:t103-contrast",
+        "theme-nature-science:t036-contrast"
+      ],
+      "reviewStatus": "draft",
+      "sourceRefIds": [
+        "src-wordquest-editorial-v2"
+      ]
+    }
+  ],
+  "releaseGate": "All groups remain draft. G08 must stay disabled until each contrast set, example and answer key receives teacher review and runtime ambiguity testing."
+}

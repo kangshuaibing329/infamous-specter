@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "status": "candidate",
+  "rules": [
+    {
+      "id": "morph:agent-er",
+      "pattern": "verb + -er",
+      "base": "teach",
+      "derived": "teacher",
+      "meaning": "person who performs the action",
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "morph:adverb-ly",
+      "pattern": "adjective + -ly",
+      "base": "usual",
+      "derived": "usually",
+      "meaning": "forms an adverb",
+      "reviewStatus": "draft",
+      "additionalExamples": [
+        {
+          "base": "quick",
+          "derived": "quickly"
+        }
+      ]
+    },
+    {
+      "id": "morph:adjective-ful",
+      "pattern": "noun + -ful",
+      "examples": [
+        {
+          "base": "care",
+          "derived": "careful"
+        },
+        {
+          "base": "help",
+          "derived": "helpful"
+        }
+      ],
+      "meaning": "having or showing the quality",
+      "reviewStatus": "draft",
+      "additionalExamples": [
+        {
+          "base": "use",
+          "derived": "useful"
+        }
+      ]
+    },
+    {
+      "id": "morph:adjective-ive",
+      "pattern": "base + -ive",
+      "base": "create",
+      "derived": "creative",
+      "meaning": "having the nature or tendency of",
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "morph:prefix-re",
+      "pattern": "re- + verb",
+      "base": "cycle",
+      "derived": "recycle",
+      "meaning": "do again or return to a cycle",
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "morph:adjective-en",
+      "pattern": "noun + -en",
+      "base": "wood",
+      "derived": "wooden",
+      "meaning": "made of or relating to",
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "morph:compound-noun",
+      "pattern": "word + word",
+      "examples": [
+        {
+          "base": "back + pack",
+          "derived": "backpack"
+        },
+        {
+          "base": "school + bag",
+          "derived": "schoolbag"
+        },
+        {
+          "base": "key + board",
+          "derived": "keyboard"
+        },
+        {
+          "base": "text + book",
+          "derived": "textbook"
+        },
+        {
+          "base": "time + table",
+          "derived": "timetable"
+        },
+        {
+          "base": "work + book",
+          "derived": "workbook"
+        },
+        {
+          "base": "sun + light",
+          "derived": "sunlight"
+        }
+      ],
+      "meaning": "a compound noun formed by joining two words",
+      "reviewStatus": "draft",
+      "notes": "仅用于可识别的复合名词；需教研确认构词边界和教学适龄性。"
+    }
+  ]
+}
