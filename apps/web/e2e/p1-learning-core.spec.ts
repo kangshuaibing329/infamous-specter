@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import starterPack from '../../../content-packs/high-frequency-starter/0.1.0/content-pack.json';
+import starterPack from '../../../content-packs/high-frequency-starter/0.1.0/content-pack.json' with { type: 'json' };
 
 test('validates a selected pack and records a provisional first-answer event', async ({ page }) => {
   await page.goto('/');
