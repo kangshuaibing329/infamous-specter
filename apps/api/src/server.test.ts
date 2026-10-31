@@ -42,6 +42,20 @@ describe('WordQuest content API', () => {
     expect(response.json().items).toEqual([]);
   });
 
+  it('serves immutable content and asset manifest resources only when catalog visibility is granted', async () => {
+    const data = await loadDefaultApiData();
+    const candidate = data.catalog.candidatePacks?.find((entry) => entry.packId === 'high-frequency-starter' && entry.version === '0.1.0');
+    if (!candidate) throw new Error('Expected internal candidate pack in catalog.');
+    candidate.customerSelectable = true;
+    app = createApiServer(data);
+    const content = await app.inject({ method: 'GET', url: '/api/v1/content-packs/high-frequency-starter/versions/0.1.0/content' });
+    expect(content.statusCode).toBe(200);
+    expect(content.json().manifest.packId).toBe('high-frequency-starter');
+    const assets = await app.inject({ method: 'GET', url: '/api/v1/content-packs/high-frequency-starter/versions/0.1.0/assets' });
+    expect(assets.statusCode).toBe(200);
+    expect(assets.json().items).toEqual([]);
+  });
+
   it('returns a manifest only after catalog visibility and integrity checks pass', async () => {
     const data = await loadDefaultApiData();
     const candidate = data.catalog.candidatePacks?.find((entry) => entry.packId === 'high-frequency-starter' && entry.version === '0.1.0');
