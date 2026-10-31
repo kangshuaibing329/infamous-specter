@@ -1,6 +1,6 @@
 example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
 theme-school-life:e001,theme-school-life:s001,The teacher writes on the blackboard.,老师在黑板上写字。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
-theme-school-life:e002,theme-school-life:s002,My classmate shared a pencil.,我的同班同学借给我一支铅笔。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e002,theme-school-life:s002,My classmate shared a pencil.,我的同班同学和我共用一支铅笔。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e003,theme-school-life:s003,Our classroom has twenty desks.,我们的教室有二十张课桌。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e004,theme-school-life:s004,Use a dictionary to check the word.,用词典查一下这个单词。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e005,theme-school-life:s005,I need an eraser.,我需要一块橡皮。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
@@ -13,7 +13,7 @@ theme-school-life:e011,theme-school-life:s011,The students run on the playground
 theme-school-life:e012,theme-school-life:s012,Our group made a science project.,我们小组做了一个科学课题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e013,theme-school-life:s013,Please answer the first question.,请回答第一个问题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e014,theme-school-life:s014,Science is my favourite subject.,科学是我最喜欢的学科。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
-theme-school-life:e015,theme-school-life:s015,Students wear a uniform on Monday.,学生们星期一穿校服。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e015,theme-school-life:s015,Students wear uniforms at school.,学生们在学校穿校服。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e016,theme-school-life:s016,Please hand in your worksheet.,请交上你的练习单。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e017,theme-school-life:s017,May I borrow your ruler?,我可以借用一下你的尺子吗？,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e018,theme-school-life:s018,Can you explain this rule?,你能解释一下这条规则吗？,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
@@ -27,7 +27,7 @@ theme-school-life:e025,theme-school-life:s025,Please keep the room quiet.,请保
 theme-school-life:e026,theme-school-life:s026,Your answer is correct.,你的答案是正确的。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e027,theme-school-life:s027,The students made a creative poster.,学生们制作了一张有创意的海报。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e028,theme-school-life:s028,Reading can improve your vocabulary.,阅读能扩大你的词汇量。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
-theme-school-life:e029,theme-school-life:s029,We discover a new way to solve the puzzle.,我们发现了一种解谜的新方法。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
+theme-school-life:e029,theme-school-life:s029,You can discover a new way to solve the puzzle.,你可以发现一种解谜的新方法。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e030,theme-school-life:s030,Teamwork helps us finish the project.,团队合作帮助我们完成项目。,grade5|grade6|grade7,draft,src-wordquest-editorial-v1
 theme-school-life:e031,theme-school-life:s031,Good attendance helps students learn.,良好的出勤情况有助于学生学习。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
 theme-school-life:e032,theme-school-life:s032,My backpack is under the desk.,我的双肩背包在课桌下面。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
@@ -93,7 +93,7 @@ theme-school-life:e091,theme-school-life:s091,Count the books on the shelf.,数�
 theme-school-life:e092,theme-school-life:s092,Draw a picture of your favourite animal.,画一张你最喜欢的动物的图片。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
 theme-school-life:e093,theme-school-life:s093,Copy the sentence into your notebook.,把这个句子抄到笔记本里。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
 theme-school-life:e094,theme-school-life:s094,Compare the two pictures with your partner.,和搭档比较这两张图片。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
-theme-school-life:e095,theme-school-life:s095,I revise my notes before the test.,考试前我会复习笔记。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
+theme-school-life:e095,theme-school-life:s095,We revise our project after feedback.,收到反馈后，我们修改项目。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
 theme-school-life:e096,theme-school-life:s096,Translate the sentence into Chinese.,把这个句子翻译成中文。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
 theme-school-life:e097,theme-school-life:s097,We solve the puzzle as a team.,我们团队一起解开这个谜题。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
 theme-school-life:e098,theme-school-life:s098,Search the text for the key word.,在文章中查找关键词。,grade5|grade6|grade7,draft,src-wordquest-editorial-v2
