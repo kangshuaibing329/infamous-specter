@@ -85,7 +85,7 @@ interface StudyEventIntent {
   hintState: string;
   attemptIndex: number;
   answerIntent: unknown;
-  source: 'player_task' | 'route_bonus';
+  source: 'player_task';
   occurredAt: string;
 }
 ```
