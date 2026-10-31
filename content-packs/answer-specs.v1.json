@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "status": "candidate",
+  "note": "Shared answer-spec references for preview packs; runtime evaluator not implemented.",
+  "specs": [
+    {
+      "id": "meaning",
+      "taskType": "meaning_retrieval",
+      "input": "senseId",
+      "answer": "approved sense gloss and reviewed distractor set",
+      "grading": "Sense-level semantic match; server/core owns verdict."
+    },
+    {
+      "id": "spelling",
+      "taskType": "spelling_production",
+      "input": "wordId",
+      "answer": "normalizedLemma and approved acceptedSpellings",
+      "grading": "Normalize case and permitted whitespace only; no silent edit-distance acceptance."
+    },
+    {
+      "id": "context",
+      "taskType": "context_completion",
+      "input": "exampleId",
+      "answer": "target lemma and senseId",
+      "grading": "Exactly one intended answer; ambiguous examples fail editorial QA."
+    },
+    {
+      "id": "morphology",
+      "taskType": "morphology_choice",
+      "input": "morphologyRuleId",
+      "answer": "reviewed morpheme decomposition and resulting word form",
+      "grading": "Only enabled for reviewed productive morphology rules."
+    }
+  ]
+}
