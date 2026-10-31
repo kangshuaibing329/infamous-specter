@@ -45,7 +45,7 @@ export async function startSession(input: StartSessionInput): Promise<ActiveSess
   const senses = new Map(pack.senses.map((sense) => [sense.senseId, sense]));
   const words = new Map(pack.words.map((word) => [word.wordId, word]));
   const templates = pack.taskTemplates.filter((task) => task.compatibleGameIds?.includes(input.gameId));
-  if (templates.length === 0) throw new Error(`No reviewed task templates are compatible with game ${input.gameId}.`);
+  if (templates.length === 0) throw new Error(`No task templates are compatible with game ${input.gameId}.`);
 
   const tasks = seededShuffle(templates, input.seed).map((template, index) => {
     const sense = senses.get(template.senseId);
