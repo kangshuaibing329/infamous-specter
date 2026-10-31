@@ -25,8 +25,8 @@
     },
     "progressScope": "pack_scoped",
     "wordCount": 31,
-    "contentHash": "773351084839bab97bd859a70b0ba518cce5a6c317c1e90630993d729bbf636c",
-    "assetManifestHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "contentHash": "f461e17573b1b9d2c956f082ae573b08026a0c51d4a53d996e5a36b664881bb6",
+    "assetManifestHash": "b912f4705b13674d386242ec940cc9eaec42e3288373fde9b8197756a3aa25d0",
     "sourceRefIds": [
       "src-wordquest-editorial-v1"
     ],
@@ -1435,7 +1435,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:prefix-re"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -1548,7 +1550,7 @@
         "meaning": "applicable",
         "listening": "not_applicable",
         "spelling": "applicable",
-        "morphology": "applicable",
+        "morphology": "not_applicable",
         "context": "applicable"
       },
       "reviewStatus": "draft",
@@ -1732,7 +1734,9 @@
       ],
       "assetIds": [],
       "acceptedSpellings": [],
-      "morphologyRuleIds": [],
+      "morphologyRuleIds": [
+        "morph:adjective-en"
+      ],
       "dimensionApplicability": {
         "meaning": "applicable",
         "listening": "not_applicable",
@@ -3441,20 +3445,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "theme-nature-science:t019-morphology",
-      "senseId": "theme-nature-science:s019",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "theme-nature-science:t020-meaning",
       "senseId": "theme-nature-science:s020",
       "dimension": "meaning",
@@ -3630,20 +3620,6 @@
       "compatibleGameIds": [
         "g07-sentence-bridge",
         "g09-clue-dungeon",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
-      "taskTemplateId": "theme-nature-science:t023-morphology",
-      "senseId": "theme-nature-science:s023",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
         "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
@@ -3964,20 +3940,6 @@
       "reviewStatus": "draft"
     },
     {
-      "taskTemplateId": "theme-nature-science:t030-morphology",
-      "senseId": "theme-nature-science:s030",
-      "dimension": "morphology",
-      "taskType": "morphology_choice",
-      "answerSpecRef": "answer-specs/v1/morphology",
-      "supportPolicyId": "support-policy/v1/morphology",
-      "evidenceCap": "E2",
-      "compatibleGameIds": [
-        "g06-morph-factory",
-        "g10-island-core-titan"
-      ],
-      "reviewStatus": "draft"
-    },
-    {
       "taskTemplateId": "theme-nature-science:t031-meaning",
       "senseId": "theme-nature-science:s031",
       "dimension": "meaning",
@@ -4018,6 +3980,34 @@
       "compatibleGameIds": [
         "g07-sentence-bridge",
         "g09-clue-dungeon",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t019-morphology",
+      "senseId": "theme-nature-science:s019",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
+        "g10-island-core-titan"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "taskTemplateId": "theme-nature-science:t030-morphology",
+      "senseId": "theme-nature-science:s030",
+      "dimension": "morphology",
+      "taskType": "morphology_choice",
+      "answerSpecRef": "answer-specs/v1/morphology",
+      "supportPolicyId": "support-policy/v1/morphology",
+      "evidenceCap": "E2",
+      "compatibleGameIds": [
+        "g06-morph-factory",
         "g10-island-core-titan"
       ],
       "reviewStatus": "draft"
