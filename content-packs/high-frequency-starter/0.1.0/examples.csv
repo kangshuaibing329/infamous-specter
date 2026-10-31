@@ -1,0 +1,31 @@
+example_id,sense_id,text_en,text_zh,grade_fit,review_status,source_ref_ids
+high-frequency-starter:example:family-01,high-frequency-starter:sense:family-01,My family is small.,我家人不多。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:parent-01,high-frequency-starter:sense:parent-01,A parent waits at the school gate.,一位家长在校门口等候。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:mother-01,high-frequency-starter:sense:mother-01,My mother reads with me.,妈妈和我一起阅读。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:father-01,high-frequency-starter:sense:father-01,My father cooks dinner today.,爸爸今天做晚饭。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:friend-01,high-frequency-starter:sense:friend-01,My friend sits next to me.,我的朋友坐在我旁边。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:teacher-01,high-frequency-starter:sense:teacher-01,Our teacher tells a story.,我们的老师讲了一个故事。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:student-01,high-frequency-starter:sense:student-01,Every student has a book.,每个学生都有一本书。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:school-01,high-frequency-starter:sense:school-01,We walk to school together.,我们一起步行去学校。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:classroom-01,high-frequency-starter:sense:classroom-01,The classroom is bright.,教室很明亮。,grade5,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:book-01,high-frequency-starter:sense:book-01,I put the book on the desk.,我把书放在桌子上。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:pencil-01,high-frequency-starter:sense:pencil-01,Please sharpen your pencil.,请把你的铅笔削尖。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:desk-01,high-frequency-starter:sense:desk-01,There is a bag under the desk.,课桌下面有一个书包。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:morning-01,high-frequency-starter:sense:morning-01,I drink water every morning.,我每天早上喝水。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:today-01,high-frequency-starter:sense:today-01,Today we have an English lesson.,今天我们有一节英语课。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:tomorrow-01,high-frequency-starter:sense:tomorrow-01,Tomorrow is our sports day.,明天是我们的运动会。,grade5,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:week-01,high-frequency-starter:sense:week-01,A week has seven days.,一周有七天。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:weather-01,high-frequency-starter:sense:weather-01,The weather is warm today.,今天天气暖和。,grade5,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:sunny-01,high-frequency-starter:sense:sunny-01,It is sunny after the rain.,雨后天气晴朗。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:rain-01,high-frequency-starter:sense:rain-01,The rain stops before lunch.,午饭前雨停了。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:water-01,high-frequency-starter:sense:water-01,Please drink some water.,请喝点水。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:eat-01,high-frequency-starter:sense:eat-01,We eat fruit after class.,下课后我们吃水果。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:drink-01,high-frequency-starter:sense:drink-01,I drink milk at breakfast.,我早餐时喝牛奶。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:read-01,high-frequency-starter:sense:read-01,I read a short story at night.,我晚上读一个短故事。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:write-01,high-frequency-starter:sense:write-01,Please write your name here.,请在这里写下你的名字。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:listen-01,high-frequency-starter:sense:listen-01,Listen to the question first.,先听问题。,grade5,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:speak-01,high-frequency-starter:sense:speak-01,Please speak slowly.,请慢一点说。,grade5,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:happy-01,high-frequency-starter:sense:happy-01,The children look happy.,孩子们看起来很开心。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:small-01,high-frequency-starter:sense:small-01,A small bird sits by the window.,一只小鸟停在窗边。,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:help-01,high-frequency-starter:sense:help-01,Can you help me carry this box?,你能帮我搬这个箱子吗？,grade4,draft,src-high-frequency-starter-editorial
+high-frequency-starter:example:beautiful-01,high-frequency-starter:sense:beautiful-01,The garden is beautiful in spring.,花园在春天很美。,grade5,draft,src-high-frequency-starter-editorial
